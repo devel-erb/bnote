@@ -9,8 +9,8 @@
 ## version
 A bnote version contains 3 numbers with '.' as separators.
 A suffix is an, bn, rn for alpha, beta, or release version n (n is a number)
-To avoid conflict with official version, the third number of non eurobraille version must start to 100.
-by example, A custom version made from version bnote-3.1.2 becomes a bnote-3.1.100 with alpha version named bnote-3.1.100a1
+To avoid conflict with official version, you must add a fourth number. For example a version modify from the version 3.0.4 will be 3.0.4.1. For alpha: 3.0.4.1a1.
+You mustn't change others version numbers. There will be change by Eurobraille if you propose your modifications and that there are agree.
 
 The version is defined in pyproject.toml
 
