@@ -25,7 +25,8 @@ from bnote.debug.colored_log import ColoredLogger, YAUPDATER_LOG
 log = ColoredLogger(__name__)
 log.setLevel(YAUPDATER_LOG)
 
-UPDATE_FOLDER_URL = 'https://update.eurobraille.fr/radio/download/bnote/bnote3.x.x'
+# UPDATE_FOLDER_URL = 'https://update.eurobraille.fr/radio/download/bnote/bnote3.x.x'
+UPDATE_FOLDER_URL = 'https://api.github.com/repos/theotime2005/bnote/releases'
 INSTALL_FOLDER = Path("/home/pi/all_bnotes")
 
 
@@ -373,11 +374,32 @@ class YAUpdaterFinder:
         self.start_finding()
 
     def start_finding(self):
-        self.files = None
-        self.file_to_install = None
-        self.version_to_install = None
         thread = threading.Thread(target=self.__find_list_thread)
         thread.start()
+
+    def __find_list_thread(self):
+        files = []
+        version_to_install = 'up_to_date'
+        file_to_install = None
+        try:
+            response = requests.get(UPDATE_FOLDER_URL)
+            response.raise_for_status()
+            releases = response.json()
+            current_version = YAUpdater.get_version_from_running_project("pyproject.toml")
+
+            for release in releases:
+                file_version = release['tag_name']
+                if file_version.startswith('v'):
+                    file_version = file_version[1:]
+                if self.is_allowed_version(file_version) and not self.is_first_str_version_greater_or_equal(current_version, file_version):
+                    if file_to_install is None or not self.is_first_str_version_greater_or_equal(version_to_install, file_version):
+                        version_to_install = file_version
+                        file_to_install = release['assets'][0]['browser_download_url']
+        except requests.exceptions.RequestException as err:
+            print(f"Request error: {err}")
+            version_to_install = 'failed'
+        finally:
+            self.__on_end_thread(files, version_to_install, file_to_install)
 
     def __on_end_thread(self, files, version_to_install, file_to_install):
         self.files = files
@@ -386,55 +408,7 @@ class YAUpdaterFinder:
         if self.ended:
             self.ended()
 
-    def __find_list_thread(self):
-        #bnote-3.0.0b10-py3-none-any.whl
-        pattern = r'bnote-([0-9]\.[0-9]\.[0-9]?(a|b|rc)?\d+)-py3-none-any\.whl\.zip'
-        pattern_version = r'bnote-(?P<version>[0-9]\.[0-9]\.[0-9]?(a|b|rc)?\d+)-py3-none-any\.whl\.zip'
-        files = []
-        version_to_install = 'up_to_date'
-        file_to_install = None
-        try:
-            response = requests.get(UPDATE_FOLDER_URL)
-            # Raise exceptions for 4xx and 5xx responses.
-            response.raise_for_status()
-            soup = BeautifulSoup(response.text, 'html.parser')
-            # Find all links and filter them with pattern.
-            files = [link.get('href') for link in soup.find_all('a') if re.match(pattern, link.get('href'))]
-            log.error(f"Updates found: {files}")
-            current_version = YAUpdater.get_version_from_running_project("pyproject.toml")
-            for file in files:
-                match = re.match(pattern_version, file)
-                if match:
-                    # print(f"{match}")
-                    # print(f"{match.groupdict()=}")
-                    # print(f"{match.group('major')=}-{match.group('minor')=}-{match.group('fix')=}")
-                    if 'version' in match.groupdict().keys() and match.group('version'):
-                        file_version = match.group('version')
-                        log.info(f"Compare {current_version=} to {file_version=}")
-                        if self.is_allowed_version(file_version) and not YAUpdaterFinder.is_first_str_version_greater_or_equal(current_version, file_version):
-                            if file_to_install is None or not YAUpdaterFinder.is_first_str_version_greater_or_equal(version_to_install, file_version):
-                                version_to_install = file_version
-                                file_to_install = file
-        except requests.exceptions.HTTPError as errh:
-            log.error(f"Erreur HTTP: {errh}")
-            version_to_install = 'failed'
-        except requests.exceptions.ConnectionError as errc:
-            log.error(f"Erreur de connexion: {errc}")
-            version_to_install = 'failed'
-        except requests.exceptions.Timeout as errt:
-            log.error(f"Temps d'attente dépassé: {errt}")
-            version_to_install = 'failed'
-        except requests.exceptions.RequestException as err:
-            log.error(f"Erreur de requête: {err}")
-            version_to_install = 'failed'
-        finally:
-            log.error(f"{version_to_install=}")
-            self.__on_end_thread(files, version_to_install, file_to_install)
-
     def is_allowed_version(self, version):
-        """
-        If developper mode not active, check if version is a released version (not a, b or rc).
-        """
         if self.is_developer:
             return True
         else:
@@ -467,7 +441,7 @@ class YAUpdaterFinder:
 
     @staticmethod
     def split_version1(raw_version_string) -> (int, int, int, str, int):
-#        pattern = r"^(?P<major>\d+)?\.?(?P<minor>\d+)?\.?(?P<fix>\d+)?-?(?P<stage_type>alpha|beta|rc)?\.?(?P<stage_value>\d+)?.*"
+        #        pattern = r"^(?P<major>\d+)?\.?(?P<minor>\d+)?\.?(?P<fix>\d+)?-?(?P<stage_type>alpha|beta|rc)?\.?(?P<stage_value>\d+)?.*"
         pattern = r"(?P<major>\d+)?\.?(?P<minor>\d+)?\.?(?P<fix>\d+)?-?(?P<stage_type>[a-zA-Z]*)?\.?(?P<stage_value>\d+)?.*"
         match = re.match(pattern, raw_version_string)
         major = minor = fix = stage_value = 0
@@ -488,23 +462,6 @@ class YAUpdaterFinder:
                     stage_value = int(match.group('stage_value'))
         # print(f"{raw_version_string}->{major}, {minor}, {fix}, {stage_type}, {stage_value}")
         return major, minor, fix, stage_type, stage_value
-
-    @staticmethod
-    def stage_number_from_type(stage_type):
-        types_1 = ('alpha', 'beta', 'rc')
-        types_2 = ('a', 'b', 'rc')
-        if stage_type == "":
-            # Release version win 1 000 000.
-            return 1000000
-        elif stage_type in types_1:
-            # Developpers version between 1 and 3.
-            return types_1.index(stage_type) + 1
-        elif stage_type in types_2:
-            # Developpers version between 1 and 3.
-            return types_2.index(stage_type) + 1
-        else:
-            # Others value are before alpha, beta and rc.
-            return 0
 
 
 class YAVersionFinder:
