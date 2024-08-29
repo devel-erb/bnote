@@ -34,6 +34,7 @@ from bnote.tools.volume import Volume
 from bnote.tools.volume_speed_dialog_box import VolumeDialogBox, SpeedDialogBox
 from bnote.tools.io_util import Gpio
 import bnote.ui as ui
+from bnote.ui import UiDialogBox, UiInfoDialogBox
 from bnote.wifi.wifi_nmcli_command import WifiNmcliCommand
 from bnote.wifi.wifi_tools import WifiTools
 from bnote.wifi.wifi_country import WifiCountry
@@ -436,6 +437,7 @@ class SettingsApp(BnoteApp):
                     name=_("u&pdate"),
                     menu_item_list=[
                         ui.UiMenuItem(name=_("check update"), action=self._exec_check_update),
+                        ui.UiMenuItem(name=_("&install an other version"), action=self._exec_get_update_history),
                         # FIXME auto_check affiche un message à chaque fois que l'on rentre dans les préférences pour dire "système à jour", il est trop bavard.
                         # FIXME Il faudrait que ce soit fait dans internal pour que quelqu'un qui ne rentre pas dans les préférences soit prévenu.
                         # ui.UiMenuItem(name=_("&auto check"), **self.__action_and_action_param[('update', 'auto_check')]),
@@ -2024,6 +2026,40 @@ class SettingsApp(BnoteApp):
         # Change message and restart service to restart the new bnoteapp.
         self.refresh_install_message(_("install done, restart new version..."))
         self._put_in_function_queue(FunctionId.ASK_TERMINATE_BNOTE_AND_RESTART_SERVICE)
+
+    def _exec_get_update_history(self):
+        self._current_dialog = ui.UiInfoDialogBox(message=_("searching update..."))
+        self.update = YAUpdaterFinder(Settings().data['system']['developer'], self._end_get_update_history)
+
+    def _end_get_update_history(self):
+        if self.update.version_to_install == 'failed':
+            self._current_dialog = ui.UiInfoDialogBox(
+                message=_("connexion failed, try again."),
+                action=self._exec_cancel_dialog)
+            return
+        elif not self.update.files:
+            self._current_dialog=UiInfoDialogBox(message=_("No version available through this source."), action=self._exec_cancel_dialog)
+        update_list = []
+        for version in self.update.files:
+            update_list.append(version['version'])
+        self._current_dialog=UiDialogBox(
+            name=_("Version history"),
+            item_list=[
+                ui.UiListBox(name=_("&select a version to install"), value=("version", update_list)),
+                ui.UiButton(name=_("&install"), action=self._exec_valid_select_version),
+                ui.UiButton(name=_("&cancel"), action=self._exec_cancel_dialog)
+            ],
+            action_cancelable=self._exec_cancel_dialog
+        )
+
+    def _exec_valid_select_version(self):
+        kwargs=self._current_dialog.get_values()
+        for version in self.update.files:
+            if version['version']==kwargs['version']:
+                file = version['link']
+                break
+        self._current_dialog = ui.UiInfoDialogBox(_("downloading..."))
+        YAUpdater(file, "/home/pi/all_bnotes/", self.refresh_install_message, self.yaupdater_ended)
 
     def _exec_about_bnote(self):
         bnote_list=[
