@@ -26,4 +26,4 @@ Throughout the project, the language used is English, so comments, labels, and v
 
 - Is it possible to modify the .po files inside?
 
-Yes, but label in the sources (_"...") that are already translated should not be changed to avoid ruining all the translations already done. For example, changing an uppercase letter to a lowercase letter in a message breaks the translation of that message.
+Yes, but label in the sources _("...") that are already translated should not be changed to avoid ruining all the translations already done. For example, changing an uppercase letter to a lowercase letter in a message breaks the translation of that message.
