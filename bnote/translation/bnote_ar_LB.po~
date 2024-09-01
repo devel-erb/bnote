@@ -6,45 +6,44 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-02 16:42+0200\n"
-"PO-Revision-Date: 2024-04-29 08:18+0200\n"
+"POT-Creation-Date: 2024-09-01 16:51+0200\n"
+"PO-Revision-Date: 2023-11-20 09:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: zh_TW\n"
+"Language: ar_LB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: Poedit 3.0.1\n"
 "X-Poedit-Basepath: .\n"
-"X-Poedit-SearchPath-0: bnote_start.py\n"
-"X-Poedit-SearchPath-1: ui\n"
-"X-Poedit-SearchPath-2: tools\n"
-"X-Poedit-SearchPath-3: stm32\n"
-"X-Poedit-SearchPath-4: bt\n"
-"X-Poedit-SearchPath-5: braille\n"
-"X-Poedit-SearchPath-6: apps\n"
+"X-Poedit-SearchPath-0: int\n"
+"X-Poedit-SearchPath-1: fman\n"
+"X-Poedit-SearchPath-2: edt\n"
+"X-Poedit-SearchPath-3: math\n"
+"X-Poedit-SearchPath-4: settings\n"
 
 #: ../ui/ui_list_box.py:77
 msgid "empty list"
 msgstr ""
 
 #: ../ui/ui_message_dialog_box.py:52 ../ui/ui_message_dialog_box.py:62
-#: ../apps/music/music_app.py:1240 ../apps/settings/settings_app.py:1909
-#: ../apps/settings/settings_app.py:3199 ../apps/skeleton/skeleton_app.py:129
+#: ../apps/music/music_app.py:1240 ../apps/settings/settings_app.py:1910
+#: ../apps/settings/settings_app.py:3200 ../apps/skeleton/skeleton_app.py:129
 #: ../apps/timer/timer_app.py:205 ../apps/braille_learning/operation_app.py:148
 #: ../apps/braille_learning/operation_app.py:198
 #: ../apps/braille_learning/write_word_app.py:254
-#: ../apps/agenda/agenda_app.py:598 ../apps/agenda/agenda_app.py:677
-#: ../apps/agenda/agenda_app.py:704 ../apps/agenda/agenda_app.py:731
-#: ../apps/agenda/agenda_app.py:842 ../apps/agenda/agenda_app.py:850
-#: ../apps/agenda/agenda_app.py:912 ../apps/fman/file_manager_app.py:2140
+#: ../apps/agenda/agenda_app.py:603 ../apps/agenda/agenda_app.py:695
+#: ../apps/agenda/agenda_app.py:722 ../apps/agenda/agenda_app.py:749
+#: ../apps/agenda/agenda_app.py:860 ../apps/agenda/agenda_app.py:868
+#: ../apps/agenda/agenda_app.py:930 ../apps/fman/file_manager_app.py:2140
 #: ../apps/games/mines_app.py:139 ../apps/games/master_mind_app.py:140
 #: ../apps/media/mp3_app.py:622 ../apps/media/mp3_app.py:700
 #: ../apps/media/radio_app.py:168 ../apps/media/radio_app.py:372
 msgid "information"
-msgstr ""
+msgstr "معلومات"
 
 #: ../ui/ui_message_dialog_box.py:55 ../ui/ui_settings_dialog_box.py:37
 #: ../tools/volume_speed_dialog_box.py:22
@@ -52,11 +51,11 @@ msgstr ""
 #: ../apps/music/music_app.py:1129 ../apps/music/music_app.py:1143
 #: ../apps/music/music_app.py:1160 ../apps/music/music_app.py:1179
 #: ../apps/music/music_app.py:1231 ../apps/music/music_app.py:1255
-#: ../apps/settings/settings_app.py:1843 ../apps/settings/settings_app.py:1912
-#: ../apps/settings/settings_app.py:1975 ../apps/settings/settings_app.py:1996
-#: ../apps/settings/settings_app.py:2047 ../apps/settings/settings_app.py:2159
-#: ../apps/settings/settings_app.py:2231 ../apps/settings/settings_app.py:2298
-#: ../apps/settings/settings_app.py:3130 ../apps/settings/settings_app.py:3202
+#: ../apps/settings/settings_app.py:1844 ../apps/settings/settings_app.py:1913
+#: ../apps/settings/settings_app.py:1976 ../apps/settings/settings_app.py:1997
+#: ../apps/settings/settings_app.py:2048 ../apps/settings/settings_app.py:2160
+#: ../apps/settings/settings_app.py:2232 ../apps/settings/settings_app.py:2299
+#: ../apps/settings/settings_app.py:3131 ../apps/settings/settings_app.py:3203
 #: ../apps/edt/editor_app.py:199 ../apps/edt/editor_app.py:217
 #: ../apps/edt/editor_base_app.py:760 ../apps/edt/editor_base_app.py:805
 #: ../apps/edt/editor_base_app.py:1269 ../apps/wikipedia/wikipedia_app.py:197
@@ -72,27 +71,28 @@ msgstr ""
 #: ../apps/braille_learning/operation_app.py:232
 #: ../apps/braille_learning/write_word_app.py:218
 #: ../apps/braille_learning/write_word_app.py:258
-#: ../apps/agenda/agenda_app.py:395 ../apps/agenda/agenda_app.py:446
-#: ../apps/agenda/agenda_app.py:667 ../apps/agenda/agenda_app.py:680
-#: ../apps/agenda/agenda_app.py:707 ../apps/agenda/agenda_app.py:721
-#: ../apps/agenda/agenda_app.py:734 ../apps/agenda/agenda_app.py:772
-#: ../apps/agenda/agenda_app.py:836 ../apps/agenda/agenda_app.py:857
-#: ../apps/agenda/agenda_app.py:885 ../apps/fman/file_manager_app.py:622
-#: ../apps/fman/file_manager_app.py:650 ../apps/fman/file_manager_app.py:684
-#: ../apps/fman/file_manager_app.py:706 ../apps/fman/file_manager_app.py:797
-#: ../apps/fman/file_manager_app.py:1000 ../apps/fman/file_manager_app.py:1135
-#: ../apps/fman/file_manager_app.py:1149 ../apps/fman/file_manager_app.py:1323
-#: ../apps/fman/file_manager_app.py:1341 ../apps/fman/file_manager_app.py:1509
-#: ../apps/fman/file_manager_app.py:2177 ../apps/games/mines_app.py:142
-#: ../apps/games/mines_app.py:163 ../apps/games/mines_app.py:186
-#: ../apps/games/mines_app.py:407 ../apps/games/master_mind_app.py:143
-#: ../apps/games/master_mind_app.py:168 ../apps/games/master_mind_app.py:207
-#: ../apps/games/master_mind_app.py:219 ../apps/games/master_mind_app.py:380
-#: ../apps/media/mp3_app.py:247 ../apps/media/mp3_app.py:485
-#: ../apps/media/mp3_app.py:625 ../apps/media/mp3_app.py:703
-#: ../apps/media/mp3_app.py:810 ../apps/media/radio_app.py:375
+#: ../apps/agenda/agenda_app.py:400 ../apps/agenda/agenda_app.py:451
+#: ../apps/agenda/agenda_app.py:666 ../apps/agenda/agenda_app.py:685
+#: ../apps/agenda/agenda_app.py:698 ../apps/agenda/agenda_app.py:725
+#: ../apps/agenda/agenda_app.py:739 ../apps/agenda/agenda_app.py:752
+#: ../apps/agenda/agenda_app.py:790 ../apps/agenda/agenda_app.py:854
+#: ../apps/agenda/agenda_app.py:875 ../apps/agenda/agenda_app.py:903
+#: ../apps/fman/file_manager_app.py:622 ../apps/fman/file_manager_app.py:650
+#: ../apps/fman/file_manager_app.py:684 ../apps/fman/file_manager_app.py:706
+#: ../apps/fman/file_manager_app.py:797 ../apps/fman/file_manager_app.py:1000
+#: ../apps/fman/file_manager_app.py:1135 ../apps/fman/file_manager_app.py:1149
+#: ../apps/fman/file_manager_app.py:1323 ../apps/fman/file_manager_app.py:1341
+#: ../apps/fman/file_manager_app.py:1509 ../apps/fman/file_manager_app.py:2177
+#: ../apps/games/mines_app.py:142 ../apps/games/mines_app.py:163
+#: ../apps/games/mines_app.py:186 ../apps/games/mines_app.py:407
+#: ../apps/games/master_mind_app.py:143 ../apps/games/master_mind_app.py:168
+#: ../apps/games/master_mind_app.py:207 ../apps/games/master_mind_app.py:219
+#: ../apps/games/master_mind_app.py:380 ../apps/media/mp3_app.py:247
+#: ../apps/media/mp3_app.py:485 ../apps/media/mp3_app.py:625
+#: ../apps/media/mp3_app.py:703 ../apps/media/mp3_app.py:810
+#: ../apps/media/radio_app.py:375
 msgid "&ok"
-msgstr ""
+msgstr "&موافق"
 
 #: ../ui/ui_settings_dialog_box.py:38 ../tools/volume_speed_dialog_box.py:23
 #: ../tools/volume_speed_dialog_box.py:109 ../apps/music/music_app.py:158
@@ -106,13 +106,13 @@ msgstr ""
 #: ../apps/music/music_app.py:938 ../apps/music/music_app.py:977
 #: ../apps/music/music_app.py:1007 ../apps/music/music_app.py:1085
 #: ../apps/music/music_app.py:1111 ../apps/music/music_app.py:1197
-#: ../apps/music/music_app.py:1275 ../apps/settings/settings_app.py:1976
-#: ../apps/settings/settings_app.py:1997 ../apps/settings/settings_app.py:2048
-#: ../apps/settings/settings_app.py:2122 ../apps/settings/settings_app.py:2160
-#: ../apps/settings/settings_app.py:2232 ../apps/settings/settings_app.py:2299
-#: ../apps/settings/settings_app.py:2567 ../apps/settings/settings_app.py:2625
-#: ../apps/settings/settings_app.py:3132 ../apps/settings/settings_app.py:3170
-#: ../apps/settings/settings_app.py:3219 ../apps/settings/settings_app.py:3258
+#: ../apps/music/music_app.py:1275 ../apps/settings/settings_app.py:1977
+#: ../apps/settings/settings_app.py:1998 ../apps/settings/settings_app.py:2049
+#: ../apps/settings/settings_app.py:2123 ../apps/settings/settings_app.py:2161
+#: ../apps/settings/settings_app.py:2233 ../apps/settings/settings_app.py:2300
+#: ../apps/settings/settings_app.py:2568 ../apps/settings/settings_app.py:2626
+#: ../apps/settings/settings_app.py:3133 ../apps/settings/settings_app.py:3171
+#: ../apps/settings/settings_app.py:3220 ../apps/settings/settings_app.py:3259
 #: ../apps/edt/editor_app.py:151 ../apps/edt/editor_app.py:200
 #: ../apps/edt/editor_app.py:219 ../apps/edt/editor_base_app.py:695
 #: ../apps/edt/editor_base_app.py:806 ../apps/edt/editor_base_app.py:864
@@ -125,13 +125,13 @@ msgstr ""
 #: ../apps/translator/translator_app.py:197
 #: ../apps/braille_learning/operation_app.py:168
 #: ../apps/braille_learning/write_word_app.py:219
-#: ../apps/agenda/agenda_app.py:396 ../apps/agenda/agenda_app.py:447
-#: ../apps/agenda/agenda_app.py:502 ../apps/agenda/agenda_app.py:516
-#: ../apps/agenda/agenda_app.py:560 ../apps/agenda/agenda_app.py:587
-#: ../apps/agenda/agenda_app.py:605 ../apps/agenda/agenda_app.py:618
-#: ../apps/agenda/agenda_app.py:670 ../apps/agenda/agenda_app.py:683
-#: ../apps/agenda/agenda_app.py:724 ../apps/agenda/agenda_app.py:737
-#: ../apps/agenda/agenda_app.py:774 ../apps/agenda/agenda_app.py:887
+#: ../apps/agenda/agenda_app.py:401 ../apps/agenda/agenda_app.py:452
+#: ../apps/agenda/agenda_app.py:507 ../apps/agenda/agenda_app.py:521
+#: ../apps/agenda/agenda_app.py:565 ../apps/agenda/agenda_app.py:592
+#: ../apps/agenda/agenda_app.py:610 ../apps/agenda/agenda_app.py:623
+#: ../apps/agenda/agenda_app.py:688 ../apps/agenda/agenda_app.py:701
+#: ../apps/agenda/agenda_app.py:742 ../apps/agenda/agenda_app.py:755
+#: ../apps/agenda/agenda_app.py:792 ../apps/agenda/agenda_app.py:905
 #: ../apps/fman/file_manager_app.py:623 ../apps/fman/file_manager_app.py:651
 #: ../apps/fman/file_manager_app.py:685 ../apps/fman/file_manager_app.py:707
 #: ../apps/fman/file_manager_app.py:798 ../apps/fman/file_manager_app.py:838
@@ -148,220 +148,234 @@ msgstr ""
 #: ../apps/media/mp3_app.py:811 ../apps/media/radio_app.py:152
 #: ../apps/media/radio_app.py:173 ../apps/media/radio_app.py:376
 msgid "&cancel"
-msgstr ""
+msgstr "إل&غاء الأمر"
 
-#: ../ui/ui_checkbox.py:20 ../apps/settings/settings_app.py:1925
-#: ../apps/settings/settings_app.py:1932
+#: ../ui/ui_checkbox.py:20 ../apps/settings/settings_app.py:1926
+#: ../apps/settings/settings_app.py:1933
 msgid "yes"
-msgstr ""
+msgstr "&نعم"
 
 #: ../ui/ui_checkbox.py:20 ../apps/music/music_app.py:1195
 #: ../apps/music/music_app.py:1219 ../apps/music/music_app.py:1225
 #: ../apps/music/music_app.py:1226 ../apps/music/music_app.py:1250
-#: ../apps/settings/settings_app.py:1622 ../apps/settings/settings_app.py:1633
-#: ../apps/settings/settings_app.py:1694 ../apps/settings/settings_app.py:1696
-#: ../apps/settings/settings_app.py:1927 ../apps/settings/settings_app.py:1934
+#: ../apps/settings/settings_app.py:1623 ../apps/settings/settings_app.py:1634
+#: ../apps/settings/settings_app.py:1695 ../apps/settings/settings_app.py:1697
+#: ../apps/settings/settings_app.py:1928 ../apps/settings/settings_app.py:1935
 #: ../apps/braille_learning/operation_app.py:382
 #: ../apps/braille_learning/write_word_app.py:404
 msgid "no"
-msgstr ""
+msgstr "&لا"
 
 #: ../ui/ui_file_manager_tools.py:29 ../ui/ui_file_manager_tools.py:51
 msgid "deleted on {}"
-msgstr ""
+msgstr "تم حذفه في {}"
 
 #: ../ui/ui_file_manager_tools.py:30 ../ui/ui_file_manager_tools.py:52
 msgid "%A %d %B %Y %H:%M:%S"
-msgstr ""
+msgstr "%A %d %B %Y %H:%M:%S"
 
 #: ../ui/ui_file_manager_tools.py:32 ../ui/ui_file_manager_tools.py:45
 msgid "d "
-msgstr ""
+msgstr "d "
 
 #: ../ui/ui_file_manager_tools.py:53 ../ui/ui_file_manager_tools.py:58
 msgid "f "
-msgstr ""
+msgstr "f "
 
 #: ../ui/ui_file_manager_tools.py:180 ../apps/fman/file_manager_app.py:406
 msgid "trash"
-msgstr ""
+msgstr "سلة المهملات"
 
-#: ../ui/ui_file_manager_tools.py:181 ../apps/settings/settings_app.py:764
-#: ../apps/settings/settings_app.py:769 ../apps/settings/settings_app.py:772
-#: ../apps/settings/settings_app.py:775 ../apps/fman/file_manager_app.py:419
+#: ../ui/ui_file_manager_tools.py:181 ../apps/settings/settings_app.py:765
+#: ../apps/settings/settings_app.py:770 ../apps/settings/settings_app.py:773
+#: ../apps/settings/settings_app.py:776 ../apps/fman/file_manager_app.py:419
 msgid "bluetooth"
-msgstr ""
+msgstr "البلوتوث"
 
 #: ../ui/ui_file_manager_tools.py:182
+#, fuzzy
 msgid "my backups"
-msgstr ""
+msgstr "النسخ الإحطياتية"
 
 #: ../ui/ui_file_manager_tools.py:183
 msgid "usb flash drives"
-msgstr ""
+msgstr "محرك USB فلاش"
 
 #: ../ui/ui_file_manager_tools.py:184
 msgid "my Documents"
-msgstr ""
+msgstr "مستنداتي"
 
 #: ../ui/ui_file_manager_tools.py:185
+#, fuzzy
 msgid "crash"
-msgstr ""
+msgstr "&تعطل"
 
-#: ../ui/ui_file_manager_tools.py:186 ../apps/settings/settings_app.py:435
-#: ../apps/settings/settings_app.py:848 ../apps/settings/settings_app.py:3217
+#: ../ui/ui_file_manager_tools.py:186 ../apps/settings/settings_app.py:436
+#: ../apps/settings/settings_app.py:849 ../apps/settings/settings_app.py:3218
 msgid "settings"
-msgstr ""
+msgstr "الإعدادات"
 
 #: ../ui/ui_file_manager_tools.py:189
+#, fuzzy
 msgid "bnote"
-msgstr ""
+msgstr "&اسم bnote"
 
 #: ../ui/ui_file_manager_tools.py:199 ../ui/ui_file_manager_tools.py:207
 msgid "bytes"
-msgstr ""
+msgstr "بايتس"
 
 #: ../ui/ui_file_manager_tools.py:201
 msgid "Kb"
-msgstr ""
+msgstr "كيلو بايتس"
 
 #: ../ui/ui_file_manager_tools.py:203
 msgid "Mb"
-msgstr ""
+msgstr "ميجا بايتس"
 
 #: ../ui/ui_file_manager_tools.py:205
 msgid "Gb"
-msgstr ""
+msgstr "جيغا بايتس"
 
 #: ../ui/ui_file_box.py:41 ../apps/fman/file_manager_app.py:2411
 msgid "empty directory..."
-msgstr ""
+msgstr "كتاب فارغ..."
 
 #: ../ui/ui_file_manager.py:106
 msgid "s"
-msgstr ""
+msgstr "s"
 
 #: ../ui/ui_file_manager.py:108
 msgid "n"
-msgstr ""
+msgstr "n"
 
-#: ../tools/yaupdater.py:104 ../apps/fman/file_manager_app.py:1074
+#: ../tools/yaupdater.py:123 ../apps/fman/file_manager_app.py:1074
+#, fuzzy
 msgid "download in progress..."
-msgstr ""
+msgstr "القراءة..."
 
-#: ../tools/yaupdater.py:142 ../tools/yaupdater.py:167
+#: ../tools/yaupdater.py:161 ../tools/yaupdater.py:186
 msgid "error: bad zip file {archive_path=}"
 msgstr ""
 
-#: ../tools/yaupdater.py:147 ../tools/yaupdater.py:172
+#: ../tools/yaupdater.py:166 ../tools/yaupdater.py:191
 msgid "no file libraries.txt found in {archive_path=}"
 msgstr ""
 
-#: ../tools/yaupdater.py:197
+#: ../tools/yaupdater.py:216
 msgid "error: no .whl file in update"
 msgstr ""
 
-#: ../tools/yaupdater.py:200
+#: ../tools/yaupdater.py:219
 msgid "install packages..."
 msgstr ""
 
-#: ../tools/yaupdater.py:211
+#: ../tools/yaupdater.py:230
 msgid "install dependencies done"
 msgstr ""
 
-#: ../tools/yaupdater.py:226
+#: ../tools/yaupdater.py:245
 msgid "extract archive in progress..."
 msgstr ""
 
-#: ../tools/yaupdater.py:313 ../tools/yaupdater.py:342
+#: ../tools/yaupdater.py:332 ../tools/yaupdater.py:361
+#, fuzzy
 msgid "linux os update"
-msgstr ""
+msgstr "هل تريد تثبيت التحديث?"
 
-#: ../tools/yaupdater.py:316 ../tools/yaupdater.py:361
+#: ../tools/yaupdater.py:335 ../tools/yaupdater.py:380
 msgid "linux os updates done"
 msgstr ""
 
-#: ../tools/yaupdater.py:332
+#: ../tools/yaupdater.py:351
 #, python-brace-format
 msgid "Error: {error_string}"
 msgstr ""
 
-#: ../tools/yaupdater.py:356
-#, python-brace-format
+#: ../tools/yaupdater.py:375
+#, fuzzy, python-brace-format
 msgid "error: {erreur}"
-msgstr ""
+msgstr "خطأ"
 
 #: ../tools/volume_speed_dialog_box.py:19
 msgid "volume &up"
-msgstr ""
+msgstr "زيادة مستوى الصوت"
 
 #: ../tools/volume_speed_dialog_box.py:20
 msgid "volume &down"
-msgstr ""
+msgstr "خفض مستوى الصوت"
 
 #: ../tools/volume_speed_dialog_box.py:65
+#, fuzzy
 msgid "media volume 0%"
-msgstr ""
+msgstr "المستوى الأدنى للصوت"
 
 #: ../tools/volume_speed_dialog_box.py:67
+#, fuzzy
 msgid "volume 0%"
-msgstr ""
+msgstr "حجم الصوت"
 
 #: ../tools/volume_speed_dialog_box.py:71
+#, fuzzy
 msgid "media volume down, {}%"
-msgstr ""
+msgstr "خفض حجم الصوت {}"
 
 #: ../tools/volume_speed_dialog_box.py:73
+#, fuzzy
 msgid "volume down, {}%"
-msgstr ""
+msgstr "خفض حجم الصوت {}"
 
 #: ../tools/volume_speed_dialog_box.py:84
 msgid "media volume 100%"
 msgstr ""
 
 #: ../tools/volume_speed_dialog_box.py:86
+#, fuzzy
 msgid "volume 100%"
-msgstr ""
+msgstr "حجم الصوت"
 
 #: ../tools/volume_speed_dialog_box.py:90
+#, fuzzy
 msgid "media volume up, {}%"
-msgstr ""
+msgstr "زيادة حجم الصوت {}"
 
 #: ../tools/volume_speed_dialog_box.py:92
+#, fuzzy
 msgid "volume up, {}%"
-msgstr ""
+msgstr "زيادة حجم الصوت {}"
 
 #: ../tools/volume_speed_dialog_box.py:105
 msgid "speed &up"
-msgstr ""
+msgstr "زيادة السرعة"
 
 #: ../tools/volume_speed_dialog_box.py:106
+#, fuzzy
 msgid "speed &down"
-msgstr ""
+msgstr "زيادة السرعة"
 
 #: ../tools/volume_speed_dialog_box.py:153
 msgid "minimum speed"
-msgstr ""
+msgstr "السرعة الدنيا"
 
 #: ../tools/volume_speed_dialog_box.py:156
+#, fuzzy
 msgid "speed down {}"
-msgstr ""
+msgstr "تسريع {}"
 
 #: ../tools/volume_speed_dialog_box.py:165
 msgid "maximum speed"
-msgstr ""
+msgstr "السرعة القصوى"
 
 #: ../tools/volume_speed_dialog_box.py:168
 msgid "speed up {}"
-msgstr ""
+msgstr "تسريع {}"
 
 #: ../apps/music/music_opy/music_read_file.py:81
 #: ../apps/music/music_opy/music_write_file.py:55
 #: ../apps/edt/edt/read_file.py:138
 msgid "file {} type not supported."
-msgstr ""
+msgstr "ملف{} نوع غير متوافر."
 
-#: ../apps/music/music_app.py:92 ../apps/settings/settings_app.py:955
+#: ../apps/music/music_app.py:92 ../apps/settings/settings_app.py:956
 msgid "music"
 msgstr ""
 
@@ -372,32 +386,33 @@ msgstr ""
 #: ../apps/fman/file_manager_app.py:316 ../apps/fman/file_manager_app.py:329
 #: ../apps/fman/file_manager_app.py:339
 msgid "&file"
-msgstr ""
+msgstr "&ملف"
 
-#: ../apps/music/music_app.py:99 ../apps/settings/settings_app.py:2612
+#: ../apps/music/music_app.py:99 ../apps/settings/settings_app.py:2613
 #: ../apps/edt/editor_app.py:54 ../apps/wikipedia/wikipedia_app.py:50
 #: ../apps/daisy/daisy_app.py:78 ../apps/eole/eole_search_dialog_box.py:58
 #: ../apps/eole/eole_search_dialog_box.py:75 ../apps/timer/timer_app.py:155
-#: ../apps/agenda/agenda_app.py:916 ../apps/agenda/agenda_app.py:952
+#: ../apps/agenda/agenda_app.py:934 ../apps/agenda/agenda_app.py:970
 #: ../apps/fman/file_manager_app.py:878
 msgid "&close"
-msgstr ""
+msgstr "إ&غلاق"
 
 #: ../apps/music/music_app.py:102 ../apps/edt/editor_app.py:57
 #: ../apps/media/mp3_app.py:102 ../apps/media/mp3_app.py:504
 msgid "&save"
-msgstr ""
+msgstr "&حفظ"
 
-#: ../apps/music/music_app.py:104 ../apps/settings/settings_app.py:3218
-#: ../apps/edt/editor_app.py:150 ../apps/agenda/agenda_app.py:614
+#: ../apps/music/music_app.py:104 ../apps/settings/settings_app.py:3219
+#: ../apps/edt/editor_app.py:150 ../apps/agenda/agenda_app.py:619
+#, fuzzy
 msgid "&export"
-msgstr ""
+msgstr "ا&ستكشاف"
 
-#: ../apps/music/music_app.py:106 ../apps/settings/settings_app.py:359
+#: ../apps/music/music_app.py:106 ../apps/settings/settings_app.py:360
 msgid "&musicxml"
 msgstr ""
 
-#: ../apps/music/music_app.py:109 ../apps/settings/settings_app.py:394
+#: ../apps/music/music_app.py:109 ../apps/settings/settings_app.py:395
 msgid "&bxml"
 msgstr ""
 
@@ -408,7 +423,7 @@ msgstr ""
 #: ../apps/music/music_app.py:114 ../apps/edt/editor_app.py:60
 #: ../apps/wikipedia/wikipedia_app.py:55 ../apps/daisy/daisy_app.py:84
 msgid "sta&tistics"
-msgstr ""
+msgstr "إح&صاءات"
 
 #: ../apps/music/music_app.py:118 ../apps/music/music_app.py:412
 #: ../apps/music/music_app.py:439 ../apps/music/music_app.py:466
@@ -423,15 +438,16 @@ msgstr ""
 #: ../apps/music/music_app.py:1196 ../apps/music/music_app.py:1274
 #: ../apps/edt/editor_app.py:70
 msgid "&insert"
-msgstr ""
+msgstr "إ&دراج"
 
 #: ../apps/music/music_app.py:121
+#, fuzzy
 msgid "&key signature"
-msgstr ""
+msgstr "الت&وقيع"
 
-#: ../apps/music/music_app.py:122 ../apps/settings/settings_app.py:371
-#: ../apps/settings/settings_app.py:406 ../apps/settings/settings_app.py:978
-#: ../apps/settings/settings_app.py:1042
+#: ../apps/music/music_app.py:122 ../apps/settings/settings_app.py:372
+#: ../apps/settings/settings_app.py:407 ../apps/settings/settings_app.py:979
+#: ../apps/settings/settings_app.py:1043
 msgid "&clef"
 msgstr ""
 
@@ -446,7 +462,7 @@ msgstr ""
 #: ../apps/music/music_app.py:133 ../apps/internal.py:268
 #: ../apps/daisy/daisy_app.py:96
 msgid "au&dio"
-msgstr ""
+msgstr "&صوتي"
 
 #: ../apps/music/music_app.py:135 ../apps/daisy/daisy_app.py:98
 #: ../apps/media/mp3_app.py:125 ../apps/media/radio_app.py:76
@@ -463,28 +479,28 @@ msgstr ""
 msgid "pa&use"
 msgstr ""
 
-#: ../apps/music/music_app.py:142 ../apps/settings/settings_app.py:451
+#: ../apps/music/music_app.py:142 ../apps/settings/settings_app.py:452
 #: ../apps/edt/editor_base_app.py:227 ../apps/daisy/daisy_app.py:105
 #: ../apps/media/radio_app.py:82
 msgid "&volume"
-msgstr ""
+msgstr "&حجم الصوت"
 
-#: ../apps/music/music_app.py:143 ../apps/settings/settings_app.py:452
+#: ../apps/music/music_app.py:143 ../apps/settings/settings_app.py:453
 #: ../apps/edt/editor_base_app.py:228
 msgid "&speed"
-msgstr ""
+msgstr "ال&سرعة"
 
-#: ../apps/music/music_app.py:145 ../apps/settings/settings_app.py:642
+#: ../apps/music/music_app.py:145 ../apps/settings/settings_app.py:643
 #: ../apps/edt/editor_app.py:86 ../apps/wikipedia/wikipedia_app.py:70
 #: ../apps/daisy/daisy_app.py:107 ../apps/braille_learning/operation_app.py:75
 #: ../apps/braille_learning/write_word_app.py:107
-#: ../apps/agenda/agenda_app.py:114 ../apps/fman/file_manager_app.py:378
+#: ../apps/agenda/agenda_app.py:119 ../apps/fman/file_manager_app.py:378
 #: ../apps/fman/file_manager_app.py:390 ../apps/fman/file_manager_app.py:400
 #: ../apps/fman/file_manager_app.py:412 ../apps/fman/file_manager_app.py:426
 #: ../apps/fman/file_manager_app.py:439 ../apps/fman/file_manager_app.py:449
 #: ../apps/fman/file_manager_app.py:460
 msgid "&applications"
-msgstr ""
+msgstr "الت&طبيقات"
 
 #: ../apps/music/music_app.py:151 ../apps/media/mp3_app.py:792
 msgid "properties"
@@ -514,33 +530,36 @@ msgstr ""
 msgid "&lyricist"
 msgstr ""
 
-#: ../apps/music/music_app.py:185 ../apps/settings/settings_app.py:1014
-#: ../apps/settings/settings_app.py:1079
+#: ../apps/music/music_app.py:185 ../apps/settings/settings_app.py:1015
+#: ../apps/settings/settings_app.py:1080
+#, fuzzy
 msgid "&credit words"
-msgstr ""
+msgstr "ال&محرر"
 
 #: ../apps/music/music_app.py:188
+#, fuzzy
 msgid "&part"
-msgstr ""
+msgstr "الت&جزئة"
 
 #: ../apps/music/music_app.py:191 ../apps/music/music_app.py:583
-#: ../apps/settings/settings_app.py:389 ../apps/settings/settings_app.py:426
-#: ../apps/settings/settings_app.py:1018 ../apps/settings/settings_app.py:1083
+#: ../apps/settings/settings_app.py:390 ../apps/settings/settings_app.py:427
+#: ../apps/settings/settings_app.py:1019 ../apps/settings/settings_app.py:1084
 msgid "&lyrics"
 msgstr ""
 
 #: ../apps/music/music_app.py:194 ../apps/music/music_app.py:610
-#: ../apps/settings/settings_app.py:428 ../apps/settings/settings_app.py:1087
+#: ../apps/settings/settings_app.py:429 ../apps/settings/settings_app.py:1088
 msgid "&karaoke"
 msgstr ""
 
 #: ../apps/music/music_app.py:202
+#, fuzzy
 msgid "&keyboard signs"
-msgstr ""
+msgstr "لوحة الم&فاتيح"
 
-#: ../apps/music/music_app.py:204 ../apps/settings/settings_app.py:369
-#: ../apps/settings/settings_app.py:404 ../apps/settings/settings_app.py:974
-#: ../apps/settings/settings_app.py:1038
+#: ../apps/music/music_app.py:204 ../apps/settings/settings_app.py:370
+#: ../apps/settings/settings_app.py:405 ../apps/settings/settings_app.py:975
+#: ../apps/settings/settings_app.py:1039
 msgid "&fingering"
 msgstr ""
 
@@ -553,28 +572,32 @@ msgid "&game details"
 msgstr ""
 
 #: ../apps/music/music_app.py:213
+#, fuzzy
 msgid "&nuance"
-msgstr ""
+msgstr "إل&غاء الأمر"
 
 #: ../apps/music/music_app.py:219
 msgid "&musical content"
 msgstr ""
 
 #: ../apps/music/music_app.py:221
+#, fuzzy
 msgid "insert &note"
-msgstr ""
+msgstr "إدراج"
 
 #: ../apps/music/music_app.py:222
+#, fuzzy
 msgid "insert &rest"
-msgstr ""
+msgstr "إدراج"
 
 #: ../apps/music/music_app.py:223
 msgid "rythmic &groups"
 msgstr ""
 
 #: ../apps/music/music_app.py:224
+#, fuzzy
 msgid "&alteration"
-msgstr ""
+msgstr "الت&جزئة"
 
 #: ../apps/music/music_app.py:230
 msgid "acco&rd"
@@ -591,12 +614,12 @@ msgstr ""
 #: ../apps/music/music_app.py:321 ../apps/edt/editor_base_app.py:708
 #: ../apps/edt/editor_base_app.py:1243
 msgid "saving..."
-msgstr ""
+msgstr "يتم الحفظ..."
 
 #: ../apps/music/music_app.py:377
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "file {file_name.name} already exists, do you want to overwrite it ?"
-msgstr ""
+msgstr "الملف {} موجود. هل تريد استبداله؟"
 
 #: ../apps/music/music_app.py:409 ../apps/music/music_app.py:436
 #: ../apps/music/music_app.py:463 ../apps/music/music_app.py:490
@@ -610,7 +633,7 @@ msgstr ""
 #: ../apps/music/music_app.py:1106 ../apps/music/music_app.py:1187
 #: ../apps/music/music_app.py:1266
 msgid "insert"
-msgstr ""
+msgstr "إدراج"
 
 #: ../apps/music/music_app.py:411
 msgid "score's title"
@@ -625,12 +648,14 @@ msgid "score's composer"
 msgstr ""
 
 #: ../apps/music/music_app.py:519
+#, fuzzy
 msgid "text outside of the score"
-msgstr ""
+msgstr "كتاب جديد"
 
 #: ../apps/music/music_app.py:546
+#, fuzzy
 msgid "part &name"
-msgstr ""
+msgstr "ال&اسم"
 
 #: ../apps/music/music_app.py:546
 msgid "new part"
@@ -653,8 +678,9 @@ msgid "first finger"
 msgstr ""
 
 #: ../apps/music/music_app.py:639 ../apps/music/music_app.py:655
+#, fuzzy
 msgid "second finger"
-msgstr ""
+msgstr "ثوان"
 
 #: ../apps/music/music_app.py:639 ../apps/music/music_app.py:656
 msgid "third finger"
@@ -669,8 +695,9 @@ msgid "fifth finger"
 msgstr ""
 
 #: ../apps/music/music_app.py:667 ../apps/music/music_app.py:683
+#, fuzzy
 msgid "pedal down"
-msgstr ""
+msgstr "زيادة السرعة"
 
 #: ../apps/music/music_app.py:667 ../apps/music/music_app.py:684
 msgid "pedal up"
@@ -705,8 +732,9 @@ msgid "sharp"
 msgstr ""
 
 #: ../apps/music/music_app.py:719
+#, fuzzy
 msgid "select &tonality"
-msgstr ""
+msgstr "تحديد ال&كل"
 
 #: ../apps/music/music_app.py:720 ../apps/music/music_app.py:741
 msgid "do (+)/la (-)"
@@ -757,8 +785,9 @@ msgid "si (+)/la sharp (-)"
 msgstr ""
 
 #: ../apps/music/music_app.py:762
+#, fuzzy
 msgid "select an &octave"
-msgstr ""
+msgstr "تحديد ال&كل"
 
 #: ../apps/music/music_app.py:764 ../apps/music/music_app.py:786
 msgid "a below first octave"
@@ -769,8 +798,9 @@ msgid "first octave"
 msgstr ""
 
 #: ../apps/music/music_app.py:766 ../apps/music/music_app.py:788
+#, fuzzy
 msgid "second octave"
-msgstr ""
+msgstr "ثوان"
 
 #: ../apps/music/music_app.py:767 ../apps/music/music_app.py:789
 msgid "third octave"
@@ -797,8 +827,9 @@ msgid "eighth octave"
 msgstr ""
 
 #: ../apps/music/music_app.py:803
+#, fuzzy
 msgid "select a &nuance"
-msgstr ""
+msgstr "تحديد ال&كل"
 
 #: ../apps/music/music_app.py:803 ../apps/music/music_app.py:907
 msgid "crescendo"
@@ -841,24 +872,24 @@ msgstr ""
 #: ../apps/music/music_app.py:1126 ../apps/music/music_app.py:1140
 #: ../apps/music/music_app.py:1156 ../apps/music/music_app.py:1176
 #: ../apps/music/music_app.py:1228 ../apps/music/music_app.py:1252
-#: ../apps/settings/settings_app.py:2620 ../apps/settings/settings_app.py:3231
-#: ../apps/settings/settings_app.py:3276 ../apps/edt/editor_app.py:213
+#: ../apps/settings/settings_app.py:2621 ../apps/settings/settings_app.py:3232
+#: ../apps/settings/settings_app.py:3277 ../apps/edt/editor_app.py:213
 #: ../apps/edt/editor_base_app.py:690 ../apps/timer/timer_app.py:134
 #: ../apps/braille_learning/operation_app.py:175
 #: ../apps/braille_learning/operation_app.py:186
 #: ../apps/braille_learning/operation_app.py:229
 #: ../apps/braille_learning/write_word_app.py:231
 #: ../apps/braille_learning/write_word_app.py:242
-#: ../apps/agenda/agenda_app.py:195 ../apps/agenda/agenda_app.py:403
-#: ../apps/agenda/agenda_app.py:454 ../apps/agenda/agenda_app.py:465
-#: ../apps/agenda/agenda_app.py:645 ../apps/agenda/agenda_app.py:664
-#: ../apps/agenda/agenda_app.py:718 ../apps/agenda/agenda_app.py:769
-#: ../apps/agenda/agenda_app.py:827 ../apps/agenda/agenda_app.py:882
-#: ../apps/agenda/agenda_app.py:894 ../apps/agenda/agenda_app.py:948
+#: ../apps/agenda/agenda_app.py:200 ../apps/agenda/agenda_app.py:408
+#: ../apps/agenda/agenda_app.py:459 ../apps/agenda/agenda_app.py:470
+#: ../apps/agenda/agenda_app.py:650 ../apps/agenda/agenda_app.py:682
+#: ../apps/agenda/agenda_app.py:736 ../apps/agenda/agenda_app.py:787
+#: ../apps/agenda/agenda_app.py:845 ../apps/agenda/agenda_app.py:900
+#: ../apps/agenda/agenda_app.py:912 ../apps/agenda/agenda_app.py:966
 #: ../apps/fman/file_manager_app.py:2212 ../apps/games/mines_app.py:404
 #: ../apps/games/master_mind_app.py:204 ../apps/media/mp3_app.py:516
 msgid "warning"
-msgstr ""
+msgstr "تنبيه"
 
 #: ../apps/music/music_app.py:824 ../apps/music/music_app.py:836
 #: ../apps/music/music_app.py:848 ../apps/music/music_app.py:860
@@ -874,16 +905,16 @@ msgstr ""
 #: ../apps/music/music_app.py:902 ../apps/music/music_app.py:918
 #: ../apps/music/music_app.py:1023 ../apps/music/music_app.py:1034
 #: ../apps/music/music_app.py:1050 ../apps/music/music_app.py:1069
-#: ../apps/music/music_app.py:1244 ../apps/settings/settings_app.py:2499
-#: ../apps/settings/settings_app.py:2623 ../apps/settings/settings_app.py:3234
-#: ../apps/settings/settings_app.py:3279 ../apps/edt/editor_base_app.py:693
+#: ../apps/music/music_app.py:1244 ../apps/settings/settings_app.py:2500
+#: ../apps/settings/settings_app.py:2624 ../apps/settings/settings_app.py:3235
+#: ../apps/settings/settings_app.py:3280 ../apps/edt/editor_base_app.py:693
 #: ../apps/timer/timer_app.py:137 ../apps/braille_learning/operation_app.py:178
 #: ../apps/braille_learning/operation_app.py:189
 #: ../apps/braille_learning/write_word_app.py:234
 #: ../apps/braille_learning/write_word_app.py:245
-#: ../apps/agenda/agenda_app.py:406 ../apps/agenda/agenda_app.py:457
-#: ../apps/agenda/agenda_app.py:468 ../apps/agenda/agenda_app.py:601
-#: ../apps/agenda/agenda_app.py:648 ../apps/fman/file_manager_app.py:722
+#: ../apps/agenda/agenda_app.py:411 ../apps/agenda/agenda_app.py:462
+#: ../apps/agenda/agenda_app.py:473 ../apps/agenda/agenda_app.py:606
+#: ../apps/agenda/agenda_app.py:653 ../apps/fman/file_manager_app.py:722
 #: ../apps/fman/file_manager_app.py:768 ../apps/fman/file_manager_app.py:1062
 #: ../apps/fman/file_manager_app.py:1397 ../apps/fman/file_manager_app.py:1586
 #: ../apps/fman/file_manager_app.py:1639 ../apps/fman/file_manager_app.py:1797
@@ -891,7 +922,7 @@ msgstr ""
 #: ../apps/fman/file_manager_app.py:2215 ../apps/media/mp3_app.py:519
 #: ../apps/media/radio_app.py:171
 msgid "&yes"
-msgstr ""
+msgstr "&نعم"
 
 #: ../apps/music/music_app.py:827 ../apps/music/music_app.py:839
 #: ../apps/music/music_app.py:851 ../apps/music/music_app.py:863
@@ -899,16 +930,16 @@ msgstr ""
 #: ../apps/music/music_app.py:903 ../apps/music/music_app.py:919
 #: ../apps/music/music_app.py:1024 ../apps/music/music_app.py:1035
 #: ../apps/music/music_app.py:1051 ../apps/music/music_app.py:1070
-#: ../apps/music/music_app.py:1245 ../apps/settings/settings_app.py:2500
-#: ../apps/settings/settings_app.py:2624 ../apps/settings/settings_app.py:3236
-#: ../apps/settings/settings_app.py:3280 ../apps/edt/editor_base_app.py:694
+#: ../apps/music/music_app.py:1245 ../apps/settings/settings_app.py:2501
+#: ../apps/settings/settings_app.py:2625 ../apps/settings/settings_app.py:3237
+#: ../apps/settings/settings_app.py:3281 ../apps/edt/editor_base_app.py:694
 #: ../apps/timer/timer_app.py:139 ../apps/braille_learning/operation_app.py:179
 #: ../apps/braille_learning/operation_app.py:190
 #: ../apps/braille_learning/write_word_app.py:235
 #: ../apps/braille_learning/write_word_app.py:246
-#: ../apps/agenda/agenda_app.py:407 ../apps/agenda/agenda_app.py:458
-#: ../apps/agenda/agenda_app.py:469 ../apps/agenda/agenda_app.py:603
-#: ../apps/agenda/agenda_app.py:649 ../apps/fman/file_manager_app.py:723
+#: ../apps/agenda/agenda_app.py:412 ../apps/agenda/agenda_app.py:463
+#: ../apps/agenda/agenda_app.py:474 ../apps/agenda/agenda_app.py:608
+#: ../apps/agenda/agenda_app.py:654 ../apps/fman/file_manager_app.py:723
 #: ../apps/fman/file_manager_app.py:769 ../apps/fman/file_manager_app.py:1065
 #: ../apps/fman/file_manager_app.py:1399 ../apps/fman/file_manager_app.py:1588
 #: ../apps/fman/file_manager_app.py:1641 ../apps/fman/file_manager_app.py:1799
@@ -916,7 +947,7 @@ msgstr ""
 #: ../apps/fman/file_manager_app.py:2216 ../apps/media/mp3_app.py:520
 #: ../apps/media/radio_app.py:172
 msgid "&no"
-msgstr ""
+msgstr "&لا"
 
 #: ../apps/music/music_app.py:900 ../apps/music/music_app.py:916
 msgid ""
@@ -925,44 +956,50 @@ msgid ""
 msgstr ""
 
 #: ../apps/music/music_app.py:931
+#, fuzzy
 msgid "select &note"
-msgstr ""
+msgstr "تحديد ال&كل"
 
 #: ../apps/music/music_app.py:932 ../apps/music/music_app.py:952
 msgid "a"
 msgstr ""
 
 #: ../apps/music/music_app.py:932 ../apps/music/music_app.py:953
+#, fuzzy
 msgid "b"
-msgstr ""
+msgstr "كيلو بايتس"
 
 #: ../apps/music/music_app.py:932 ../apps/music/music_app.py:947
 msgid "c"
 msgstr ""
 
 #: ../apps/music/music_app.py:932 ../apps/music/music_app.py:948
+#, fuzzy
 msgid "d"
-msgstr ""
+msgstr "d "
 
 #: ../apps/music/music_app.py:932 ../apps/music/music_app.py:949
 msgid "e"
 msgstr ""
 
 #: ../apps/music/music_app.py:932 ../apps/music/music_app.py:950
+#, fuzzy
 msgid "f"
-msgstr ""
+msgstr "f "
 
 #: ../apps/music/music_app.py:932 ../apps/music/music_app.py:951
 msgid "g"
 msgstr ""
 
 #: ../apps/music/music_app.py:933
+#, fuzzy
 msgid "select &value of note"
-msgstr ""
+msgstr "تحديد ال&كل"
 
 #: ../apps/music/music_app.py:934 ../apps/music/music_app.py:956
+#, fuzzy
 msgid "whole"
-msgstr ""
+msgstr "ال&نتيجة"
 
 #: ../apps/music/music_app.py:934 ../apps/music/music_app.py:957
 msgid "half"
@@ -973,8 +1010,9 @@ msgid "quarter"
 msgstr ""
 
 #: ../apps/music/music_app.py:934 ../apps/music/music_app.py:959
+#, fuzzy
 msgid "eighth"
-msgstr ""
+msgstr "ليونة"
 
 #: ../apps/music/music_app.py:935 ../apps/music/music_app.py:960
 msgid "16th"
@@ -993,12 +1031,14 @@ msgid "128th"
 msgstr ""
 
 #: ../apps/music/music_app.py:972
+#, fuzzy
 msgid "select a &rest type"
-msgstr ""
+msgstr "تحديد ال&كل"
 
 #: ../apps/music/music_app.py:973 ../apps/music/music_app.py:985
+#, fuzzy
 msgid "whole rest"
-msgstr ""
+msgstr "ال&نتيجة"
 
 #: ../apps/music/music_app.py:973 ../apps/music/music_app.py:986
 msgid "half rest"
@@ -1009,28 +1049,34 @@ msgid "quarter rest"
 msgstr ""
 
 #: ../apps/music/music_app.py:974 ../apps/music/music_app.py:988
+#, fuzzy
 msgid "eighth rest"
-msgstr ""
+msgstr "الضغط بليونة"
 
 #: ../apps/music/music_app.py:974 ../apps/music/music_app.py:989
+#, fuzzy
 msgid "16th rest"
-msgstr ""
+msgstr "ال&نتيجة"
 
 #: ../apps/music/music_app.py:974 ../apps/music/music_app.py:990
+#, fuzzy
 msgid "32nd rest"
-msgstr ""
+msgstr "ال&نتيجة"
 
 #: ../apps/music/music_app.py:975 ../apps/music/music_app.py:991
+#, fuzzy
 msgid "64th rest"
-msgstr ""
+msgstr "ال&نتيجة"
 
 #: ../apps/music/music_app.py:975 ../apps/music/music_app.py:992
+#, fuzzy
 msgid "128th rest"
-msgstr ""
+msgstr "ال&نتيجة"
 
 #: ../apps/music/music_app.py:1001
+#, fuzzy
 msgid "select &bar"
-msgstr ""
+msgstr "تحديد ال&كل"
 
 #: ../apps/music/music_app.py:1002 ../apps/music/music_app.py:1015
 msgid "measure"
@@ -1041,8 +1087,9 @@ msgid "end of composition"
 msgstr ""
 
 #: ../apps/music/music_app.py:1002 ../apps/music/music_app.py:1028
+#, fuzzy
 msgid "end of section"
-msgstr ""
+msgstr "نهاية ال&تحديد"
 
 #: ../apps/music/music_app.py:1003 ../apps/music/music_app.py:1039
 msgid "simple repetition of fragment"
@@ -1053,8 +1100,9 @@ msgid "repeat fragment with prima and seconda volta"
 msgstr ""
 
 #: ../apps/music/music_app.py:1021 ../apps/music/music_app.py:1032
+#, fuzzy
 msgid "do you want to save your document now?"
-msgstr ""
+msgstr "هل تريد حفظ المستند قبل إغلاقه؟"
 
 #: ../apps/music/music_app.py:1048
 msgid ""
@@ -1069,12 +1117,14 @@ msgid ""
 msgstr ""
 
 #: ../apps/music/music_app.py:1080
+#, fuzzy
 msgid "select &interval"
-msgstr ""
+msgstr "تحديد ال&كل"
 
 #: ../apps/music/music_app.py:1082 ../apps/music/music_app.py:1093
+#, fuzzy
 msgid "seconde"
-msgstr ""
+msgstr "ثوان"
 
 #: ../apps/music/music_app.py:1082 ../apps/music/music_app.py:1094
 msgid "third"
@@ -1127,8 +1177,9 @@ msgid "sorry, but part-measure in-accord is not suported for the moment."
 msgstr ""
 
 #: ../apps/music/music_app.py:1189
+#, fuzzy
 msgid "select &clef"
-msgstr ""
+msgstr "تحديد ال&كل"
 
 #: ../apps/music/music_app.py:1189 ../apps/music/music_app.py:1205
 msgid "treble"
@@ -1161,8 +1212,9 @@ msgid "first line"
 msgstr ""
 
 #: ../apps/music/music_app.py:1192 ../apps/music/music_app.py:1212
+#, fuzzy
 msgid "second line"
-msgstr ""
+msgstr "ثوان"
 
 #: ../apps/music/music_app.py:1193 ../apps/music/music_app.py:1213
 msgid "third line"
@@ -1238,1310 +1290,1388 @@ msgstr ""
 msgid "group of 10 notes"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:94 ../apps/settings/settings_app.py:1289
-#: ../apps/settings/settings_app.py:1530 ../apps/settings/settings_app.py:1542
-#: ../apps/settings/settings_app.py:1581 ../apps/settings/settings_app.py:1595
+#: ../apps/settings/settings_app.py:95 ../apps/settings/settings_app.py:1290
+#: ../apps/settings/settings_app.py:1531 ../apps/settings/settings_app.py:1543
+#: ../apps/settings/settings_app.py:1582 ../apps/settings/settings_app.py:1596
 msgid "unknown"
-msgstr ""
+msgstr "غير معروف"
 
-#: ../apps/settings/settings_app.py:361 ../apps/settings/settings_app.py:396
-#: ../apps/settings/settings_app.py:958 ../apps/settings/settings_app.py:1022
+#: ../apps/settings/settings_app.py:362 ../apps/settings/settings_app.py:397
+#: ../apps/settings/settings_app.py:959 ../apps/settings/settings_app.py:1023
 msgid "&edit and play mode"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:363 ../apps/settings/settings_app.py:398
-#: ../apps/settings/settings_app.py:494 ../apps/settings/settings_app.py:962
-#: ../apps/settings/settings_app.py:1026
+#: ../apps/settings/settings_app.py:364 ../apps/settings/settings_app.py:399
+#: ../apps/settings/settings_app.py:495 ../apps/settings/settings_app.py:963
+#: ../apps/settings/settings_app.py:1027
+#, fuzzy
 msgid "braille &type"
-msgstr ""
+msgstr "نوع البرايل"
 
-#: ../apps/settings/settings_app.py:365 ../apps/settings/settings_app.py:400
+#: ../apps/settings/settings_app.py:366 ../apps/settings/settings_app.py:401
+#, fuzzy
 msgid "notes d&ots"
-msgstr ""
+msgstr "bnote &مرئية"
 
-#: ../apps/settings/settings_app.py:367 ../apps/settings/settings_app.py:402
-#: ../apps/settings/settings_app.py:970 ../apps/settings/settings_app.py:1034
+#: ../apps/settings/settings_app.py:368 ../apps/settings/settings_app.py:403
+#: ../apps/settings/settings_app.py:971 ../apps/settings/settings_app.py:1035
 msgid "&ascending chords"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:372 ../apps/settings/settings_app.py:408
-#: ../apps/settings/settings_app.py:982 ../apps/settings/settings_app.py:1046
+#: ../apps/settings/settings_app.py:373 ../apps/settings/settings_app.py:409
+#: ../apps/settings/settings_app.py:983 ../apps/settings/settings_app.py:1047
 msgid "&parts"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:374 ../apps/settings/settings_app.py:410
-#: ../apps/settings/settings_app.py:986 ../apps/settings/settings_app.py:1050
+#: ../apps/settings/settings_app.py:375 ../apps/settings/settings_app.py:411
+#: ../apps/settings/settings_app.py:987 ../apps/settings/settings_app.py:1051
 msgid "&measure b123"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:376 ../apps/settings/settings_app.py:412
+#: ../apps/settings/settings_app.py:377 ../apps/settings/settings_app.py:413
 msgid "measure &number"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:378 ../apps/settings/settings_app.py:414
+#: ../apps/settings/settings_app.py:379 ../apps/settings/settings_app.py:415
 msgid "measure &every"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:380 ../apps/settings/settings_app.py:416
-#: ../apps/settings/settings_app.py:998 ../apps/settings/settings_app.py:1062
+#: ../apps/settings/settings_app.py:381 ../apps/settings/settings_app.py:417
+#: ../apps/settings/settings_app.py:999 ../apps/settings/settings_app.py:1063
 #: ../apps/games/mines_app.py:76 ../apps/games/master_mind_app.py:77
 msgid "&view"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:381 ../apps/settings/settings_app.py:418
-#: ../apps/settings/settings_app.py:1002 ../apps/settings/settings_app.py:1066
+#: ../apps/settings/settings_app.py:382 ../apps/settings/settings_app.py:419
+#: ../apps/settings/settings_app.py:1003 ../apps/settings/settings_app.py:1067
+#, fuzzy
 msgid "&section"
-msgstr ""
+msgstr "نهاية ال&تحديد"
 
-#: ../apps/settings/settings_app.py:383 ../apps/settings/settings_app.py:420
+#: ../apps/settings/settings_app.py:384 ../apps/settings/settings_app.py:421
+#, fuzzy
 msgid "measures per sec&tion"
-msgstr ""
+msgstr "الجزء"
 
-#: ../apps/settings/settings_app.py:385 ../apps/settings/settings_app.py:422
-#: ../apps/settings/settings_app.py:1010 ../apps/settings/settings_app.py:1075
+#: ../apps/settings/settings_app.py:386 ../apps/settings/settings_app.py:423
+#: ../apps/settings/settings_app.py:1011 ../apps/settings/settings_app.py:1076
+#, fuzzy
 msgid "&words"
-msgstr ""
+msgstr "الكلمات"
 
-#: ../apps/settings/settings_app.py:387 ../apps/settings/settings_app.py:424
+#: ../apps/settings/settings_app.py:388 ../apps/settings/settings_app.py:425
+#, fuzzy
 msgid "cre&dit words"
-msgstr ""
+msgstr "ال&محرر"
 
-#: ../apps/settings/settings_app.py:440
+#: ../apps/settings/settings_app.py:441
 msgid "&clock"
-msgstr ""
+msgstr "ال&ساعة"
 
-#: ../apps/settings/settings_app.py:442
+#: ../apps/settings/settings_app.py:443
 msgid "&time"
-msgstr ""
+msgstr "ال&وقت"
 
-#: ../apps/settings/settings_app.py:443 ../apps/edt/editor_app.py:73
+#: ../apps/settings/settings_app.py:444 ../apps/edt/editor_app.py:73
 msgid "&date"
-msgstr ""
+msgstr "ال&تاريخ"
 
-#: ../apps/settings/settings_app.py:444
+#: ../apps/settings/settings_app.py:445
+#, fuzzy
 msgid "&auto sync"
-msgstr ""
+msgstr "التبديل التلقائي"
 
-#: ../apps/settings/settings_app.py:449 ../apps/edt/editor_base_app.py:221
+#: ../apps/settings/settings_app.py:450 ../apps/edt/editor_base_app.py:221
+#, fuzzy
 msgid "&vocalize"
-msgstr ""
-
-#: ../apps/settings/settings_app.py:453
-msgid "&language"
-msgstr ""
+msgstr "&صوتي"
 
 #: ../apps/settings/settings_app.py:454
+msgid "&language"
+msgstr "ال&لغة"
+
+#: ../apps/settings/settings_app.py:455
 msgid "s&ynthesis"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:455
+#: ../apps/settings/settings_app.py:456
 msgid "voi&ce"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:459
+#: ../apps/settings/settings_app.py:460
 msgid "&usb"
-msgstr ""
+msgstr "&قرص USB"
 
-#: ../apps/settings/settings_app.py:461
+#: ../apps/settings/settings_app.py:462
+#, fuzzy
 msgid "usb-&a-hid keyboard"
-msgstr ""
+msgstr "&لوحة مفاتيح usb-hid"
 
-#: ../apps/settings/settings_app.py:463
+#: ../apps/settings/settings_app.py:464
+#, fuzzy
 msgid "usb-&b-hid keyboard"
-msgstr ""
+msgstr "&لوحة مفاتيح usb-hid"
 
-#: ../apps/settings/settings_app.py:465 ../apps/settings/settings_app.py:477
-#: ../apps/settings/settings_app.py:794
+#: ../apps/settings/settings_app.py:466 ../apps/settings/settings_app.py:478
+#: ../apps/settings/settings_app.py:795
 msgid "simulation &esys"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:469 ../apps/fman/file_manager_app.py:230
+#: ../apps/settings/settings_app.py:470 ../apps/fman/file_manager_app.py:230
 msgid "&bluetooth"
-msgstr ""
+msgstr "&بلوتوث"
 
-#: ../apps/settings/settings_app.py:471 ../apps/settings/settings_app.py:483
+#: ../apps/settings/settings_app.py:472 ../apps/settings/settings_app.py:484
 msgid "&power"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:472 ../apps/fman/file_manager_app.py:621
+#: ../apps/settings/settings_app.py:473 ../apps/fman/file_manager_app.py:621
 #: ../apps/fman/file_manager_app.py:649 ../apps/fman/file_manager_app.py:705
 #: ../apps/fman/file_manager_app.py:796 ../apps/fman/file_manager_app.py:1322
 #: ../apps/fman/file_manager_app.py:1340 ../apps/games/mines_app.py:162
 #: ../apps/games/master_mind_app.py:218
 msgid "&name"
-msgstr ""
+msgstr "ال&اسم"
 
-#: ../apps/settings/settings_app.py:473
+#: ../apps/settings/settings_app.py:474
 msgid "&visibility"
-msgstr ""
+msgstr "ال&ظهور"
 
-#: ../apps/settings/settings_app.py:475 ../apps/settings/settings_app.py:776
+#: ../apps/settings/settings_app.py:476 ../apps/settings/settings_app.py:777
 msgid "&paired devices"
-msgstr ""
+msgstr "الأ&جهزة المقترنة"
 
-#: ../apps/settings/settings_app.py:481
+#: ../apps/settings/settings_app.py:482
 msgid "&wifi"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:484 ../apps/settings/settings_app.py:806
+#: ../apps/settings/settings_app.py:485 ../apps/settings/settings_app.py:807
 msgid "&favorites"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:485
+#: ../apps/settings/settings_app.py:486
 msgid "countr&y"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:488
+#: ../apps/settings/settings_app.py:489
 msgid "user &interface"
-msgstr ""
+msgstr "وواجهة المستخدم"
 
-#: ../apps/settings/settings_app.py:490
+#: ../apps/settings/settings_app.py:491
+#, fuzzy
 msgid "&message language"
-msgstr ""
+msgstr "ال&لغة"
 
-#: ../apps/settings/settings_app.py:492
+#: ../apps/settings/settings_app.py:493
+#, fuzzy
 msgid "&braille language"
-msgstr ""
+msgstr "ال&لغة"
 
-#: ../apps/settings/settings_app.py:496 ../apps/settings/settings_app.py:830
+#: ../apps/settings/settings_app.py:497 ../apps/settings/settings_app.py:831
 msgid "spaces in &label"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:498 ../apps/settings/settings_app.py:835
+#: ../apps/settings/settings_app.py:499 ../apps/settings/settings_app.py:836
+#, fuzzy
 msgid "visible &shortcuts"
-msgstr ""
+msgstr "إظهار النقاط 78"
 
-#: ../apps/settings/settings_app.py:500 ../apps/settings/settings_app.py:839
+#: ../apps/settings/settings_app.py:501 ../apps/settings/settings_app.py:840
 msgid "&developer mode"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:502
-msgid "&import settings"
-msgstr ""
-
 #: ../apps/settings/settings_app.py:503
-msgid "&export settings"
-msgstr ""
+#, fuzzy
+msgid "&import settings"
+msgstr "إ&عدادات"
 
-#: ../apps/settings/settings_app.py:507
+#: ../apps/settings/settings_app.py:504
+#, fuzzy
+msgid "&export settings"
+msgstr "إ&عدادات"
+
+#: ../apps/settings/settings_app.py:508
 msgid "main me&nu"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:509 ../apps/settings/settings_app.py:846
+#: ../apps/settings/settings_app.py:510 ../apps/settings/settings_app.py:847
 #: ../apps/internal.py:264
 msgid "&explorer"
-msgstr ""
+msgstr "ا&ستكشاف"
 
-#: ../apps/settings/settings_app.py:511 ../apps/settings/settings_app.py:850
+#: ../apps/settings/settings_app.py:512 ../apps/settings/settings_app.py:851
 #: ../apps/internal.py:265
 msgid "&settings"
-msgstr ""
+msgstr "إ&عدادات"
 
-#: ../apps/settings/settings_app.py:513 ../apps/settings/settings_app.py:575
-#: ../apps/settings/settings_app.py:854 ../apps/internal.py:266
+#: ../apps/settings/settings_app.py:514 ../apps/settings/settings_app.py:576
+#: ../apps/settings/settings_app.py:855 ../apps/internal.py:266
 msgid "a&genda"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:514 ../apps/settings/settings_app.py:858
+#: ../apps/settings/settings_app.py:515 ../apps/settings/settings_app.py:859
 #: ../apps/internal.py:267 ../apps/media/radio_app.py:64
+#, fuzzy
 msgid "&radio"
-msgstr ""
+msgstr "الشعاع"
 
-#: ../apps/settings/settings_app.py:515 ../apps/settings/settings_app.py:862
+#: ../apps/settings/settings_app.py:516 ../apps/settings/settings_app.py:863
 msgid "&audio"
-msgstr ""
+msgstr "&صوتي"
 
-#: ../apps/settings/settings_app.py:516 ../apps/settings/settings_app.py:866
+#: ../apps/settings/settings_app.py:517 ../apps/settings/settings_app.py:867
 #: ../apps/internal.py:269
 msgid "wi&kipedia"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:518 ../apps/settings/settings_app.py:870
+#: ../apps/settings/settings_app.py:519 ../apps/settings/settings_app.py:871
 #: ../apps/internal.py:270
+#, fuzzy
 msgid "&timer"
-msgstr ""
+msgstr "ال&وقت"
 
-#: ../apps/settings/settings_app.py:519 ../apps/settings/settings_app.py:874
+#: ../apps/settings/settings_app.py:520 ../apps/settings/settings_app.py:875
 #: ../apps/internal.py:99 ../apps/internal.py:127 ../apps/internal.py:271
+#, fuzzy
 msgid "trans&lator"
-msgstr ""
+msgstr "نقل"
 
-#: ../apps/settings/settings_app.py:521
+#: ../apps/settings/settings_app.py:522
+#, fuzzy
 msgid "write &word"
-msgstr ""
+msgstr "ال&محرر"
 
-#: ../apps/settings/settings_app.py:523 ../apps/settings/settings_app.py:882
+#: ../apps/settings/settings_app.py:524 ../apps/settings/settings_app.py:883
+#, fuzzy
 msgid "&operation"
-msgstr ""
+msgstr "الت&جزئة"
 
-#: ../apps/settings/settings_app.py:525 ../apps/settings/settings_app.py:886
+#: ../apps/settings/settings_app.py:526 ../apps/settings/settings_app.py:887
 #: ../apps/internal.py:274
 msgid "&mines"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:526 ../apps/settings/settings_app.py:890
+#: ../apps/settings/settings_app.py:527 ../apps/settings/settings_app.py:891
 msgid "ma&stermind"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:531
+#: ../apps/settings/settings_app.py:532
+#, fuzzy
 msgid "e&xplorer"
-msgstr ""
+msgstr "إستكشاف"
 
-#: ../apps/settings/settings_app.py:533
+#: ../apps/settings/settings_app.py:534
 msgid "empty the &bluetooth folder once shutdown"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:535
+#: ../apps/settings/settings_app.py:536
 msgid "empty the &trash folder once shutdown"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:537
+#: ../apps/settings/settings_app.py:538
 msgid "&number of recent files"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:542
+#: ../apps/settings/settings_app.py:543
 msgid "&editor"
-msgstr ""
+msgstr "ال&محرر"
 
-#: ../apps/settings/settings_app.py:544 ../apps/settings/settings_app.py:826
-#: ../apps/settings/settings_app.py:914 ../apps/edt/editor_app.py:144
+#: ../apps/settings/settings_app.py:545 ../apps/settings/settings_app.py:827
+#: ../apps/settings/settings_app.py:915 ../apps/edt/editor_app.py:144
 msgid "&braille type"
-msgstr ""
+msgstr "نوع ال&برايل"
 
-#: ../apps/settings/settings_app.py:546
+#: ../apps/settings/settings_app.py:547
 msgid "&line length"
-msgstr ""
+msgstr "طول ال&سطر"
 
-#: ../apps/settings/settings_app.py:548 ../apps/settings/settings_app.py:922
+#: ../apps/settings/settings_app.py:549 ../apps/settings/settings_app.py:923
 msgid "&forward display"
-msgstr ""
+msgstr "عرض ما &يلي"
 
-#: ../apps/settings/settings_app.py:550 ../apps/settings/settings_app.py:926
+#: ../apps/settings/settings_app.py:551 ../apps/settings/settings_app.py:927
+#, fuzzy
 msgid "&autoscroll display"
-msgstr ""
+msgstr "عرض ما &يلي"
 
-#: ../apps/settings/settings_app.py:552 ../apps/settings/settings_app.py:930
+#: ../apps/settings/settings_app.py:553 ../apps/settings/settings_app.py:931
 msgid "&cursor visible"
-msgstr ""
+msgstr "&مؤشر ظاهر"
 
-#: ../apps/settings/settings_app.py:554
+#: ../apps/settings/settings_app.py:555
+#, fuzzy
 msgid "&dot78 visible"
-msgstr ""
+msgstr "ال&نقاط 78 ظاهرة"
 
-#: ../apps/settings/settings_app.py:559
+#: ../apps/settings/settings_app.py:560
 msgid "mat&h"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:561 ../apps/settings/settings_app.py:940
+#: ../apps/settings/settings_app.py:562 ../apps/settings/settings_app.py:941
 msgid "&format"
-msgstr ""
+msgstr "&تنسيق"
 
-#: ../apps/settings/settings_app.py:562 ../apps/settings/settings_app.py:944
+#: ../apps/settings/settings_app.py:563 ../apps/settings/settings_app.py:945
 msgid "&precision"
-msgstr ""
+msgstr "ال&دقة"
 
-#: ../apps/settings/settings_app.py:563
+#: ../apps/settings/settings_app.py:564
 msgid "f&raction"
-msgstr ""
+msgstr "الت&جزئة"
 
-#: ../apps/settings/settings_app.py:564 ../apps/settings/settings_app.py:951
+#: ../apps/settings/settings_app.py:565 ../apps/settings/settings_app.py:952
 msgid "&angle"
-msgstr ""
+msgstr "ال&زاوية"
 
-#: ../apps/settings/settings_app.py:568
+#: ../apps/settings/settings_app.py:569
 msgid "&music"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:577
+#: ../apps/settings/settings_app.py:578
 msgid "default &presentation"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:579
+#: ../apps/settings/settings_app.py:580
+#, fuzzy
 msgid "&report events not done"
-msgstr ""
+msgstr "لا يمكن إجراء الإستبدال."
 
-#: ../apps/settings/settings_app.py:585 ../apps/settings/settings_app.py:1102
+#: ../apps/settings/settings_app.py:586 ../apps/settings/settings_app.py:1103
+#, fuzzy
 msgid "write word and operation"
-msgstr ""
+msgstr "الكلمات"
 
-#: ../apps/settings/settings_app.py:587
+#: ../apps/settings/settings_app.py:588
+#, fuzzy
 msgid "use the &vocalize"
-msgstr ""
+msgstr "&صوتي"
 
-#: ../apps/settings/settings_app.py:589
+#: ../apps/settings/settings_app.py:590
+#, fuzzy
 msgid "&keep the spaces"
-msgstr ""
+msgstr "إ&فراغ سلة المهملات"
 
-#: ../apps/settings/settings_app.py:591
+#: ../apps/settings/settings_app.py:592
+#, fuzzy
 msgid "&allow all characters"
-msgstr ""
+msgstr "الأحرف"
 
-#: ../apps/settings/settings_app.py:597
+#: ../apps/settings/settings_app.py:598
 msgid "&keyboard"
-msgstr ""
+msgstr "لوحة الم&فاتيح"
 
-#: ../apps/settings/settings_app.py:599
+#: ../apps/settings/settings_app.py:600
 msgid "&mode"
-msgstr ""
+msgstr "ال&نسق"
 
-#: ../apps/settings/settings_app.py:600 ../apps/settings/settings_app.py:1122
+#: ../apps/settings/settings_app.py:601 ../apps/settings/settings_app.py:1123
 msgid "b78"
-msgstr ""
+msgstr "b78"
 
-#: ../apps/settings/settings_app.py:601
+#: ../apps/settings/settings_app.py:602
 msgid "&invertion"
-msgstr ""
+msgstr "&عكس"
 
-#: ../apps/settings/settings_app.py:603
+#: ../apps/settings/settings_app.py:604
 msgid "&light press"
-msgstr ""
+msgstr "الضغط ب&لين"
 
-#: ../apps/settings/settings_app.py:605
+#: ../apps/settings/settings_app.py:606
 msgid "&strong press"
-msgstr ""
+msgstr "الضغط ب&شدة"
 
-#: ../apps/settings/settings_app.py:607
+#: ../apps/settings/settings_app.py:608
 msgid "&consecutive press"
-msgstr ""
+msgstr "الضغط ال&متتابع"
 
-#: ../apps/settings/settings_app.py:609
+#: ../apps/settings/settings_app.py:610
 msgid "&double light press"
-msgstr ""
+msgstr "الضغط مرتين بل&يونة"
 
-#: ../apps/settings/settings_app.py:611
+#: ../apps/settings/settings_app.py:612
 msgid "double st&rong press"
-msgstr ""
+msgstr "الضغط مرتين بش&دة"
 
-#: ../apps/settings/settings_app.py:616
+#: ../apps/settings/settings_app.py:617
 msgid "&standby"
-msgstr ""
+msgstr "ال&تعليق"
 
-#: ../apps/settings/settings_app.py:618
+#: ../apps/settings/settings_app.py:619
 msgid "&transport"
-msgstr ""
+msgstr "&نقل"
 
-#: ../apps/settings/settings_app.py:620
+#: ../apps/settings/settings_app.py:621
 msgid "&shutdown"
-msgstr ""
+msgstr "إ&طفاء الجهاز"
 
-#: ../apps/settings/settings_app.py:625
+#: ../apps/settings/settings_app.py:626
+#, fuzzy
 msgid "u&pdate"
-msgstr ""
+msgstr "ال&تاريخ"
 
-#: ../apps/settings/settings_app.py:627
+#: ../apps/settings/settings_app.py:628
 msgid "check update"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:628
+#: ../apps/settings/settings_app.py:629
+#, fuzzy
 msgid "&auto check"
-msgstr ""
-
-#: ../apps/settings/settings_app.py:630
-msgid "&install an other version"
-msgstr ""
+msgstr "التبديل التلقائي"
 
 #: ../apps/settings/settings_app.py:631
+#, fuzzy
+msgid "&install an other version"
+msgstr "عكس"
+
+#: ../apps/settings/settings_app.py:632
 msgid "&search update to"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:633
+#: ../apps/settings/settings_app.py:634
+#, fuzzy
 msgid "&delete file after installed"
-msgstr ""
+msgstr "تحديد ال&كل"
 
-#: ../apps/settings/settings_app.py:638 ../apps/settings/settings_app.py:2608
+#: ../apps/settings/settings_app.py:639 ../apps/settings/settings_app.py:2609
 msgid "about"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:640
-msgid "&test"
-msgstr ""
-
 #: ../apps/settings/settings_app.py:641
+msgid "&test"
+msgstr "ال&فحص"
+
+#: ../apps/settings/settings_app.py:642
 msgid "&reset"
-msgstr ""
+msgstr "إ&عادة التشغيل"
 
-#: ../apps/settings/settings_app.py:667 ../apps/settings/settings_app.py:708
-#: ../apps/settings/settings_app.py:709
+#: ../apps/settings/settings_app.py:668 ../apps/settings/settings_app.py:709
+#: ../apps/settings/settings_app.py:710
 msgid "time"
-msgstr ""
+msgstr "الوقت"
 
-#: ../apps/settings/settings_app.py:669 ../apps/settings/settings_app.py:711
-#: ../apps/settings/settings_app.py:712 ../apps/media/mp3_app.py:804
+#: ../apps/settings/settings_app.py:670 ../apps/settings/settings_app.py:712
+#: ../apps/settings/settings_app.py:713 ../apps/media/mp3_app.py:804
 msgid "date"
-msgstr ""
+msgstr "التاريخ"
 
-#: ../apps/settings/settings_app.py:671 ../apps/settings/settings_app.py:720
+#: ../apps/settings/settings_app.py:672 ../apps/settings/settings_app.py:721
 msgid "battery"
-msgstr ""
+msgstr "البطارية"
 
-#: ../apps/settings/settings_app.py:673 ../apps/settings/settings_app.py:725
-#: ../apps/settings/settings_app.py:726 ../apps/edt/editor_base_app.py:1006
+#: ../apps/settings/settings_app.py:674 ../apps/settings/settings_app.py:726
+#: ../apps/settings/settings_app.py:727 ../apps/edt/editor_base_app.py:1006
 #: ../apps/media/mp3_app.py:146 ../apps/media/mp3_app.py:859
 #: ../apps/media/radio_app.py:394
 msgid "volume"
-msgstr ""
+msgstr "حجم الصوت"
 
-#: ../apps/settings/settings_app.py:675 ../apps/settings/settings_app.py:731
-#: ../apps/settings/settings_app.py:732 ../apps/settings/settings_app.py:816
-#: ../apps/settings/settings_app.py:821
+#: ../apps/settings/settings_app.py:676 ../apps/settings/settings_app.py:732
+#: ../apps/settings/settings_app.py:733 ../apps/settings/settings_app.py:817
+#: ../apps/settings/settings_app.py:822
 msgid "language"
-msgstr ""
+msgstr "اللغة"
 
-#: ../apps/settings/settings_app.py:677 ../apps/settings/settings_app.py:743
+#: ../apps/settings/settings_app.py:678 ../apps/settings/settings_app.py:744
 msgid "jack"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:679 ../apps/settings/settings_app.py:748
+#: ../apps/settings/settings_app.py:680 ../apps/settings/settings_app.py:749
+#, fuzzy
 msgid "keyboard USB-A-HID"
-msgstr ""
+msgstr "لوحة مفاتيح USB-HID"
 
-#: ../apps/settings/settings_app.py:682 ../apps/settings/settings_app.py:753
+#: ../apps/settings/settings_app.py:683 ../apps/settings/settings_app.py:754
+#, fuzzy
 msgid "keyboard USB-B-HID"
-msgstr ""
+msgstr "لوحة مفاتيح USB-HID"
 
-#: ../apps/settings/settings_app.py:686 ../apps/settings/settings_app.py:774
+#: ../apps/settings/settings_app.py:687 ../apps/settings/settings_app.py:775
+#, fuzzy
 msgid "paired devices"
-msgstr ""
+msgstr "الأ&جهزة المقترنة"
 
-#: ../apps/settings/settings_app.py:688 ../apps/settings/settings_app.py:802
-#: ../apps/settings/settings_app.py:803
+#: ../apps/settings/settings_app.py:689 ../apps/settings/settings_app.py:803
+#: ../apps/settings/settings_app.py:804
 msgid "connected to"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:690 ../apps/settings/settings_app.py:814
+#: ../apps/settings/settings_app.py:691 ../apps/settings/settings_app.py:815
+#, fuzzy
 msgid "message language"
-msgstr ""
+msgstr "اللغة"
 
-#: ../apps/settings/settings_app.py:693 ../apps/settings/settings_app.py:819
+#: ../apps/settings/settings_app.py:694 ../apps/settings/settings_app.py:820
+#, fuzzy
 msgid "braille language"
-msgstr ""
+msgstr "اللغة"
 
-#: ../apps/settings/settings_app.py:696 ../apps/settings/settings_app.py:1154
+#: ../apps/settings/settings_app.py:697 ../apps/settings/settings_app.py:1155
 msgid "transport timeout minute (0 none)"
-msgstr ""
+msgstr "انتهاء مهلة النقل دقيقة (0 لا شيء)"
 
-#: ../apps/settings/settings_app.py:699 ../apps/settings/settings_app.py:1159
+#: ../apps/settings/settings_app.py:700 ../apps/settings/settings_app.py:1160
 msgid "shutdown timeout minute (0 none)"
-msgstr ""
+msgstr "انتهاء مهلة إطفاء الجهاز دقيقة (0 لا شيء)"
 
-#: ../apps/settings/settings_app.py:714
+#: ../apps/settings/settings_app.py:715
 msgid "auto sync date"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:716
+#: ../apps/settings/settings_app.py:717
 msgid "clock"
-msgstr ""
+msgstr "الساعة"
 
-#: ../apps/settings/settings_app.py:716
+#: ../apps/settings/settings_app.py:717
 msgid "auto &sync date"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:724 ../apps/settings/settings_app.py:734
-#: ../apps/settings/settings_app.py:736
+#: ../apps/settings/settings_app.py:725 ../apps/settings/settings_app.py:735
+#: ../apps/settings/settings_app.py:737
 msgid "synthesis"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:726 ../apps/settings/settings_app.py:729
+#: ../apps/settings/settings_app.py:727 ../apps/settings/settings_app.py:730
 #: ../apps/edt/editor_base_app.py:1006 ../apps/edt/editor_base_app.py:1030
 #: ../apps/media/mp3_app.py:859 ../apps/media/radio_app.py:394
 msgid "&value"
-msgstr ""
+msgstr "ال&قيمة"
 
-#: ../apps/settings/settings_app.py:728 ../apps/settings/settings_app.py:729
+#: ../apps/settings/settings_app.py:729 ../apps/settings/settings_app.py:730
 #: ../apps/edt/editor_base_app.py:1030
 msgid "speed"
-msgstr ""
+msgstr "السرعة"
 
-#: ../apps/settings/settings_app.py:736
+#: ../apps/settings/settings_app.py:737
 msgid "&synthesis"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:738 ../apps/settings/settings_app.py:739
+#: ../apps/settings/settings_app.py:739 ../apps/settings/settings_app.py:740
 msgid "voice"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:739
+#: ../apps/settings/settings_app.py:740
 msgid "&voice"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:747
+#: ../apps/settings/settings_app.py:748
 msgid "usb"
-msgstr ""
+msgstr "usb"
 
-#: ../apps/settings/settings_app.py:750 ../apps/settings/settings_app.py:755
-#: ../apps/settings/settings_app.py:1120 ../apps/settings/settings_app.py:1124
-#: ../apps/settings/settings_app.py:1128 ../apps/settings/settings_app.py:1547
+#: ../apps/settings/settings_app.py:751 ../apps/settings/settings_app.py:756
+#: ../apps/settings/settings_app.py:1121 ../apps/settings/settings_app.py:1125
+#: ../apps/settings/settings_app.py:1129 ../apps/settings/settings_app.py:1548
 msgid "keyboard"
-msgstr ""
+msgstr "لوحة المفاتيح"
 
-#: ../apps/settings/settings_app.py:750
+#: ../apps/settings/settings_app.py:751
+#, fuzzy
 msgid "usb-a hid mode"
-msgstr ""
+msgstr "وضع usb hid"
 
-#: ../apps/settings/settings_app.py:755
+#: ../apps/settings/settings_app.py:756
+#, fuzzy
 msgid "usb-b hid mode"
-msgstr ""
+msgstr "وضع usb hid"
 
-#: ../apps/settings/settings_app.py:758 ../apps/settings/settings_app.py:760
-#: ../apps/settings/settings_app.py:791 ../apps/settings/settings_app.py:793
+#: ../apps/settings/settings_app.py:759 ../apps/settings/settings_app.py:761
+#: ../apps/settings/settings_app.py:792 ../apps/settings/settings_app.py:794
 msgid "simulation esys"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:765 ../apps/settings/settings_app.py:799
+#: ../apps/settings/settings_app.py:766 ../apps/settings/settings_app.py:800
 msgid "power"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:766 ../apps/settings/settings_app.py:1974
+#: ../apps/settings/settings_app.py:767 ../apps/settings/settings_app.py:1975
+#, fuzzy
 msgid "bluetooth power"
-msgstr ""
+msgstr "البلوتوث"
 
-#: ../apps/settings/settings_app.py:766 ../apps/settings/settings_app.py:800
+#: ../apps/settings/settings_app.py:767 ../apps/settings/settings_app.py:801
 msgid "&powered"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:768 ../apps/settings/settings_app.py:1619
-#: ../apps/settings/settings_app.py:1630 ../apps/media/radio_app.py:143
+#: ../apps/settings/settings_app.py:769 ../apps/settings/settings_app.py:1620
+#: ../apps/settings/settings_app.py:1631 ../apps/media/radio_app.py:143
 msgid "name"
-msgstr ""
+msgstr "الاسم"
 
-#: ../apps/settings/settings_app.py:769
+#: ../apps/settings/settings_app.py:770
 msgid "&bnote name"
-msgstr ""
-
-#: ../apps/settings/settings_app.py:771
-msgid "visible"
-msgstr ""
+msgstr "&اسم bnote"
 
 #: ../apps/settings/settings_app.py:772
+msgid "visible"
+msgstr "ظاهر"
+
+#: ../apps/settings/settings_app.py:773
 msgid "&bnote visible"
-msgstr ""
+msgstr "bnote &مرئية"
 
-#: ../apps/settings/settings_app.py:785
+#: ../apps/settings/settings_app.py:786
 msgid "bluetooth auto switch"
-msgstr ""
+msgstr "تبديل بلوتوث تلقائي"
 
-#: ../apps/settings/settings_app.py:798
+#: ../apps/settings/settings_app.py:799
 msgid "wifi"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:800 ../apps/settings/settings_app.py:1995
+#: ../apps/settings/settings_app.py:801 ../apps/settings/settings_app.py:1996
 msgid "wifi power"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:803
+#: ../apps/settings/settings_app.py:804
 msgid "&connected"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:805 ../apps/settings/settings_app.py:806
+#: ../apps/settings/settings_app.py:806 ../apps/settings/settings_app.py:807
 msgid "favorites"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:808
+#: ../apps/settings/settings_app.py:809
 msgid "country"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:809
+#: ../apps/settings/settings_app.py:810
 msgid "wlan country"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:813 ../apps/settings/settings_app.py:826
-#: ../apps/settings/settings_app.py:830 ../apps/settings/settings_app.py:834
-#: ../apps/settings/settings_app.py:839 ../apps/settings/settings_app.py:846
-#: ../apps/settings/settings_app.py:850 ../apps/settings/settings_app.py:854
-#: ../apps/settings/settings_app.py:858 ../apps/settings/settings_app.py:862
-#: ../apps/settings/settings_app.py:866 ../apps/settings/settings_app.py:870
-#: ../apps/settings/settings_app.py:874 ../apps/settings/settings_app.py:878
-#: ../apps/settings/settings_app.py:882 ../apps/settings/settings_app.py:886
-#: ../apps/settings/settings_app.py:890
+#: ../apps/settings/settings_app.py:814 ../apps/settings/settings_app.py:827
+#: ../apps/settings/settings_app.py:831 ../apps/settings/settings_app.py:835
+#: ../apps/settings/settings_app.py:840 ../apps/settings/settings_app.py:847
+#: ../apps/settings/settings_app.py:851 ../apps/settings/settings_app.py:855
+#: ../apps/settings/settings_app.py:859 ../apps/settings/settings_app.py:863
+#: ../apps/settings/settings_app.py:867 ../apps/settings/settings_app.py:871
+#: ../apps/settings/settings_app.py:875 ../apps/settings/settings_app.py:879
+#: ../apps/settings/settings_app.py:883 ../apps/settings/settings_app.py:887
+#: ../apps/settings/settings_app.py:891
 msgid "user interface"
-msgstr ""
+msgstr "واجهة المستخدم"
 
-#: ../apps/settings/settings_app.py:816
+#: ../apps/settings/settings_app.py:817
 msgid "message"
-msgstr ""
+msgstr "الرسالة"
 
-#: ../apps/settings/settings_app.py:821
+#: ../apps/settings/settings_app.py:822
 msgid "braille"
-msgstr ""
+msgstr "البرايل"
 
-#: ../apps/settings/settings_app.py:824 ../apps/settings/settings_app.py:912
+#: ../apps/settings/settings_app.py:825 ../apps/settings/settings_app.py:913
 msgid "braille type"
-msgstr ""
+msgstr "نوع البرايل"
 
-#: ../apps/settings/settings_app.py:828
+#: ../apps/settings/settings_app.py:829
 msgid "spaces in label"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:832
+#: ../apps/settings/settings_app.py:833
+#, fuzzy
 msgid "visible shortcuts"
-msgstr ""
+msgstr "إظهار النقاط 78"
 
-#: ../apps/settings/settings_app.py:837
+#: ../apps/settings/settings_app.py:838
 msgid "developer mode"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:843
+#: ../apps/settings/settings_app.py:844
 msgid "main menu"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:844 ../apps/settings/settings_app.py:894
-#: ../apps/settings/settings_app.py:897 ../apps/settings/settings_app.py:902
-#: ../apps/settings/settings_app.py:907 ../apps/fman/file_manager_app.py:370
+#: ../apps/settings/settings_app.py:845 ../apps/settings/settings_app.py:895
+#: ../apps/settings/settings_app.py:898 ../apps/settings/settings_app.py:903
+#: ../apps/settings/settings_app.py:908 ../apps/fman/file_manager_app.py:370
 #: ../apps/fman/file_manager_app.py:383 ../apps/fman/file_manager_app.py:396
 #: ../apps/fman/file_manager_app.py:432 ../apps/fman/file_manager_app.py:444
 #: ../apps/fman/file_manager_app.py:455
 msgid "explorer"
-msgstr ""
+msgstr "إستكشاف"
 
-#: ../apps/settings/settings_app.py:852 ../apps/settings/settings_app.py:1091
-#: ../apps/settings/settings_app.py:1094 ../apps/settings/settings_app.py:1098
-#: ../apps/agenda/agenda_app.py:62 ../apps/agenda/agenda_app.py:1535
+#: ../apps/settings/settings_app.py:853 ../apps/settings/settings_app.py:1092
+#: ../apps/settings/settings_app.py:1095 ../apps/settings/settings_app.py:1099
+#: ../apps/agenda/agenda_app.py:64 ../apps/agenda/agenda_app.py:1541
 msgid "agenda"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:856 ../apps/media/radio_app.py:59
+#: ../apps/settings/settings_app.py:857 ../apps/media/radio_app.py:59
+#, fuzzy
 msgid "radio"
-msgstr ""
+msgstr "الشعاع"
 
-#: ../apps/settings/settings_app.py:860
+#: ../apps/settings/settings_app.py:861
 msgid "audio"
-msgstr ""
+msgstr "صوتي"
 
-#: ../apps/settings/settings_app.py:864 ../apps/wikipedia/wikipedia_app.py:41
+#: ../apps/settings/settings_app.py:865 ../apps/wikipedia/wikipedia_app.py:41
 #: ../apps/wikipedia/wikipedia_app.py:193
 msgid "wikipedia"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:868 ../apps/timer/timer_app.py:53
+#: ../apps/settings/settings_app.py:869 ../apps/timer/timer_app.py:53
+#, fuzzy
 msgid "timer"
-msgstr ""
+msgstr "الوقت"
 
-#: ../apps/settings/settings_app.py:872 ../apps/translator/translator_app.py:87
+#: ../apps/settings/settings_app.py:873 ../apps/translator/translator_app.py:87
+#, fuzzy
 msgid "translator"
-msgstr ""
+msgstr "نقل"
 
-#: ../apps/settings/settings_app.py:876
+#: ../apps/settings/settings_app.py:877
+#, fuzzy
 msgid "write_word"
-msgstr ""
+msgstr "ال&محرر"
 
-#: ../apps/settings/settings_app.py:878
+#: ../apps/settings/settings_app.py:879
+#, fuzzy
 msgid "&write word"
-msgstr ""
+msgstr "ال&محرر"
 
-#: ../apps/settings/settings_app.py:880
+#: ../apps/settings/settings_app.py:881
+#, fuzzy
 msgid "operation"
-msgstr ""
+msgstr "الجزء"
 
-#: ../apps/settings/settings_app.py:884 ../apps/games/mines_app.py:61
+#: ../apps/settings/settings_app.py:885 ../apps/games/mines_app.py:61
 msgid "mines"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:888 ../apps/games/master_mind_app.py:63
+#: ../apps/settings/settings_app.py:889 ../apps/games/master_mind_app.py:63
 msgid "mastermind"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:895
+#: ../apps/settings/settings_app.py:896
 msgid "empty the bluetooth folder once shutdown"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:898
+#: ../apps/settings/settings_app.py:899
 msgid "&empty the bluetooth once shutdown"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:900
+#: ../apps/settings/settings_app.py:901
 msgid "empty the trash folder once shutdown"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:903
+#: ../apps/settings/settings_app.py:904
+#, fuzzy
 msgid "&empty the trash once shutdown"
-msgstr ""
+msgstr "إ&فراغ سلة المهملات"
 
-#: ../apps/settings/settings_app.py:905
+#: ../apps/settings/settings_app.py:906
 msgid "number of recent files"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:907
+#: ../apps/settings/settings_app.py:908
+#, fuzzy
 msgid "files &number"
-msgstr ""
+msgstr "إ&عادة تسمية"
 
-#: ../apps/settings/settings_app.py:911 ../apps/settings/settings_app.py:914
-#: ../apps/settings/settings_app.py:918 ../apps/settings/settings_app.py:922
-#: ../apps/settings/settings_app.py:926 ../apps/settings/settings_app.py:930
-#: ../apps/settings/settings_app.py:934 ../apps/edt/editor_app.py:43
+#: ../apps/settings/settings_app.py:912 ../apps/settings/settings_app.py:915
+#: ../apps/settings/settings_app.py:919 ../apps/settings/settings_app.py:923
+#: ../apps/settings/settings_app.py:927 ../apps/settings/settings_app.py:931
+#: ../apps/settings/settings_app.py:935 ../apps/edt/editor_app.py:43
 #: ../apps/edt/editor_base_app.py:1266
 #: ../apps/eole/eole_search_dialog_box.py:66 ../apps/media/mp3_app.py:244
 msgid "editor"
-msgstr ""
+msgstr "المحرر"
 
-#: ../apps/settings/settings_app.py:916
+#: ../apps/settings/settings_app.py:917
+#, fuzzy
 msgid "line length"
-msgstr ""
+msgstr "طول ال&سطر"
 
-#: ../apps/settings/settings_app.py:918
+#: ../apps/settings/settings_app.py:919
 msgid "lines &length"
-msgstr ""
+msgstr "&طول الأسطر"
 
-#: ../apps/settings/settings_app.py:920
+#: ../apps/settings/settings_app.py:921
 msgid "forward display"
-msgstr ""
+msgstr "عرض ما يلي"
 
-#: ../apps/settings/settings_app.py:924
+#: ../apps/settings/settings_app.py:925
+#, fuzzy
 msgid "autoscroll display"
-msgstr ""
+msgstr "عرض ما يلي"
 
-#: ../apps/settings/settings_app.py:928
+#: ../apps/settings/settings_app.py:929
+#, fuzzy
 msgid "cursor visible"
-msgstr ""
+msgstr "&مؤشر ظاهر"
 
-#: ../apps/settings/settings_app.py:932
+#: ../apps/settings/settings_app.py:933
+#, fuzzy
 msgid "dot78 visible"
-msgstr ""
+msgstr "ال&نقاط 78 ظاهرة"
 
-#: ../apps/settings/settings_app.py:934
+#: ../apps/settings/settings_app.py:935
 msgid "&dot 78 visible"
-msgstr ""
+msgstr "ال&نقاط 78 ظاهرة"
 
-#: ../apps/settings/settings_app.py:938 ../apps/settings/settings_app.py:940
-#: ../apps/settings/settings_app.py:944 ../apps/settings/settings_app.py:948
-#: ../apps/settings/settings_app.py:951
+#: ../apps/settings/settings_app.py:939 ../apps/settings/settings_app.py:941
+#: ../apps/settings/settings_app.py:945 ../apps/settings/settings_app.py:949
+#: ../apps/settings/settings_app.py:952
 msgid "math"
-msgstr ""
+msgstr "رياضيات"
 
-#: ../apps/settings/settings_app.py:939
+#: ../apps/settings/settings_app.py:940
 msgid "format"
-msgstr ""
+msgstr "تنسيق"
 
-#: ../apps/settings/settings_app.py:942
+#: ../apps/settings/settings_app.py:943
 msgid "precision"
-msgstr ""
+msgstr "الدقة"
 
-#: ../apps/settings/settings_app.py:946
+#: ../apps/settings/settings_app.py:947
 msgid "fraction"
-msgstr ""
+msgstr "الجزء"
 
-#: ../apps/settings/settings_app.py:948
+#: ../apps/settings/settings_app.py:949
 msgid "&fraction result"
-msgstr ""
+msgstr "&نتيجة القسمة"
 
-#: ../apps/settings/settings_app.py:950
+#: ../apps/settings/settings_app.py:951
 msgid "angle"
-msgstr ""
+msgstr "الزاوية"
 
-#: ../apps/settings/settings_app.py:956
+#: ../apps/settings/settings_app.py:957
+#, fuzzy
 msgid "musicxml edit and play mode"
-msgstr ""
+msgstr "ال&محرر"
 
-#: ../apps/settings/settings_app.py:958 ../apps/settings/settings_app.py:962
-#: ../apps/settings/settings_app.py:966 ../apps/settings/settings_app.py:970
-#: ../apps/settings/settings_app.py:974 ../apps/settings/settings_app.py:978
-#: ../apps/settings/settings_app.py:982 ../apps/settings/settings_app.py:986
-#: ../apps/settings/settings_app.py:990 ../apps/settings/settings_app.py:994
-#: ../apps/settings/settings_app.py:998 ../apps/settings/settings_app.py:1002
-#: ../apps/settings/settings_app.py:1006 ../apps/settings/settings_app.py:1010
-#: ../apps/settings/settings_app.py:1014 ../apps/settings/settings_app.py:1018
+#: ../apps/settings/settings_app.py:959 ../apps/settings/settings_app.py:963
+#: ../apps/settings/settings_app.py:967 ../apps/settings/settings_app.py:971
+#: ../apps/settings/settings_app.py:975 ../apps/settings/settings_app.py:979
+#: ../apps/settings/settings_app.py:983 ../apps/settings/settings_app.py:987
+#: ../apps/settings/settings_app.py:991 ../apps/settings/settings_app.py:995
+#: ../apps/settings/settings_app.py:999 ../apps/settings/settings_app.py:1003
+#: ../apps/settings/settings_app.py:1007 ../apps/settings/settings_app.py:1011
+#: ../apps/settings/settings_app.py:1015 ../apps/settings/settings_app.py:1019
 msgid "music xml"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:960
+#: ../apps/settings/settings_app.py:961
+#, fuzzy
 msgid "musicxml braille type"
-msgstr ""
+msgstr "نوع البرايل"
 
-#: ../apps/settings/settings_app.py:964
+#: ../apps/settings/settings_app.py:965
 msgid "musicxml notes dots"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:966 ../apps/settings/settings_app.py:1030
+#: ../apps/settings/settings_app.py:967 ../apps/settings/settings_app.py:1031
+#, fuzzy
 msgid "&notes dots"
-msgstr ""
+msgstr "bnote &مرئية"
 
-#: ../apps/settings/settings_app.py:968
+#: ../apps/settings/settings_app.py:969
 msgid "musicxml ascending chords"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:972
+#: ../apps/settings/settings_app.py:973
 msgid "musicxml fingering"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:976
+#: ../apps/settings/settings_app.py:977
 msgid "musicxml clef"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:980
+#: ../apps/settings/settings_app.py:981
 msgid "musicxml parts"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:984
+#: ../apps/settings/settings_app.py:985
 msgid "musicxml measure b123"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:988
+#: ../apps/settings/settings_app.py:989
 msgid "musicxml measure number"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:990 ../apps/settings/settings_app.py:1054
+#: ../apps/settings/settings_app.py:991 ../apps/settings/settings_app.py:1055
 msgid "&measure number"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:992
+#: ../apps/settings/settings_app.py:993
 msgid "musicxml measure every"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:994 ../apps/settings/settings_app.py:1058
+#: ../apps/settings/settings_app.py:995 ../apps/settings/settings_app.py:1059
 msgid "&measure every"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:996
+#: ../apps/settings/settings_app.py:997
+#, fuzzy
 msgid "musicxml view"
-msgstr ""
+msgstr "نهاية ال&تحديد"
 
-#: ../apps/settings/settings_app.py:1000
+#: ../apps/settings/settings_app.py:1001
+#, fuzzy
 msgid "musicxml section"
-msgstr ""
+msgstr "نهاية ال&تحديد"
 
-#: ../apps/settings/settings_app.py:1004
+#: ../apps/settings/settings_app.py:1005
 msgid "musicxml measures per section"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1006 ../apps/settings/settings_app.py:1071
+#: ../apps/settings/settings_app.py:1007 ../apps/settings/settings_app.py:1072
 msgid "&measures per section"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1008
+#: ../apps/settings/settings_app.py:1009
 msgid "musicxml words"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1012
+#: ../apps/settings/settings_app.py:1013
+#, fuzzy
 msgid "musicxml credit words"
-msgstr ""
+msgstr "ال&محرر"
 
-#: ../apps/settings/settings_app.py:1016
+#: ../apps/settings/settings_app.py:1017
 msgid "musicxml lyrics"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1020
+#: ../apps/settings/settings_app.py:1021
+#, fuzzy
 msgid "bxml edit and play mode"
-msgstr ""
+msgstr "ال&محرر"
 
-#: ../apps/settings/settings_app.py:1022 ../apps/settings/settings_app.py:1026
-#: ../apps/settings/settings_app.py:1030 ../apps/settings/settings_app.py:1034
-#: ../apps/settings/settings_app.py:1038 ../apps/settings/settings_app.py:1042
-#: ../apps/settings/settings_app.py:1046 ../apps/settings/settings_app.py:1050
-#: ../apps/settings/settings_app.py:1054 ../apps/settings/settings_app.py:1058
-#: ../apps/settings/settings_app.py:1062 ../apps/settings/settings_app.py:1066
-#: ../apps/settings/settings_app.py:1070 ../apps/settings/settings_app.py:1075
-#: ../apps/settings/settings_app.py:1079 ../apps/settings/settings_app.py:1083
-#: ../apps/settings/settings_app.py:1087
+#: ../apps/settings/settings_app.py:1023 ../apps/settings/settings_app.py:1027
+#: ../apps/settings/settings_app.py:1031 ../apps/settings/settings_app.py:1035
+#: ../apps/settings/settings_app.py:1039 ../apps/settings/settings_app.py:1043
+#: ../apps/settings/settings_app.py:1047 ../apps/settings/settings_app.py:1051
+#: ../apps/settings/settings_app.py:1055 ../apps/settings/settings_app.py:1059
+#: ../apps/settings/settings_app.py:1063 ../apps/settings/settings_app.py:1067
+#: ../apps/settings/settings_app.py:1071 ../apps/settings/settings_app.py:1076
+#: ../apps/settings/settings_app.py:1080 ../apps/settings/settings_app.py:1084
+#: ../apps/settings/settings_app.py:1088
 msgid "music bxml"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1024
+#: ../apps/settings/settings_app.py:1025
+#, fuzzy
 msgid "bxml braille type"
-msgstr ""
+msgstr "نوع البرايل"
 
-#: ../apps/settings/settings_app.py:1028
+#: ../apps/settings/settings_app.py:1029
 msgid "bxml notes dots"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1032
+#: ../apps/settings/settings_app.py:1033
 msgid "bxml ascending chords"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1036
+#: ../apps/settings/settings_app.py:1037
 msgid "bxml fingering"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1040
+#: ../apps/settings/settings_app.py:1041
 msgid "bxml clef"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1044
+#: ../apps/settings/settings_app.py:1045
 msgid "bxml parts"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1048
+#: ../apps/settings/settings_app.py:1049
 msgid "bxml measure b123"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1052
+#: ../apps/settings/settings_app.py:1053
 msgid "bxml measure number"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1056
+#: ../apps/settings/settings_app.py:1057
 msgid "bxml measure every"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1060
+#: ../apps/settings/settings_app.py:1061
+#, fuzzy
 msgid "bxml view"
-msgstr ""
+msgstr "الكلمات"
 
-#: ../apps/settings/settings_app.py:1064
+#: ../apps/settings/settings_app.py:1065
+#, fuzzy
 msgid "bxml section"
-msgstr ""
+msgstr "نهاية ال&تحديد"
 
-#: ../apps/settings/settings_app.py:1068
+#: ../apps/settings/settings_app.py:1069
 msgid "bxml measures per section"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1073
+#: ../apps/settings/settings_app.py:1074
+#, fuzzy
 msgid "bxml words"
-msgstr ""
+msgstr "الكلمات"
 
-#: ../apps/settings/settings_app.py:1077
+#: ../apps/settings/settings_app.py:1078
+#, fuzzy
 msgid "bxml credit words"
-msgstr ""
+msgstr "ال&محرر"
 
-#: ../apps/settings/settings_app.py:1081
+#: ../apps/settings/settings_app.py:1082
 msgid "bxml lyrics"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1085
+#: ../apps/settings/settings_app.py:1086
 msgid "bxml karaoke"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1092
+#: ../apps/settings/settings_app.py:1093
 msgid "default presentation"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1094
+#: ../apps/settings/settings_app.py:1095
+#, fuzzy
 msgid "&presentation"
-msgstr ""
+msgstr "الت&جزئة"
 
-#: ../apps/settings/settings_app.py:1096
+#: ../apps/settings/settings_app.py:1097
 msgid "at startup, report events not done"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1098
+#: ../apps/settings/settings_app.py:1099
+#, fuzzy
 msgid "report events"
-msgstr ""
+msgstr "ا&ستكشاف"
 
-#: ../apps/settings/settings_app.py:1103
+#: ../apps/settings/settings_app.py:1104
 msgid "use the vocal synthesis"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1105 ../apps/settings/settings_app.py:1109
-#: ../apps/settings/settings_app.py:1113
+#: ../apps/settings/settings_app.py:1106 ../apps/settings/settings_app.py:1110
+#: ../apps/settings/settings_app.py:1114
+#, fuzzy
 msgid "braille learning"
-msgstr ""
+msgstr "اللغة"
 
-#: ../apps/settings/settings_app.py:1105
+#: ../apps/settings/settings_app.py:1106
+#, fuzzy
 msgid "&vocal"
-msgstr ""
+msgstr "صوتي"
 
-#: ../apps/settings/settings_app.py:1107
+#: ../apps/settings/settings_app.py:1108
 msgid "keeping spaces"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1109
+#: ../apps/settings/settings_app.py:1110
 msgid "&spaces"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1111
+#: ../apps/settings/settings_app.py:1112
 msgid "allow the wrong hit"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1113
+#: ../apps/settings/settings_app.py:1114
 msgid "&allow all"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1117
-msgid "keyboards"
-msgstr ""
-
 #: ../apps/settings/settings_app.py:1118
+msgid "keyboards"
+msgstr "لوحات المفاتيح"
+
+#: ../apps/settings/settings_app.py:1119
+#, fuzzy
 msgid "mode"
-msgstr ""
+msgstr "ال&نسق"
 
-#: ../apps/settings/settings_app.py:1120
+#: ../apps/settings/settings_app.py:1121
 msgid "braille keyboard mode"
-msgstr ""
+msgstr "وضع لوحة مفاتيح البرايل"
 
-#: ../apps/settings/settings_app.py:1124
+#: ../apps/settings/settings_app.py:1125
 msgid "braille keyboard b78"
-msgstr ""
+msgstr "لوحة مفاتيح برايل b78"
 
-#: ../apps/settings/settings_app.py:1126
+#: ../apps/settings/settings_app.py:1127
+#, fuzzy
 msgid "invertion"
-msgstr ""
+msgstr "&عكس"
 
-#: ../apps/settings/settings_app.py:1128
+#: ../apps/settings/settings_app.py:1129
 msgid "inversion"
-msgstr ""
+msgstr "عكس"
 
-#: ../apps/settings/settings_app.py:1130 ../apps/settings/settings_app.py:1132
+#: ../apps/settings/settings_app.py:1131 ../apps/settings/settings_app.py:1133
 msgid "light press"
-msgstr ""
+msgstr "الضغط بليونة"
 
-#: ../apps/settings/settings_app.py:1132 ../apps/settings/settings_app.py:1136
-#: ../apps/settings/settings_app.py:1140 ../apps/settings/settings_app.py:1144
-#: ../apps/settings/settings_app.py:1148
+#: ../apps/settings/settings_app.py:1133 ../apps/settings/settings_app.py:1137
+#: ../apps/settings/settings_app.py:1141 ../apps/settings/settings_app.py:1145
+#: ../apps/settings/settings_app.py:1149
 msgid "routing keyboard"
-msgstr ""
+msgstr "ربط لوحة المفاتيح"
 
-#: ../apps/settings/settings_app.py:1134 ../apps/settings/settings_app.py:1136
+#: ../apps/settings/settings_app.py:1135 ../apps/settings/settings_app.py:1137
 msgid "strong press"
-msgstr ""
+msgstr "الضغط بشدة"
 
-#: ../apps/settings/settings_app.py:1138
+#: ../apps/settings/settings_app.py:1139
 msgid "consecutive press"
-msgstr ""
+msgstr "ضغط متتابع"
 
-#: ../apps/settings/settings_app.py:1140
+#: ../apps/settings/settings_app.py:1141
 msgid "consecutive"
-msgstr ""
+msgstr "متتابع"
 
-#: ../apps/settings/settings_app.py:1142
+#: ../apps/settings/settings_app.py:1143
 msgid "double light press"
-msgstr ""
+msgstr "الضغط مرتين بليونة"
 
-#: ../apps/settings/settings_app.py:1144
+#: ../apps/settings/settings_app.py:1145
 msgid "double light"
-msgstr ""
+msgstr "مزدوج خفيف"
 
-#: ../apps/settings/settings_app.py:1146
+#: ../apps/settings/settings_app.py:1147
 msgid "double strong press"
-msgstr ""
+msgstr "الضغط مرتين بشدة"
 
-#: ../apps/settings/settings_app.py:1148
+#: ../apps/settings/settings_app.py:1149
 msgid "double strong"
-msgstr ""
+msgstr "مزدوج قوي"
 
-#: ../apps/settings/settings_app.py:1153 ../apps/settings/settings_app.py:1156
-#: ../apps/settings/settings_app.py:1161
+#: ../apps/settings/settings_app.py:1154 ../apps/settings/settings_app.py:1157
+#: ../apps/settings/settings_app.py:1162
 msgid "standby"
-msgstr ""
+msgstr "التعليق"
 
-#: ../apps/settings/settings_app.py:1156 ../apps/internal.py:173
+#: ../apps/settings/settings_app.py:1157 ../apps/internal.py:173
 msgid "transport"
-msgstr ""
+msgstr "نقل"
 
-#: ../apps/settings/settings_app.py:1161 ../apps/internal.py:174
+#: ../apps/settings/settings_app.py:1162 ../apps/internal.py:174
 msgid "shutdown"
-msgstr ""
+msgstr "إطفاء الجهاز"
 
-#: ../apps/settings/settings_app.py:1167 ../apps/settings/settings_app.py:1170
-#: ../apps/settings/settings_app.py:1179 ../apps/settings/settings_app.py:1181
-#: ../apps/settings/settings_app.py:2496
+#: ../apps/settings/settings_app.py:1168 ../apps/settings/settings_app.py:1171
+#: ../apps/settings/settings_app.py:1180 ../apps/settings/settings_app.py:1182
+#: ../apps/settings/settings_app.py:2497
+#, fuzzy
 msgid "update"
-msgstr ""
+msgstr "التاريخ"
 
-#: ../apps/settings/settings_app.py:1168
+#: ../apps/settings/settings_app.py:1169
 msgid "automatically check for updates"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1170
+#: ../apps/settings/settings_app.py:1171
+#, fuzzy
 msgid "&auto checking"
-msgstr ""
+msgstr "التبديل التلقائي"
 
-#: ../apps/settings/settings_app.py:1174
+#: ../apps/settings/settings_app.py:1175
 msgid "update available"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1176 ../apps/settings/settings_app.py:2480
+#: ../apps/settings/settings_app.py:1177 ../apps/settings/settings_app.py:2481
 msgid "your b.note is up to date"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1177 ../apps/settings/settings_app.py:3127
+#: ../apps/settings/settings_app.py:1178 ../apps/settings/settings_app.py:3128
+#, fuzzy
 msgid "update source"
-msgstr ""
+msgstr "التاريخ"
 
-#: ../apps/settings/settings_app.py:1179
+#: ../apps/settings/settings_app.py:1180
 msgid "source"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1181
+#: ../apps/settings/settings_app.py:1182
 msgid "delete file from explorer after installation"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1181
+#: ../apps/settings/settings_app.py:1182
+#, fuzzy
 msgid "&delete after installed"
-msgstr ""
+msgstr "تحديد ال&كل"
 
-#: ../apps/settings/settings_app.py:1185
+#: ../apps/settings/settings_app.py:1186
+#, fuzzy
 msgid "versions"
-msgstr ""
+msgstr "عكس"
 
-#: ../apps/settings/settings_app.py:1197
+#: ../apps/settings/settings_app.py:1198
 msgid "device type"
-msgstr ""
-
-#: ../apps/settings/settings_app.py:1199
-msgid "applications"
-msgstr ""
+msgstr "نوع الجهاز"
 
 #: ../apps/settings/settings_app.py:1200
+msgid "applications"
+msgstr "التطبيقات"
+
+#: ../apps/settings/settings_app.py:1201
+#, fuzzy
 msgid "application versions"
-msgstr ""
+msgstr "التطبيقات"
 
-#: ../apps/settings/settings_app.py:1200 ../apps/settings/settings_app.py:3164
+#: ../apps/settings/settings_app.py:1201 ../apps/settings/settings_app.py:3165
+#, fuzzy
 msgid "version"
-msgstr ""
+msgstr "عكس"
 
-#: ../apps/settings/settings_app.py:1203
+#: ../apps/settings/settings_app.py:1204
 msgid "firmware"
-msgstr ""
-
-#: ../apps/settings/settings_app.py:1206
-msgid "sdcard"
-msgstr ""
+msgstr "البرنامج الثابت"
 
 #: ../apps/settings/settings_app.py:1207
+msgid "sdcard"
+msgstr "بطاقة الذاكرة"
+
+#: ../apps/settings/settings_app.py:1208
+#, fuzzy
 msgid "sdcard space"
-msgstr ""
+msgstr "بطاقة الذاكرة"
 
-#: ../apps/settings/settings_app.py:1209
+#: ../apps/settings/settings_app.py:1210
+#, fuzzy
 msgid "generation 2"
-msgstr ""
+msgstr "&عكس"
 
-#: ../apps/settings/settings_app.py:1453
+#: ../apps/settings/settings_app.py:1454
 msgid "Total: {:.1f} GiB, Used: {:.1f} GiB, Free: {:.1f} GiB"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1531
+#: ../apps/settings/settings_app.py:1532
 msgid "inactive"
-msgstr ""
-
-#: ../apps/settings/settings_app.py:1533
-msgid "discharging"
-msgstr ""
+msgstr "غير ناشط"
 
 #: ../apps/settings/settings_app.py:1534
+msgid "discharging"
+msgstr "dischargingتفريغ"
+
+#: ../apps/settings/settings_app.py:1535
 msgid "charging"
-msgstr ""
+msgstr "شحن"
 
-#: ../apps/settings/settings_app.py:1536
+#: ../apps/settings/settings_app.py:1537
 msgid "fast charging"
-msgstr ""
+msgstr "شحن سريع"
 
-#: ../apps/settings/settings_app.py:1538
+#: ../apps/settings/settings_app.py:1539
 msgid "out of order"
-msgstr ""
+msgstr "خارج الخدمة"
 
-#: ../apps/settings/settings_app.py:1543 ../apps/settings/settings_app.py:1613
-#: ../apps/settings/settings_app.py:1672 ../apps/settings/settings_app.py:1692
+#: ../apps/settings/settings_app.py:1544 ../apps/settings/settings_app.py:1614
+#: ../apps/settings/settings_app.py:1673 ../apps/settings/settings_app.py:1693
 msgid "standard"
-msgstr ""
-
-#: ../apps/settings/settings_app.py:1544
-msgid "light"
-msgstr ""
+msgstr "قياسيd"
 
 #: ../apps/settings/settings_app.py:1545
-msgid "basic"
-msgstr ""
+msgid "light"
+msgstr "ليونة"
 
 #: ../apps/settings/settings_app.py:1546
+msgid "basic"
+msgstr "أساسي"
+
+#: ../apps/settings/settings_app.py:1547
 msgid "basic light"
-msgstr ""
-
-#: ../apps/settings/settings_app.py:1612
-msgid "degree"
-msgstr ""
-
-#: ../apps/settings/settings_app.py:1612
-msgid "radian"
-msgstr ""
+msgstr "أساسي ليّن"
 
 #: ../apps/settings/settings_app.py:1613
-msgid "scientific"
-msgstr ""
+msgid "degree"
+msgstr "درجة"
 
-#: ../apps/settings/settings_app.py:1614 ../apps/settings/settings_app.py:1625
+#: ../apps/settings/settings_app.py:1613
+msgid "radian"
+msgstr "الشعاع"
+
+#: ../apps/settings/settings_app.py:1614
+msgid "scientific"
+msgstr "علمي"
+
+#: ../apps/settings/settings_app.py:1615 ../apps/settings/settings_app.py:1626
 msgid "expert"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1614 ../apps/settings/settings_app.py:1625
+#: ../apps/settings/settings_app.py:1615 ../apps/settings/settings_app.py:1626
 msgid "read"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1614 ../apps/settings/settings_app.py:1625
-msgid "edit"
-msgstr ""
-
 #: ../apps/settings/settings_app.py:1615 ../apps/settings/settings_app.py:1626
+msgid "edit"
+msgstr "تحرير"
+
+#: ../apps/settings/settings_app.py:1616 ../apps/settings/settings_app.py:1627
 msgid "listen"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1616 ../apps/settings/settings_app.py:1627
-#: ../apps/settings/settings_app.py:1636 ../apps/settings/settings_app.py:1661
+#: ../apps/settings/settings_app.py:1617 ../apps/settings/settings_app.py:1628
+#: ../apps/settings/settings_app.py:1637 ../apps/settings/settings_app.py:1662
 msgid "dot 8"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1616 ../apps/settings/settings_app.py:1627
-#: ../apps/settings/settings_app.py:1636 ../apps/settings/settings_app.py:1661
-#: ../apps/edt/editor_app.py:144 ../apps/edt/editor_app.py:159
-msgid "grade 1"
-msgstr ""
-
 #: ../apps/settings/settings_app.py:1617 ../apps/settings/settings_app.py:1628
+#: ../apps/settings/settings_app.py:1637 ../apps/settings/settings_app.py:1662
+#: ../apps/edt/editor_app.py:144 ../apps/edt/editor_app.py:159
+#, fuzzy
+msgid "grade 1"
+msgstr "مستوى برايل1"
+
+#: ../apps/settings/settings_app.py:1618 ../apps/settings/settings_app.py:1629
 msgid "8 dots"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1617 ../apps/settings/settings_app.py:1628
+#: ../apps/settings/settings_app.py:1618 ../apps/settings/settings_app.py:1629
 msgid "6 dots"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1618 ../apps/settings/settings_app.py:1629
+#: ../apps/settings/settings_app.py:1619 ../apps/settings/settings_app.py:1630
 msgid "6 dots with group"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1619 ../apps/settings/settings_app.py:1630
+#: ../apps/settings/settings_app.py:1620 ../apps/settings/settings_app.py:1631
+#, fuzzy
 msgid "abbreviation"
-msgstr ""
-
-#: ../apps/settings/settings_app.py:1620 ../apps/settings/settings_app.py:1631
-msgid "by section"
-msgstr ""
-
-#: ../apps/settings/settings_app.py:1620 ../apps/settings/settings_app.py:1631
-msgid "by part"
-msgstr ""
+msgstr "الجزء"
 
 #: ../apps/settings/settings_app.py:1621 ../apps/settings/settings_app.py:1632
+#, fuzzy
+msgid "by section"
+msgstr "نهاية ال&تحديد"
+
+#: ../apps/settings/settings_app.py:1621 ../apps/settings/settings_app.py:1632
+#, fuzzy
+msgid "by part"
+msgstr "الت&جزئة"
+
+#: ../apps/settings/settings_app.py:1622 ../apps/settings/settings_app.py:1633
 msgid "total part"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1621 ../apps/settings/settings_app.py:1632
+#: ../apps/settings/settings_app.py:1622 ../apps/settings/settings_app.py:1633
 msgid "system"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1621 ../apps/settings/settings_app.py:1632
+#: ../apps/settings/settings_app.py:1622 ../apps/settings/settings_app.py:1633
 msgid "number"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1622 ../apps/settings/settings_app.py:1633
+#: ../apps/settings/settings_app.py:1623 ../apps/settings/settings_app.py:1634
 msgid "after each note"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1623 ../apps/settings/settings_app.py:1634
+#: ../apps/settings/settings_app.py:1624 ../apps/settings/settings_app.py:1635
 msgid "before each section"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1624 ../apps/settings/settings_app.py:1635
+#: ../apps/settings/settings_app.py:1625 ../apps/settings/settings_app.py:1636
+#, fuzzy
 msgid "after each section"
-msgstr ""
+msgstr "الجزء"
 
-#: ../apps/settings/settings_app.py:1636 ../apps/settings/settings_app.py:1661
+#: ../apps/settings/settings_app.py:1637 ../apps/settings/settings_app.py:1662
 #: ../apps/edt/editor_app.py:144 ../apps/edt/editor_app.py:159
+#, fuzzy
 msgid "grade 2"
-msgstr ""
+msgstr "مستوى برايل2"
 
-#: ../apps/settings/settings_app.py:1637 ../apps/settings/settings_app.py:1641
-#: ../apps/settings/settings_app.py:1643 ../apps/settings/settings_app.py:1645
-#: ../apps/settings/settings_app.py:1647 ../apps/settings/settings_app.py:1649
-#: ../apps/settings/settings_app.py:1651 ../apps/settings/settings_app.py:1653
-#: ../apps/settings/settings_app.py:1655 ../apps/settings/settings_app.py:1657
-#: ../apps/settings/settings_app.py:1659
+#: ../apps/settings/settings_app.py:1638 ../apps/settings/settings_app.py:1642
+#: ../apps/settings/settings_app.py:1644 ../apps/settings/settings_app.py:1646
+#: ../apps/settings/settings_app.py:1648 ../apps/settings/settings_app.py:1650
+#: ../apps/settings/settings_app.py:1652 ../apps/settings/settings_app.py:1654
+#: ../apps/settings/settings_app.py:1656 ../apps/settings/settings_app.py:1658
+#: ../apps/settings/settings_app.py:1660
+#, fuzzy
 msgid "invisible"
-msgstr ""
-
-#: ../apps/settings/settings_app.py:1637 ../apps/settings/settings_app.py:1639
-#: ../apps/settings/settings_app.py:1641 ../apps/settings/settings_app.py:1643
-#: ../apps/settings/settings_app.py:1645 ../apps/settings/settings_app.py:1647
-#: ../apps/settings/settings_app.py:1649 ../apps/settings/settings_app.py:1651
-#: ../apps/settings/settings_app.py:1653 ../apps/settings/settings_app.py:1655
-#: ../apps/settings/settings_app.py:1657 ../apps/settings/settings_app.py:1659
-msgid "in main apps menu"
-msgstr ""
+msgstr "ظاهر"
 
 #: ../apps/settings/settings_app.py:1638 ../apps/settings/settings_app.py:1640
 #: ../apps/settings/settings_app.py:1642 ../apps/settings/settings_app.py:1644
@@ -2549,289 +2679,319 @@ msgstr ""
 #: ../apps/settings/settings_app.py:1650 ../apps/settings/settings_app.py:1652
 #: ../apps/settings/settings_app.py:1654 ../apps/settings/settings_app.py:1656
 #: ../apps/settings/settings_app.py:1658 ../apps/settings/settings_app.py:1660
+msgid "in main apps menu"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:1639 ../apps/settings/settings_app.py:1641
+#: ../apps/settings/settings_app.py:1643 ../apps/settings/settings_app.py:1645
+#: ../apps/settings/settings_app.py:1647 ../apps/settings/settings_app.py:1649
+#: ../apps/settings/settings_app.py:1651 ../apps/settings/settings_app.py:1653
+#: ../apps/settings/settings_app.py:1655 ../apps/settings/settings_app.py:1657
+#: ../apps/settings/settings_app.py:1659 ../apps/settings/settings_app.py:1661
+#, fuzzy
 msgid "in more apps menu"
-msgstr ""
+msgstr "&تجاهل الحالة"
 
-#: ../apps/settings/settings_app.py:1662
+#: ../apps/settings/settings_app.py:1663
 msgid "normal"
-msgstr ""
+msgstr "عادي"
 
-#: ../apps/settings/settings_app.py:1662
+#: ../apps/settings/settings_app.py:1663
 msgid "significative"
-msgstr ""
-
-#: ../apps/settings/settings_app.py:1665 ../apps/settings/settings_app.py:1668
-msgid "send to screen reader"
-msgstr ""
+msgstr "ذو معنى"
 
 #: ../apps/settings/settings_app.py:1666 ../apps/settings/settings_app.py:1669
-msgid "active"
-msgstr ""
+msgid "send to screen reader"
+msgstr "إرسال إلى قارئ الشاشة"
 
-#: ../apps/settings/settings_app.py:1673
-msgid "unimanual1"
-msgstr ""
+#: ../apps/settings/settings_app.py:1667 ../apps/settings/settings_app.py:1670
+msgid "active"
+msgstr "ناشط"
 
 #: ../apps/settings/settings_app.py:1674
-msgid "unimanual2"
-msgstr ""
+msgid "unimanual1"
+msgstr "يد واحدة1"
 
 #: ../apps/settings/settings_app.py:1675
-msgid "unimanual3"
-msgstr ""
+msgid "unimanual2"
+msgstr "يد واحدة2"
 
 #: ../apps/settings/settings_app.py:1676
-msgid "unimanual4"
-msgstr ""
+msgid "unimanual3"
+msgstr "يد واحدة3"
 
-#: ../apps/settings/settings_app.py:1678
-msgid "character"
-msgstr ""
+#: ../apps/settings/settings_app.py:1677
+msgid "unimanual4"
+msgstr "يد واحدة4"
 
 #: ../apps/settings/settings_app.py:1679
-msgid "function"
-msgstr ""
+msgid "character"
+msgstr "حرف"
 
-#: ../apps/settings/settings_app.py:1692 ../apps/agenda/agenda_app.py:42
+#: ../apps/settings/settings_app.py:1680
+msgid "function"
+msgstr "وظيفة"
+
+#: ../apps/settings/settings_app.py:1693 ../apps/agenda/agenda_app.py:44
 msgid "not done"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1693 ../apps/agenda/agenda_app.py:1483
-#: ../apps/agenda/agenda_app.py:1537
+#: ../apps/settings/settings_app.py:1694 ../apps/agenda/agenda_app.py:1489
+#: ../apps/agenda/agenda_app.py:1543
 msgid "today"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1693 ../apps/agenda/agenda_app.py:1549
+#: ../apps/settings/settings_app.py:1694 ../apps/agenda/agenda_app.py:1555
+#, fuzzy
 msgid "calendar"
-msgstr ""
+msgstr "قياسيd"
 
-#: ../apps/settings/settings_app.py:1694
+#: ../apps/settings/settings_app.py:1695
 msgid "for the same day"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1694
+#: ../apps/settings/settings_app.py:1695
 msgid "for the next day"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1695
+#: ../apps/settings/settings_app.py:1696
 msgid "for the same day and the next day"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1696
+#: ../apps/settings/settings_app.py:1697
 msgid "auto"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1696
+#: ../apps/settings/settings_app.py:1697
 msgid "ask"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:1709
-msgid "none"
-msgstr ""
-
 #: ../apps/settings/settings_app.py:1710
-msgid "backward-forward"
-msgstr ""
+msgid "none"
+msgstr "لا شيء"
 
 #: ../apps/settings/settings_app.py:1711
-msgid "click"
-msgstr ""
+msgid "backward-forward"
+msgstr "ترجيع-تقديم"
 
 #: ../apps/settings/settings_app.py:1712
-msgid "double click"
-msgstr ""
+msgid "click"
+msgstr "النقر"
 
 #: ../apps/settings/settings_app.py:1713
-msgid "windows key"
-msgstr ""
+msgid "double click"
+msgstr "نقرتان"
 
 #: ../apps/settings/settings_app.py:1714
+msgid "windows key"
+msgstr "مفتاح وندوز"
+
+#: ../apps/settings/settings_app.py:1715
 msgid "context menu"
-msgstr ""
+msgstr "قائمة السياق"
 
-#: ../apps/settings/settings_app.py:1757
+#: ../apps/settings/settings_app.py:1758
 msgid "auto switch"
-msgstr ""
+msgstr "التبديل التلقائي"
 
-#: ../apps/settings/settings_app.py:1757
+#: ../apps/settings/settings_app.py:1758
 msgid "do nothing"
-msgstr ""
+msgstr "عدم القيام بأي شيءg"
 
-#: ../apps/settings/settings_app.py:1844 ../apps/settings/settings_app.py:2050
+#: ../apps/settings/settings_app.py:1845 ../apps/settings/settings_app.py:2051
 msgid "&remove"
-msgstr ""
+msgstr "إ&زالة"
 
-#: ../apps/settings/settings_app.py:1850
+#: ../apps/settings/settings_app.py:1851
+#, fuzzy
 msgid "bluetooth adapter is not powered"
-msgstr ""
+msgstr "البلوتوث"
 
-#: ../apps/settings/settings_app.py:1910
+#: ../apps/settings/settings_app.py:1911
+#, fuzzy
 msgid "bnote must restart for the name change to take effect."
-msgstr ""
+msgstr "يجب إعادة تشغيل bnote من أجل تفعيل تغيير الإسم."
 
-#: ../apps/settings/settings_app.py:1918
+#: ../apps/settings/settings_app.py:1919
 msgid "restarting..."
-msgstr ""
+msgstr "إعادة التشغيل..."
 
-#: ../apps/settings/settings_app.py:1946
+#: ../apps/settings/settings_app.py:1947
+#, fuzzy
 msgid "not connected"
-msgstr ""
+msgstr "bnote &مرئية"
 
-#: ../apps/settings/settings_app.py:1948 ../apps/settings/settings_app.py:1965
+#: ../apps/settings/settings_app.py:1949 ../apps/settings/settings_app.py:1966
 msgid "power off"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:2014 ../apps/settings/settings_app.py:2083
+#: ../apps/settings/settings_app.py:2015 ../apps/settings/settings_app.py:2084
+#, fuzzy
 msgid "command failed"
-msgstr ""
+msgstr "ملف جديد"
 
-#: ../apps/settings/settings_app.py:2041 ../apps/settings/settings_app.py:2115
-#: ../apps/settings/settings_app.py:2154
+#: ../apps/settings/settings_app.py:2042 ../apps/settings/settings_app.py:2116
+#: ../apps/settings/settings_app.py:2155
 msgid "ssid"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:2049
+#: ../apps/settings/settings_app.py:2050
+#, fuzzy
 msgid "&set first"
-msgstr ""
+msgstr "إ&عدادات"
 
-#: ../apps/settings/settings_app.py:2051 ../apps/settings/settings_app.py:2121
+#: ../apps/settings/settings_app.py:2052 ../apps/settings/settings_app.py:2122
 #: ../apps/media/mp3_app.py:110
 msgid "&add"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:2058
+#: ../apps/settings/settings_app.py:2059
 msgid "wifi adapter is not powered"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:2099
+#: ../apps/settings/settings_app.py:2100
+#, fuzzy
 msgid "deletion failed"
-msgstr ""
+msgstr "تحديد ال&كل"
 
-#: ../apps/settings/settings_app.py:2114
+#: ../apps/settings/settings_app.py:2115
 msgid "&scan"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:2118 ../apps/fman/file_manager_app.py:999
+#: ../apps/settings/settings_app.py:2119 ../apps/fman/file_manager_app.py:999
+#, fuzzy
 msgid "password"
-msgstr ""
+msgstr "الكلمات"
 
-#: ../apps/settings/settings_app.py:2131
+#: ../apps/settings/settings_app.py:2132
+#, fuzzy
 msgid "scanning..."
-msgstr ""
+msgstr "يتم الحفظ..."
 
-#: ../apps/settings/settings_app.py:2193
+#: ../apps/settings/settings_app.py:2194
 msgid "add failed"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:2222
+#: ../apps/settings/settings_app.py:2223
 msgid "hours"
-msgstr ""
+msgstr "ساعات"
 
-#: ../apps/settings/settings_app.py:2225
+#: ../apps/settings/settings_app.py:2226
 msgid "minutes"
-msgstr ""
+msgstr "دقائق"
 
-#: ../apps/settings/settings_app.py:2228
+#: ../apps/settings/settings_app.py:2229
 msgid "seconds"
-msgstr ""
+msgstr "ثوان"
 
-#: ../apps/settings/settings_app.py:2247 ../apps/settings/settings_app.py:2261
-#: ../apps/settings/settings_app.py:2314 ../apps/settings/settings_app.py:2328
-#: ../apps/settings/settings_app.py:2695 ../apps/settings/settings_app.py:2775
-#: ../apps/settings/settings_app.py:2800
+#: ../apps/settings/settings_app.py:2248 ../apps/settings/settings_app.py:2262
+#: ../apps/settings/settings_app.py:2315 ../apps/settings/settings_app.py:2329
+#: ../apps/settings/settings_app.py:2696 ../apps/settings/settings_app.py:2776
+#: ../apps/settings/settings_app.py:2801
 msgid "value not valid..."
 msgstr ""
 
-#: ../apps/settings/settings_app.py:2289
+#: ../apps/settings/settings_app.py:2290
 msgid "day"
-msgstr ""
+msgstr "اليوم"
 
-#: ../apps/settings/settings_app.py:2292
+#: ../apps/settings/settings_app.py:2293
 msgid "month"
-msgstr ""
+msgstr "الشهر"
 
-#: ../apps/settings/settings_app.py:2295
+#: ../apps/settings/settings_app.py:2296
 msgid "year"
-msgstr ""
+msgstr "السنة"
 
-#: ../apps/settings/settings_app.py:2468 ../apps/settings/settings_app.py:2546
+#: ../apps/settings/settings_app.py:2469 ../apps/settings/settings_app.py:2547
 msgid "searching update..."
 msgstr ""
 
-#: ../apps/settings/settings_app.py:2485 ../apps/settings/settings_app.py:2552
+#: ../apps/settings/settings_app.py:2486 ../apps/settings/settings_app.py:2553
 msgid "connexion failed, try again."
 msgstr ""
 
-#: ../apps/settings/settings_app.py:2493
+#: ../apps/settings/settings_app.py:2494
 msgid "the version {} of applications is available. Do you want to install it?"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:2507 ../apps/settings/settings_app.py:2582
+#: ../apps/settings/settings_app.py:2508 ../apps/settings/settings_app.py:2583
+#, fuzzy
 msgid "downloading..."
-msgstr ""
+msgstr "القراءة..."
 
-#: ../apps/settings/settings_app.py:2529 ../apps/fman/file_manager_app.py:2257
+#: ../apps/settings/settings_app.py:2530 ../apps/fman/file_manager_app.py:2257
+#, fuzzy
 msgid "unable to update."
-msgstr ""
+msgstr "هل تريد تثبيت التحديث?"
 
-#: ../apps/settings/settings_app.py:2542 ../apps/settings/settings_app.py:3209
+#: ../apps/settings/settings_app.py:2543 ../apps/settings/settings_app.py:3210
 #: ../apps/fman/file_manager_app.py:2267
 msgid "install done, restart new version..."
 msgstr ""
 
-#: ../apps/settings/settings_app.py:2556
+#: ../apps/settings/settings_app.py:2557
 msgid "No version available through this source."
 msgstr ""
 
-#: ../apps/settings/settings_app.py:2563
+#: ../apps/settings/settings_app.py:2564
+#, fuzzy
 msgid "version history"
-msgstr ""
-
-#: ../apps/settings/settings_app.py:2565
-msgid "&select a version to install"
-msgstr ""
+msgstr "عكس"
 
 #: ../apps/settings/settings_app.py:2566
-msgid "&install"
-msgstr ""
+#, fuzzy
+msgid "&select a version to install"
+msgstr "تحديد ال&كل"
 
-#: ../apps/settings/settings_app.py:2575
+#: ../apps/settings/settings_app.py:2567
+#, fuzzy
+msgid "&install"
+msgstr "إ&دراج"
+
+#: ../apps/settings/settings_app.py:2576
 msgid "this version is already installed"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:2587
-msgid "device: {}"
-msgstr ""
-
 #: ../apps/settings/settings_app.py:2588
+#, fuzzy
+msgid "device: {}"
+msgstr "نوع الجهاز"
+
+#: ../apps/settings/settings_app.py:2589
 msgid "serial number: {}"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:2589
+#: ../apps/settings/settings_app.py:2590
 msgid "subtype: {}"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:2590
+#: ../apps/settings/settings_app.py:2591
+#, fuzzy
 msgid "line length: {}"
-msgstr ""
+msgstr "طول ال&سطر"
 
-#: ../apps/settings/settings_app.py:2593
+#: ../apps/settings/settings_app.py:2594
+#, fuzzy
 msgid "option: esysuite"
-msgstr ""
-
-#: ../apps/settings/settings_app.py:2595
-msgid "applications: {}"
-msgstr ""
+msgstr "esysuite"
 
 #: ../apps/settings/settings_app.py:2596
-msgid "firmware: {}"
-msgstr ""
+#, fuzzy
+msgid "applications: {}"
+msgstr "التطبيقات"
 
 #: ../apps/settings/settings_app.py:2597
-msgid "sdcard: {}"
-msgstr ""
+#, fuzzy
+msgid "firmware: {}"
+msgstr "البرنامج الثابت"
 
-#: ../apps/settings/settings_app.py:2599
+#: ../apps/settings/settings_app.py:2598
+#, fuzzy
+msgid "sdcard: {}"
+msgstr "بطاقة الذاكرة"
+
+#: ../apps/settings/settings_app.py:2600
 msgid ""
 "{}\n"
 "{}\n"
@@ -2840,89 +3000,101 @@ msgid ""
 "Website: {}"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:2621
+#: ../apps/settings/settings_app.py:2622
+#, fuzzy
 msgid "do you want to reset parameters?"
-msgstr ""
+msgstr "هل تريد إعادة ضبط المعايير?"
 
-#: ../apps/settings/settings_app.py:2698
+#: ../apps/settings/settings_app.py:2699
+#, fuzzy
 msgid "value not valid. It must be between {} and {}."
-msgstr ""
+msgstr "ضبط غير صالح, يجب أن تكون القيمة بين 0 إلى  8."
 
-#: ../apps/settings/settings_app.py:3129
+#: ../apps/settings/settings_app.py:3130
 msgid "source &url"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:3131
+#: ../apps/settings/settings_app.py:3132
+#, fuzzy
 msgid "&set default"
-msgstr ""
+msgstr "إ&عدادات"
 
-#: ../apps/settings/settings_app.py:3155
+#: ../apps/settings/settings_app.py:3156
 msgid "source not valid..."
 msgstr ""
 
-#: ../apps/settings/settings_app.py:3162
+#: ../apps/settings/settings_app.py:3163
+#, fuzzy
 msgid "bnote versions"
-msgstr ""
+msgstr "عكس"
 
-#: ../apps/settings/settings_app.py:3168
+#: ../apps/settings/settings_app.py:3169
 msgid "&switch to"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:3169 ../apps/settings/settings_app.py:3257
-#: ../apps/timer/timer_app.py:152 ../apps/agenda/agenda_app.py:73
+#: ../apps/settings/settings_app.py:3170 ../apps/settings/settings_app.py:3258
+#: ../apps/timer/timer_app.py:152 ../apps/agenda/agenda_app.py:75
 #: ../apps/games/mines_app.py:82 ../apps/games/master_mind_app.py:83
 #: ../apps/media/mp3_app.py:104 ../apps/media/mp3_app.py:573
+#, fuzzy
 msgid "&delete"
-msgstr ""
+msgstr "حذف"
 
-#: ../apps/settings/settings_app.py:3188
+#: ../apps/settings/settings_app.py:3189
 msgid "bnote version cannot be deleted."
 msgstr ""
 
-#: ../apps/settings/settings_app.py:3193
+#: ../apps/settings/settings_app.py:3194
 msgid "bnote version is the default one and cannot be deleted."
 msgstr ""
 
-#: ../apps/settings/settings_app.py:3195
+#: ../apps/settings/settings_app.py:3196
+#, fuzzy
 msgid "bnote version deleted."
-msgstr ""
+msgstr "bnote &مرئية"
 
-#: ../apps/settings/settings_app.py:3197
+#: ../apps/settings/settings_app.py:3198
 msgid "deletion failed."
 msgstr ""
 
-#: ../apps/settings/settings_app.py:3215
+#: ../apps/settings/settings_app.py:3216
+#, fuzzy
 msgid "export settings"
-msgstr ""
+msgstr "الإعدادات"
 
-#: ../apps/settings/settings_app.py:3217 ../apps/skeleton/skeleton_app.py:103
-#: ../apps/agenda/agenda_app.py:582 ../apps/fman/file_manager_app.py:834
+#: ../apps/settings/settings_app.py:3218 ../apps/skeleton/skeleton_app.py:103
+#: ../apps/agenda/agenda_app.py:587 ../apps/fman/file_manager_app.py:834
+#, fuzzy
 msgid "&file name"
-msgstr ""
+msgstr "إ&عادة تسمية"
 
-#: ../apps/settings/settings_app.py:3232
+#: ../apps/settings/settings_app.py:3233
+#, fuzzy
 msgid "the settings file already exists. Do you want to replace it?"
-msgstr ""
+msgstr "الملف {} موجود. هل تريد استبداله؟"
 
-#: ../apps/settings/settings_app.py:3252
+#: ../apps/settings/settings_app.py:3253
+#, fuzzy
 msgid "import a settings file"
-msgstr ""
+msgstr "ملف جديد"
 
-#: ../apps/settings/settings_app.py:3254
+#: ../apps/settings/settings_app.py:3255
+#, fuzzy
 msgid "setting"
-msgstr ""
+msgstr "الإعدادات"
 
-#: ../apps/settings/settings_app.py:3256 ../apps/agenda/agenda_app.py:548
+#: ../apps/settings/settings_app.py:3257 ../apps/agenda/agenda_app.py:553
+#, fuzzy
 msgid "&import"
-msgstr ""
+msgstr "ا&ستكشاف"
 
-#: ../apps/settings/settings_app.py:3277
+#: ../apps/settings/settings_app.py:3278
 msgid ""
 "this file will be replace the existing settings file. Do you want to "
 "continue?"
 msgstr ""
 
-#: ../apps/settings/settings_app.py:3290 ../apps/fman/file_manager_app.py:2277
+#: ../apps/settings/settings_app.py:3291 ../apps/fman/file_manager_app.py:2277
 msgid "failed to import the file, check the source and try again."
 msgstr ""
 
@@ -2936,11 +3108,12 @@ msgstr ""
 
 #: ../apps/internal.py:177 ../apps/internal.py:294
 msgid "applications-"
-msgstr ""
+msgstr "التطبيقات-"
 
 #: ../apps/internal.py:272
+#, fuzzy
 msgid "&word game"
-msgstr ""
+msgstr "الكلمات"
 
 #: ../apps/internal.py:273
 msgid "mat&h game"
@@ -2955,8 +3128,9 @@ msgid "s&keleton"
 msgstr ""
 
 #: ../apps/internal.py:277
+#, fuzzy
 msgid "m&ore apps..."
-msgstr ""
+msgstr "&تجاهل الحالة"
 
 #: ../apps/internal.py:314
 msgid "usb_&a"
@@ -2967,22 +3141,27 @@ msgid "usb_&b"
 msgstr ""
 
 #: ../apps/edt/edt/read_xlsx_file.py:43
+#, fuzzy
 msgid "select sheet."
-msgstr ""
+msgstr "تحديد ورقة."
 
 #: ../apps/edt/edt/read_xlsx_file.py:55
 msgid "sheet {} type not found."
-msgstr ""
+msgstr "ورقة{} لم يتم العثور على النوع."
 
 #: ../apps/edt/edt/write_brf_file.py:124 ../apps/edt/edt/write_brf_file.py:147
+#, fuzzy
 msgid "Volume {}"
-msgstr ""
+msgstr "زيادة حجم الصوت {}"
 
 #: ../apps/edt/edt/read_file.py:72
+#, fuzzy
 msgid ""
 "the original file has already been converted. Please open the converted file "
 "or rename/delete it if you want to try again this conversion."
 msgstr ""
+"ملف موجود{}، ربما تم تحويل الملف الأصلي. الرجاء فتح الملف المحول أو قم "
+"بحذفه / إعادة تسميته إذا أردت إعادة التحويل."
 
 #: ../apps/edt/math_opy/l1l1l1ll1_opy_.py:41
 #: ../apps/edt/math_opy/l1ll1lll_opy_.py:55
@@ -2992,7 +3171,7 @@ msgstr ""
 #: ../apps/edt/math_opy/math_parser.py:398
 #: ../apps/edt/math_opy/l1llllll_opy_.py:41
 msgid "invalid function"
-msgstr ""
+msgstr "وظيفة غير صالحة"
 
 #: ../apps/edt/math_opy/l1l1l1ll1_opy_.py:72
 #: ../apps/edt/math_opy/l111l1lll_opy_.py:60
@@ -3005,7 +3184,7 @@ msgstr ""
 #: ../apps/edt/math_opy/l1111111l_opy_.py:40
 #: ../apps/edt/math_opy/l1111111l_opy_.py:42
 msgid "function not evaluable"
-msgstr ""
+msgstr "وظيفة غير متوافرة"
 
 #: ../apps/edt/math_opy/l1l1l1ll1_opy_.py:84
 #: ../apps/edt/math_opy/l1l1l1ll1_opy_.py:156
@@ -3030,12 +3209,12 @@ msgstr ""
 #: ../apps/edt/math_opy/l1llllll_opy_.py:265
 #: ../apps/edt/math_opy/l11l111l_opy_.py:58
 msgid "division by zero"
-msgstr ""
+msgstr "القسمة على صفر"
 
 #: ../apps/edt/math_opy/l1l1l1ll1_opy_.py:92
 #: ../apps/edt/math_opy/l1llllll_opy_.py:92
 msgid "invalid argument, list needed"
-msgstr ""
+msgstr "محاورة غير صالح, تحتاج القائمة"
 
 #: ../apps/edt/math_opy/l1l1l1ll1_opy_.py:192
 #: ../apps/edt/math_opy/l1l1l1ll1_opy_.py:206
@@ -3047,12 +3226,12 @@ msgstr ""
 #: ../apps/edt/math_opy/l1llllll_opy_.py:251
 #: ../apps/edt/math_opy/l1llllll_opy_.py:269
 msgid "invalid arguments"
-msgstr ""
+msgstr "محاورة غير صالح"
 
 #: ../apps/edt/math_opy/l1l1l1ll1_opy_.py:230
 #: ../apps/edt/math_opy/l1llllll_opy_.py:230
 msgid "negative sqrt error"
-msgstr ""
+msgstr "خطأ جذر تربيعي سلبي"
 
 #: ../apps/edt/math_opy/l1l1l1ll1_opy_.py:247
 #: ../apps/edt/math_opy/l1l1l1ll1_opy_.py:267
@@ -3064,23 +3243,23 @@ msgstr ""
 #: ../apps/edt/math_opy/l111l1lll_opy_.py:83
 #: ../apps/edt/math_opy/l1lllll1l_opy_.py:83
 msgid "assignment must be only into parameter"
-msgstr ""
+msgstr "يجب أن يكون التعيين في المعيار"
 
 #: ../apps/edt/math_opy/l111l1lll_opy_.py:95
 #: ../apps/edt/math_opy/l1lllll1l_opy_.py:95
 msgid "weighted arithmetic mean invalid"
-msgstr ""
+msgstr "الحساب المرجح يعني غير صالح"
 
 #: ../apps/edt/math_opy/l11ll_opy_.py:56 ../apps/edt/math_opy/l11_opy_.py:56
 msgid "error during set_parameters"
-msgstr ""
+msgstr "خطأ في أثناء إعداد _المعايير"
 
 #: ../apps/edt/math_opy/l1ll1lll_opy_.py:202
 #: ../apps/edt/math_opy/l11l1l11_opy_.py:202
 #: ../apps/edt/math_opy/l111lll1l_opy_.py:39
 #: ../apps/edt/math_opy/l11l111l_opy_.py:39
 msgid "invalid argument"
-msgstr ""
+msgstr "محاورة غير صالحة"
 
 #: ../apps/edt/math_opy/math_parser.py:312
 #: ../apps/edt/math_opy/math_parser.py:365
@@ -3089,25 +3268,26 @@ msgstr ""
 #: ../apps/edt/math_opy/math_nemeth_parser.py:293
 #: ../apps/edt/math_opy/math_nemeth_parser.py:402
 msgid "empty argument"
-msgstr ""
+msgstr "محاورة فارغة"
 
 #: ../apps/edt/math_opy/math_parser.py:420
 #: ../apps/edt/math_opy/math_nemeth_parser.py:332
 msgid "bloc error"
-msgstr ""
+msgstr "حزمة الخطأ"
 
 #: ../apps/edt/math_opy/l11lll1l_opy_.py:35
 #: ../apps/edt/math_opy/l11ll1ll1_opy_.py:35
 msgid "undefined parameters"
-msgstr ""
+msgstr "معايير غير معرّفة"
 
 #: ../apps/edt/math_opy/l111l_opy_.py:21 ../apps/edt/math_opy/l1lll1_opy_.py:21
 msgid "item not evaluable"
-msgstr ""
+msgstr "عنصر غير متوافر"
 
 #: ../apps/edt/math_opy/math_nemeth_parser.py:353
+#, fuzzy
 msgid "malformed fraction"
-msgstr ""
+msgstr "معلومات"
 
 #: ../apps/edt/editor_app.py:45
 msgid "read only"
@@ -3115,47 +3295,52 @@ msgstr ""
 
 #: ../apps/edt/editor_app.py:59 ../apps/wikipedia/wikipedia_app.py:54
 msgid "clean&up"
-msgstr ""
+msgstr "&مسح"
 
 #: ../apps/edt/editor_app.py:61
+#, fuzzy
 msgid "&export to .brf"
-msgstr ""
+msgstr "ا&ستكشاف"
 
 #: ../apps/edt/editor_app.py:62
+#, fuzzy
 msgid "send se&lection to"
-msgstr ""
+msgstr "نهاية ال&تحديد"
 
 #: ../apps/edt/editor_app.py:72
 msgid "&result"
-msgstr ""
+msgstr "ال&نتيجة"
 
 #: ../apps/edt/editor_app.py:74
 msgid "&signature"
-msgstr ""
+msgstr "الت&وقيع"
 
 #: ../apps/edt/editor_app.py:78
 msgid "&math"
-msgstr ""
+msgstr "&رياضيات"
 
 #: ../apps/edt/editor_app.py:80
 msgid "&line evaluation"
-msgstr ""
+msgstr "مجموع ال&سطر"
 
 #: ../apps/edt/editor_app.py:82
 msgid "&bloc evaluation"
-msgstr ""
+msgstr "مجموع ال&مقطع"
 
 #: ../apps/edt/editor_app.py:141
+#, fuzzy
 msgid "export to braille"
-msgstr ""
+msgstr "ملف جديد"
 
 #: ../apps/edt/editor_app.py:143 ../apps/translator/translator_app.py:194
+#, fuzzy
 msgid "language &encoding"
-msgstr ""
+msgstr "اللغة"
 
 #: ../apps/edt/editor_app.py:146
+#, fuzzy
 msgid "line &length"
-msgstr ""
+msgstr "&طول الأسطر"
 
 #: ../apps/edt/editor_app.py:147
 msgid "lines by &page"
@@ -3170,8 +3355,9 @@ msgid "click &here to enter the first page"
 msgstr ""
 
 #: ../apps/edt/editor_app.py:166
+#, fuzzy
 msgid "exporting..."
-msgstr ""
+msgstr "إعادة التشغيل..."
 
 #: ../apps/edt/editor_app.py:179
 msgid ""
@@ -3196,12 +3382,14 @@ msgid "you must select text to send"
 msgstr ""
 
 #: ../apps/edt/editor_app.py:196 ../apps/translator/translator_app.py:191
+#, fuzzy
 msgid "send text to"
-msgstr ""
+msgstr "إرسال إلى"
 
 #: ../apps/edt/editor_app.py:198 ../apps/translator/translator_app.py:193
+#, fuzzy
 msgid "&device"
-msgstr ""
+msgstr "نوع الجهاز"
 
 #: ../apps/edt/editor_app.py:215
 msgid ""
@@ -3214,59 +3402,63 @@ msgid "you must be in computer braille to use the translation."
 msgstr ""
 
 #: ../apps/edt/editor_app.py:310
+#, fuzzy
 msgid "nan value"
-msgstr ""
+msgstr "ال&قيمة"
 
 #: ../apps/edt/editor_app.py:317 ../apps/edt/editor_app.py:368
 msgid "result:{}"
-msgstr ""
+msgstr "النتيجة: {}"
 
 #: ../apps/edt/editor_app.py:320
 msgid "Error forgotten formula start marks"
-msgstr ""
+msgstr "خطأ صيغة مفقودة، بداية العلامات"
 
 #: ../apps/edt/editor_app.py:327
 msgid "Error:{} at pos:{}"
-msgstr ""
+msgstr "خطأ:{} عند النقات:{}"
 
 #: ../apps/edt/editor_app.py:375
+#, fuzzy
 msgid "error:{} at pos:{}"
-msgstr ""
+msgstr "خطأ:{} عند النقات:{}"
 
 #: ../apps/edt/editor_app.py:378
+#, fuzzy
 msgid "error forgotten formula start marks"
-msgstr ""
+msgstr "خطأ صيغة مفقودة، بداية العلامات"
 
 #: ../apps/edt/editor_app.py:409
+#, fuzzy
 msgid "no result"
-msgstr ""
+msgstr "ال&نتيجة"
 
 #: ../apps/edt/editor_app.py:419
 msgid "%A %d %B %Y"
-msgstr ""
+msgstr "%A %d %B %Y"
 
 #: ../apps/edt/editor_app.py:442
 msgid "signature.txt not found."
-msgstr ""
+msgstr "لم يتم العثور على signature.txt."
 
 #: ../apps/edt/editor_base_app.py:113 ../apps/wikipedia/wikipedia_app.py:58
 #: ../apps/daisy/daisy_app.py:87 ../apps/fman/file_manager_app.py:198
 #: ../apps/fman/file_manager_app.py:264 ../apps/fman/file_manager_app.py:295
 msgid "&edit"
-msgstr ""
+msgstr "&تحرير"
 
 #: ../apps/edt/editor_base_app.py:116
 msgid "&undo"
-msgstr ""
+msgstr "الت&راجع"
 
 #: ../apps/edt/editor_base_app.py:118
 msgid "&redo"
-msgstr ""
+msgstr "إ&عادة"
 
 #: ../apps/edt/editor_base_app.py:123 ../apps/wikipedia/wikipedia_app.py:62
 #: ../apps/daisy/daisy_app.py:89
 msgid "curs&or"
-msgstr ""
+msgstr "ال&مؤشر"
 
 #: ../apps/edt/editor_base_app.py:124 ../apps/wikipedia/wikipedia_app.py:63
 #: ../apps/daisy/daisy_app.py:90
@@ -3274,246 +3466,260 @@ msgid "forward in grade2 braille"
 msgstr ""
 
 #: ../apps/edt/editor_base_app.py:131
+#, fuzzy
 msgid "&selection"
-msgstr ""
+msgstr "نهاية ال&تحديد"
 
 #: ../apps/edt/editor_base_app.py:133 ../apps/fman/file_manager_app.py:200
+#, fuzzy
 msgid "&start selection"
-msgstr ""
+msgstr "&تحديد"
 
 #: ../apps/edt/editor_base_app.py:136 ../apps/fman/file_manager_app.py:204
+#, fuzzy
 msgid "&end selection"
-msgstr ""
+msgstr "نهاية ال&تحديد"
 
 #: ../apps/edt/editor_base_app.py:139
+#, fuzzy
 msgid "to the s&tart of doc"
-msgstr ""
+msgstr "ال&مستند"
 
 #: ../apps/edt/editor_base_app.py:140
+#, fuzzy
 msgid "to the e&nd of doc"
-msgstr ""
+msgstr "ال&مستند"
 
 #: ../apps/edt/editor_base_app.py:141 ../apps/fman/file_manager_app.py:217
 #: ../apps/fman/file_manager_app.py:274 ../apps/fman/file_manager_app.py:308
 msgid "select &all"
-msgstr ""
+msgstr "تحديد ال&كل"
 
 #: ../apps/edt/editor_base_app.py:144 ../apps/fman/file_manager_app.py:208
 #: ../apps/fman/file_manager_app.py:305
 msgid "cu&t"
-msgstr ""
+msgstr "&قص"
 
 #: ../apps/edt/editor_base_app.py:146 ../apps/fman/file_manager_app.py:211
 msgid "&copy"
-msgstr ""
+msgstr "&نسخ"
 
 #: ../apps/edt/editor_base_app.py:148 ../apps/fman/file_manager_app.py:214
 msgid "&paste"
-msgstr ""
+msgstr "&لصق"
 
 #: ../apps/edt/editor_base_app.py:154 ../apps/edt/editor_base_app.py:156
 #: ../apps/edt/editor_base_app.py:168 ../apps/edt/editor_base_app.py:170
-#: ../apps/agenda/agenda_app.py:96 ../apps/agenda/agenda_app.py:501
-#: ../apps/agenda/agenda_app.py:515 ../apps/fman/file_manager_app.py:155
+#: ../apps/agenda/agenda_app.py:98 ../apps/agenda/agenda_app.py:506
+#: ../apps/agenda/agenda_app.py:520 ../apps/fman/file_manager_app.py:155
 #: ../apps/fman/file_manager_app.py:190 ../apps/fman/file_manager_app.py:837
 msgid "fi&nd"
-msgstr ""
+msgstr "ب&حث"
 
 #: ../apps/edt/editor_base_app.py:158 ../apps/edt/editor_base_app.py:174
 #: ../apps/edt/editor_base_app.py:208
 msgid "ne&xt"
-msgstr ""
+msgstr "ال&تالي"
 
 #: ../apps/edt/editor_base_app.py:161 ../apps/edt/editor_base_app.py:180
 #: ../apps/edt/editor_base_app.py:211 ../apps/edt/editor_base_app.py:863
 #: ../apps/edt/editor_base_app.py:892
 msgid "&previous"
-msgstr ""
+msgstr "ال&سابق"
 
 #: ../apps/edt/editor_base_app.py:172
 msgid "&replace"
-msgstr ""
+msgstr "است&بدال"
 
 #: ../apps/edt/editor_base_app.py:177 ../apps/edt/editor_base_app.py:891
 msgid "replace and n&ext"
-msgstr ""
+msgstr "استبدال والت&الي"
 
 #: ../apps/edt/editor_base_app.py:183
 msgid "replace and pre&vious"
-msgstr ""
+msgstr "استبدال والساب&ق"
 
 #: ../apps/edt/editor_base_app.py:186 ../apps/edt/editor_base_app.py:894
 msgid "replace &all"
-msgstr ""
+msgstr "استبدال ال&كل"
 
-#: ../apps/edt/editor_base_app.py:193 ../apps/agenda/agenda_app.py:83
+#: ../apps/edt/editor_base_app.py:193 ../apps/agenda/agenda_app.py:85
 #: ../apps/fman/file_manager_app.py:226
 msgid "&goto"
-msgstr ""
+msgstr "ال&ذهاب إلى"
 
 #: ../apps/edt/editor_base_app.py:195
 msgid "&beginning of document"
 msgstr ""
 
 #: ../apps/edt/editor_base_app.py:196
+#, fuzzy
 msgid "&end of document"
-msgstr ""
+msgstr "ال&مستند"
 
 #: ../apps/edt/editor_base_app.py:197
+#, fuzzy
 msgid "&previous paragraphe"
-msgstr ""
+msgstr "ال&فقرة"
 
 #: ../apps/edt/editor_base_app.py:198
+#, fuzzy
 msgid "&next paragraphe"
-msgstr ""
+msgstr "ال&فقرة"
 
 #: ../apps/edt/editor_base_app.py:203
+#, fuzzy
 msgid "&bookmark"
-msgstr ""
+msgstr "&علامات مرجعية"
 
 #: ../apps/edt/editor_base_app.py:205
 msgid "&insert/delete"
-msgstr ""
+msgstr "إ&دراج/حذف"
 
 #: ../apps/edt/editor_base_app.py:214
 msgid "clear &all"
-msgstr ""
+msgstr "&حذف الكل"
 
 #: ../apps/edt/editor_base_app.py:223
 msgid "&document"
-msgstr ""
+msgstr "ال&مستند"
 
 #: ../apps/edt/editor_base_app.py:225
 msgid "&paragraph"
-msgstr ""
+msgstr "ال&فقرة"
 
 #: ../apps/edt/editor_base_app.py:469 ../apps/edt/editor_base_app.py:1283
 #: ../apps/daisy/daisy_app.py:254
 msgid "reading..."
-msgstr ""
+msgstr "القراءة..."
 
 #: ../apps/edt/editor_base_app.py:691
 msgid "do you want to save the document before closing?"
-msgstr ""
+msgstr "هل تريد حفظ المستند قبل إغلاقه؟"
 
 #: ../apps/edt/editor_base_app.py:726
 msgid "cleanup..."
-msgstr ""
+msgstr "مسح..."
 
 #: ../apps/edt/editor_base_app.py:746 ../apps/daisy/daisy_app.py:412
 msgid "statistics"
-msgstr ""
+msgstr "الإحصاءات"
 
 #: ../apps/edt/editor_base_app.py:748
+#, fuzzy
 msgid "filename"
-msgstr ""
+msgstr "إ&عادة تسمية"
 
 #: ../apps/edt/editor_base_app.py:751 ../apps/daisy/daisy_app.py:429
 msgid "paragraphs"
-msgstr ""
+msgstr "الفقرات"
 
 #: ../apps/edt/editor_base_app.py:754 ../apps/daisy/daisy_app.py:432
 msgid "words"
-msgstr ""
+msgstr "الكلمات"
 
 #: ../apps/edt/editor_base_app.py:757 ../apps/daisy/daisy_app.py:435
 msgid "characters"
-msgstr ""
+msgstr "الأحرف"
 
 #: ../apps/edt/editor_base_app.py:797 ../apps/games/master_mind_app.py:375
 msgid "cursor"
-msgstr ""
+msgstr "المؤشر"
 
 #: ../apps/edt/editor_base_app.py:799
 msgid "line"
-msgstr ""
+msgstr "السطر"
 
 #: ../apps/edt/editor_base_app.py:802
 msgid "column"
-msgstr ""
+msgstr "العمود"
 
 #: ../apps/edt/editor_base_app.py:847
+#, fuzzy
 msgid "the file is not completely read"
-msgstr ""
+msgstr "ملف التحديث متلف."
 
 #: ../apps/edt/editor_base_app.py:857 ../apps/edt/editor_base_app.py:859
-#: ../apps/edt/editor_base_app.py:884 ../apps/agenda/agenda_app.py:509
+#: ../apps/edt/editor_base_app.py:884 ../apps/agenda/agenda_app.py:514
 msgid "find"
-msgstr ""
+msgstr "بحث"
 
 #: ../apps/edt/editor_base_app.py:862 ../apps/edt/editor_base_app.py:890
-#: ../apps/agenda/agenda_app.py:585 ../apps/media/mp3_app.py:131
+#: ../apps/agenda/agenda_app.py:590 ../apps/media/mp3_app.py:131
 msgid "&next"
-msgstr ""
+msgstr "ال&تالي"
 
 #: ../apps/edt/editor_base_app.py:866 ../apps/edt/editor_base_app.py:897
 msgid "&ignore upper case"
-msgstr ""
+msgstr "ت&جاهل الأحرف الكبيرة"
 
 #: ../apps/edt/editor_base_app.py:869 ../apps/edt/editor_base_app.py:900
 msgid "&mask accent"
-msgstr ""
+msgstr "&حجب علامات الترقيم"
 
 #: ../apps/edt/editor_base_app.py:872 ../apps/edt/editor_base_app.py:903
 msgid "&entire word"
-msgstr ""
+msgstr "ال&كلمة الحالية"
 
 #: ../apps/edt/editor_base_app.py:882 ../apps/edt/editor_base_app.py:887
 msgid "replace"
-msgstr ""
+msgstr "استبدال"
 
 #: ../apps/edt/editor_base_app.py:893
 msgid "replace and p&revious"
-msgstr ""
+msgstr "الإستبدال والساب&ق"
 
 #: ../apps/edt/editor_base_app.py:1083
 msgid "invalid line number."
-msgstr ""
+msgstr "رقم سطر غير صالح."
 
 #: ../apps/edt/editor_base_app.py:1093
 msgid "invalid column number."
-msgstr ""
+msgstr "رقم عمود غير صالح."
 
 #: ../apps/edt/editor_base_app.py:1104
 msgid "coordinates apart from document."
-msgstr ""
+msgstr "تنسيقات بمعزل عن المستند."
 
 #: ../apps/edt/editor_base_app.py:1153
 msgid "the string found is not a word !"
-msgstr ""
+msgstr "النص الذي عثر عليه ليس كلمة !"
 
 #: ../apps/edt/editor_base_app.py:1179
 msgid "replacement can not be done."
-msgstr ""
+msgstr "لا يمكن إجراء الإستبدال."
 
 #: ../apps/edt/editor_base_app.py:1195
 msgid "start of document reached, string not found."
-msgstr ""
+msgstr "بداية المستند, لم يتم العثور على النص."
 
 #: ../apps/edt/editor_base_app.py:1200
 msgid "end of document reached, string not found."
-msgstr ""
+msgstr "نهاية المستند, لم يتم العثور على النص."
 
 #: ../apps/edt/editor_base_app.py:1268
 msgid "&sheet"
-msgstr ""
+msgstr "&ورقة"
 
 #: ../apps/edt/editor_base_app.py:1312 ../apps/edt/editor_base_app.py:1319
 #: ../apps/fman/file_manager_app.py:1086
 msgid "unknown error"
-msgstr ""
+msgstr "خطأ غير معروف"
 
 #: ../apps/wikipedia/wikipedia_app.py:53
+#, fuzzy
 msgid "&research"
-msgstr ""
+msgstr "إ&عادة التشغيل"
 
 #: ../apps/wikipedia/wikipedia_app.py:191
+#, fuzzy
 msgid "&suggestions"
-msgstr ""
+msgstr "سؤال"
 
 #: ../apps/wikipedia/wikipedia_app.py:195
+#, fuzzy
 msgid "&find"
-msgstr ""
+msgstr "بحث"
 
 #: ../apps/wikipedia/wikipedia_app.py:248
 msgid "there is no text found in the suggestion's combobox."
@@ -3530,20 +3736,23 @@ msgid "daisy"
 msgstr ""
 
 #: ../apps/daisy/daisy_app.py:81 ../apps/daisy/daisy_app.py:278
+#, fuzzy
 msgid "c&ontents"
-msgstr ""
+msgstr "قائمة السياق"
 
 #: ../apps/daisy/daisy_app.py:103
+#, fuzzy
 msgid "pa&use/resume"
-msgstr ""
+msgstr "إ&عادة التشغيل"
 
 #: ../apps/daisy/daisy_app.py:414
+#, fuzzy
 msgid "duration"
-msgstr ""
+msgstr "الجزء"
 
 #: ../apps/daisy/daisy_app.py:417 ../apps/fman/file_manager_app.py:873
 msgid "file"
-msgstr ""
+msgstr "ملف"
 
 #: ../apps/daisy/daisy_app.py:420 ../apps/eole/eole_search_dialog_box.py:64
 #: ../apps/media/mp3_app.py:798
@@ -3555,8 +3764,9 @@ msgid "author"
 msgstr ""
 
 #: ../apps/daisy/daisy_app.py:426
+#, fuzzy
 msgid "identifier"
-msgstr ""
+msgstr "علمي"
 
 #: ../apps/skeleton/skeleton_app.py:40
 msgid "skeleton"
@@ -3589,16 +3799,18 @@ msgid "example"
 msgstr ""
 
 #: ../apps/skeleton/skeleton_app.py:94
+#, fuzzy
 msgid "&multilineseditbox"
-msgstr ""
+msgstr "ال&محرر"
 
 #: ../apps/skeleton/skeleton_app.py:98
 msgid "&read_only_multilineseditbox"
 msgstr ""
 
 #: ../apps/skeleton/skeleton_app.py:101
+#, fuzzy
 msgid "&editbox"
-msgstr ""
+msgstr "ال&محرر"
 
 #: ../apps/skeleton/skeleton_app.py:102
 msgid "&listbox"
@@ -3613,16 +3825,18 @@ msgid "&checkbox"
 msgstr ""
 
 #: ../apps/skeleton/skeleton_app.py:114 ../apps/media/mp3_app.py:482
+#, fuzzy
 msgid "insert file"
-msgstr ""
+msgstr "ملف جديد"
 
 #: ../apps/skeleton/skeleton_app.py:124
 msgid "Hello bnote."
 msgstr ""
 
 #: ../apps/skeleton/skeleton_app.py:130
+#, fuzzy
 msgid "application skeleton V1.0.1"
-msgstr ""
+msgstr "التطبيقات"
 
 #: ../apps/eole/eole_search_dialog_box.py:30
 msgid "Human voice and Full daisy (braille + synthesis voice)"
@@ -3639,8 +3853,9 @@ msgstr ""
 #: ../apps/eole/eole_search_dialog_box.py:36
 #: ../apps/eole/eole_search_dialog_box.py:99
 #: ../apps/eole/eole_search_dialog_box.py:108
+#, fuzzy
 msgid "All"
-msgstr ""
+msgstr "البرايل"
 
 #: ../apps/eole/eole_search_dialog_box.py:37
 msgid "Adult"
@@ -3663,13 +3878,15 @@ msgid "13 years and over"
 msgstr ""
 
 #: ../apps/eole/eole_search_dialog_box.py:48
+#, fuzzy
 msgid "result"
-msgstr ""
+msgstr "ال&نتيجة"
 
 #: ../apps/eole/eole_search_dialog_box.py:52
 #: ../apps/eole/eole_search_dialog_box.py:63
+#, fuzzy
 msgid "support"
-msgstr ""
+msgstr "نقل"
 
 #: ../apps/eole/eole_search_dialog_box.py:53
 msgid "search for authors, titles and abstracts"
@@ -3687,8 +3904,9 @@ msgstr ""
 
 #: ../apps/eole/eole_search_dialog_box.py:57
 #: ../apps/eole/eole_search_dialog_box.py:74
+#, fuzzy
 msgid "&download"
-msgstr ""
+msgstr "إ&طفاء الجهاز"
 
 #: ../apps/eole/eole_search_dialog_box.py:67
 #: ../apps/fman/file_manager_app.py:1134
@@ -3700,8 +3918,9 @@ msgid "genre"
 msgstr ""
 
 #: ../apps/eole/eole_search_dialog_box.py:70
+#, fuzzy
 msgid "age"
-msgstr ""
+msgstr "الزاوية"
 
 #: ../apps/eole/eole_search_dialog_box.py:79
 msgid "Eole"
@@ -3724,16 +3943,19 @@ msgid "to many result (found {} and maxi is {})"
 msgstr ""
 
 #: ../apps/eole/eole_search_dialog_box.py:168
+#, fuzzy
 msgid "no results..."
-msgstr ""
+msgstr "ال&نتيجة"
 
 #: ../apps/timer/timer_app.py:57
+#, fuzzy
 msgid "start/stop"
-msgstr ""
+msgstr "&تحديد"
 
 #: ../apps/timer/timer_app.py:61
+#, fuzzy
 msgid "&marker"
-msgstr ""
+msgstr "&علامات مرجعية"
 
 #: ../apps/timer/timer_app.py:63
 msgid "add &marker"
@@ -3744,8 +3966,9 @@ msgid "&show markers"
 msgstr ""
 
 #: ../apps/timer/timer_app.py:69 ../apps/translator/translator_app.py:94
+#, fuzzy
 msgid "&clear"
-msgstr ""
+msgstr "&حذف الكل"
 
 #: ../apps/timer/timer_app.py:72
 msgid "&launch timer"
@@ -3756,53 +3979,60 @@ msgid "add marker point"
 msgstr ""
 
 #: ../apps/timer/timer_app.py:124 ../apps/timer/timer_app.py:169
+#, fuzzy
 msgid "&marker name"
-msgstr ""
+msgstr "إ&عادة تسمية"
 
 #: ../apps/timer/timer_app.py:125
 msgid "c&reate"
 msgstr ""
 
 #: ../apps/timer/timer_app.py:135
+#, fuzzy
 msgid "a marker already exists at this location, would you like to replace it?"
-msgstr ""
+msgstr "الملف {} موجود. هل تريد استبداله؟"
 
 #: ../apps/timer/timer_app.py:146
 msgid "&marker list"
 msgstr ""
 
 #: ../apps/timer/timer_app.py:150
+#, fuzzy
 msgid "show &name"
-msgstr ""
+msgstr "&اسم bnote"
 
 #: ../apps/timer/timer_app.py:151 ../apps/fman/file_manager_app.py:135
 #: ../apps/fman/file_manager_app.py:170 ../apps/fman/file_manager_app.py:353
 msgid "&rename"
-msgstr ""
+msgstr "إ&عادة تسمية"
 
 #: ../apps/timer/timer_app.py:158
 msgid "marker list"
 msgstr ""
 
 #: ../apps/timer/timer_app.py:167
+#, fuzzy
 msgid "rename marker"
-msgstr ""
+msgstr "إعادة التسمية"
 
 #: ../apps/timer/timer_app.py:191
 msgid "create timer"
 msgstr ""
 
 #: ../apps/timer/timer_app.py:193
+#, fuzzy
 msgid "&hours"
-msgstr ""
+msgstr "ساعات"
 
 #: ../apps/timer/timer_app.py:194
+#, fuzzy
 msgid "&minutes"
-msgstr ""
+msgstr "دقائق"
 
 #: ../apps/timer/timer_app.py:195
+#, fuzzy
 msgid "&seconds"
-msgstr ""
+msgstr "ثوان"
 
 #: ../apps/timer/timer_app.py:196 ../apps/media/radio_app.py:78
 msgid "&start"
@@ -3837,29 +4067,34 @@ msgid "{}:{}:{}.{} paused"
 msgstr ""
 
 #: ../apps/translator/translator_app.py:91
+#, fuzzy
 msgid "&chose languages"
-msgstr ""
+msgstr "ال&لغة"
 
 #: ../apps/translator/translator_app.py:92
+#, fuzzy
 msgid "&invert languages"
-msgstr ""
+msgstr "ال&لغة"
 
 #: ../apps/translator/translator_app.py:93 ../apps/fman/file_manager_app.py:134
 #: ../apps/fman/file_manager_app.py:169 ../apps/fman/file_manager_app.py:352
 msgid "&send to"
-msgstr ""
+msgstr "إ&رسال إلى"
 
 #: ../apps/translator/translator_app.py:136
+#, fuzzy
 msgid "enter text"
-msgstr ""
+msgstr "إرسال إلى"
 
 #: ../apps/translator/translator_app.py:138
+#, fuzzy
 msgid "&text to translate"
-msgstr ""
+msgstr "ملف جديد"
 
 #: ../apps/translator/translator_app.py:156
+#, fuzzy
 msgid "chose languages"
-msgstr ""
+msgstr "اللغات"
 
 #: ../apps/translator/translator_app.py:158
 msgid "&source"
@@ -3874,8 +4109,9 @@ msgid "translation copy to the clipboard"
 msgstr ""
 
 #: ../apps/translator/translator_app.py:346
+#, fuzzy
 msgid "translating..."
-msgstr ""
+msgstr "إعادة التشغيل..."
 
 #: ../apps/translator/translator_app.py:379
 msgid "you cannot translate text with more than 500 characters."
@@ -3888,8 +4124,9 @@ msgid ""
 msgstr ""
 
 #: ../apps/translator/translator_app.py:396
+#, fuzzy
 msgid "Translation ({}): {}"
-msgstr ""
+msgstr "استخراج {}% {}"
 
 #: ../apps/translator/translator_app.py:398
 msgid "Source ({}): {}"
@@ -3897,8 +4134,9 @@ msgstr ""
 
 #: ../apps/braille_learning/operation_app.py:59
 #: ../apps/braille_learning/operation_app.py:199
+#, fuzzy
 msgid "math game"
-msgstr ""
+msgstr "رياضيات"
 
 #: ../apps/braille_learning/operation_app.py:64
 #: ../apps/braille_learning/write_word_app.py:94 ../apps/games/mines_app.py:185
@@ -3920,20 +4158,23 @@ msgstr ""
 
 #: ../apps/braille_learning/operation_app.py:71
 #: ../apps/braille_learning/write_word_app.py:103
+#, fuzzy
 msgid "&reset application"
-msgstr ""
+msgstr "الت&طبيقات"
 
 #: ../apps/braille_learning/operation_app.py:101
 msgid "&change to table"
 msgstr ""
 
 #: ../apps/braille_learning/operation_app.py:105
+#, fuzzy
 msgid "&select table"
-msgstr ""
+msgstr "تحديد ال&كل"
 
 #: ../apps/braille_learning/operation_app.py:149
+#, fuzzy
 msgid "the result was {}"
-msgstr ""
+msgstr "النتيجة: {}"
 
 #: ../apps/braille_learning/operation_app.py:158
 #: ../apps/braille_learning/operation_app.py:160
@@ -3943,21 +4184,24 @@ msgid "all tables"
 msgstr ""
 
 #: ../apps/braille_learning/operation_app.py:164
+#, fuzzy
 msgid "select table"
-msgstr ""
+msgstr "تحديد ال&كل"
 
 #: ../apps/braille_learning/operation_app.py:166
 msgid "&table to"
 msgstr ""
 
 #: ../apps/braille_learning/operation_app.py:176
+#, fuzzy
 msgid "do you really want to erase the score of this table?"
-msgstr ""
+msgstr "هل تريد إعادة ضبط المعايير?"
 
 #: ../apps/braille_learning/operation_app.py:187
 #: ../apps/braille_learning/write_word_app.py:243
+#, fuzzy
 msgid "do you really want to reset the application?"
-msgstr ""
+msgstr "هل تريد إعادة ضبط المعايير?"
 
 #: ../apps/braille_learning/operation_app.py:199
 #: ../apps/braille_learning/write_word_app.py:255
@@ -3973,8 +4217,9 @@ msgid "no, it's not the good result. Try again"
 msgstr ""
 
 #: ../apps/braille_learning/operation_app.py:233
+#, fuzzy
 msgid "&see the solution"
-msgstr ""
+msgstr "مجموع ال&سطر"
 
 #: ../apps/braille_learning/operation_app.py:250
 msgid "for the table of {}, the score is {}"
@@ -4030,8 +4275,9 @@ msgstr ""
 
 #: ../apps/braille_learning/write_word_app.py:89
 #: ../apps/braille_learning/write_word_app.py:255
+#, fuzzy
 msgid "word game"
-msgstr ""
+msgstr "الكلمات"
 
 #: ../apps/braille_learning/write_word_app.py:96
 msgid "&show to this level"
@@ -4051,12 +4297,14 @@ msgid "&change to level"
 msgstr ""
 
 #: ../apps/braille_learning/write_word_app.py:102
+#, fuzzy
 msgid "switch &language"
-msgstr ""
+msgstr "ال&لغة"
 
 #: ../apps/braille_learning/write_word_app.py:135
+#, fuzzy
 msgid "&select a level"
-msgstr ""
+msgstr "تحديد ال&كل"
 
 #: ../apps/braille_learning/write_word_app.py:195
 msgid "good, you have found the good word!!!"
@@ -4075,8 +4323,9 @@ msgid "&level list"
 msgstr ""
 
 #: ../apps/braille_learning/write_word_app.py:232
+#, fuzzy
 msgid "do you really want to erase the score of this level?"
-msgstr ""
+msgstr "هل تريد إعادة ضبط المعايير?"
 
 #: ../apps/braille_learning/write_word_app.py:277
 msgid "for level {}, the score is {}"
@@ -4087,486 +4336,544 @@ msgid "you must select a level from the menu"
 msgstr ""
 
 #: ../apps/bt/bluetooth_app.py:31
+#, fuzzy
 msgid "bluetooth listening"
-msgstr ""
+msgstr "البلوتوث"
 
-#: ../apps/agenda/agenda_app.py:43
+#: ../apps/agenda/agenda_app.py:45
+#, fuzzy
 msgid "done"
-msgstr ""
+msgstr "bnote &مرئية"
 
-#: ../apps/agenda/agenda_app.py:66
+#: ../apps/agenda/agenda_app.py:68
 msgid "&event"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:68 ../apps/games/mines_app.py:66
+#: ../apps/agenda/agenda_app.py:70 ../apps/games/mines_app.py:66
 #: ../apps/games/master_mind_app.py:67
 msgid "&new"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:70
+#: ../apps/agenda/agenda_app.py:72
+#, fuzzy
 msgid "&modify"
-msgstr ""
+msgstr "ال&نسق"
 
-#: ../apps/agenda/agenda_app.py:71
+#: ../apps/agenda/agenda_app.py:73
 msgid "&change status"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:76
+#: ../apps/agenda/agenda_app.py:78
 msgid "delete e&xpired events"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:79
+#: ../apps/agenda/agenda_app.py:81
 msgid "delete &completed events"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:85
+#: ../apps/agenda/agenda_app.py:87
+#, fuzzy
 msgid "&previous week"
-msgstr ""
+msgstr "ال&سابق"
 
-#: ../apps/agenda/agenda_app.py:88
+#: ../apps/agenda/agenda_app.py:90
+#, fuzzy
 msgid "&next week"
-msgstr ""
+msgstr "ال&تالي"
 
-#: ../apps/agenda/agenda_app.py:91
+#: ../apps/agenda/agenda_app.py:93
+#, fuzzy
 msgid "previous d&ay"
-msgstr ""
+msgstr "ال&سابق"
 
-#: ../apps/agenda/agenda_app.py:92
+#: ../apps/agenda/agenda_app.py:94
 msgid "next &day"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:98
-msgid "find &date"
-msgstr ""
-
 #: ../apps/agenda/agenda_app.py:100
-msgid "find in a&genda"
-msgstr ""
+#, fuzzy
+msgid "find &date"
+msgstr "ال&تاريخ"
 
-#: ../apps/agenda/agenda_app.py:105
-msgid "agenda &gestion"
-msgstr ""
+#: ../apps/agenda/agenda_app.py:102
+#, fuzzy
+msgid "find in a&genda"
+msgstr "ال&تاريخ"
 
 #: ../apps/agenda/agenda_app.py:107
+#, fuzzy
+msgid "agenda &gestion"
+msgstr "نهاية ال&تحديد"
+
+#: ../apps/agenda/agenda_app.py:109
 msgid "&import agenda file"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:109
-msgid "&export agenda file"
-msgstr ""
-
 #: ../apps/agenda/agenda_app.py:111
+#, fuzzy
+msgid "&export agenda file"
+msgstr "ملف جديد"
+
+#: ../apps/agenda/agenda_app.py:113
+#, fuzzy
 msgid "e&mpty agenda"
+msgstr "محاورة فارغة"
+
+#: ../apps/agenda/agenda_app.py:116
+msgid "a&bout"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:197
+#: ../apps/agenda/agenda_app.py:202
 msgid ""
 "your agenda file is corrupt. You can copy the file in your document folder, "
 "but app can't open it. What do you want to do?"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:199
+#: ../apps/agenda/agenda_app.py:204
 msgid "&save and delete file"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:200
+#: ../apps/agenda/agenda_app.py:205
 msgid "&erase agenda"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:209
+#: ../apps/agenda/agenda_app.py:214
 msgid "agenda saving"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:214
+#: ../apps/agenda/agenda_app.py:219
 msgid "the file has been correctly copy and the agenda has clear"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:347
+#: ../apps/agenda/agenda_app.py:352
 msgid "from today's ({})"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:348
+#: ../apps/agenda/agenda_app.py:353
 msgid "for today ({})"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:349
+#: ../apps/agenda/agenda_app.py:354
+#, fuzzy
 msgid "not done ({})"
-msgstr ""
+msgstr "bnote &مرئية"
 
-#: ../apps/agenda/agenda_app.py:350
+#: ../apps/agenda/agenda_app.py:355
 msgid "all agenda ({})"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:351
+#: ../apps/agenda/agenda_app.py:356
+#, fuzzy
 msgid "calendar {}"
-msgstr ""
+msgstr "قياسيd"
 
-#: ../apps/agenda/agenda_app.py:382
+#: ../apps/agenda/agenda_app.py:387
+#, fuzzy
 msgid "title of event"
-msgstr ""
+msgstr "خارج الخدمة"
 
-#: ../apps/agenda/agenda_app.py:384
+#: ../apps/agenda/agenda_app.py:389
+#, fuzzy
 msgid "content of event"
-msgstr ""
+msgstr "قائمة السياق"
 
-#: ../apps/agenda/agenda_app.py:386
+#: ../apps/agenda/agenda_app.py:391
+#, fuzzy
 msgid "new event"
-msgstr ""
+msgstr "قائمة السياق"
 
-#: ../apps/agenda/agenda_app.py:389 ../apps/agenda/agenda_app.py:440
-#: ../apps/agenda/agenda_app.py:498
+#: ../apps/agenda/agenda_app.py:394 ../apps/agenda/agenda_app.py:445
+#: ../apps/agenda/agenda_app.py:503
 msgid "&day"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:390 ../apps/agenda/agenda_app.py:441
-#: ../apps/agenda/agenda_app.py:499
+#: ../apps/agenda/agenda_app.py:395 ../apps/agenda/agenda_app.py:446
+#: ../apps/agenda/agenda_app.py:504
+#, fuzzy
 msgid "&month"
-msgstr ""
+msgstr "الشهر"
 
-#: ../apps/agenda/agenda_app.py:391 ../apps/agenda/agenda_app.py:442
-#: ../apps/agenda/agenda_app.py:500
+#: ../apps/agenda/agenda_app.py:396 ../apps/agenda/agenda_app.py:447
+#: ../apps/agenda/agenda_app.py:505
+#, fuzzy
 msgid "&year"
-msgstr ""
+msgstr "السنة"
 
-#: ../apps/agenda/agenda_app.py:393 ../apps/agenda/agenda_app.py:443
+#: ../apps/agenda/agenda_app.py:398 ../apps/agenda/agenda_app.py:448
 msgid "&subject"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:394 ../apps/agenda/agenda_app.py:444
+#: ../apps/agenda/agenda_app.py:399 ../apps/agenda/agenda_app.py:449
 msgid "co&ntent"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:404
+#: ../apps/agenda/agenda_app.py:409
+#, fuzzy
 msgid "do you really want to delete this event of your agenda?"
-msgstr ""
+msgstr "هل تريد إعادة ضبط المعايير?"
 
-#: ../apps/agenda/agenda_app.py:438
+#: ../apps/agenda/agenda_app.py:443
+#, fuzzy
 msgid "modify event"
-msgstr ""
+msgstr "ال&نسق"
 
-#: ../apps/agenda/agenda_app.py:445
+#: ../apps/agenda/agenda_app.py:450
 msgid "&is done"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:455
+#: ../apps/agenda/agenda_app.py:460
+#, fuzzy
 msgid "do you really want to erase these events?"
-msgstr ""
+msgstr "هل تريد إعادة ضبط المعايير?"
 
-#: ../apps/agenda/agenda_app.py:466
+#: ../apps/agenda/agenda_app.py:471
+#, fuzzy
 msgid "do you really want to delete the done events?"
-msgstr ""
+msgstr "هل تريد إعادة ضبط المعايير?"
 
-#: ../apps/agenda/agenda_app.py:496
+#: ../apps/agenda/agenda_app.py:501
+#, fuzzy
 msgid "find date"
-msgstr ""
+msgstr "بحث"
 
-#: ../apps/agenda/agenda_app.py:511
+#: ../apps/agenda/agenda_app.py:516
 msgid "&element to find"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:512
+#: ../apps/agenda/agenda_app.py:517
 msgid "cri&terion"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:512 ../apps/agenda/agenda_app.py:790
-#: ../apps/agenda/agenda_app.py:795 ../apps/agenda/agenda_app.py:1541
+#: ../apps/agenda/agenda_app.py:517 ../apps/agenda/agenda_app.py:808
+#: ../apps/agenda/agenda_app.py:813 ../apps/agenda/agenda_app.py:1547
+#, fuzzy
 msgid "all"
-msgstr ""
+msgstr "البرايل"
 
-#: ../apps/agenda/agenda_app.py:512 ../apps/agenda/agenda_app.py:791
-#: ../apps/agenda/agenda_app.py:796
+#: ../apps/agenda/agenda_app.py:517 ../apps/agenda/agenda_app.py:809
+#: ../apps/agenda/agenda_app.py:814
 msgid "subject"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:512 ../apps/agenda/agenda_app.py:792
-#: ../apps/agenda/agenda_app.py:797
+#: ../apps/agenda/agenda_app.py:517 ../apps/agenda/agenda_app.py:810
+#: ../apps/agenda/agenda_app.py:815
+#, fuzzy
 msgid "content"
-msgstr ""
+msgstr "قائمة السياق"
 
-#: ../apps/agenda/agenda_app.py:514
+#: ../apps/agenda/agenda_app.py:519
+#, fuzzy
 msgid "&not done"
-msgstr ""
-
-#: ../apps/agenda/agenda_app.py:552 ../apps/agenda/agenda_app.py:622
-#: ../apps/agenda/agenda_app.py:634 ../apps/fman/file_manager_app.py:229
-msgid "usb &key"
-msgstr ""
+msgstr "bnote &مرئية"
 
 #: ../apps/agenda/agenda_app.py:557 ../apps/agenda/agenda_app.py:627
-#: ../apps/agenda/agenda_app.py:632 ../apps/fman/file_manager_app.py:228
-msgid "my &documents"
-msgstr ""
+#: ../apps/agenda/agenda_app.py:639 ../apps/fman/file_manager_app.py:229
+#, fuzzy
+msgid "usb &key"
+msgstr "&قرص USB"
 
-#: ../apps/agenda/agenda_app.py:563
+#: ../apps/agenda/agenda_app.py:562 ../apps/agenda/agenda_app.py:632
+#: ../apps/agenda/agenda_app.py:637 ../apps/fman/file_manager_app.py:228
+msgid "my &documents"
+msgstr "&مستنداتي"
+
+#: ../apps/agenda/agenda_app.py:568
 msgid "import agenda"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:574
+#: ../apps/agenda/agenda_app.py:579
 msgid "My agenda {}"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:580
+#: ../apps/agenda/agenda_app.py:585
+#, fuzzy
 msgid "export agenda"
-msgstr ""
+msgstr "ا&ستكشاف"
 
-#: ../apps/agenda/agenda_app.py:583
+#: ../apps/agenda/agenda_app.py:588
+#, fuzzy
 msgid "file &location"
-msgstr ""
+msgstr "نهاية ال&تحديد"
 
-#: ../apps/agenda/agenda_app.py:583 ../apps/agenda/agenda_app.py:596
+#: ../apps/agenda/agenda_app.py:588 ../apps/agenda/agenda_app.py:601
+#, fuzzy
 msgid "my documents"
-msgstr ""
+msgstr "&مستنداتي"
 
-#: ../apps/agenda/agenda_app.py:583
+#: ../apps/agenda/agenda_app.py:588
+#, fuzzy
 msgid "choose folder"
-msgstr ""
+msgstr "مجلد جديد"
 
-#: ../apps/agenda/agenda_app.py:599
+#: ../apps/agenda/agenda_app.py:604
 msgid ""
 "the file will be exported to the my documents folder. Do you want to "
 "continue?"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:616
+#: ../apps/agenda/agenda_app.py:621
+#, fuzzy
 msgid "&back"
-msgstr ""
+msgstr "&نسخ إحطياتي"
 
-#: ../apps/agenda/agenda_app.py:638
+#: ../apps/agenda/agenda_app.py:643
+#, fuzzy
 msgid "select a destination folder"
-msgstr ""
+msgstr "تحديد ال&كل"
 
-#: ../apps/agenda/agenda_app.py:646
+#: ../apps/agenda/agenda_app.py:651
 msgid "are you sure you want to delete all content of the agenda?"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:678 ../apps/agenda/agenda_app.py:732
+#: ../apps/agenda/agenda_app.py:661
+#, fuzzy
+msgid "about agenda"
+msgstr "ا&ستكشاف"
+
+#: ../apps/agenda/agenda_app.py:663
+msgid ""
+"agenda, version {}, copyright (C){} Theotime Berthod.\n"
+"In collaboration with Eurobraille.\n"
+"For suggestions or problems, contact Eurobraille or directly the application "
+"developer to {}."
+msgstr ""
+
+#: ../apps/agenda/agenda_app.py:696 ../apps/agenda/agenda_app.py:750
 msgid "you can't use the ';' in text"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:698
+#: ../apps/agenda/agenda_app.py:716
 msgid "the agenda has been correctly deleted."
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:702
+#: ../apps/agenda/agenda_app.py:720
 msgid "unable to delete the file, an unexpected error occurred."
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:805
+#: ../apps/agenda/agenda_app.py:823
 msgid "1 event found"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:807
+#: ../apps/agenda/agenda_app.py:825
+#, fuzzy
 msgid "{} events found"
-msgstr ""
+msgstr "ورقة{} لم يتم العثور على النوع."
 
-#: ../apps/agenda/agenda_app.py:813
+#: ../apps/agenda/agenda_app.py:831
 msgid "no event found"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:822
+#: ../apps/agenda/agenda_app.py:840
+#, fuzzy
 msgid "importing..."
-msgstr ""
+msgstr "إعادة التشغيل..."
 
-#: ../apps/agenda/agenda_app.py:829
+#: ../apps/agenda/agenda_app.py:847
 msgid ""
 "the file {} does not comply with the application's convention. Refer to the "
 "documentation for more information."
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:844
+#: ../apps/agenda/agenda_app.py:862
 msgid ""
 "the file was correctly imported, with the exception of 1 event that already "
 "existed."
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:847
+#: ../apps/agenda/agenda_app.py:865
 msgid ""
 "the file was correctly imported, with the exception of {} events that "
 "already existed."
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:851
+#: ../apps/agenda/agenda_app.py:869
 msgid "the file has been correctly imported"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:868
+#: ../apps/agenda/agenda_app.py:886
+#, fuzzy
 msgid "select folder"
-msgstr ""
+msgstr "تحديد ال&كل"
 
-#: ../apps/agenda/agenda_app.py:875
+#: ../apps/agenda/agenda_app.py:893
 msgid "the file has been correctly exported in {} folder"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:883
+#: ../apps/agenda/agenda_app.py:901
 msgid ""
 "this file already exists, try with another name or delete the previous file"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:895
+#: ../apps/agenda/agenda_app.py:913
 msgid "error during the exportation, verify your agenda and try again"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:908
+#: ../apps/agenda/agenda_app.py:926
 msgid "you have 1 event not done for today."
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:910
+#: ../apps/agenda/agenda_app.py:928
 msgid "you have {} events not done for today."
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:915 ../apps/agenda/agenda_app.py:951
+#: ../apps/agenda/agenda_app.py:933 ../apps/agenda/agenda_app.py:969
+#, fuzzy
 msgid "&display"
-msgstr ""
+msgstr "عرض ما &يلي"
 
-#: ../apps/agenda/agenda_app.py:944
+#: ../apps/agenda/agenda_app.py:962
 msgid "you have 1 event not done for tomorrow."
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:946
+#: ../apps/agenda/agenda_app.py:964
 msgid "you have {} events not done for tomorrow."
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1021 ../apps/agenda/agenda_app.py:1024
-#: ../apps/agenda/agenda_app.py:1027
+#: ../apps/agenda/agenda_app.py:1027 ../apps/agenda/agenda_app.py:1030
+#: ../apps/agenda/agenda_app.py:1033
 msgid "a date is composed of a day, a month and a year."
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1032
+#: ../apps/agenda/agenda_app.py:1038
 msgid "a date is composed of numbers, seperate with /"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1034
+#: ../apps/agenda/agenda_app.py:1040
 msgid "the days range from 01 to 31."
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1036
+#: ../apps/agenda/agenda_app.py:1042
 msgid "12 months ago, numbered from 01 to 12."
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1225
+#: ../apps/agenda/agenda_app.py:1231
 msgid "monday"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1226
+#: ../apps/agenda/agenda_app.py:1232
 msgid "tuesday"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1227
+#: ../apps/agenda/agenda_app.py:1233
 msgid "wednesday"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1228
+#: ../apps/agenda/agenda_app.py:1234
 msgid "thursday"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1229
+#: ../apps/agenda/agenda_app.py:1235
 msgid "friday"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1230
+#: ../apps/agenda/agenda_app.py:1236
 msgid "saturday"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1231
+#: ../apps/agenda/agenda_app.py:1237
 msgid "sunday"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1234
+#: ../apps/agenda/agenda_app.py:1240
 msgid "january"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1235
+#: ../apps/agenda/agenda_app.py:1241
 msgid "february"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1236
+#: ../apps/agenda/agenda_app.py:1242
 msgid "march"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1237
+#: ../apps/agenda/agenda_app.py:1243
 msgid "april"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1238
+#: ../apps/agenda/agenda_app.py:1244
+#, fuzzy
 msgid "may"
-msgstr ""
+msgstr "اليوم"
 
-#: ../apps/agenda/agenda_app.py:1239
+#: ../apps/agenda/agenda_app.py:1245
 msgid "june"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1240
+#: ../apps/agenda/agenda_app.py:1246
 msgid "july"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1241
+#: ../apps/agenda/agenda_app.py:1247
 msgid "august"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1242
+#: ../apps/agenda/agenda_app.py:1248
 msgid "september"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1243
+#: ../apps/agenda/agenda_app.py:1249
 msgid "october"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1244
+#: ../apps/agenda/agenda_app.py:1250
 msgid "november"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1245
+#: ../apps/agenda/agenda_app.py:1251
 msgid "december"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1487
+#: ../apps/agenda/agenda_app.py:1493
 msgid "1 event"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1489
+#: ../apps/agenda/agenda_app.py:1495
 msgid "{} events"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1495
+#: ../apps/agenda/agenda_app.py:1501
 msgid "{} not done"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1518
+#: ../apps/agenda/agenda_app.py:1524
 msgid "Show"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1527
+#: ../apps/agenda/agenda_app.py:1533
 msgid "no event..."
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1539
+#: ../apps/agenda/agenda_app.py:1545
+#, fuzzy
 msgid "event not done"
-msgstr ""
+msgstr "bnote &مرئية"
 
-#: ../apps/agenda/agenda_app.py:1543
+#: ../apps/agenda/agenda_app.py:1549
 msgid "to do for {}"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1545
+#: ../apps/agenda/agenda_app.py:1551
 msgid "to do for tomorrow"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1547
+#: ../apps/agenda/agenda_app.py:1553
 msgid "to do for today"
 msgstr ""
 
-#: ../apps/agenda/agenda_app.py:1551
+#: ../apps/agenda/agenda_app.py:1557
+#, fuzzy
 msgid "find {}"
-msgstr ""
+msgstr "بحث"
 
-#: ../apps/agenda/agenda_app.py:1553
+#: ../apps/agenda/agenda_app.py:1559
+#, fuzzy
 msgid "select the display"
-msgstr ""
+msgstr "تحديد ال&كل"
 
 #: ../apps/fman/file_manager_app.py:97
 msgid ""
 "bnote restarts after a crash. More information available in crash folder."
-msgstr ""
+msgstr "إعادة تشغيل bnote بعد تعطل النظام."
 
 #: ../apps/fman/file_manager_app.py:107
 msgid "&New"
@@ -4585,8 +4892,9 @@ msgid "music(.music&xml)"
 msgstr ""
 
 #: ../apps/fman/file_manager_app.py:118
+#, fuzzy
 msgid "&folder"
-msgstr ""
+msgstr "مجلد جديد"
 
 #: ../apps/fman/file_manager_app.py:124
 msgid "&eole library"
@@ -4603,17 +4911,17 @@ msgstr ""
 #: ../apps/fman/file_manager_app.py:138 ../apps/fman/file_manager_app.py:173
 #: ../apps/fman/file_manager_app.py:284 ../apps/fman/file_manager_app.py:356
 msgid "dele&te"
-msgstr ""
+msgstr "&حذف"
 
 #: ../apps/fman/file_manager_app.py:141 ../apps/fman/file_manager_app.py:176
 #: ../apps/fman/file_manager_app.py:359
 msgid "&zip"
-msgstr ""
+msgstr "&ضغط"
 
 #: ../apps/fman/file_manager_app.py:142 ../apps/fman/file_manager_app.py:177
 #: ../apps/fman/file_manager_app.py:360
 msgid "&unzip"
-msgstr ""
+msgstr "&فك الضغط"
 
 #: ../apps/fman/file_manager_app.py:143 ../apps/fman/file_manager_app.py:178
 #: ../apps/fman/file_manager_app.py:256 ../apps/fman/file_manager_app.py:287
@@ -4640,51 +4948,53 @@ msgstr ""
 #: ../apps/fman/file_manager_app.py:165 ../apps/fman/file_manager_app.py:318
 #: ../apps/fman/file_manager_app.py:341
 msgid "safely &unmount usb stick"
-msgstr ""
+msgstr "ن&زع قرص usb بأمان"
 
 #: ../apps/fman/file_manager_app.py:231
 msgid "&trash"
-msgstr ""
+msgstr "سلة الم&هملات"
 
 #: ../apps/fman/file_manager_app.py:232
+#, fuzzy
 msgid "my back&ups"
-msgstr ""
+msgstr "النسخ الإحطياتي"
 
 #: ../apps/fman/file_manager_app.py:233
 msgid "c&rash"
-msgstr ""
+msgstr "&تعطل"
 
 #: ../apps/fman/file_manager_app.py:234
 msgid "p&arent directory"
-msgstr ""
+msgstr "ال&كتاب الرئيسي"
 
 #: ../apps/fman/file_manager_app.py:242 ../apps/fman/file_manager_app.py:244
+#, fuzzy
 msgid "back&up"
-msgstr ""
+msgstr "النسخ الإحطياتي"
 
 #: ../apps/fman/file_manager_app.py:245
 msgid "&restore"
-msgstr ""
+msgstr "إس&تعادة"
 
 #: ../apps/fman/file_manager_app.py:253
 msgid "&restore from trash"
-msgstr ""
+msgstr "إست&عادة من المهملات"
 
 #: ../apps/fman/file_manager_app.py:254
 msgid "permanently &delete"
-msgstr ""
+msgstr "&حذف نهائي"
 
 #: ../apps/fman/file_manager_app.py:255
 msgid "&empty the trash"
-msgstr ""
+msgstr "إ&فراغ سلة المهملات"
 
 #: ../apps/fman/file_manager_app.py:266 ../apps/fman/file_manager_app.py:297
 msgid "start &selection"
-msgstr ""
+msgstr "&تحديد"
 
 #: ../apps/fman/file_manager_app.py:270 ../apps/fman/file_manager_app.py:301
 msgid "end &selection"
-msgstr ""
+msgstr "نهاية ال&تحديد"
 
 #: ../apps/fman/file_manager_app.py:348
 msgid "&open to read"
@@ -4692,11 +5002,11 @@ msgstr ""
 
 #: ../apps/fman/file_manager_app.py:580
 msgid "you can now unplug safely the usb flash disk."
-msgstr ""
+msgstr "يمكنك الآن نزع قرص USB بأمان."
 
 #: ../apps/fman/file_manager_app.py:585
 msgid "unable to unplug safely the usb flash disk."
-msgstr ""
+msgstr "تعذر نزع قرص USB بأمان."
 
 #: ../apps/fman/file_manager_app.py:590
 msgid ".bxml"
@@ -4712,115 +5022,125 @@ msgstr ""
 
 #: ../apps/fman/file_manager_app.py:613 ../apps/fman/file_manager_app.py:619
 msgid "new file"
-msgstr ""
+msgstr "ملف جديد"
 
 #: ../apps/fman/file_manager_app.py:642
 msgid "new folder"
-msgstr ""
+msgstr "مجلد جديد"
 
 #: ../apps/fman/file_manager_app.py:647
 msgid "new directory"
-msgstr ""
+msgstr "كتاب جديد"
 
 #: ../apps/fman/file_manager_app.py:681
 msgid "send to"
-msgstr ""
+msgstr "إرسال إلى"
 
 #: ../apps/fman/file_manager_app.py:683
 msgid "co&mputer"
-msgstr ""
+msgstr "ال&كمبيوتر"
 
 #: ../apps/fman/file_manager_app.py:691
 msgid "no bluetooth computer visible..."
-msgstr ""
+msgstr "لم يتم رصد بلوتوث كمبيوتر..."
 
 #: ../apps/fman/file_manager_app.py:703
 msgid "rename"
-msgstr ""
+msgstr "إعادة التسمية"
 
 #: ../apps/fman/file_manager_app.py:719 ../apps/fman/file_manager_app.py:765
 #: ../apps/media/mp3_app.py:572
 msgid "delete"
-msgstr ""
+msgstr "حذف"
 
 #: ../apps/fman/file_manager_app.py:720
 msgid ""
 "do you confirm permanently deletion? if you delete, it will be permanently "
 "lost."
-msgstr ""
+msgstr "أمتأكد من الحذف النهائي؟ إذا قمت بالحذف، سيتم فقدانه نهائيا."
 
 #: ../apps/fman/file_manager_app.py:740 ../apps/fman/file_manager_app.py:2501
 msgid "deleting {}% {}"
-msgstr ""
+msgstr "يتم حذف {}% {}"
 
 #: ../apps/fman/file_manager_app.py:753 ../apps/fman/file_manager_app.py:1687
 #: ../apps/fman/file_manager_app.py:2513
 msgid "restoring {}% {}"
-msgstr ""
+msgstr "restoring {}% {}"
 
 #: ../apps/fman/file_manager_app.py:766
 msgid "do you want to empty the trash? all files will be permanently lost."
-msgstr ""
+msgstr "هل تريد إفراغ سلة المهملات؟ سيتم فقدان جميع الملفات."
 
 #: ../apps/fman/file_manager_app.py:793
 msgid "zip"
-msgstr ""
+msgstr "ضغط"
 
 #: ../apps/fman/file_manager_app.py:815 ../apps/fman/file_manager.py:355
 msgid "({})"
-msgstr ""
+msgstr "({})"
 
 #: ../apps/fman/file_manager_app.py:820 ../apps/fman/file_manager_app.py:2503
 msgid "extracting {}% {}"
-msgstr ""
+msgstr "يتم استخراج {}% {}"
 
 #: ../apps/fman/file_manager_app.py:832
+#, fuzzy
 msgid "find file"
-msgstr ""
+msgstr "ملف جديد"
 
 #: ../apps/fman/file_manager_app.py:835
+#, fuzzy
 msgid "find &in"
-msgstr ""
+msgstr "ال&تاريخ"
 
 #: ../apps/fman/file_manager_app.py:835 ../apps/fman/file_manager_app.py:845
+#, fuzzy
 msgid "current folder"
-msgstr ""
+msgstr "مجلد جديد"
 
 #: ../apps/fman/file_manager_app.py:835
+#, fuzzy
 msgid "in the b.note"
-msgstr ""
+msgstr "إدراج"
 
 #: ../apps/fman/file_manager_app.py:871
 msgid "file found {}"
 msgstr ""
 
 #: ../apps/fman/file_manager_app.py:874
+#, fuzzy
 msgid "&show in folder"
-msgstr ""
+msgstr "مجلد جديد"
 
 #: ../apps/fman/file_manager_app.py:876
+#, fuzzy
 msgid "&open file"
-msgstr ""
+msgstr "ملف جديد"
 
 #: ../apps/fman/file_manager_app.py:883
 msgid "no file found"
 msgstr ""
 
 #: ../apps/fman/file_manager_app.py:916
+#, fuzzy
 msgid "not recent file"
-msgstr ""
+msgstr "ملف جديد"
 
 #: ../apps/fman/file_manager_app.py:922
+#, fuzzy
 msgid "recent files"
-msgstr ""
+msgstr "ملف جديد"
 
 #: ../apps/fman/file_manager_app.py:924
+#, fuzzy
 msgid "file list"
-msgstr ""
+msgstr "ملف"
 
 #: ../apps/fman/file_manager_app.py:926
+#, fuzzy
 msgid "c&lear list"
-msgstr ""
+msgstr "&حذف الكل"
 
 #: ../apps/fman/file_manager_app.py:938
 msgid "this file does not exist, it will be removed from the list."
@@ -4850,16 +5170,18 @@ msgstr ""
 #: ../apps/fman/file_manager_app.py:1506 ../apps/fman/file_manager_app.py:1583
 #: ../apps/fman/file_manager_app.py:1636 ../apps/fman/file_manager_app.py:1794
 msgid "question"
-msgstr ""
+msgstr "سؤال"
 
 #: ../apps/fman/file_manager_app.py:1060 ../apps/fman/file_manager_app.py:1584
 #: ../apps/fman/file_manager_app.py:1637
+#, fuzzy
 msgid "{} already exists. do you want to replace it?"
-msgstr ""
+msgstr "الملف {} موجود. هل تريد استبداله؟"
 
 #: ../apps/fman/file_manager_app.py:1111
+#, fuzzy
 msgid "error can't download the file. error is {}."
-msgstr ""
+msgstr "خطا لا يمكن ضغط الملف في {}."
 
 #: ../apps/fman/file_manager_app.py:1114
 msgid ""
@@ -4869,121 +5191,125 @@ msgstr ""
 
 #: ../apps/fman/file_manager_app.py:1148
 msgid "error"
-msgstr ""
+msgstr "خطأ"
 
 #: ../apps/fman/file_manager_app.py:1206
 msgid "unable to move the opened file in the editor."
-msgstr ""
+msgstr "يتعذر نقل الملف المفتوح في المحرر."
 
 #: ../apps/fman/file_manager_app.py:1230 ../apps/fman/file_manager_app.py:2507
 msgid "moving {}% {}"
-msgstr ""
+msgstr "يتم النقل {}% {}"
 
 #: ../apps/fman/file_manager_app.py:1236 ../apps/fman/file_manager_app.py:2509
 msgid "copying {}% {}"
-msgstr ""
+msgstr "يتم النسخ {}% {}"
 
 #: ../apps/fman/file_manager_app.py:1315
+#, fuzzy
 msgid "backup %Y %m %d.zip"
-msgstr ""
+msgstr "backup-%Y-%m-%d.zip"
 
 #: ../apps/fman/file_manager_app.py:1319
 msgid "backup"
-msgstr ""
+msgstr "النسخ الإحطياتي"
 
 #: ../apps/fman/file_manager_app.py:1332
 msgid "no backup files to restore !"
-msgstr ""
+msgstr "لا يوجد ملفات نسخ إحطياتي للإستعادة!"
 
 #: ../apps/fman/file_manager_app.py:1337
 msgid "restore"
-msgstr ""
+msgstr "إستعادة"
 
 #: ../apps/fman/file_manager_app.py:1386 ../apps/fman/file_manager_app.py:1436
 #: ../apps/fman/file_manager_app.py:1472 ../apps/fman/file_manager_app.py:1574
 #: ../apps/fman/file_manager_app.py:1627
 msgid "the following characters are invalid "
-msgstr ""
+msgstr "الأحرف التالية غير صالحة "
 
 #: ../apps/fman/file_manager_app.py:1395 ../apps/fman/file_manager_app.py:1795
 msgid "file {} exists. do you want to replace it?"
-msgstr ""
+msgstr "الملف {} موجود. هل تريد استبداله؟"
 
 #: ../apps/fman/file_manager_app.py:1445
 msgid "folder {} already exists."
-msgstr ""
+msgstr "المجلد {} موجود."
 
 #: ../apps/fman/file_manager_app.py:1480
 msgid "{} already exists."
-msgstr ""
+msgstr "{} موجود."
 
 #: ../apps/fman/file_manager_app.py:1507
 msgid "put {} into Bluetooth reception mode (Windows 10 only)."
-msgstr ""
+msgstr "ضعه {} في وضع استقبال بلوتوث (وندوز10 فقط)."
 
 #: ../apps/fman/file_manager_app.py:1524
 msgid "sending {}"
-msgstr ""
+msgstr "إرسال {}"
 
 #: ../apps/fman/file_manager_app.py:1539
 msgid "{} successfully sent to {}."
-msgstr ""
+msgstr "{} أرسل بنجاح إلى {}."
 
 #: ../apps/fman/file_manager_app.py:1544
 msgid "error can't be sent {} to {}."
-msgstr ""
+msgstr "خطأ لا يمكن إرسال {} إلى {}."
 
 #: ../apps/fman/file_manager_app.py:1596 ../apps/fman/file_manager_app.py:2505
 msgid "compressing {}% {}"
-msgstr ""
+msgstr "يتم ضغط {}% {}"
 
 #: ../apps/fman/file_manager_app.py:1649 ../apps/fman/file_manager_app.py:2511
 msgid "backuping {}% {}"
-msgstr ""
+msgstr "يتم النسخ الإحطياتي {}% {}"
 
 #: ../apps/fman/file_manager_app.py:1670
 msgid "error backup can't be created to {}."
-msgstr ""
+msgstr "خطأ لا يمكن إنشاء النسخة الإحطياتية لل{}."
 
 #: ../apps/fman/file_manager_app.py:1739
 msgid "error can't compress files in {}."
-msgstr ""
+msgstr "خطا لا يمكن ضغط الملف في {}."
 
 #: ../apps/fman/file_manager_app.py:1778
 msgid "error during restoration from trash."
-msgstr ""
+msgstr "خطأ أثناء الإستعادة من سلة المهملات."
 
 #: ../apps/fman/file_manager_app.py:1801
 msgid "yes for &all"
-msgstr ""
+msgstr "نعم لل&كل"
 
 #: ../apps/fman/file_manager_app.py:1803
 msgid "no for a&ll"
-msgstr ""
+msgstr "لا &للكل"
 
 #: ../apps/fman/file_manager_app.py:2018
 msgid "operation not allowed in this directory."
-msgstr ""
+msgstr "عملية غير مسموحة في هذا الكتاب."
 
 #: ../apps/fman/file_manager_app.py:2141
+#, fuzzy
 msgid "do you want to install the version {} ?"
-msgstr ""
+msgstr "هل تريد تثبيت التحديث?"
 
 #: ../apps/fman/file_manager_app.py:2154
 msgid "unable to open file in this directory. move it in document directory."
-msgstr ""
+msgstr "لا يمكن فتح الملف في هذا الكتاب. قم بنقله إلى كتاب المستندات."
 
 #: ../apps/fman/file_manager_app.py:2173 ../apps/fman/file_manager_app.py:2176
 msgid "langue"
-msgstr ""
+msgstr "اللغة"
 
 #: ../apps/fman/file_manager_app.py:2193
+#, fuzzy
 msgid "you cannot open more documents."
-msgstr ""
+msgstr "لا يمكنك فتح أكثر من {} مستند."
 
 #: ../apps/fman/file_manager_app.py:2201
+#, fuzzy
 msgid "unzip"
-msgstr ""
+msgstr "&فك الضغط"
 
 #: ../apps/fman/file_manager_app.py:2202
 msgid "Unzip file {}?"
@@ -5006,12 +5332,14 @@ msgid "installation in progres..."
 msgstr ""
 
 #: ../apps/fman/file_manager_app.py:2280
+#, fuzzy
 msgid "imported settings."
-msgstr ""
+msgstr "إ&عدادات"
 
 #: ../apps/fman/file_manager_app.py:2515
+#, fuzzy
 msgid "sending {}% {}"
-msgstr ""
+msgstr "إرسال {}"
 
 #: ../apps/fman/file_manager_app.py:2517
 msgid "in progress {}%"
@@ -5019,7 +5347,7 @@ msgstr ""
 
 #: ../apps/fman/file_manager_app.py:2537
 msgid "error during deletion."
-msgstr ""
+msgstr "خطأ أثناء الحذف."
 
 #: ../apps/games/mines_app.py:56
 msgid "(8 x 8, 10 mines)"
@@ -5042,8 +5370,9 @@ msgid "are you sure to delete high score for {}"
 msgstr ""
 
 #: ../apps/games/mines_app.py:160 ../apps/games/master_mind_app.py:216
+#, fuzzy
 msgid "new score"
-msgstr ""
+msgstr "كتاب جديد"
 
 #: ../apps/games/mines_app.py:183 ../apps/games/master_mind_app.py:165
 msgid "scores"
@@ -5074,17 +5403,19 @@ msgid "(5 positions, 6 colors, possible duplicate)"
 msgstr ""
 
 #: ../apps/games/master_mind_app.py:186
+#, fuzzy
 msgid ""
 "invalid proposition, proposition must be {} numbers must be between 1 to 6."
-msgstr ""
+msgstr "ضبط غير صالح, يجب أن تكون القيمة بين 0 إلى  8."
 
 #: ../apps/games/master_mind_app.py:205
 msgid "you win in {} attemps"
 msgstr ""
 
 #: ../apps/games/master_mind_app.py:377
+#, fuzzy
 msgid "value"
-msgstr ""
+msgstr "ال&قيمة"
 
 #: ../apps/games/master_mind_app.py:396
 msgid "hit enter (b9A)"
@@ -5092,8 +5423,9 @@ msgstr ""
 
 #: ../apps/media/mp3_app.py:55 ../apps/media/mp3_app.py:739
 #: ../apps/media/mp3_app.py:843
+#, fuzzy
 msgid "no name"
-msgstr ""
+msgstr "&اسم bnote"
 
 #: ../apps/media/mp3_app.py:93
 msgid "mp3"
@@ -5104,16 +5436,18 @@ msgid "play &list"
 msgstr ""
 
 #: ../apps/media/mp3_app.py:105 ../apps/media/mp3_app.py:113
+#, fuzzy
 msgid "delete &all"
-msgstr ""
+msgstr "تحديد ال&كل"
 
 #: ../apps/media/mp3_app.py:108
 msgid "item"
 msgstr ""
 
 #: ../apps/media/mp3_app.py:112
+#, fuzzy
 msgid "de&lete"
-msgstr ""
+msgstr "حذف"
 
 #: ../apps/media/mp3_app.py:114
 msgid "to the &beginning"
@@ -5124,12 +5458,14 @@ msgid "to the &end"
 msgstr ""
 
 #: ../apps/media/mp3_app.py:118
+#, fuzzy
 msgid "&up"
-msgstr ""
+msgstr "&فك الضغط"
 
 #: ../apps/media/mp3_app.py:120
+#, fuzzy
 msgid "&down"
-msgstr ""
+msgstr "إ&طفاء الجهاز"
 
 #: ../apps/media/mp3_app.py:127
 msgid "&item"
@@ -5140,8 +5476,9 @@ msgid "&list"
 msgstr ""
 
 #: ../apps/media/mp3_app.py:133
+#, fuzzy
 msgid "pre&vious"
-msgstr ""
+msgstr "ال&سابق"
 
 #: ../apps/media/mp3_app.py:135
 msgid "&pause"
@@ -5152,40 +5489,47 @@ msgid "s&top"
 msgstr ""
 
 #: ../apps/media/mp3_app.py:139
+#, fuzzy
 msgid "&forward (30s)"
-msgstr ""
+msgstr "عرض ما &يلي"
 
 #: ../apps/media/mp3_app.py:141
 msgid "&backward (10s)"
 msgstr ""
 
 #: ../apps/media/mp3_app.py:143
+#, fuzzy
 msgid "position"
-msgstr ""
+msgstr "الت&جزئة"
 
 #: ../apps/media/mp3_app.py:188
+#, fuzzy
 msgid "&resume"
-msgstr ""
+msgstr "إ&عادة التشغيل"
 
 #: ../apps/media/mp3_app.py:190
 msgid "p&ause"
 msgstr ""
 
 #: ../apps/media/mp3_app.py:246
+#, fuzzy
 msgid "&position"
-msgstr ""
+msgstr "الت&جزئة"
 
 #: ../apps/media/mp3_app.py:501
+#, fuzzy
 msgid "save"
-msgstr ""
+msgstr "&حفظ"
 
 #: ../apps/media/mp3_app.py:503 ../apps/media/mp3_app.py:581
+#, fuzzy
 msgid "playlist"
-msgstr ""
+msgstr "حذف"
 
 #: ../apps/media/mp3_app.py:517
+#, fuzzy
 msgid "playlist name exists, do you want overwrite the playlist?"
-msgstr ""
+msgstr "الملف {} موجود. هل تريد استبداله؟"
 
 #: ../apps/media/mp3_app.py:623
 msgid "are you sure to delete all saved play list?"
@@ -5200,24 +5544,27 @@ msgid "tracknumber"
 msgstr ""
 
 #: ../apps/media/mp3_app.py:801
+#, fuzzy
 msgid "artist"
-msgstr ""
+msgstr "الإحصاءات"
 
 #: ../apps/media/mp3_app.py:807
 msgid "album"
 msgstr ""
 
 #: ../apps/media/mp3_app.py:954 ../apps/media/radio_app.py:441
+#, fuzzy
 msgid "empty list..."
-msgstr ""
+msgstr "كتاب فارغ..."
 
 #: ../apps/media/radio_app.py:66
 msgid "&radio by url"
 msgstr ""
 
 #: ../apps/media/radio_app.py:68
+#, fuzzy
 msgid "&delete radio"
-msgstr ""
+msgstr "حذف"
 
 #: ../apps/media/radio_app.py:71
 msgid "&web update list"
@@ -5242,3 +5589,377 @@ msgstr ""
 #: ../apps/media/radio_app.py:373
 msgid "are you sure to delete the radio {}"
 msgstr ""
+
+#, fuzzy
+#~ msgid "&translate selection"
+#~ msgstr "&تحديد"
+
+#, fuzzy
+#~ msgid "&operation game"
+#~ msgstr "الت&جزئة"
+
+#, fuzzy
+#~ msgid "Settings apply."
+#~ msgstr "الإعدادات"
+
+#, fuzzy
+#~ msgid "Spanish"
+#~ msgstr "الإسبانية (إسبانيا)"
+
+#, fuzzy
+#~ msgid "Croatian"
+#~ msgstr "الكرواتية (كرواتيا)"
+
+#, fuzzy
+#~ msgid "Italian"
+#~ msgstr "الإطالية (إطاليا)"
+
+#, fuzzy
+#~ msgid "Islandic"
+#~ msgstr "أيسلاندي (أيلند)"
+
+#, fuzzy
+#~ msgid "Lithuanian"
+#~ msgstr "الليتوانية (ليتوانيا)"
+
+#, fuzzy
+#~ msgid "Norwegian"
+#~ msgstr "النروجية (النرويج)"
+
+#, fuzzy
+#~ msgid "Portuguese"
+#~ msgstr "البرتغالية (البرتغال)"
+
+#, fuzzy
+#~ msgid "Russian"
+#~ msgstr "الروسية (روسيا)"
+
+#, fuzzy
+#~ msgid "Slovenian"
+#~ msgstr "السلوفينية (سلوفينيا)"
+
+#, fuzzy
+#~ msgid "Swedish"
+#~ msgstr "السويدية (السويد)"
+
+#, fuzzy
+#~ msgid "&shutdown bluetooth"
+#~ msgstr "&بلوتوث"
+
+#, fuzzy
+#~ msgid "&power on bluetooth"
+#~ msgstr "&بلوتوث"
+
+#, fuzzy
+#~ msgid "&shutdown wifi"
+#~ msgstr "إ&طفاء الجهاز"
+
+#, fuzzy
+#~| msgid "words"
+#~ msgid "words game"
+#~ msgstr "الكلمات"
+
+#, fuzzy
+#~| msgid "Do you want to install update?"
+#~ msgid "do you want to install update?"
+#~ msgstr "هل تريد تثبيت التحديث?"
+
+#~ msgid ""
+#~ "this update file works only with a sd card version greater or equal to {}"
+#~ msgstr "يعمل ملف التحديث هذا فقط مع إصدار بطاقة sd أكبر أو يساويo {}"
+
+#~ msgid "this update file works only with a firmware greater or equal to {}"
+#~ msgstr "ملف التحديث هذا، يعمل فقط مع برنامج ثابت أكبر من أو يساوي {}"
+
+#, fuzzy
+#~| msgid "braille"
+#~ msgid "B.Braille"
+#~ msgstr "البرايل"
+
+#, fuzzy
+#~| msgid "new file"
+#~ msgid "&manage files"
+#~ msgstr "ملف جديد"
+
+#, fuzzy
+#~| msgid "&file"
+#~ msgid "&file list"
+#~ msgstr "&ملف"
+
+#, fuzzy
+#~| msgid "new file"
+#~ msgid "manage files"
+#~ msgstr "ملف جديد"
+
+#, fuzzy
+#~| msgid "replace and n&ext"
+#~ msgid "&replace the content"
+#~ msgstr "استبدال والت&الي"
+
+#, fuzzy
+#~| msgid "words"
+#~ msgid "&words game"
+#~ msgstr "الكلمات"
+
+#, fuzzy
+#~| msgid "find"
+#~ msgid "id"
+#~ msgstr "بحث"
+
+#, fuzzy
+#~| msgid "reading..."
+#~ msgid "checking..."
+#~ msgstr "القراءة..."
+
+#, fuzzy
+#~| msgid "bnote must restart for the name change to take effect."
+#~ msgid "you need to shutdown b.note for the changes to take effect"
+#~ msgstr "يجب إعادة تشغيل bnote من أجل تفعيل تغيير الإسم."
+
+#, fuzzy
+#~| msgid "standard"
+#~ msgid "Calendar"
+#~ msgstr "قياسيd"
+
+#, fuzzy
+#~| msgid "visible"
+#~ msgid "visible &games"
+#~ msgstr "ظاهر"
+
+#, fuzzy
+#~| msgid "visible dots 78"
+#~ msgid "visible &audio"
+#~ msgstr "إظهار النقاط 78"
+
+#, fuzzy
+#~| msgid "visible dots 78"
+#~ msgid "visible &radio"
+#~ msgstr "إظهار النقاط 78"
+
+#, fuzzy
+#~| msgid "visible"
+#~ msgid "visible games"
+#~ msgstr "ظاهر"
+
+#, fuzzy
+#~| msgid "visible dots 78"
+#~ msgid "visible audio"
+#~ msgstr "إظهار النقاط 78"
+
+#, fuzzy
+#~| msgid "visible dots 78"
+#~ msgid "visible radio"
+#~ msgstr "إظهار النقاط 78"
+
+#, fuzzy
+#~| msgid "grade1"
+#~ msgid "grade"
+#~ msgstr "مستوى برايل1"
+
+#~ msgid "esysuite &protocol"
+#~ msgstr "&بروتوكول esysuite"
+
+#, fuzzy
+#~| msgid "visible"
+#~ msgid "visible &mp3"
+#~ msgstr "ظاهر"
+
+#~ msgid "esysuite protocol"
+#~ msgstr "بروتوكول esysuite"
+
+#~ msgid "protocol"
+#~ msgstr "البروتوكول"
+
+#, fuzzy
+#~| msgid "visible"
+#~ msgid "visible mp3"
+#~ msgstr "ظاهر"
+
+#~ msgid "new &file"
+#~ msgstr "ملف &جديد"
+
+#~ msgid "new fol&der"
+#~ msgstr "&مجلد جديد"
+
+#, fuzzy
+#~| msgid "characters"
+#~ msgid "&parameters"
+#~ msgstr "الأحرف"
+
+#, fuzzy
+#~| msgid "&insert/delete"
+#~ msgid "insert &silence"
+#~ msgstr "إ&دراج/حذف"
+
+#, fuzzy
+#~| msgid "out of order"
+#~ msgid "author of score"
+#~ msgstr "خارج الخدمة"
+
+#, fuzzy
+#~| msgid "seconds"
+#~ msgid "thirty-second"
+#~ msgstr "ثوان"
+
+#~ msgid "new file.txt"
+#~ msgstr "ملف جديد.txt"
+
+#~ msgid "&message"
+#~ msgstr "ال&رسالة"
+
+#~ msgid "&braille"
+#~ msgstr "ال&برايل"
+
+#~ msgid "maximum volume"
+#~ msgstr "الحد الأعلى للصوت"
+
+#~ msgid "bookmarks"
+#~ msgstr "العلامات المرجعية"
+
+#~ msgid "volume down"
+#~ msgstr "خفض مستوى الصوت"
+
+#~ msgid "volume up"
+#~ msgstr "زيادة مستوى الصوت"
+
+#~ msgid "slow down"
+#~ msgstr "خفض السرعة"
+
+#~ msgid "speed up"
+#~ msgstr "تسريع"
+
+#~ msgid "slow &down"
+#~ msgstr "خفض السرعة"
+
+#~ msgid "goto"
+#~ msgstr "الذهاب إلى"
+
+#~ msgid "backu&ps"
+#~ msgstr "ال&نسخ الإحطياتية"
+
+#~ msgid "&backups"
+#~ msgstr "النسخ الإ&حطياتية"
+
+#~ msgid "&Ok"
+#~ msgstr "&نعم"
+
+#~ msgid "paste"
+#~ msgstr "لصق"
+
+#~ msgid "deletion {}% {}"
+#~ msgstr "حذف {}% {}"
+
+#~ msgid "compression {}% {}"
+#~ msgstr "ضغط {}% {}"
+
+#~ msgid "FR"
+#~ msgstr "FR"
+
+#~ msgid "-"
+#~ msgstr "-"
+
+#~ msgid "dot-8"
+#~ msgstr "النقطة-8"
+
+#~ msgid "Invalid argument"
+#~ msgstr "محاورة غير صالح"
+
+#~ msgid "pairing"
+#~ msgstr "مقارنة"
+
+#~ msgid "lines length"
+#~ msgstr "طول الأسطر"
+
+#~ msgid "caret"
+#~ msgstr "علامة الكتابة"
+
+#~ msgid "braille keyboard"
+#~ msgstr "لوحة مفاتيح برايل"
+
+#~ msgid "braille 78"
+#~ msgstr "برايل 78"
+
+#~ msgid "keypad inverted"
+#~ msgstr "تم عكس لوحة المفاتيح"
+
+#~ msgid "rounting cursor"
+#~ msgstr "&ربط المؤشر"
+
+#~ msgid "Arabic (Lebanon)"
+#~ msgstr "العربية (لبنان)"
+
+#~ msgid "Czech (Czech Republic)"
+#~ msgstr "التشيكية (جمهورية التشيك)"
+
+#~ msgid "Danish (Denmark)"
+#~ msgstr "الدنماركية (الدنمارك)"
+
+#~ msgid "German (Switzerland)"
+#~ msgstr "الألمانية (سويسرا)"
+
+#~ msgid "German (Germany)"
+#~ msgstr "الألمانية (ألمانيا)"
+
+#~ msgid "Greek (Greece)"
+#~ msgstr "اليونانية (اليونان)"
+
+#~ msgid "English (United Kingdom)"
+#~ msgstr "الإنجليزية (المملكة المتحدة)"
+
+#~ msgid "English (United States)"
+#~ msgstr "الإنجليزية (الولايات المتحدة)"
+
+#~ msgid "French (Switzerland)"
+#~ msgstr "الفرنسية (سويسرا)"
+
+#~ msgid "French (France)"
+#~ msgstr "الفرنسية (فرنسا)"
+
+#~ msgid "Hebrew (Israel)"
+#~ msgstr "العبرية (إسرائيل)"
+
+#~ msgid "Italian (Switzerland)"
+#~ msgstr "الإطالية (سويسرا)"
+
+#~ msgid "Dutch (Belgium)"
+#~ msgstr "الهولندية (بلجيكا)"
+
+#~ msgid "Dutch (Netherlands)"
+#~ msgstr "الهولندية (هولندا)"
+
+#~ msgid "Polish (Poland)"
+#~ msgstr "البولندية (بولندا)"
+
+#~ msgid "Afrikaans (South Africa)"
+#~ msgstr "الأفريكانية (جنوب إفريقيا)"
+
+#~ msgid "Xhosa (South Africa)"
+#~ msgstr "كهوسا (جنوب إفريقيا)"
+
+#~ msgid "Zulu (South Africa)"
+#~ msgstr "الزولو (جنوب إفريقيا)"
+
+#~ msgid "Swahili (Kenya)"
+#~ msgstr "السواحلية (كينيا)"
+
+#~ msgid "hybrid mode"
+#~ msgstr "الوضع الهجين"
+
+#~ msgid "invalid line length."
+#~ msgstr "طول السطر غير صالح."
+
+#~ msgid "volume set to {}"
+#~ msgstr "إعداد حجم الصوت {}"
+
+#~ msgid "speed set to {}"
+#~ msgstr "إعداد السرعة {}"
+
+#~ msgid "slow down {}"
+#~ msgstr "إبطاء {}"
+
+#~ msgid ""
+#~ "WARNING, this change corrupt all your previous paired definition. you "
+#~ "must erase all paired devices after this modification"
+#~ msgstr ""
+#~ "تنبيه, هذا التغيير سيعطل جميع تعريفات المقارنة السابقة. عليك إزالة كافة "
+#~ "الأجهزة المقارنة بعد هذا التعديل"
