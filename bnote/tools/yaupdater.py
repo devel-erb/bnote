@@ -21,13 +21,29 @@ import pkg_resources
 
 
 from bnote.debug.colored_log import ColoredLogger, YAUPDATER_LOG
+from bnote.tools.settings import Settings
 
 log = ColoredLogger(__name__)
 log.setLevel(YAUPDATER_LOG)
 
-UPDATE_FOLDER_URL = 'https://update.eurobraille.fr/radio/download/bnote/bnote3.x.x'
+# UPDATE_FOLDER_URL = 'https://update.eurobraille.fr/radio/download/bnote/bnote3.x.x'
+UPDATE_FOLDER_URL = Settings().data['update']['search_update_to']
 INSTALL_FOLDER = Path("/home/pi/all_bnotes")
 
+def test_new_source(source) -> bool:
+    """
+    Return True if the link is a valid source.
+    :param source: the link to test.
+    :return: Boolean
+    """
+    response = requests.get(source)
+    if response.status_code==200 and "bnote" in source:
+        return True
+    return False
+
+def change_update_source():
+    global UPDATE_FOLDER_URL
+    UPDATE_FOLDER_URL = Settings().data['update']['search_update_to']
 
 # Objectifs :
 # - Installer une version de bnote à partir d'un tar.gz créé par poetry
@@ -387,48 +403,37 @@ class YAUpdaterFinder:
             self.ended()
 
     def __find_list_thread(self):
-        #bnote-3.0.0b10-py3-none-any.whl
-        pattern = r'bnote-([0-9]\.[0-9]\.[0-9]?(a|b|rc)?\d+)-py3-none-any\.whl\.zip'
-        pattern_version = r'bnote-(?P<version>[0-9]\.[0-9]\.[0-9]?(a|b|rc)?\d+)-py3-none-any\.whl\.zip'
         files = []
         version_to_install = 'up_to_date'
         file_to_install = None
         try:
             response = requests.get(UPDATE_FOLDER_URL)
-            # Raise exceptions for 4xx and 5xx responses.
             response.raise_for_status()
-            soup = BeautifulSoup(response.text, 'html.parser')
-            # Find all links and filter them with pattern.
-            files = [link.get('href') for link in soup.find_all('a') if re.match(pattern, link.get('href'))]
-            log.error(f"Updates found: {files}")
+            releases = response.json()
             current_version = YAUpdater.get_version_from_running_project("pyproject.toml")
-            for file in files:
-                match = re.match(pattern_version, file)
-                if match:
-                    # print(f"{match}")
-                    # print(f"{match.groupdict()=}")
-                    # print(f"{match.group('major')=}-{match.group('minor')=}-{match.group('fix')=}")
-                    if 'version' in match.groupdict().keys() and match.group('version'):
-                        file_version = match.group('version')
-                        log.info(f"Compare {current_version=} to {file_version=}")
-                        if self.is_allowed_version(file_version) and not YAUpdaterFinder.is_first_str_version_greater_or_equal(current_version, file_version):
-                            if file_to_install is None or not YAUpdaterFinder.is_first_str_version_greater_or_equal(version_to_install, file_version):
-                                version_to_install = file_version
-                                file_to_install = file
-        except requests.exceptions.HTTPError as errh:
-            log.error(f"Erreur HTTP: {errh}")
-            version_to_install = 'failed'
-        except requests.exceptions.ConnectionError as errc:
-            log.error(f"Erreur de connexion: {errc}")
-            version_to_install = 'failed'
-        except requests.exceptions.Timeout as errt:
-            log.error(f"Temps d'attente dépassé: {errt}")
-            version_to_install = 'failed'
+
+            file_link =None
+            for release in releases:
+                # Get the link only for the update
+                for asset in release['assets']:
+                    if asset['content_type']=="application/zip":
+                        file_link = asset['browser_download_url']
+                if not file_link:
+                    self.version_to_install="failed"
+                    return
+                file_version = release['tag_name']
+                if file_version.startswith('v'):
+                    file_version = file_version[1:]
+                if self.is_allowed_version(file_version):
+                    files.append({'version': file_version, 'link': file_link})
+                    if not self.is_first_str_version_greater_or_equal(current_version, file_version):
+                        if file_to_install is None or not self.is_first_str_version_greater_or_equal(version_to_install, file_version):
+                            version_to_install = file_version
+                            file_to_install = file_link
         except requests.exceptions.RequestException as err:
-            log.error(f"Erreur de requête: {err}")
+            print(f"Request error: {err}")
             version_to_install = 'failed'
         finally:
-            log.error(f"{version_to_install=}")
             self.__on_end_thread(files, version_to_install, file_to_install)
 
     def is_allowed_version(self, version):
