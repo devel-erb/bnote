@@ -31,7 +31,7 @@ BLUETOOTH_BASE_NAME = "Esys-bnote-"
 class Settings(metaclass=SingletonMeta):
     def __init__(self):
         self.DEFAULT_VALUES = {'system': {'braille_type': 'dot-8',
-                                          'auto_sync_date': False,
+                                          'auto_sync_date': False, 'timezone': 'Europe/Paris',
                                           'spaces_in_label': False,
                                           'shortcuts_visible': False,
                                           'app_explorer': 'main_apps_menu',
@@ -111,7 +111,7 @@ class Settings(metaclass=SingletonMeta):
                                                     'use_vocal': "auto",
                                                     'keep_spaces': False,
                                                     'write_all': True},
-                               'update': {'auto_check': False},
+                               'update': {'auto_check': False, 'search_update_to': 'https://api.github.com/repos/devel-erb/bnote/releases'},
                                'eole': {'user_name': '', 'token': ''},
                                'translator': {
                                    'base_language': "French",
@@ -125,7 +125,7 @@ class Settings(metaclass=SingletonMeta):
                                }
 
         self.VALID_VALUES = {'system': {'braille_type': ('dot-8', 'grade1', 'grade2'),
-                                        'auto_sync_date': (False, True),
+                                        'auto_sync_date': (False, True), 'timezone': '',
                                         'spaces_in_label': (True, False),
                                         'shortcuts_visible': (True, False),
                                         'app_explorer': ('invisible', 'main_apps_menu', 'more_apps_menu'),
@@ -204,7 +204,7 @@ class Settings(metaclass=SingletonMeta):
                                                   'use_vocal': ("auto", "ask", "no"),
                                                   'keep_spaces': (True, False),
                                                   'write_all': (True, False)},
-                             'update': {'auto_check': (True, False)},
+                             'update': {'auto_check': (True, False), 'search_update_to': ""},
                              'eole': {'user_name': '', 'token': ''},
                              'stm32': {'name': '',
                                        'len': range(0, 81),
