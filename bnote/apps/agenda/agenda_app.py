@@ -1,8 +1,8 @@
 """
- bnote project
- Author : Eurobraille
- Date : 2024-07-16
- Licence : Ce fichier est libre de droit. Vous pouvez le modifier et le redistribuer à votre guise.
+bnote project
+Author : Theotime Berthod
+Date : 2024-11-17
+Licence : Ce fichier est libre de droit. Vous pouvez le modifier et le redistribuer à votre guise.
 """
 
 import datetime
@@ -32,7 +32,7 @@ class AgendaApp(BnoteApp):
         :param put_in_function_queue:  (for multi-threading) queue of functions ask to bnote Internal class
         """
         # app information
-        self.version = "2024-06-02"
+        self.version = "2024-11-17"
         # Filter creation
         self.dater = ""
         self.filter = False
@@ -1224,16 +1224,22 @@ class AgendaApp(BnoteApp):
 
     def compare_date(self, date) -> bool:
         """
-        Compare the date with the date of day.
-        Return True if day is superior, False else.
+        Compare the date with the current date.
+        Return True if the given date is superior or equal to the current date, False otherwise.
         """
-        day = self.get_date().split("/")
-        date = date.split("/")
-        if int(date[2]) >= int(day[2]):
-            if int(date[1]) > int(day[1]):
+        # Obtenir la date actuelle et la date fournie sous forme de listes [jour, mois, année]
+        current_date = list(map(int, self.get_date().split("/")))
+        given_date = list(map(int, date.split("/")))
+
+        # Comparaison des dates (année, puis mois, puis jour)
+        if given_date[2] > current_date[2]:
+            return True
+        elif given_date[2] == current_date[2]:
+            if given_date[1] > current_date[1]:
                 return True
-            elif int(date[1]) == int(day[1]) and int(date[0]) >= int(day[0]):
-                return True
+            elif given_date[1] == current_date[1]:
+                if given_date[0] >= current_date[0]:
+                    return True
         return False
 
     def test_date(self, date_teste):

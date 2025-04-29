@@ -1,0 +1,6160 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-31 21:25+0100\n"
+"PO-Revision-Date: 2024-04-29 08:20+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: int\n"
+"X-Poedit-SearchPath-1: fman\n"
+"X-Poedit-SearchPath-2: edt\n"
+"X-Poedit-SearchPath-3: math\n"
+"X-Poedit-SearchPath-4: settings\n"
+
+#: ../ui/ui_parameters_list.py:184
+#, fuzzy
+msgid "ok"
+msgstr "&ok"
+
+#: ../ui/ui_parameters_list.py:184
+#, fuzzy
+msgid "cancel"
+msgstr "ca&ncelar"
+
+#: ../ui/ui_parameters_list.py:283 ../ui/ui_parameters_list.py:296
+#: ../ui/ui_parameters_list.py:318
+#, fuzzy
+msgid "parameter"
+msgstr "parâmetros indefinidos"
+
+#: ../ui/ui_parameters_list.py:289 ../ui/ui_parameters_list.py:311
+#: ../ui/ui_parameters_list.py:324 ../ui/ui_message_dialog_box.py:59
+#: ../ui/ui_settings_dialog_box.py:56 ../tools/volume_speed_dialog_box.py:34
+#: ../tools/volume_speed_dialog_box.py:135 ../apps/music/music_app.py:219
+#: ../apps/music/music_app.py:1456 ../apps/music/music_app.py:1470
+#: ../apps/music/music_app.py:1491 ../apps/music/music_app.py:1512
+#: ../apps/music/music_app.py:1587 ../apps/music/music_app.py:1619
+#: ../apps/settings/settings_app.py:3278 ../apps/settings/settings_app.py:3355
+#: ../apps/settings/settings_app.py:3420 ../apps/settings/settings_app.py:3443
+#: ../apps/settings/settings_app.py:3499 ../apps/settings/settings_app.py:3635
+#: ../apps/settings/settings_app.py:3718 ../apps/settings/settings_app.py:3786
+#: ../apps/settings/settings_app.py:4844 ../apps/settings/settings_app.py:4932
+#: ../apps/edt/editor_app.py:275 ../apps/edt/editor_app.py:295
+#: ../apps/edt/editor_base_app.py:945 ../apps/edt/editor_base_app.py:1006
+#: ../apps/edt/editor_base_app.py:1577 ../apps/wikipedia/wikipedia_app.py:216
+#: ../apps/daisy/daisy_app.py:329 ../apps/daisy/daisy_app.py:498
+#: ../apps/skeleton/skeleton_app.py:124 ../apps/skeleton/skeleton_app.py:137
+#: ../apps/skeleton/skeleton_app.py:187 ../apps/skeleton/skeleton_app.py:212
+#: ../apps/timer/timer_app.py:207 ../apps/timer/timer_app.py:249
+#: ../apps/translator/translator_app.py:146
+#: ../apps/translator/translator_app.py:175
+#: ../apps/translator/translator_app.py:220
+#: ../apps/braille_learning/operation_app.py:172
+#: ../apps/braille_learning/operation_app.py:190
+#: ../apps/braille_learning/operation_app.py:226
+#: ../apps/braille_learning/operation_app.py:266
+#: ../apps/braille_learning/write_word_app.py:267
+#: ../apps/braille_learning/write_word_app.py:308
+#: ../apps/ai_assistant/ai_assistant_app.py:337
+#: ../apps/ai_assistant/ai_assistant_app.py:375
+#: ../apps/agenda/agenda_app.py:503 ../apps/agenda/agenda_app.py:554
+#: ../apps/agenda/agenda_app.py:820 ../apps/agenda/agenda_app.py:840
+#: ../apps/agenda/agenda_app.py:859 ../apps/agenda/agenda_app.py:891
+#: ../apps/agenda/agenda_app.py:906 ../apps/agenda/agenda_app.py:926
+#: ../apps/agenda/agenda_app.py:973 ../apps/agenda/agenda_app.py:1049
+#: ../apps/agenda/agenda_app.py:1072 ../apps/agenda/agenda_app.py:1109
+#: ../apps/fman/file_manager_app.py:788 ../apps/fman/file_manager_app.py:819
+#: ../apps/fman/file_manager_app.py:853 ../apps/fman/file_manager_app.py:877
+#: ../apps/fman/file_manager_app.py:988 ../apps/fman/file_manager_app.py:1259
+#: ../apps/fman/file_manager_app.py:1453 ../apps/fman/file_manager_app.py:1474
+#: ../apps/fman/file_manager_app.py:1677 ../apps/fman/file_manager_app.py:1697
+#: ../apps/fman/file_manager_app.py:1890 ../apps/fman/file_manager_app.py:2691
+#: ../apps/games/mines_app.py:170 ../apps/games/mines_app.py:196
+#: ../apps/games/mines_app.py:224 ../apps/games/mines_app.py:448
+#: ../apps/games/master_mind_app.py:169 ../apps/games/master_mind_app.py:197
+#: ../apps/games/master_mind_app.py:237 ../apps/games/master_mind_app.py:254
+#: ../apps/games/master_mind_app.py:420 ../apps/media/mp3_app.py:342
+#: ../apps/media/mp3_app.py:592 ../apps/media/mp3_app.py:751
+#: ../apps/media/mp3_app.py:833 ../apps/media/mp3_app.py:936
+#: ../apps/media/radio_app.py:421
+msgid "&ok"
+msgstr "&ok"
+
+#: ../ui/ui_parameters_list.py:290 ../ui/ui_parameters_list.py:312
+#: ../ui/ui_parameters_list.py:325 ../ui/ui_settings_dialog_box.py:57
+#: ../tools/volume_speed_dialog_box.py:35
+#: ../tools/volume_speed_dialog_box.py:136 ../apps/music/music_app.py:220
+#: ../apps/music/music_app.py:548 ../apps/music/music_app.py:581
+#: ../apps/music/music_app.py:614 ../apps/music/music_app.py:647
+#: ../apps/music/music_app.py:680 ../apps/music/music_app.py:711
+#: ../apps/music/music_app.py:752 ../apps/music/music_app.py:781
+#: ../apps/music/music_app.py:827 ../apps/music/music_app.py:869
+#: ../apps/music/music_app.py:901 ../apps/music/music_app.py:943
+#: ../apps/music/music_app.py:998 ../apps/music/music_app.py:1046
+#: ../apps/music/music_app.py:1209 ../apps/music/music_app.py:1265
+#: ../apps/music/music_app.py:1306 ../apps/music/music_app.py:1406
+#: ../apps/music/music_app.py:1438 ../apps/music/music_app.py:1551
+#: ../apps/music/music_app.py:1658 ../apps/settings/settings_app.py:3421
+#: ../apps/settings/settings_app.py:3444 ../apps/settings/settings_app.py:3501
+#: ../apps/settings/settings_app.py:3592 ../apps/settings/settings_app.py:3638
+#: ../apps/settings/settings_app.py:3719 ../apps/settings/settings_app.py:3787
+#: ../apps/settings/settings_app.py:4120 ../apps/settings/settings_app.py:4209
+#: ../apps/settings/settings_app.py:4849 ../apps/settings/settings_app.py:4901
+#: ../apps/settings/settings_app.py:4953 ../apps/settings/settings_app.py:5005
+#: ../apps/edt/editor_app.py:197 ../apps/edt/editor_app.py:276
+#: ../apps/edt/editor_app.py:297 ../apps/edt/editor_base_app.py:868
+#: ../apps/edt/editor_base_app.py:1007 ../apps/edt/editor_base_app.py:1085
+#: ../apps/edt/editor_base_app.py:1144 ../apps/edt/editor_base_app.py:1578
+#: ../apps/wikipedia/wikipedia_app.py:217 ../apps/daisy/daisy_app.py:330
+#: ../apps/skeleton/skeleton_app.py:125 ../apps/skeleton/skeleton_app.py:138
+#: ../apps/skeleton/skeleton_app.py:188 ../apps/timer/timer_app.py:154
+#: ../apps/timer/timer_app.py:211 ../apps/timer/timer_app.py:236
+#: ../apps/translator/translator_app.py:147
+#: ../apps/translator/translator_app.py:176
+#: ../apps/translator/translator_app.py:221
+#: ../apps/braille_learning/operation_app.py:191
+#: ../apps/braille_learning/write_word_app.py:268
+#: ../apps/ai_assistant/ai_assistant_app.py:338
+#: ../apps/agenda/agenda_app.py:504 ../apps/agenda/agenda_app.py:555
+#: ../apps/agenda/agenda_app.py:610 ../apps/agenda/agenda_app.py:629
+#: ../apps/agenda/agenda_app.py:676 ../apps/agenda/agenda_app.py:709
+#: ../apps/agenda/agenda_app.py:738 ../apps/agenda/agenda_app.py:757
+#: ../apps/agenda/agenda_app.py:848 ../apps/agenda/agenda_app.py:867
+#: ../apps/agenda/agenda_app.py:915 ../apps/agenda/agenda_app.py:935
+#: ../apps/agenda/agenda_app.py:981 ../apps/agenda/agenda_app.py:1113
+#: ../apps/fman/file_manager_app.py:789 ../apps/fman/file_manager_app.py:820
+#: ../apps/fman/file_manager_app.py:854 ../apps/fman/file_manager_app.py:878
+#: ../apps/fman/file_manager_app.py:989 ../apps/fman/file_manager_app.py:1043
+#: ../apps/fman/file_manager_app.py:1160 ../apps/fman/file_manager_app.py:1261
+#: ../apps/fman/file_manager_app.py:1678 ../apps/fman/file_manager_app.py:1698
+#: ../apps/fman/file_manager_app.py:1897 ../apps/fman/file_manager_app.py:2696
+#: ../apps/games/mines_app.py:171 ../apps/games/mines_app.py:197
+#: ../apps/games/mines_app.py:449 ../apps/games/master_mind_app.py:170
+#: ../apps/games/master_mind_app.py:238 ../apps/games/master_mind_app.py:255
+#: ../apps/games/master_mind_app.py:422 ../apps/media/mp3_app.py:343
+#: ../apps/media/mp3_app.py:593 ../apps/media/mp3_app.py:614
+#: ../apps/media/mp3_app.py:634 ../apps/media/mp3_app.py:703
+#: ../apps/media/mp3_app.py:753 ../apps/media/mp3_app.py:835
+#: ../apps/media/mp3_app.py:937 ../apps/media/radio_app.py:181
+#: ../apps/media/radio_app.py:204 ../apps/media/radio_app.py:422
+msgid "&cancel"
+msgstr "ca&ncelar"
+
+#: ../ui/ui_list_box.py:79
+msgid "empty list"
+msgstr "lista vazia"
+
+#: ../ui/ui_message_dialog_box.py:56 ../ui/ui_message_dialog_box.py:66
+#: ../apps/music/music_app.py:1601 ../apps/settings/settings_app.py:3353
+#: ../apps/settings/settings_app.py:4930 ../apps/skeleton/skeleton_app.py:209
+#: ../apps/timer/timer_app.py:244 ../apps/braille_learning/operation_app.py:167
+#: ../apps/braille_learning/operation_app.py:221
+#: ../apps/braille_learning/write_word_app.py:303
+#: ../apps/agenda/agenda_app.py:720 ../apps/agenda/agenda_app.py:855
+#: ../apps/agenda/agenda_app.py:888 ../apps/agenda/agenda_app.py:922
+#: ../apps/agenda/agenda_app.py:1055 ../apps/agenda/agenda_app.py:1065
+#: ../apps/agenda/agenda_app.py:1140 ../apps/fman/file_manager_app.py:2627
+#: ../apps/games/mines_app.py:165 ../apps/games/master_mind_app.py:164
+#: ../apps/media/mp3_app.py:747 ../apps/media/mp3_app.py:827
+#: ../apps/media/radio_app.py:197 ../apps/media/radio_app.py:416
+msgid "information"
+msgstr "informação"
+
+#: ../ui/ui_checkbox.py:23 ../apps/settings/settings_app.py:3368
+#: ../apps/settings/settings_app.py:3375 ../apps/skeleton/skeleton_app.py:166
+msgid "yes"
+msgstr "sim"
+
+#: ../ui/ui_checkbox.py:23 ../apps/music/music_app.py:1545
+#: ../apps/music/music_app.py:1571 ../apps/music/music_app.py:1577
+#: ../apps/music/music_app.py:1579 ../apps/music/music_app.py:1612
+#: ../apps/settings/settings_app.py:2888 ../apps/settings/settings_app.py:2922
+#: ../apps/settings/settings_app.py:3058 ../apps/settings/settings_app.py:3066
+#: ../apps/settings/settings_app.py:3370 ../apps/settings/settings_app.py:3377
+#: ../apps/skeleton/skeleton_app.py:167
+#: ../apps/braille_learning/operation_app.py:457
+#: ../apps/braille_learning/write_word_app.py:487
+msgid "no"
+msgstr "não"
+
+#: ../ui/ui_file_manager_tools.py:34 ../ui/ui_file_manager_tools.py:83
+msgid "deleted on {}"
+msgstr "eliminado em {}"
+
+#: ../ui/ui_file_manager_tools.py:35 ../ui/ui_file_manager_tools.py:84
+msgid "%A %d %B %Y %H:%M:%S"
+msgstr "%A %d %B %Y %H:%M:%S"
+
+#: ../ui/ui_file_manager_tools.py:43 ../ui/ui_file_manager_tools.py:70
+msgid "d "
+msgstr "d "
+
+#: ../ui/ui_file_manager_tools.py:89 ../ui/ui_file_manager_tools.py:105
+msgid "f "
+msgstr "f "
+
+#: ../ui/ui_file_manager_tools.py:284 ../apps/fman/file_manager_app.py:560
+msgid "trash"
+msgstr "reciclagem"
+
+#: ../ui/ui_file_manager_tools.py:286 ../apps/settings/settings_app.py:1425
+#: ../apps/settings/settings_app.py:1437 ../apps/settings/settings_app.py:1445
+#: ../apps/settings/settings_app.py:1453 ../apps/fman/file_manager_app.py:573
+msgid "bluetooth"
+msgstr "bluetooth"
+
+#: ../ui/ui_file_manager_tools.py:289
+#, fuzzy
+msgid "my backups"
+msgstr "cópias de segurança"
+
+#: ../ui/ui_file_manager_tools.py:292
+msgid "usb flash drives"
+msgstr "unidades usb"
+
+#: ../ui/ui_file_manager_tools.py:295
+msgid "my Documents"
+msgstr "os meus Documentos"
+
+#: ../ui/ui_file_manager_tools.py:298
+#, fuzzy
+msgid "crash"
+msgstr "c&rash"
+
+#: ../ui/ui_file_manager_tools.py:301 ../apps/settings/settings_app.py:741
+#: ../apps/settings/settings_app.py:1592 ../apps/settings/settings_app.py:4951
+msgid "settings"
+msgstr "configurações"
+
+#: ../ui/ui_file_manager_tools.py:306
+#, fuzzy
+msgid "bnote"
+msgstr "&nome do bnote"
+
+#: ../ui/ui_file_manager_tools.py:317 ../ui/ui_file_manager_tools.py:327
+msgid "bytes"
+msgstr "bytes"
+
+#: ../ui/ui_file_manager_tools.py:319
+msgid "Kb"
+msgstr "Kb"
+
+#: ../ui/ui_file_manager_tools.py:321
+msgid "Mb"
+msgstr "Mb"
+
+#: ../ui/ui_file_manager_tools.py:324
+msgid "Gb"
+msgstr "Gb"
+
+#: ../ui/ui_file_box.py:42 ../apps/fman/file_manager_app.py:2966
+msgid "empty directory..."
+msgstr "directório vazio..."
+
+#: ../ui/ui_file_manager.py:128
+msgid "s"
+msgstr "s"
+
+#: ../ui/ui_file_manager.py:130
+msgid "n"
+msgstr "n"
+
+#: ../tools/yaupdater.py:111 ../apps/fman/file_manager_app.py:1370
+#, fuzzy
+msgid "download in progress..."
+msgstr "a ler..."
+
+#: ../tools/yaupdater.py:153 ../tools/yaupdater.py:184
+msgid "error: bad zip file {archive_path=}"
+msgstr ""
+
+#: ../tools/yaupdater.py:159 ../tools/yaupdater.py:190
+msgid "no file libraries.txt found in {archive_path=}"
+msgstr ""
+
+#: ../tools/yaupdater.py:216
+msgid "error: no .whl file in update"
+msgstr ""
+
+#: ../tools/yaupdater.py:219
+msgid "install packages..."
+msgstr ""
+
+#: ../tools/yaupdater.py:230
+msgid "install dependencies done"
+msgstr ""
+
+#: ../tools/yaupdater.py:245
+msgid "extract archive in progress..."
+msgstr ""
+
+#: ../tools/yaupdater.py:331 ../tools/yaupdater.py:369
+#, fuzzy
+msgid "linux os update"
+msgstr "Deseja instalar a actualização?"
+
+#: ../tools/yaupdater.py:334 ../tools/yaupdater.py:390
+msgid "linux os updates done"
+msgstr ""
+
+#: ../tools/yaupdater.py:359
+#, python-brace-format
+msgid "Error: {error_string}"
+msgstr ""
+
+#: ../tools/yaupdater.py:385
+#, fuzzy, python-brace-format
+msgid "error: {erreur}"
+msgstr "erro"
+
+#: ../tools/volume_speed_dialog_box.py:26
+msgid "volume &up"
+msgstr "&aumentar volume"
+
+#: ../tools/volume_speed_dialog_box.py:29
+msgid "volume &down"
+msgstr "&diminuir volume"
+
+#: ../tools/volume_speed_dialog_box.py:81
+msgid "media volume 0%"
+msgstr "volume multimédia 0%"
+
+#: ../tools/volume_speed_dialog_box.py:83
+msgid "volume 0%"
+msgstr "volume 0%"
+
+#: ../tools/volume_speed_dialog_box.py:87
+msgid "media volume down, {}%"
+msgstr "diminuir volume multimédia, {}%"
+
+#: ../tools/volume_speed_dialog_box.py:89
+msgid "volume down, {}%"
+msgstr "diminuir volume, {}%"
+
+#: ../tools/volume_speed_dialog_box.py:100
+msgid "media volume 100%"
+msgstr "volume multimédia 100%"
+
+#: ../tools/volume_speed_dialog_box.py:102
+msgid "volume 100%"
+msgstr "volume 100%"
+
+#: ../tools/volume_speed_dialog_box.py:106
+msgid "media volume up, {}%"
+msgstr "aumentar volume multimédia, {}%"
+
+#: ../tools/volume_speed_dialog_box.py:108
+msgid "volume up, {}%"
+msgstr "aumentar volume, {}%"
+
+#: ../tools/volume_speed_dialog_box.py:129
+msgid "speed &up"
+msgstr "&aumentar velocidade"
+
+#: ../tools/volume_speed_dialog_box.py:132
+msgid "speed &down"
+msgstr "&diminuir velocidade"
+
+#: ../tools/volume_speed_dialog_box.py:180
+msgid "minimum speed"
+msgstr "velocidade mínima"
+
+#: ../tools/volume_speed_dialog_box.py:183
+msgid "speed down {}"
+msgstr "diminuir velocidade {}"
+
+#: ../tools/volume_speed_dialog_box.py:192
+msgid "maximum speed"
+msgstr "velocidade máxima"
+
+#: ../tools/volume_speed_dialog_box.py:195
+msgid "speed up {}"
+msgstr "aumentar velocidade {}"
+
+#: ../apps/music/music_opy/l1l11ll1l_opy_.py:1157
+#, fuzzy
+msgid "existing"
+msgstr "configurações"
+
+#: ../apps/music/music_opy/music_read_file.py:103
+#: ../apps/music/music_opy/music_write_file.py:79
+#: ../apps/edt/edt/read_file.py:163
+msgid "file {} type not supported."
+msgstr "tipo de ficheiro {} não suportado."
+
+#: ../apps/music/music_app.py:110 ../apps/settings/settings_app.py:1796
+msgid "music"
+msgstr "música"
+
+#: ../apps/music/music_app.py:115 ../apps/edt/editor_app.py:56
+#: ../apps/wikipedia/wikipedia_app.py:55 ../apps/daisy/daisy_app.py:79
+#: ../apps/ai_assistant/ai_assistant_app.py:117
+#: ../apps/fman/file_manager_app.py:164 ../apps/fman/file_manager_app.py:212
+#: ../apps/fman/file_manager_app.py:345 ../apps/fman/file_manager_app.py:391
+#: ../apps/fman/file_manager_app.py:442 ../apps/fman/file_manager_app.py:462
+#: ../apps/fman/file_manager_app.py:475
+msgid "&file"
+msgstr "&ficheiro"
+
+#: ../apps/music/music_app.py:118 ../apps/settings/settings_app.py:4196
+#: ../apps/edt/editor_app.py:59 ../apps/wikipedia/wikipedia_app.py:58
+#: ../apps/daisy/daisy_app.py:82 ../apps/eole/eole_search_dialog_box.py:83
+#: ../apps/eole/eole_search_dialog_box.py:110 ../apps/timer/timer_app.py:191
+#: ../apps/ai_assistant/ai_assistant_app.py:120
+#: ../apps/agenda/agenda_app.py:1144 ../apps/agenda/agenda_app.py:1184
+#: ../apps/fman/file_manager_app.py:1101
+msgid "&close"
+msgstr "&fechar"
+
+#: ../apps/music/music_app.py:124 ../apps/edt/editor_app.py:65
+#: ../apps/ai_assistant/ai_assistant_app.py:126 ../apps/media/mp3_app.py:108
+#: ../apps/media/mp3_app.py:613
+msgid "&save"
+msgstr "&guardar"
+
+#: ../apps/music/music_app.py:130 ../apps/settings/settings_app.py:4952
+#: ../apps/edt/editor_app.py:196 ../apps/agenda/agenda_app.py:748
+msgid "&export"
+msgstr "&exportar"
+
+#: ../apps/music/music_app.py:134 ../apps/settings/settings_app.py:588
+msgid "&musicxml"
+msgstr "&musicxml"
+
+#: ../apps/music/music_app.py:140 ../apps/settings/settings_app.py:661
+msgid "&bxml"
+msgstr "&bxml"
+
+#: ../apps/music/music_app.py:148 ../apps/media/mp3_app.py:159
+msgid "&properties"
+msgstr "p&ropriedades"
+
+#: ../apps/music/music_app.py:151 ../apps/edt/editor_app.py:72
+#: ../apps/wikipedia/wikipedia_app.py:66 ../apps/daisy/daisy_app.py:91
+#: ../apps/ai_assistant/ai_assistant_app.py:132
+msgid "sta&tistics"
+msgstr "esta&tísticas"
+
+#: ../apps/music/music_app.py:157 ../apps/music/music_app.py:546
+#: ../apps/music/music_app.py:579 ../apps/music/music_app.py:612
+#: ../apps/music/music_app.py:645 ../apps/music/music_app.py:678
+#: ../apps/music/music_app.py:709 ../apps/music/music_app.py:750
+#: ../apps/music/music_app.py:779 ../apps/music/music_app.py:824
+#: ../apps/music/music_app.py:866 ../apps/music/music_app.py:899
+#: ../apps/music/music_app.py:940 ../apps/music/music_app.py:996
+#: ../apps/music/music_app.py:1044 ../apps/music/music_app.py:1207
+#: ../apps/music/music_app.py:1263 ../apps/music/music_app.py:1304
+#: ../apps/music/music_app.py:1404 ../apps/music/music_app.py:1436
+#: ../apps/music/music_app.py:1549 ../apps/music/music_app.py:1655
+#: ../apps/edt/editor_app.py:88
+msgid "&insert"
+msgstr "&inserir"
+
+#: ../apps/music/music_app.py:162
+msgid "&key signature"
+msgstr "&armação da clave"
+
+#: ../apps/music/music_app.py:165 ../apps/settings/settings_app.py:611
+#: ../apps/settings/settings_app.py:686 ../apps/settings/settings_app.py:1841
+#: ../apps/settings/settings_app.py:1969
+msgid "&clef"
+msgstr "&clave"
+
+#: ../apps/music/music_app.py:168
+msgid "&bar"
+msgstr "&compasso"
+
+#: ../apps/music/music_app.py:172
+msgid "&octave sign"
+msgstr "&oitava"
+
+#: ../apps/music/music_app.py:179 ../apps/internal.py:483
+#: ../apps/daisy/daisy_app.py:109
+msgid "au&dio"
+msgstr "au&dio"
+
+#: ../apps/music/music_app.py:183 ../apps/daisy/daisy_app.py:113
+#: ../apps/media/mp3_app.py:164 ../apps/media/radio_app.py:90
+#: ../apps/media/radio_app.py:179
+msgid "&play"
+msgstr "&iniciar"
+
+#: ../apps/music/music_app.py:189 ../apps/daisy/daisy_app.py:119
+#: ../apps/media/radio_app.py:99
+msgid "&stop"
+msgstr "&parar"
+
+#: ../apps/music/music_app.py:196
+msgid "pa&use"
+msgstr "pa&usa"
+
+#: ../apps/music/music_app.py:202 ../apps/settings/settings_app.py:768
+#: ../apps/edt/editor_base_app.py:350 ../apps/daisy/daisy_app.py:132
+#: ../apps/media/radio_app.py:104
+msgid "&volume"
+msgstr "&volume"
+
+#: ../apps/music/music_app.py:203 ../apps/settings/settings_app.py:772
+#: ../apps/edt/editor_base_app.py:351
+msgid "&speed"
+msgstr "ve&locidade"
+
+#: ../apps/music/music_app.py:206 ../apps/settings/settings_app.py:1195
+#: ../apps/edt/editor_app.py:120 ../apps/wikipedia/wikipedia_app.py:87
+#: ../apps/daisy/daisy_app.py:135 ../apps/braille_learning/operation_app.py:90
+#: ../apps/braille_learning/write_word_app.py:133
+#: ../apps/ai_assistant/ai_assistant_app.py:162
+#: ../apps/agenda/agenda_app.py:172 ../apps/fman/file_manager_app.py:531
+#: ../apps/fman/file_manager_app.py:544 ../apps/fman/file_manager_app.py:554
+#: ../apps/fman/file_manager_app.py:566 ../apps/fman/file_manager_app.py:580
+#: ../apps/fman/file_manager_app.py:593 ../apps/fman/file_manager_app.py:603
+#: ../apps/fman/file_manager_app.py:614
+msgid "&applications"
+msgstr "a&plicações"
+
+#: ../apps/music/music_app.py:212 ../apps/media/mp3_app.py:923
+msgid "properties"
+msgstr "propriedades"
+
+#: ../apps/music/music_app.py:215
+msgid "&infos"
+msgstr ""
+
+#: ../apps/music/music_app.py:233 ../apps/music/music_app.py:675
+msgid "&text"
+msgstr "&texto"
+
+#: ../apps/music/music_app.py:236 ../apps/music/music_app.py:544
+msgid "&title"
+msgstr "&título"
+
+#: ../apps/music/music_app.py:243 ../apps/music/music_app.py:576
+msgid "&sub title"
+msgstr "&subtítulo"
+
+#: ../apps/music/music_app.py:250 ../apps/music/music_app.py:609
+msgid "&composer"
+msgstr "&compositor"
+
+#: ../apps/music/music_app.py:257 ../apps/music/music_app.py:642
+msgid "&lyricist"
+msgstr "&letrista"
+
+#: ../apps/music/music_app.py:264 ../apps/settings/settings_app.py:1913
+#: ../apps/settings/settings_app.py:2041
+msgid "&credit words"
+msgstr "c&réditos"
+
+#: ../apps/music/music_app.py:271
+msgid "&part"
+msgstr "&parte"
+
+#: ../apps/music/music_app.py:278 ../apps/music/music_app.py:748
+#: ../apps/settings/settings_app.py:653 ../apps/settings/settings_app.py:728
+#: ../apps/settings/settings_app.py:1921 ../apps/settings/settings_app.py:2049
+msgid "&lyrics"
+msgstr "&letra"
+
+#: ../apps/music/music_app.py:285 ../apps/music/music_app.py:777
+#: ../apps/settings/settings_app.py:732 ../apps/settings/settings_app.py:2057
+msgid "&karaoke"
+msgstr "&karaoke"
+
+#: ../apps/music/music_app.py:296
+msgid "&keyboard signs"
+msgstr "&teclado"
+
+#: ../apps/music/music_app.py:299 ../apps/settings/settings_app.py:607
+#: ../apps/settings/settings_app.py:682 ../apps/settings/settings_app.py:1833
+#: ../apps/settings/settings_app.py:1961
+msgid "&fingering"
+msgstr "dedil&har"
+
+#: ../apps/music/music_app.py:302 ../apps/music/music_app.py:852
+msgid "&pedal"
+msgstr "&pedal"
+
+#: ../apps/music/music_app.py:309
+msgid "&game details"
+msgstr "&detalhes do jogo"
+
+#: ../apps/music/music_app.py:311
+msgid "&nuance"
+msgstr "&nuance"
+
+#: ../apps/music/music_app.py:317
+msgid "&musical content"
+msgstr "&conteúdo musical"
+
+#: ../apps/music/music_app.py:319
+msgid "insert &note"
+msgstr "inserir &nota"
+
+#: ../apps/music/music_app.py:320
+msgid "insert &rest"
+msgstr "inserir &pausa"
+
+#: ../apps/music/music_app.py:322
+msgid "rythmic &groups"
+msgstr "grupos &rítmicos"
+
+#: ../apps/music/music_app.py:325
+msgid "&alteration"
+msgstr "&alteração"
+
+#: ../apps/music/music_app.py:332
+msgid "acco&rd"
+msgstr "aco&rde"
+
+#: ../apps/music/music_app.py:334
+msgid "&interval"
+msgstr "&intervalo"
+
+#: ../apps/music/music_app.py:336
+msgid "&measure in-accord"
+msgstr "&medir harmonia"
+
+#: ../apps/music/music_app.py:437 ../apps/edt/editor_base_app.py:883
+#: ../apps/edt/editor_base_app.py:1542
+msgid "saving..."
+msgstr "a guardar..."
+
+#: ../apps/music/music_app.py:501
+#, python-brace-format
+msgid "file {file_name.name} already exists, do you want to overwrite it ?"
+msgstr "o ficheiro {file_name.name} já existe, deseja substituí-lo?"
+
+#: ../apps/music/music_app.py:542 ../apps/music/music_app.py:573
+#: ../apps/music/music_app.py:606 ../apps/music/music_app.py:639
+#: ../apps/music/music_app.py:672 ../apps/music/music_app.py:705
+#: ../apps/music/music_app.py:746 ../apps/music/music_app.py:775
+#: ../apps/music/music_app.py:807 ../apps/music/music_app.py:849
+#: ../apps/music/music_app.py:891 ../apps/music/music_app.py:916
+#: ../apps/music/music_app.py:975 ../apps/music/music_app.py:1024
+#: ../apps/music/music_app.py:1179 ../apps/music/music_app.py:1243
+#: ../apps/music/music_app.py:1287 ../apps/music/music_app.py:1385
+#: ../apps/music/music_app.py:1429 ../apps/music/music_app.py:1520
+#: ../apps/music/music_app.py:1634
+msgid "insert"
+msgstr "inserir"
+
+#: ../apps/music/music_app.py:544
+msgid "score's title"
+msgstr "título da música"
+
+#: ../apps/music/music_app.py:576
+msgid "score's sub title"
+msgstr "subtítulo da música"
+
+#: ../apps/music/music_app.py:609
+msgid "score's composer"
+msgstr "compositor da música"
+
+#: ../apps/music/music_app.py:675
+msgid "text outside of the score"
+msgstr "texto fora da música"
+
+#: ../apps/music/music_app.py:707
+msgid "part &name"
+msgstr "&nome da partitura"
+
+#: ../apps/music/music_app.py:707
+msgid "new part"
+msgstr "nova partitura"
+
+#: ../apps/music/music_app.py:726
+msgid "piano-right"
+msgstr "piano-direita"
+
+#: ../apps/music/music_app.py:728
+msgid "piano-left"
+msgstr "piano-esquerda"
+
+#: ../apps/music/music_app.py:810
+msgid "choose &finger"
+msgstr "escolher &dedo"
+
+#: ../apps/music/music_app.py:814 ../apps/music/music_app.py:838
+msgid "first finger"
+msgstr "primeiro dedo"
+
+#: ../apps/music/music_app.py:815 ../apps/music/music_app.py:839
+msgid "second finger"
+msgstr "segundo dedo"
+
+#: ../apps/music/music_app.py:816 ../apps/music/music_app.py:840
+msgid "third finger"
+msgstr "terceiro dedo"
+
+#: ../apps/music/music_app.py:817 ../apps/music/music_app.py:841
+msgid "fourth finger"
+msgstr "quarto dedo"
+
+#: ../apps/music/music_app.py:818 ../apps/music/music_app.py:842
+msgid "fifth finger"
+msgstr "quinto dedo"
+
+#: ../apps/music/music_app.py:856 ../apps/music/music_app.py:880
+msgid "pedal down"
+msgstr "pedal para baixo"
+
+#: ../apps/music/music_app.py:857 ../apps/music/music_app.py:881
+msgid "pedal up"
+msgstr "pedal para cima"
+
+#: ../apps/music/music_app.py:858 ../apps/music/music_app.py:882
+msgid "pedal under note"
+msgstr "pedal sob a nota"
+
+#: ../apps/music/music_app.py:859 ../apps/music/music_app.py:883
+msgid "half-pedal"
+msgstr "meio-pedal"
+
+#: ../apps/music/music_app.py:860 ../apps/music/music_app.py:884
+msgid "pedal up as soon as chord is struck"
+msgstr "levantar pedal ao tocar um acorde"
+
+#: ../apps/music/music_app.py:894
+msgid "select &alteration of note"
+msgstr "seleccionar &alteração da nota"
+
+#: ../apps/music/music_app.py:895 ../apps/music/music_app.py:908
+msgid "flat"
+msgstr "bemol"
+
+#: ../apps/music/music_app.py:895 ../apps/music/music_app.py:908
+msgid "natural"
+msgstr "natural"
+
+#: ../apps/music/music_app.py:895 ../apps/music/music_app.py:908
+msgid "sharp"
+msgstr "sustenido"
+
+#: ../apps/music/music_app.py:919
+msgid "select &tonality"
+msgstr "seleccionar &tonalidade"
+
+#: ../apps/music/music_app.py:923 ../apps/music/music_app.py:956
+msgid "do (+)/la (-)"
+msgstr "do (+)/la (-)"
+
+#: ../apps/music/music_app.py:924 ../apps/music/music_app.py:957
+msgid "re flat (+)/la sharp (-)"
+msgstr "re bemol (+)/la sustenido (-)"
+
+#: ../apps/music/music_app.py:925 ../apps/music/music_app.py:958
+msgid "re (+)/si (-)"
+msgstr "re (+)/si (-)"
+
+#: ../apps/music/music_app.py:926 ../apps/music/music_app.py:959
+msgid "mi flat (+)/do (-)"
+msgstr "mi bemol (+)/do (-)"
+
+#: ../apps/music/music_app.py:927 ../apps/music/music_app.py:960
+msgid "mi (+)/do sharp (-)"
+msgstr "mi (+)/do sustenido (-)"
+
+#: ../apps/music/music_app.py:928 ../apps/music/music_app.py:961
+msgid "fa (+)/re (-)"
+msgstr "fa (+)/re (-)"
+
+#: ../apps/music/music_app.py:929 ../apps/music/music_app.py:962
+msgid "sol flat (+)/re sharp (-)"
+msgstr "sol bemol (+)/re sustenido (-)"
+
+#: ../apps/music/music_app.py:930 ../apps/music/music_app.py:963
+msgid "sol (+)/mi (-)"
+msgstr "sol (+)/mi (-)"
+
+#: ../apps/music/music_app.py:931 ../apps/music/music_app.py:964
+msgid "la flat (+)/fa (-)"
+msgstr "la bemol (+)/fa (-)"
+
+#: ../apps/music/music_app.py:932 ../apps/music/music_app.py:965
+msgid "la (+)/fa sharp (-)"
+msgstr "la (+)/fa sustenido (-)"
+
+#: ../apps/music/music_app.py:933 ../apps/music/music_app.py:966
+msgid "si flat (+)/sol (-)"
+msgstr "si bemol (+)/sol (-)"
+
+#: ../apps/music/music_app.py:934 ../apps/music/music_app.py:967
+msgid "si (+)/la sharp (-)"
+msgstr "si (+)/la sustenido (-)"
+
+#: ../apps/music/music_app.py:978
+msgid "select an &octave"
+msgstr "seleccionar uma &oitava"
+
+#: ../apps/music/music_app.py:982 ../apps/music/music_app.py:1009
+msgid "a below first octave"
+msgstr "abaixo da primeira oitava"
+
+#: ../apps/music/music_app.py:983 ../apps/music/music_app.py:1010
+msgid "first octave"
+msgstr "primeira oitava"
+
+#: ../apps/music/music_app.py:984 ../apps/music/music_app.py:1011
+msgid "second octave"
+msgstr "segunda oitava"
+
+#: ../apps/music/music_app.py:985 ../apps/music/music_app.py:1012
+msgid "third octave"
+msgstr "terceira oitava"
+
+#: ../apps/music/music_app.py:986 ../apps/music/music_app.py:1013
+msgid "fourth octave (medium)"
+msgstr "quarta oitava (médio)"
+
+#: ../apps/music/music_app.py:987 ../apps/music/music_app.py:1014
+msgid "fifth octave"
+msgstr "quinta oitava"
+
+#: ../apps/music/music_app.py:988 ../apps/music/music_app.py:1015
+msgid "sixth octave"
+msgstr "sexta oitava"
+
+#: ../apps/music/music_app.py:989 ../apps/music/music_app.py:1016
+msgid "seventh octave"
+msgstr "sétima oitava"
+
+#: ../apps/music/music_app.py:990 ../apps/music/music_app.py:1017
+msgid "eighth octave"
+msgstr "sitava oitava"
+
+#: ../apps/music/music_app.py:1027
+msgid "select a &nuance"
+msgstr "seleccionar &nuance"
+
+#: ../apps/music/music_app.py:1031 ../apps/music/music_app.py:1154
+msgid "crescendo"
+msgstr "crescendo"
+
+#: ../apps/music/music_app.py:1032 ../apps/music/music_app.py:1057
+msgid "pianissimo"
+msgstr "pianissimo"
+
+#: ../apps/music/music_app.py:1033 ../apps/music/music_app.py:1070
+msgid "piano"
+msgstr "piano"
+
+#: ../apps/music/music_app.py:1034 ../apps/music/music_app.py:1083
+msgid "mezzo piano"
+msgstr "mezzo piano"
+
+#: ../apps/music/music_app.py:1035
+msgid "mezzo forte"
+msgstr "mezzo forte"
+
+#: ../apps/music/music_app.py:1036 ../apps/music/music_app.py:1109
+msgid "forte"
+msgstr "forte"
+
+#: ../apps/music/music_app.py:1037 ../apps/music/music_app.py:1122
+msgid "fortissimo"
+msgstr "fortissimo"
+
+#: ../apps/music/music_app.py:1038 ../apps/music/music_app.py:1135
+msgid "diminuendo"
+msgstr "diminuendo"
+
+#: ../apps/music/music_app.py:1060 ../apps/music/music_app.py:1073
+#: ../apps/music/music_app.py:1086 ../apps/music/music_app.py:1099
+#: ../apps/music/music_app.py:1112 ../apps/music/music_app.py:1125
+#: ../apps/music/music_app.py:1144 ../apps/music/music_app.py:1163
+#: ../apps/music/music_app.py:1319 ../apps/music/music_app.py:1330
+#: ../apps/music/music_app.py:1347 ../apps/music/music_app.py:1371
+#: ../apps/music/music_app.py:1453 ../apps/music/music_app.py:1467
+#: ../apps/music/music_app.py:1486 ../apps/music/music_app.py:1507
+#: ../apps/music/music_app.py:1582 ../apps/music/music_app.py:1614
+#: ../apps/settings/settings_app.py:4204 ../apps/settings/settings_app.py:4967
+#: ../apps/settings/settings_app.py:5023 ../apps/edt/editor_app.py:289
+#: ../apps/edt/editor_base_app.py:863 ../apps/timer/timer_app.py:161
+#: ../apps/braille_learning/operation_app.py:198
+#: ../apps/braille_learning/operation_app.py:209
+#: ../apps/braille_learning/operation_app.py:263
+#: ../apps/braille_learning/write_word_app.py:280
+#: ../apps/braille_learning/write_word_app.py:291
+#: ../apps/ai_assistant/ai_assistant_app.py:370
+#: ../apps/agenda/agenda_app.py:253 ../apps/agenda/agenda_app.py:511
+#: ../apps/agenda/agenda_app.py:562 ../apps/agenda/agenda_app.py:573
+#: ../apps/agenda/agenda_app.py:802 ../apps/agenda/agenda_app.py:836
+#: ../apps/agenda/agenda_app.py:902 ../apps/agenda/agenda_app.py:969
+#: ../apps/agenda/agenda_app.py:1040 ../apps/agenda/agenda_app.py:1103
+#: ../apps/agenda/agenda_app.py:1120 ../apps/agenda/agenda_app.py:1180
+#: ../apps/fman/file_manager_app.py:2734 ../apps/games/mines_app.py:445
+#: ../apps/games/master_mind_app.py:234 ../apps/media/mp3_app.py:625
+msgid "warning"
+msgstr "aviso"
+
+#: ../apps/music/music_app.py:1062 ../apps/music/music_app.py:1075
+#: ../apps/music/music_app.py:1088 ../apps/music/music_app.py:1101
+#: ../apps/music/music_app.py:1114 ../apps/music/music_app.py:1127
+#, fuzzy
+msgid ""
+"you must put an octave sign before continuing to write. Do you want to "
+"display the octave list?"
+msgstr ""
+"Deverá colocar o sinal de oitava antes de continuar a compor. Deseja exibir "
+"a lista de oitavas?"
+
+#: ../apps/music/music_app.py:1065 ../apps/music/music_app.py:1078
+#: ../apps/music/music_app.py:1091 ../apps/music/music_app.py:1104
+#: ../apps/music/music_app.py:1117 ../apps/music/music_app.py:1130
+#: ../apps/music/music_app.py:1149 ../apps/music/music_app.py:1168
+#: ../apps/music/music_app.py:1322 ../apps/music/music_app.py:1333
+#: ../apps/music/music_app.py:1352 ../apps/music/music_app.py:1376
+#: ../apps/music/music_app.py:1606 ../apps/settings/settings_app.py:4027
+#: ../apps/settings/settings_app.py:4207 ../apps/settings/settings_app.py:4973
+#: ../apps/settings/settings_app.py:5029 ../apps/edt/editor_base_app.py:866
+#: ../apps/timer/timer_app.py:167 ../apps/braille_learning/operation_app.py:201
+#: ../apps/braille_learning/operation_app.py:212
+#: ../apps/braille_learning/write_word_app.py:283
+#: ../apps/braille_learning/write_word_app.py:294
+#: ../apps/agenda/agenda_app.py:514 ../apps/agenda/agenda_app.py:565
+#: ../apps/agenda/agenda_app.py:576 ../apps/agenda/agenda_app.py:726
+#: ../apps/agenda/agenda_app.py:805 ../apps/fman/file_manager_app.py:896
+#: ../apps/fman/file_manager_app.py:955 ../apps/fman/file_manager_app.py:1347
+#: ../apps/fman/file_manager_app.py:1756 ../apps/fman/file_manager_app.py:1987
+#: ../apps/fman/file_manager_app.py:2052 ../apps/fman/file_manager_app.py:2243
+#: ../apps/fman/file_manager_app.py:2633 ../apps/fman/file_manager_app.py:2726
+#: ../apps/fman/file_manager_app.py:2739 ../apps/media/mp3_app.py:629
+#: ../apps/media/radio_app.py:202
+msgid "&yes"
+msgstr "&sim"
+
+#: ../apps/music/music_app.py:1066 ../apps/music/music_app.py:1079
+#: ../apps/music/music_app.py:1092 ../apps/music/music_app.py:1105
+#: ../apps/music/music_app.py:1118 ../apps/music/music_app.py:1131
+#: ../apps/music/music_app.py:1150 ../apps/music/music_app.py:1169
+#: ../apps/music/music_app.py:1323 ../apps/music/music_app.py:1334
+#: ../apps/music/music_app.py:1353 ../apps/music/music_app.py:1377
+#: ../apps/music/music_app.py:1607 ../apps/settings/settings_app.py:4028
+#: ../apps/settings/settings_app.py:4208 ../apps/settings/settings_app.py:4977
+#: ../apps/settings/settings_app.py:5033 ../apps/edt/editor_base_app.py:867
+#: ../apps/timer/timer_app.py:171 ../apps/braille_learning/operation_app.py:202
+#: ../apps/braille_learning/operation_app.py:213
+#: ../apps/braille_learning/write_word_app.py:284
+#: ../apps/braille_learning/write_word_app.py:295
+#: ../apps/agenda/agenda_app.py:515 ../apps/agenda/agenda_app.py:566
+#: ../apps/agenda/agenda_app.py:577 ../apps/agenda/agenda_app.py:734
+#: ../apps/agenda/agenda_app.py:806 ../apps/fman/file_manager_app.py:898
+#: ../apps/fman/file_manager_app.py:957 ../apps/fman/file_manager_app.py:1356
+#: ../apps/fman/file_manager_app.py:1764 ../apps/fman/file_manager_app.py:1991
+#: ../apps/fman/file_manager_app.py:2059 ../apps/fman/file_manager_app.py:2248
+#: ../apps/fman/file_manager_app.py:2638 ../apps/fman/file_manager_app.py:2727
+#: ../apps/fman/file_manager_app.py:2740 ../apps/media/mp3_app.py:632
+#: ../apps/media/radio_app.py:203
+msgid "&no"
+msgstr "&não"
+
+#: ../apps/music/music_app.py:1146 ../apps/music/music_app.py:1165
+#, fuzzy
+msgid ""
+"you must put an octave sign before continuing to write, and after the end of "
+"the nuance. Do you want to display the octave list?"
+msgstr ""
+"Deverá colocar o sinal de oitava antes de continuar a compor e antes do "
+"final da nuance. Deseja exibir a lista de oitavas?"
+
+#: ../apps/music/music_app.py:1182
+msgid "select &note"
+msgstr "seleccionar &nota"
+
+#: ../apps/music/music_app.py:1185 ../apps/music/music_app.py:1223
+msgid "a"
+msgstr "a"
+
+#: ../apps/music/music_app.py:1185 ../apps/music/music_app.py:1224
+msgid "b"
+msgstr "b"
+
+#: ../apps/music/music_app.py:1185 ../apps/music/music_app.py:1218
+msgid "c"
+msgstr "c"
+
+#: ../apps/music/music_app.py:1185 ../apps/music/music_app.py:1219
+msgid "d"
+msgstr "d"
+
+#: ../apps/music/music_app.py:1185 ../apps/music/music_app.py:1220
+msgid "e"
+msgstr "e"
+
+#: ../apps/music/music_app.py:1185 ../apps/music/music_app.py:1221
+msgid "f"
+msgstr "f"
+
+#: ../apps/music/music_app.py:1185 ../apps/music/music_app.py:1222
+msgid "g"
+msgstr "g"
+
+#: ../apps/music/music_app.py:1190
+msgid "select &value of note"
+msgstr "seleccionar &valor da nota"
+
+#: ../apps/music/music_app.py:1194 ../apps/music/music_app.py:1227
+msgid "whole"
+msgstr "semibreve"
+
+#: ../apps/music/music_app.py:1195 ../apps/music/music_app.py:1228
+msgid "half"
+msgstr "mínima"
+
+#: ../apps/music/music_app.py:1196 ../apps/music/music_app.py:1229
+msgid "quarter"
+msgstr "semínima"
+
+#: ../apps/music/music_app.py:1197 ../apps/music/music_app.py:1230
+msgid "eighth"
+msgstr "oitavo"
+
+#: ../apps/music/music_app.py:1198 ../apps/music/music_app.py:1231
+msgid "16th"
+msgstr "16º"
+
+#: ../apps/music/music_app.py:1199 ../apps/music/music_app.py:1232
+msgid "32nd"
+msgstr "32º"
+
+#: ../apps/music/music_app.py:1200 ../apps/music/music_app.py:1233
+msgid "64th"
+msgstr "64º"
+
+#: ../apps/music/music_app.py:1201 ../apps/music/music_app.py:1234
+msgid "128th"
+msgstr "128º"
+
+#: ../apps/music/music_app.py:1246
+msgid "select a &rest type"
+msgstr "seleccionar um &tipo de pausa"
+
+#: ../apps/music/music_app.py:1250 ../apps/music/music_app.py:1273
+msgid "whole rest"
+msgstr "pausa semibreve"
+
+#: ../apps/music/music_app.py:1251 ../apps/music/music_app.py:1274
+msgid "half rest"
+msgstr "pausa mínima"
+
+#: ../apps/music/music_app.py:1252 ../apps/music/music_app.py:1275
+msgid "quarter rest"
+msgstr "pausa semínima"
+
+#: ../apps/music/music_app.py:1253 ../apps/music/music_app.py:1276
+msgid "eighth rest"
+msgstr "pausa oitava"
+
+#: ../apps/music/music_app.py:1254 ../apps/music/music_app.py:1277
+msgid "16th rest"
+msgstr "pausa 16º"
+
+#: ../apps/music/music_app.py:1255 ../apps/music/music_app.py:1278
+msgid "32nd rest"
+msgstr "pausa 32º"
+
+#: ../apps/music/music_app.py:1256 ../apps/music/music_app.py:1279
+msgid "64th rest"
+msgstr "pausa 64º"
+
+#: ../apps/music/music_app.py:1257 ../apps/music/music_app.py:1280
+msgid "128th rest"
+msgstr "pausa 128º"
+
+#: ../apps/music/music_app.py:1290
+msgid "select &bar"
+msgstr "seleccionar &compasso"
+
+#: ../apps/music/music_app.py:1294 ../apps/music/music_app.py:1314
+msgid "measure"
+msgstr "medir"
+
+#: ../apps/music/music_app.py:1295 ../apps/music/music_app.py:1316
+msgid "end of composition"
+msgstr "fim da composição"
+
+#: ../apps/music/music_app.py:1296 ../apps/music/music_app.py:1327
+msgid "end of section"
+msgstr "fim da secção"
+
+#: ../apps/music/music_app.py:1297 ../apps/music/music_app.py:1338
+msgid "simple repetition of fragment"
+msgstr "repetição de fragmento simples"
+
+#: ../apps/music/music_app.py:1298 ../apps/music/music_app.py:1357
+msgid "repeat fragment with prima and seconda volta"
+msgstr "repetir fragmento com o primeiro e segundo tempo"
+
+#: ../apps/music/music_app.py:1320 ../apps/music/music_app.py:1331
+#, fuzzy
+msgid "do you want to save your document now?"
+msgstr "Deseja guardar o documento agora?"
+
+#: ../apps/music/music_app.py:1349
+#, fuzzy
+msgid ""
+"you must put an octave sign before continuing to write, do you want to "
+"display the octave list?"
+msgstr ""
+"Deverá colocar o sinal de oitava antes de continuar a compor. Deseja exibir "
+"a lista de oitavas?"
+
+#: ../apps/music/music_app.py:1373
+#, fuzzy
+msgid ""
+"you need to put an octave sign before continuing to write, and after prima, "
+"and seconda signs. do you want to display the octave list?"
+msgstr ""
+"É necessário colocar um sinal de oitava antes de continuar a compor, e após "
+"os sinais de primeiro e segundo tempo. Deseja exibir a lista de oitavas?"
+
+#: ../apps/music/music_app.py:1388
+msgid "select &interval"
+msgstr "seleccionar &intervalo"
+
+#: ../apps/music/music_app.py:1392 ../apps/music/music_app.py:1414
+msgid "seconde"
+msgstr "segundo"
+
+#: ../apps/music/music_app.py:1393 ../apps/music/music_app.py:1415
+msgid "third"
+msgstr "terceiro"
+
+#: ../apps/music/music_app.py:1394 ../apps/music/music_app.py:1416
+msgid "fourth"
+msgstr "quarto"
+
+#: ../apps/music/music_app.py:1395 ../apps/music/music_app.py:1417
+msgid "fifth"
+msgstr "quinto"
+
+#: ../apps/music/music_app.py:1396 ../apps/music/music_app.py:1418
+msgid "sixth"
+msgstr "sexto"
+
+#: ../apps/music/music_app.py:1397 ../apps/music/music_app.py:1419
+msgid "seventh"
+msgstr "sétimo"
+
+#: ../apps/music/music_app.py:1398 ../apps/music/music_app.py:1420
+msgid "octave"
+msgstr "oitavo"
+
+#: ../apps/music/music_app.py:1432
+msgid "enter the number of &voice"
+msgstr "inserir número da voz"
+
+#: ../apps/music/music_app.py:1434
+msgid "&full-measure in-accord"
+msgstr "medição total de harmonia"
+
+#: ../apps/music/music_app.py:1454
+#, fuzzy
+msgid "you must enter an integer."
+msgstr "Deverá indicar um número inteiro."
+
+#: ../apps/music/music_app.py:1468
+#, fuzzy
+msgid "you must insert a minimum of 2 voices."
+msgstr "Deverá inserir um mínimo de duas vozes."
+
+#: ../apps/music/music_app.py:1488
+#, fuzzy
+msgid ""
+"the cursor is place before the accord sign, don't forget to put an octave "
+"sign after all measure in-accord signs."
+msgstr ""
+"O cursor encontra-se antes do sinal de acorde. Não se esqueça de colocar um "
+"sinal de oitava após os sinais de medição total de harmonia."
+
+#: ../apps/music/music_app.py:1509
+#, fuzzy
+msgid "sorry, but part-measure in-accord is not suported for the moment."
+msgstr ""
+"Pedimos desculpa, mas a medição parcial de harmonia não se encontra "
+"disponível de momento."
+
+#: ../apps/music/music_app.py:1523
+msgid "select &clef"
+msgstr "seleccionar &clave"
+
+#: ../apps/music/music_app.py:1524 ../apps/music/music_app.py:1559
+msgid "treble"
+msgstr "agudos"
+
+#: ../apps/music/music_app.py:1524 ../apps/music/music_app.py:1560
+#: ../apps/music/music_app.py:1576 ../apps/music/music_app.py:1612
+msgid "alto"
+msgstr "alto"
+
+#: ../apps/music/music_app.py:1524 ../apps/music/music_app.py:1561
+msgid "basse"
+msgstr "baixo"
+
+#: ../apps/music/music_app.py:1527
+msgid "in &part"
+msgstr "em &parte"
+
+#: ../apps/music/music_app.py:1529
+msgid "clef &line"
+msgstr "linha de &clave"
+
+#: ../apps/music/music_app.py:1533 ../apps/music/music_app.py:1564
+#: ../apps/music/music_app.py:1578
+msgid "default"
+msgstr "predefinição"
+
+#: ../apps/music/music_app.py:1534 ../apps/music/music_app.py:1565
+msgid "first line"
+msgstr "primeira linha"
+
+#: ../apps/music/music_app.py:1535 ../apps/music/music_app.py:1566
+msgid "second line"
+msgstr "segunda linha"
+
+#: ../apps/music/music_app.py:1536 ../apps/music/music_app.py:1567
+msgid "third line"
+msgstr "terceira linha"
+
+#: ../apps/music/music_app.py:1537 ../apps/music/music_app.py:1568
+msgid "fourth line"
+msgstr "quarta linha"
+
+#: ../apps/music/music_app.py:1538 ../apps/music/music_app.py:1569
+msgid "fifth line"
+msgstr "quinta linha"
+
+#: ../apps/music/music_app.py:1544
+msgid "add small &8?"
+msgstr "adicionar &8 pequena?"
+
+#: ../apps/music/music_app.py:1545 ../apps/music/music_app.py:1571
+msgid "below"
+msgstr "acima"
+
+#: ../apps/music/music_app.py:1545 ../apps/music/music_app.py:1571
+msgid "above"
+msgstr "abaixo"
+
+#: ../apps/music/music_app.py:1584 ../apps/music/music_app.py:1616
+#, fuzzy
+msgid "you cant select this options. This settings does not exist."
+msgstr "Não é possível seleccionar esta opção. Configurações não disponíveis."
+
+#: ../apps/music/music_app.py:1603
+#, fuzzy
+msgid ""
+"you must enter an octave sign to show the height of note. Do you want to "
+"display the octave list?"
+msgstr ""
+"É necessário colocar um sinal de oitava para indicar a altura da nota. "
+"Deseja exibir a lista de oitavas?"
+
+#: ../apps/music/music_app.py:1637
+msgid "&rythm type"
+msgstr "&tipo de ritmo"
+
+#: ../apps/music/music_app.py:1641 ../apps/music/music_app.py:1666
+msgid "group of 2 notes"
+msgstr "grupo de 2 notas"
+
+#: ../apps/music/music_app.py:1642 ../apps/music/music_app.py:1667
+msgid "triplet"
+msgstr "tercina"
+
+#: ../apps/music/music_app.py:1643 ../apps/music/music_app.py:1668
+msgid "group of 4 notes"
+msgstr "grupo de 4 notas"
+
+#: ../apps/music/music_app.py:1644 ../apps/music/music_app.py:1669
+msgid "group of 5 notes"
+msgstr "grupo de 5 notas"
+
+#: ../apps/music/music_app.py:1645 ../apps/music/music_app.py:1670
+msgid "group of 6 notes"
+msgstr "grupo de 6 notas"
+
+#: ../apps/music/music_app.py:1646 ../apps/music/music_app.py:1671
+msgid "group of 7 notes"
+msgstr "grupo de 7 notas"
+
+#: ../apps/music/music_app.py:1647 ../apps/music/music_app.py:1672
+msgid "group of 8 notes"
+msgstr "grupo de 8 notas"
+
+#: ../apps/music/music_app.py:1648 ../apps/music/music_app.py:1673
+msgid "group of 9 notes"
+msgstr "grupo de 9 notas"
+
+#: ../apps/music/music_app.py:1649 ../apps/music/music_app.py:1674
+msgid "group of 10 notes"
+msgstr "grupo de 10 notas"
+
+#: ../apps/settings/settings_app.py:100 ../apps/settings/settings_app.py:2360
+#: ../apps/settings/settings_app.py:2731 ../apps/settings/settings_app.py:2753
+#: ../apps/settings/settings_app.py:2819 ../apps/settings/settings_app.py:2837
+msgid "unknown"
+msgstr "desconhecido"
+
+#: ../apps/settings/settings_app.py:591 ../apps/settings/settings_app.py:664
+#: ../apps/settings/settings_app.py:1801 ../apps/settings/settings_app.py:1929
+msgid "&edit and play mode"
+msgstr "modo edita&r e tocar"
+
+#: ../apps/settings/settings_app.py:595 ../apps/settings/settings_app.py:668
+#: ../apps/settings/settings_app.py:878 ../apps/settings/settings_app.py:1809
+#: ../apps/settings/settings_app.py:1937
+msgid "braille &type"
+msgstr "t&ipo de Braille"
+
+#: ../apps/settings/settings_app.py:599 ../apps/settings/settings_app.py:672
+msgid "notes d&ots"
+msgstr "p&ontos de notas"
+
+#: ../apps/settings/settings_app.py:603 ../apps/settings/settings_app.py:676
+#: ../apps/settings/settings_app.py:1825 ../apps/settings/settings_app.py:1953
+msgid "&ascending chords"
+msgstr "&acordes ascendentes"
+
+#: ../apps/settings/settings_app.py:615 ../apps/settings/settings_app.py:690
+#: ../apps/settings/settings_app.py:1849 ../apps/settings/settings_app.py:1977
+msgid "&parts"
+msgstr "&partes"
+
+#: ../apps/settings/settings_app.py:619 ../apps/settings/settings_app.py:694
+#: ../apps/settings/settings_app.py:1857 ../apps/settings/settings_app.py:1985
+msgid "&measure b123"
+msgstr "&medida b 123"
+
+#: ../apps/settings/settings_app.py:623 ../apps/settings/settings_app.py:698
+msgid "measure &number"
+msgstr "medir &número"
+
+#: ../apps/settings/settings_app.py:627 ../apps/settings/settings_app.py:702
+msgid "measure &every"
+msgstr "medir to&das"
+
+#: ../apps/settings/settings_app.py:631 ../apps/settings/settings_app.py:706
+#: ../apps/settings/settings_app.py:1881 ../apps/settings/settings_app.py:2009
+#: ../apps/games/mines_app.py:89 ../apps/games/master_mind_app.py:88
+msgid "&view"
+msgstr "&ver"
+
+#: ../apps/settings/settings_app.py:635 ../apps/settings/settings_app.py:710
+#: ../apps/settings/settings_app.py:1889 ../apps/settings/settings_app.py:2017
+msgid "&section"
+msgstr "&secção"
+
+#: ../apps/settings/settings_app.py:639 ../apps/settings/settings_app.py:714
+msgid "measures per sec&tion"
+msgstr "med&ir por secção"
+
+#: ../apps/settings/settings_app.py:645 ../apps/settings/settings_app.py:720
+#: ../apps/settings/settings_app.py:1905 ../apps/settings/settings_app.py:2033
+msgid "&words"
+msgstr "p&alavras"
+
+#: ../apps/settings/settings_app.py:649 ../apps/settings/settings_app.py:724
+msgid "cre&dit words"
+msgstr "crédit&os"
+
+#: ../apps/settings/settings_app.py:746
+msgid "&clock"
+msgstr "re&lógio"
+
+#: ../apps/settings/settings_app.py:749
+msgid "&time"
+msgstr "&hora"
+
+#: ../apps/settings/settings_app.py:753 ../apps/edt/editor_app.py:94
+msgid "&date"
+msgstr "&data"
+
+#: ../apps/settings/settings_app.py:757
+#, fuzzy
+msgid "&auto sync"
+msgstr "ligar automaticamente"
+
+#: ../apps/settings/settings_app.py:765 ../apps/edt/editor_base_app.py:336
+msgid "&vocalize"
+msgstr "&voz"
+
+#: ../apps/settings/settings_app.py:776
+msgid "&language"
+msgstr "&idioma"
+
+#: ../apps/settings/settings_app.py:780
+msgid "s&ynthesis"
+msgstr "&síntese"
+
+#: ../apps/settings/settings_app.py:784
+msgid "voi&ce"
+msgstr "vo&z"
+
+#: ../apps/settings/settings_app.py:790
+msgid "&usb"
+msgstr "&usb"
+
+#: ../apps/settings/settings_app.py:793
+msgid "usb-&a-hid keyboard"
+msgstr "teclado usb-&a-hid"
+
+#: ../apps/settings/settings_app.py:799
+msgid "usb-&b-hid keyboard"
+msgstr "teclado usb-&b-hid"
+
+#: ../apps/settings/settings_app.py:805 ../apps/settings/settings_app.py:838
+#: ../apps/settings/settings_app.py:1485
+msgid "simulation &esys"
+msgstr "simulação es&ys"
+
+#: ../apps/settings/settings_app.py:813 ../apps/fman/file_manager_app.py:321
+msgid "&bluetooth"
+msgstr "&bluetooth"
+
+#: ../apps/settings/settings_app.py:816 ../apps/settings/settings_app.py:849
+msgid "&power"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:820 ../apps/fman/file_manager_app.py:787
+#: ../apps/fman/file_manager_app.py:818 ../apps/fman/file_manager_app.py:875
+#: ../apps/fman/file_manager_app.py:987 ../apps/fman/file_manager_app.py:1676
+#: ../apps/fman/file_manager_app.py:1695 ../apps/games/mines_app.py:194
+#: ../apps/games/master_mind_app.py:252
+msgid "&name"
+msgstr "&nome"
+
+#: ../apps/settings/settings_app.py:826
+msgid "&visibility"
+msgstr "&visibilidade"
+
+#: ../apps/settings/settings_app.py:832 ../apps/settings/settings_app.py:1454
+msgid "&paired devices"
+msgstr "dispositivos &emparelhados"
+
+#: ../apps/settings/settings_app.py:846
+msgid "&wifi"
+msgstr "&wifi"
+
+#: ../apps/settings/settings_app.py:853 ../apps/settings/settings_app.py:1513
+msgid "&favorites"
+msgstr "&favoritos"
+
+#: ../apps/settings/settings_app.py:857
+msgid "countr&y"
+msgstr "&país"
+
+#: ../apps/settings/settings_app.py:863
+msgid "user &interface"
+msgstr "&interface do utilizador"
+
+#: ../apps/settings/settings_app.py:866
+msgid "&message language"
+msgstr "idioma da &mensagem"
+
+#: ../apps/settings/settings_app.py:872
+msgid "&braille language"
+msgstr "idioma de &Braille"
+
+#: ../apps/settings/settings_app.py:884 ../apps/settings/settings_app.py:1560
+msgid "spaces in &label"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:890 ../apps/settings/settings_app.py:1568
+msgid "visible &shortcuts"
+msgstr "&atalhos visíveis"
+
+#: ../apps/settings/settings_app.py:896 ../apps/settings/settings_app.py:1576
+msgid "&developer mode"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:900
+#, fuzzy
+msgid "&import settings"
+msgstr "&configurações"
+
+#: ../apps/settings/settings_app.py:904
+#, fuzzy
+msgid "&export settings"
+msgstr "&configurações"
+
+#: ../apps/settings/settings_app.py:910
+msgid "main me&nu"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:913 ../apps/settings/settings_app.py:1587
+#: ../apps/internal.py:479
+msgid "&explorer"
+msgstr "&explorador"
+
+#: ../apps/settings/settings_app.py:919 ../apps/settings/settings_app.py:1595
+#: ../apps/internal.py:480
+msgid "&settings"
+msgstr "&configurações"
+
+#: ../apps/settings/settings_app.py:925 ../apps/settings/settings_app.py:1065
+#: ../apps/settings/settings_app.py:1603 ../apps/internal.py:481
+msgid "a&genda"
+msgstr "a&genda"
+
+#: ../apps/settings/settings_app.py:929 ../apps/settings/settings_app.py:1611
+#: ../apps/internal.py:482 ../apps/media/radio_app.py:66
+msgid "&radio"
+msgstr "&radio"
+
+#: ../apps/settings/settings_app.py:933 ../apps/settings/settings_app.py:1619
+msgid "&audio"
+msgstr "&áudio"
+
+#: ../apps/settings/settings_app.py:937 ../apps/settings/settings_app.py:1627
+#: ../apps/internal.py:484
+msgid "wi&kipedia"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:943 ../apps/settings/settings_app.py:1635
+#: ../apps/internal.py:485
+#, fuzzy
+msgid "&timer"
+msgstr "&hora"
+
+#: ../apps/settings/settings_app.py:947 ../apps/settings/settings_app.py:1643
+#: ../apps/internal.py:173 ../apps/internal.py:271 ../apps/internal.py:486
+#, fuzzy
+msgid "trans&lator"
+msgstr "transportar"
+
+#: ../apps/settings/settings_app.py:953
+#, fuzzy
+msgid "write &word"
+msgstr "c&réditos"
+
+#: ../apps/settings/settings_app.py:959 ../apps/settings/settings_app.py:1659
+#, fuzzy
+msgid "&operation"
+msgstr "&alteração"
+
+#: ../apps/settings/settings_app.py:965 ../apps/settings/settings_app.py:1667
+#: ../apps/internal.py:489
+msgid "&mines"
+msgstr "&minas"
+
+#: ../apps/settings/settings_app.py:969 ../apps/settings/settings_app.py:1675
+#, fuzzy
+msgid "ma&stermind"
+msgstr "mastermind"
+
+#: ../apps/settings/settings_app.py:977
+#, fuzzy
+msgid "e&xplorer"
+msgstr "explorador"
+
+#: ../apps/settings/settings_app.py:980
+msgid "empty the &bluetooth folder once shutdown"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:986
+msgid "empty the &trash folder once shutdown"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:992
+msgid "&number of recent files"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:1000
+msgid "&editor"
+msgstr "&editor"
+
+#: ../apps/settings/settings_app.py:1003 ../apps/settings/settings_app.py:1552
+#: ../apps/settings/settings_app.py:1715 ../apps/edt/editor_app.py:185
+msgid "&braille type"
+msgstr "&tipo de Braille"
+
+#: ../apps/settings/settings_app.py:1009
+msgid "&line length"
+msgstr "comprimento da &linha"
+
+#: ../apps/settings/settings_app.py:1013 ../apps/settings/settings_app.py:1731
+msgid "&forward display"
+msgstr "&avançar no ecrã"
+
+#: ../apps/settings/settings_app.py:1019 ../apps/settings/settings_app.py:1739
+msgid "&autoscroll display"
+msgstr "&navegação automática no ecrã"
+
+#: ../apps/settings/settings_app.py:1023 ../apps/settings/settings_app.py:1747
+msgid "&cursor visible"
+msgstr "&cursor visível"
+
+#: ../apps/settings/settings_app.py:1029
+msgid "&dot78 visible"
+msgstr "&ponto 7 8 visível"
+
+#: ../apps/settings/settings_app.py:1037
+msgid "mat&h"
+msgstr "mate&mática"
+
+#: ../apps/settings/settings_app.py:1040 ../apps/settings/settings_app.py:1766
+msgid "&format"
+msgstr "&formato"
+
+#: ../apps/settings/settings_app.py:1044 ../apps/settings/settings_app.py:1774
+msgid "&precision"
+msgstr "&precisão"
+
+#: ../apps/settings/settings_app.py:1048
+msgid "f&raction"
+msgstr "f&racção"
+
+#: ../apps/settings/settings_app.py:1052 ../apps/settings/settings_app.py:1790
+msgid "&angle"
+msgstr "â&ngulo"
+
+#: ../apps/settings/settings_app.py:1058
+msgid "&music"
+msgstr "mú&sica"
+
+#: ../apps/settings/settings_app.py:1068
+msgid "default &presentation"
+msgstr "apr&esentação padrão"
+
+#: ../apps/settings/settings_app.py:1074
+#, fuzzy
+msgid "&report events not done"
+msgstr "apresentar eventos por realizar no dia &actual"
+
+#: ../apps/settings/settings_app.py:1080 ../apps/settings/settings_app.py:2082
+#, fuzzy
+msgid "write word and operation"
+msgstr "p&alavras"
+
+#: ../apps/settings/settings_app.py:1083
+#, fuzzy
+msgid "use the &vocalize"
+msgstr "&voz"
+
+#: ../apps/settings/settings_app.py:1089
+#, fuzzy
+msgid "&keep the spaces"
+msgstr "&esvaziar reciclagem"
+
+#: ../apps/settings/settings_app.py:1095
+#, fuzzy
+msgid "&allow all characters"
+msgstr "caracteres"
+
+#: ../apps/settings/settings_app.py:1103
+msgid "&keyboard"
+msgstr "te&clado"
+
+#: ../apps/settings/settings_app.py:1106
+msgid "&mode"
+msgstr "&modo"
+
+#: ../apps/settings/settings_app.py:1112 ../apps/settings/settings_app.py:2119
+msgid "b78"
+msgstr "b 7 8"
+
+#: ../apps/settings/settings_app.py:1116
+msgid "&invertion"
+msgstr "in&versão"
+
+#: ../apps/settings/settings_app.py:1122
+msgid "&light press"
+msgstr "pressionar &ligeiramente"
+
+#: ../apps/settings/settings_app.py:1128
+msgid "&strong press"
+msgstr "pressionar &intensamente"
+
+#: ../apps/settings/settings_app.py:1134
+msgid "&consecutive press"
+msgstr "pressionar &consecutivamente"
+
+#: ../apps/settings/settings_app.py:1140
+msgid "&double light press"
+msgstr "pressionar li&geiramente duas vezes"
+
+#: ../apps/settings/settings_app.py:1146
+msgid "double st&rong press"
+msgstr "pressionar i&ntensamente duas vezes"
+
+#: ../apps/settings/settings_app.py:1154
+msgid "&standby"
+msgstr "em e&spera"
+
+#: ../apps/settings/settings_app.py:1157
+msgid "&transport"
+msgstr "&transporte"
+
+#: ../apps/settings/settings_app.py:1163
+msgid "&shutdown"
+msgstr "&encerrar"
+
+#: ../apps/settings/settings_app.py:1171
+#, fuzzy
+msgid "u&pdate"
+msgstr "&data"
+
+#: ../apps/settings/settings_app.py:1174
+msgid "check update"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:1177
+#, fuzzy
+msgid "&auto check"
+msgstr "ligar automaticamente"
+
+#: ../apps/settings/settings_app.py:1181
+#, fuzzy
+msgid "&install an other version"
+msgstr "versões"
+
+#: ../apps/settings/settings_app.py:1185
+#, fuzzy
+msgid "&search update to"
+msgstr "&lista de actualizações web"
+
+#: ../apps/settings/settings_app.py:1192 ../apps/settings/settings_app.py:4182
+#, fuzzy
+msgid "about"
+msgstr "&acerca"
+
+#: ../apps/settings/settings_app.py:1193
+msgid "&test"
+msgstr "&teste"
+
+#: ../apps/settings/settings_app.py:1194
+msgid "&reset"
+msgstr "&reiniciar"
+
+#: ../apps/settings/settings_app.py:1241 ../apps/settings/settings_app.py:1308
+#: ../apps/settings/settings_app.py:1310 ../apps/settings/settings_app.py:1311
+msgid "time"
+msgstr "hora"
+
+#: ../apps/settings/settings_app.py:1245 ../apps/settings/settings_app.py:1318
+#: ../apps/settings/settings_app.py:1320 ../apps/settings/settings_app.py:1321
+#: ../apps/media/mp3_app.py:934
+msgid "date"
+msgstr "data"
+
+#: ../apps/settings/settings_app.py:1249 ../apps/settings/settings_app.py:1337
+msgid "battery"
+msgstr "bateria"
+
+#: ../apps/settings/settings_app.py:1253 ../apps/settings/settings_app.py:1346
+#: ../apps/settings/settings_app.py:1348 ../apps/edt/editor_base_app.py:1279
+#: ../apps/media/mp3_app.py:227 ../apps/media/mp3_app.py:988
+#: ../apps/media/radio_app.py:441
+msgid "volume"
+msgstr "volume"
+
+#: ../apps/settings/settings_app.py:1257 ../apps/settings/settings_app.py:1363
+#: ../apps/settings/settings_app.py:1365 ../apps/settings/settings_app.py:1366
+#: ../apps/settings/settings_app.py:1533 ../apps/settings/settings_app.py:1542
+msgid "language"
+msgstr "idioma"
+
+#: ../apps/settings/settings_app.py:1261 ../apps/settings/settings_app.py:1390
+msgid "jack"
+msgstr "entrada de auscultadores"
+
+#: ../apps/settings/settings_app.py:1265 ../apps/settings/settings_app.py:1398
+msgid "keyboard USB-A-HID"
+msgstr "teclado USB-A-HID"
+
+#: ../apps/settings/settings_app.py:1270 ../apps/settings/settings_app.py:1407
+msgid "keyboard USB-B-HID"
+msgstr "teclado USB-B-HID"
+
+#: ../apps/settings/settings_app.py:1276 ../apps/settings/settings_app.py:1451
+msgid "paired devices"
+msgstr "dispositivos emparelhados"
+
+#: ../apps/settings/settings_app.py:1280 ../apps/settings/settings_app.py:1501
+#: ../apps/settings/settings_app.py:1503
+msgid "connected to"
+msgstr "ligado a"
+
+#: ../apps/settings/settings_app.py:1284 ../apps/settings/settings_app.py:1531
+msgid "message language"
+msgstr "idioma da mensagem"
+
+#: ../apps/settings/settings_app.py:1288 ../apps/settings/settings_app.py:1540
+msgid "braille language"
+msgstr "idioma do braille"
+
+#: ../apps/settings/settings_app.py:1292 ../apps/settings/settings_app.py:2179
+msgid "transport timeout minute (0 none)"
+msgstr "tempo limite de transporte (0 nenhum)"
+
+#: ../apps/settings/settings_app.py:1297 ../apps/settings/settings_app.py:2188
+msgid "shutdown timeout minute (0 none)"
+msgstr "tempo limite para encerrar (0 nenhum)"
+
+#: ../apps/settings/settings_app.py:1327
+msgid "auto sync date"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:1329
+msgid "clock"
+msgstr "relógio"
+
+#: ../apps/settings/settings_app.py:1330
+msgid "auto &sync date"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:1344 ../apps/settings/settings_app.py:1372
+#: ../apps/settings/settings_app.py:1374
+msgid "synthesis"
+msgstr "síntese"
+
+#: ../apps/settings/settings_app.py:1349 ../apps/settings/settings_app.py:1358
+#: ../apps/edt/editor_base_app.py:1279 ../apps/edt/editor_base_app.py:1312
+#: ../apps/media/mp3_app.py:988 ../apps/media/radio_app.py:441
+msgid "&value"
+msgstr "&valor"
+
+#: ../apps/settings/settings_app.py:1355 ../apps/settings/settings_app.py:1357
+#: ../apps/edt/editor_base_app.py:1311
+msgid "speed"
+msgstr "velocidade"
+
+#: ../apps/settings/settings_app.py:1375
+msgid "&synthesis"
+msgstr "&síntese"
+
+#: ../apps/settings/settings_app.py:1380 ../apps/settings/settings_app.py:1382
+msgid "voice"
+msgstr "voz"
+
+#: ../apps/settings/settings_app.py:1383
+msgid "&voice"
+msgstr "vo&z"
+
+#: ../apps/settings/settings_app.py:1396
+msgid "usb"
+msgstr "usb"
+
+#: ../apps/settings/settings_app.py:1400 ../apps/settings/settings_app.py:1409
+#: ../apps/settings/settings_app.py:2113 ../apps/settings/settings_app.py:2121
+#: ../apps/settings/settings_app.py:2129 ../apps/settings/settings_app.py:2768
+msgid "keyboard"
+msgstr "teclado"
+
+#: ../apps/settings/settings_app.py:1401
+msgid "usb-a hid mode"
+msgstr "modo usb-a hid"
+
+#: ../apps/settings/settings_app.py:1410
+msgid "usb-b hid mode"
+msgstr "modo usb-b-hid"
+
+#: ../apps/settings/settings_app.py:1416 ../apps/settings/settings_app.py:1418
+#: ../apps/settings/settings_app.py:1419 ../apps/settings/settings_app.py:1482
+#: ../apps/settings/settings_app.py:1484
+msgid "simulation esys"
+msgstr "simulação esys"
+
+#: ../apps/settings/settings_app.py:1427 ../apps/settings/settings_app.py:1493
+msgid "power"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:1429 ../apps/settings/settings_app.py:3419
+#, fuzzy
+msgid "bluetooth power"
+msgstr "bluetooth"
+
+#: ../apps/settings/settings_app.py:1430 ../apps/settings/settings_app.py:1496
+msgid "&powered"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:1435 ../apps/settings/settings_app.py:2875
+#: ../apps/settings/settings_app.py:2909 ../apps/skeleton/skeleton_app.py:160
+#: ../apps/media/radio_app.py:171
+msgid "name"
+msgstr "nome"
+
+#: ../apps/settings/settings_app.py:1438
+msgid "&bnote name"
+msgstr "&nome do bnote"
+
+#: ../apps/settings/settings_app.py:1443
+msgid "visible"
+msgstr "visível"
+
+#: ../apps/settings/settings_app.py:1446
+msgid "&bnote visible"
+msgstr "&bnote visível"
+
+#: ../apps/settings/settings_app.py:1470
+msgid "bluetooth auto switch"
+msgstr "ligar Bluetooth automaticamente"
+
+#: ../apps/settings/settings_app.py:1491
+msgid "wifi"
+msgstr "wifi"
+
+#: ../apps/settings/settings_app.py:1495 ../apps/settings/settings_app.py:3442
+msgid "wifi power"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:1504
+msgid "&connected"
+msgstr "&ligado"
+
+#: ../apps/settings/settings_app.py:1510 ../apps/settings/settings_app.py:1512
+msgid "favorites"
+msgstr "favoritos"
+
+#: ../apps/settings/settings_app.py:1518
+msgid "country"
+msgstr "país"
+
+#: ../apps/settings/settings_app.py:1520 ../apps/settings/settings_app.py:1521
+msgid "wlan country"
+msgstr "país wlan"
+
+#: ../apps/settings/settings_app.py:1528 ../apps/settings/settings_app.py:1551
+#: ../apps/settings/settings_app.py:1559 ../apps/settings/settings_app.py:1567
+#: ../apps/settings/settings_app.py:1575 ../apps/settings/settings_app.py:1586
+#: ../apps/settings/settings_app.py:1594 ../apps/settings/settings_app.py:1602
+#: ../apps/settings/settings_app.py:1610 ../apps/settings/settings_app.py:1618
+#: ../apps/settings/settings_app.py:1626 ../apps/settings/settings_app.py:1634
+#: ../apps/settings/settings_app.py:1642 ../apps/settings/settings_app.py:1650
+#: ../apps/settings/settings_app.py:1658 ../apps/settings/settings_app.py:1666
+#: ../apps/settings/settings_app.py:1674
+msgid "user interface"
+msgstr "interface do utilizador"
+
+#: ../apps/settings/settings_app.py:1534
+msgid "message"
+msgstr "mensagem"
+
+#: ../apps/settings/settings_app.py:1543
+msgid "braille"
+msgstr "braille"
+
+#: ../apps/settings/settings_app.py:1549 ../apps/settings/settings_app.py:1712
+#: ../apps/skeleton/skeleton_app.py:161
+msgid "braille type"
+msgstr "tipo de Braille"
+
+#: ../apps/settings/settings_app.py:1557
+msgid "spaces in label"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:1565
+msgid "visible shortcuts"
+msgstr "atalhos visíveis"
+
+#: ../apps/settings/settings_app.py:1573
+msgid "developer mode"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:1582
+msgid "main menu"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:1584 ../apps/settings/settings_app.py:1681
+#: ../apps/settings/settings_app.py:1687 ../apps/settings/settings_app.py:1695
+#: ../apps/settings/settings_app.py:1703 ../apps/fman/file_manager_app.py:523
+#: ../apps/fman/file_manager_app.py:536 ../apps/fman/file_manager_app.py:550
+#: ../apps/fman/file_manager_app.py:586 ../apps/fman/file_manager_app.py:598
+#: ../apps/fman/file_manager_app.py:609
+msgid "explorer"
+msgstr "explorador"
+
+#: ../apps/settings/settings_app.py:1600 ../apps/settings/settings_app.py:2063
+#: ../apps/settings/settings_app.py:2067 ../apps/settings/settings_app.py:2075
+#: ../apps/agenda/agenda_app.py:67 ../apps/agenda/agenda_app.py:1892
+msgid "agenda"
+msgstr "agenda"
+
+#: ../apps/settings/settings_app.py:1608 ../apps/media/radio_app.py:61
+msgid "radio"
+msgstr "rádio"
+
+#: ../apps/settings/settings_app.py:1616
+msgid "audio"
+msgstr "áudio"
+
+#: ../apps/settings/settings_app.py:1624 ../apps/wikipedia/wikipedia_app.py:48
+#: ../apps/wikipedia/wikipedia_app.py:212
+msgid "wikipedia"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:1632 ../apps/timer/timer_app.py:55
+#, fuzzy
+msgid "timer"
+msgstr "hora"
+
+#: ../apps/settings/settings_app.py:1640
+#: ../apps/translator/translator_app.py:88
+#, fuzzy
+msgid "translator"
+msgstr "transportar"
+
+#: ../apps/settings/settings_app.py:1648
+#, fuzzy
+msgid "write_word"
+msgstr "c&réditos"
+
+#: ../apps/settings/settings_app.py:1651
+#, fuzzy
+msgid "&write word"
+msgstr "c&réditos"
+
+#: ../apps/settings/settings_app.py:1656
+#, fuzzy
+msgid "operation"
+msgstr "fracção"
+
+#: ../apps/settings/settings_app.py:1664 ../apps/games/mines_app.py:64
+msgid "mines"
+msgstr "minas"
+
+#: ../apps/settings/settings_app.py:1672 ../apps/games/master_mind_app.py:64
+msgid "mastermind"
+msgstr "mastermind"
+
+#: ../apps/settings/settings_app.py:1683
+msgid "empty the bluetooth folder once shutdown"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:1688
+msgid "&empty the bluetooth once shutdown"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:1693
+msgid "empty the trash folder once shutdown"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:1696
+#, fuzzy
+msgid "&empty the trash once shutdown"
+msgstr "&esvaziar reciclagem"
+
+#: ../apps/settings/settings_app.py:1701
+msgid "number of recent files"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:1704
+#, fuzzy
+msgid "files &number"
+msgstr "medir &número"
+
+#: ../apps/settings/settings_app.py:1710 ../apps/settings/settings_app.py:1714
+#: ../apps/settings/settings_app.py:1722 ../apps/settings/settings_app.py:1730
+#: ../apps/settings/settings_app.py:1738 ../apps/settings/settings_app.py:1746
+#: ../apps/settings/settings_app.py:1754 ../apps/edt/editor_app.py:47
+#: ../apps/edt/editor_base_app.py:1572
+#: ../apps/eole/eole_search_dialog_box.py:94 ../apps/media/mp3_app.py:336
+msgid "editor"
+msgstr "editor"
+
+#: ../apps/settings/settings_app.py:1720
+msgid "line length"
+msgstr "comprimento da linha"
+
+#: ../apps/settings/settings_app.py:1723
+msgid "lines &length"
+msgstr "comprimento das &linhas"
+
+#: ../apps/settings/settings_app.py:1728
+msgid "forward display"
+msgstr "avançar no ecrã"
+
+#: ../apps/settings/settings_app.py:1736
+msgid "autoscroll display"
+msgstr "navegação automática no ecrã"
+
+#: ../apps/settings/settings_app.py:1744
+msgid "cursor visible"
+msgstr "cursor visível"
+
+#: ../apps/settings/settings_app.py:1752
+msgid "dot78 visible"
+msgstr "ponto 7 8 visível"
+
+#: ../apps/settings/settings_app.py:1755
+msgid "&dot 78 visible"
+msgstr "&ponto 7 8 visíveis"
+
+#: ../apps/settings/settings_app.py:1761 ../apps/settings/settings_app.py:1765
+#: ../apps/settings/settings_app.py:1773 ../apps/settings/settings_app.py:1781
+#: ../apps/settings/settings_app.py:1789
+msgid "math"
+msgstr "matemática"
+
+#: ../apps/settings/settings_app.py:1763
+msgid "format"
+msgstr "formato"
+
+#: ../apps/settings/settings_app.py:1771
+msgid "precision"
+msgstr "precisão"
+
+#: ../apps/settings/settings_app.py:1779
+msgid "fraction"
+msgstr "fracção"
+
+#: ../apps/settings/settings_app.py:1782
+msgid "&fraction result"
+msgstr "resultado da &fracção"
+
+#: ../apps/settings/settings_app.py:1787
+msgid "angle"
+msgstr "ângulo"
+
+#: ../apps/settings/settings_app.py:1798
+msgid "musicxml edit and play mode"
+msgstr "musicxml modo editar e tocar"
+
+#: ../apps/settings/settings_app.py:1800 ../apps/settings/settings_app.py:1808
+#: ../apps/settings/settings_app.py:1816 ../apps/settings/settings_app.py:1824
+#: ../apps/settings/settings_app.py:1832 ../apps/settings/settings_app.py:1840
+#: ../apps/settings/settings_app.py:1848 ../apps/settings/settings_app.py:1856
+#: ../apps/settings/settings_app.py:1864 ../apps/settings/settings_app.py:1872
+#: ../apps/settings/settings_app.py:1880 ../apps/settings/settings_app.py:1888
+#: ../apps/settings/settings_app.py:1896 ../apps/settings/settings_app.py:1904
+#: ../apps/settings/settings_app.py:1912 ../apps/settings/settings_app.py:1920
+msgid "music xml"
+msgstr "music xml"
+
+#: ../apps/settings/settings_app.py:1806
+#, fuzzy
+msgid "musicxml braille type"
+msgstr "tipo de Braille"
+
+#: ../apps/settings/settings_app.py:1814
+msgid "musicxml notes dots"
+msgstr "musicxml pontos musicais"
+
+#: ../apps/settings/settings_app.py:1817 ../apps/settings/settings_app.py:1945
+msgid "&notes dots"
+msgstr "&pontos musicais"
+
+#: ../apps/settings/settings_app.py:1822
+msgid "musicxml ascending chords"
+msgstr "musicxml acordes ascendentes"
+
+#: ../apps/settings/settings_app.py:1830
+msgid "musicxml fingering"
+msgstr "musicxml dedilhar"
+
+#: ../apps/settings/settings_app.py:1838
+msgid "musicxml clef"
+msgstr "musicxml clave"
+
+#: ../apps/settings/settings_app.py:1846
+msgid "musicxml parts"
+msgstr "musicxml partes"
+
+#: ../apps/settings/settings_app.py:1854
+msgid "musicxml measure b123"
+msgstr "musicxml medida b-123"
+
+#: ../apps/settings/settings_app.py:1862
+msgid "musicxml measure number"
+msgstr "musicxml medir número"
+
+#: ../apps/settings/settings_app.py:1865 ../apps/settings/settings_app.py:1993
+msgid "&measure number"
+msgstr "&medir número"
+
+#: ../apps/settings/settings_app.py:1870
+msgid "musicxml measure every"
+msgstr "musicxml medir todos"
+
+#: ../apps/settings/settings_app.py:1873 ../apps/settings/settings_app.py:2001
+msgid "&measure every"
+msgstr "&medir todos"
+
+#: ../apps/settings/settings_app.py:1878
+msgid "musicxml view"
+msgstr "musicxml visualizar"
+
+#: ../apps/settings/settings_app.py:1886
+msgid "musicxml section"
+msgstr "musicxml secção"
+
+#: ../apps/settings/settings_app.py:1894
+msgid "musicxml measures per section"
+msgstr "musicxml medidas por secção"
+
+#: ../apps/settings/settings_app.py:1897 ../apps/settings/settings_app.py:2025
+msgid "&measures per section"
+msgstr "&medidas por secção"
+
+#: ../apps/settings/settings_app.py:1902
+msgid "musicxml words"
+msgstr "musicxml palavras"
+
+#: ../apps/settings/settings_app.py:1910
+msgid "musicxml credit words"
+msgstr "musicxml créditos"
+
+#: ../apps/settings/settings_app.py:1918
+msgid "musicxml lyrics"
+msgstr "musicxml letra"
+
+#: ../apps/settings/settings_app.py:1926
+msgid "bxml edit and play mode"
+msgstr "bxml modo editar e tocar"
+
+#: ../apps/settings/settings_app.py:1928 ../apps/settings/settings_app.py:1936
+#: ../apps/settings/settings_app.py:1944 ../apps/settings/settings_app.py:1952
+#: ../apps/settings/settings_app.py:1960 ../apps/settings/settings_app.py:1968
+#: ../apps/settings/settings_app.py:1976 ../apps/settings/settings_app.py:1984
+#: ../apps/settings/settings_app.py:1992 ../apps/settings/settings_app.py:2000
+#: ../apps/settings/settings_app.py:2008 ../apps/settings/settings_app.py:2016
+#: ../apps/settings/settings_app.py:2024 ../apps/settings/settings_app.py:2032
+#: ../apps/settings/settings_app.py:2040 ../apps/settings/settings_app.py:2048
+#: ../apps/settings/settings_app.py:2056
+msgid "music bxml"
+msgstr "music bxml"
+
+#: ../apps/settings/settings_app.py:1934
+#, fuzzy
+msgid "bxml braille type"
+msgstr "tipo de Braille"
+
+#: ../apps/settings/settings_app.py:1942
+msgid "bxml notes dots"
+msgstr "bxml pontos de notas"
+
+#: ../apps/settings/settings_app.py:1950
+msgid "bxml ascending chords"
+msgstr "bxml acordes ascendentes"
+
+#: ../apps/settings/settings_app.py:1958
+msgid "bxml fingering"
+msgstr "bxml dedilhar"
+
+#: ../apps/settings/settings_app.py:1966
+msgid "bxml clef"
+msgstr "bxml clave"
+
+#: ../apps/settings/settings_app.py:1974
+msgid "bxml parts"
+msgstr "bxml partes"
+
+#: ../apps/settings/settings_app.py:1982
+msgid "bxml measure b123"
+msgstr "bxml medida b-123"
+
+#: ../apps/settings/settings_app.py:1990
+msgid "bxml measure number"
+msgstr "bxml medir número"
+
+#: ../apps/settings/settings_app.py:1998
+msgid "bxml measure every"
+msgstr "bxml medir todos"
+
+#: ../apps/settings/settings_app.py:2006
+msgid "bxml view"
+msgstr "bxml visualizar"
+
+#: ../apps/settings/settings_app.py:2014
+msgid "bxml section"
+msgstr "bxml secção"
+
+#: ../apps/settings/settings_app.py:2022
+msgid "bxml measures per section"
+msgstr "bxml medidas por secção"
+
+#: ../apps/settings/settings_app.py:2030
+msgid "bxml words"
+msgstr "bxml palavras"
+
+#: ../apps/settings/settings_app.py:2038
+msgid "bxml credit words"
+msgstr "bxml créditos"
+
+#: ../apps/settings/settings_app.py:2046
+msgid "bxml lyrics"
+msgstr "bxml letra"
+
+#: ../apps/settings/settings_app.py:2054
+msgid "bxml karaoke"
+msgstr "bxml karaoke"
+
+#: ../apps/settings/settings_app.py:2065
+msgid "default presentation"
+msgstr "apresentação padrão"
+
+#: ../apps/settings/settings_app.py:2068
+msgid "&presentation"
+msgstr "&apresentação"
+
+#: ../apps/settings/settings_app.py:2073
+#, fuzzy
+msgid "at startup, report events not done"
+msgstr "ao iniciar, apresentar eventos por realizar no mesmo dia"
+
+#: ../apps/settings/settings_app.py:2076
+#, fuzzy
+msgid "report events"
+msgstr "{} eventos"
+
+#: ../apps/settings/settings_app.py:2084
+msgid "use the vocal synthesis"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:2086 ../apps/settings/settings_app.py:2094
+#: ../apps/settings/settings_app.py:2102
+#, fuzzy
+msgid "braille learning"
+msgstr "idioma do braille"
+
+#: ../apps/settings/settings_app.py:2087
+#, fuzzy
+msgid "&vocal"
+msgstr "voz"
+
+#: ../apps/settings/settings_app.py:2092
+msgid "keeping spaces"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:2095
+msgid "&spaces"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:2100
+msgid "allow the wrong hit"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:2103
+msgid "&allow all"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:2109
+msgid "keyboards"
+msgstr "teclados"
+
+#: ../apps/settings/settings_app.py:2111
+msgid "mode"
+msgstr "modo"
+
+#: ../apps/settings/settings_app.py:2114
+msgid "braille keyboard mode"
+msgstr "modo teclado Braille"
+
+#: ../apps/settings/settings_app.py:2122
+msgid "braille keyboard b78"
+msgstr "teclado Braille b 7 8"
+
+#: ../apps/settings/settings_app.py:2127
+msgid "invertion"
+msgstr "inversão"
+
+#: ../apps/settings/settings_app.py:2130
+msgid "inversion"
+msgstr "inversão"
+
+#: ../apps/settings/settings_app.py:2135 ../apps/settings/settings_app.py:2138
+msgid "light press"
+msgstr "pressionar ligeiramente"
+
+#: ../apps/settings/settings_app.py:2137 ../apps/settings/settings_app.py:2145
+#: ../apps/settings/settings_app.py:2153 ../apps/settings/settings_app.py:2161
+#: ../apps/settings/settings_app.py:2169
+msgid "routing keyboard"
+msgstr "teclado de direccionamento"
+
+#: ../apps/settings/settings_app.py:2143 ../apps/settings/settings_app.py:2146
+msgid "strong press"
+msgstr "pressionar intensamente"
+
+#: ../apps/settings/settings_app.py:2151
+msgid "consecutive press"
+msgstr "pressionar consecutivamente"
+
+#: ../apps/settings/settings_app.py:2154
+msgid "consecutive"
+msgstr "consecutivamente"
+
+#: ../apps/settings/settings_app.py:2159
+msgid "double light press"
+msgstr "pressionar ligeiramente duas vezes"
+
+#: ../apps/settings/settings_app.py:2162
+msgid "double light"
+msgstr "ligeiramente duas vezes"
+
+#: ../apps/settings/settings_app.py:2167
+msgid "double strong press"
+msgstr "pressionar intensamente duas vezes"
+
+#: ../apps/settings/settings_app.py:2170
+msgid "double strong"
+msgstr "intensamente duas vezes"
+
+#: ../apps/settings/settings_app.py:2177 ../apps/settings/settings_app.py:2181
+#: ../apps/settings/settings_app.py:2190
+msgid "standby"
+msgstr "em espera"
+
+#: ../apps/settings/settings_app.py:2182 ../apps/internal.py:354
+#: ../apps/internal.py:523
+msgid "transport"
+msgstr "transportar"
+
+#: ../apps/settings/settings_app.py:2191 ../apps/internal.py:357
+#: ../apps/internal.py:524
+msgid "shutdown"
+msgstr "desligar"
+
+#: ../apps/settings/settings_app.py:2199 ../apps/settings/settings_app.py:2203
+#: ../apps/settings/settings_app.py:2222 ../apps/settings/settings_app.py:4024
+#, fuzzy
+msgid "update"
+msgstr "data"
+
+#: ../apps/settings/settings_app.py:2201
+msgid "automatically check for updates"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:2204
+#, fuzzy
+msgid "&auto checking"
+msgstr "ligar automaticamente"
+
+#: ../apps/settings/settings_app.py:2215
+msgid "update available"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:2218 ../apps/settings/settings_app.py:4007
+msgid "your b.note is up to date"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:2220 ../apps/settings/settings_app.py:4840
+#, fuzzy
+msgid "update source"
+msgstr "data"
+
+#: ../apps/settings/settings_app.py:2223
+msgid "source"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:2229
+msgid "versions"
+msgstr "versões"
+
+#: ../apps/settings/settings_app.py:2242
+msgid "device type"
+msgstr "tipo de dispositivo"
+
+#: ../apps/settings/settings_app.py:2246
+msgid "applications"
+msgstr "aplicações"
+
+#: ../apps/settings/settings_app.py:2248
+#, fuzzy
+msgid "application versions"
+msgstr "aplicações"
+
+#: ../apps/settings/settings_app.py:2249 ../apps/settings/settings_app.py:4889
+#, fuzzy
+msgid "version"
+msgstr "versões"
+
+#: ../apps/settings/settings_app.py:2255
+msgid "firmware"
+msgstr "firmware"
+
+#: ../apps/settings/settings_app.py:2260
+msgid "sdcard"
+msgstr "cartão sd"
+
+#: ../apps/settings/settings_app.py:2263
+msgid "sdcard space"
+msgstr "espaço no cartão sd"
+
+#: ../apps/settings/settings_app.py:2267
+msgid "generation 2"
+msgstr "geração 2"
+
+#: ../apps/settings/settings_app.py:2635
+msgid "Total: {:.1f} GiB, Used: {:.1f} GiB, Free: {:.1f} GiB"
+msgstr "Total: {:.1f} GiB, Utilizado: {:.1f} GiB, Livre: {:.1f} GiB"
+
+#: ../apps/settings/settings_app.py:2734
+msgid "inactive"
+msgstr "inactivo"
+
+#: ../apps/settings/settings_app.py:2737
+msgid "discharging"
+msgstr "a descarregar"
+
+#: ../apps/settings/settings_app.py:2740
+msgid "charging"
+msgstr "a carregar"
+
+#: ../apps/settings/settings_app.py:2743
+msgid "fast charging"
+msgstr "carregamento rápido"
+
+#: ../apps/settings/settings_app.py:2746
+msgid "out of order"
+msgstr "fora de serviço"
+
+#: ../apps/settings/settings_app.py:2756 ../apps/settings/settings_app.py:2856
+#: ../apps/settings/settings_app.py:3020 ../apps/settings/settings_app.py:3052
+msgid "standard"
+msgstr "comum"
+
+#: ../apps/settings/settings_app.py:2759
+msgid "light"
+msgstr "ligeiro"
+
+#: ../apps/settings/settings_app.py:2762
+msgid "basic"
+msgstr "básico"
+
+#: ../apps/settings/settings_app.py:2765
+msgid "basic light"
+msgstr "básico ligeiro"
+
+#: ../apps/settings/settings_app.py:2854
+msgid "degree"
+msgstr "grau"
+
+#: ../apps/settings/settings_app.py:2854
+msgid "radian"
+msgstr "radiano"
+
+#: ../apps/settings/settings_app.py:2857
+msgid "scientific"
+msgstr "científica"
+
+#: ../apps/settings/settings_app.py:2860 ../apps/settings/settings_app.py:2894
+msgid "expert"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:2861 ../apps/settings/settings_app.py:2895
+msgid "read"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:2862 ../apps/settings/settings_app.py:2896
+msgid "edit"
+msgstr "editar"
+
+#: ../apps/settings/settings_app.py:2863 ../apps/settings/settings_app.py:2897
+#, fuzzy
+msgid "listen"
+msgstr "&lista"
+
+#: ../apps/settings/settings_app.py:2866 ../apps/settings/settings_app.py:2900
+#: ../apps/settings/settings_app.py:2928 ../apps/settings/settings_app.py:2992
+#: ../apps/skeleton/skeleton_app.py:168
+msgid "dot 8"
+msgstr "ponto 8"
+
+#: ../apps/settings/settings_app.py:2867 ../apps/settings/settings_app.py:2901
+#: ../apps/settings/settings_app.py:2929 ../apps/settings/settings_app.py:2993
+#: ../apps/edt/editor_app.py:186 ../apps/edt/editor_app.py:205
+#: ../apps/skeleton/skeleton_app.py:169
+msgid "grade 1"
+msgstr "grau 1"
+
+#: ../apps/settings/settings_app.py:2870 ../apps/settings/settings_app.py:2904
+msgid "8 dots"
+msgstr "8 pontos"
+
+#: ../apps/settings/settings_app.py:2871 ../apps/settings/settings_app.py:2905
+msgid "6 dots"
+msgstr "6 pontos"
+
+#: ../apps/settings/settings_app.py:2872 ../apps/settings/settings_app.py:2906
+msgid "6 dots with group"
+msgstr "6 pontos com grupo"
+
+#: ../apps/settings/settings_app.py:2876 ../apps/settings/settings_app.py:2910
+msgid "abbreviation"
+msgstr "abreviatura"
+
+#: ../apps/settings/settings_app.py:2879 ../apps/settings/settings_app.py:2913
+msgid "by section"
+msgstr "por secção"
+
+#: ../apps/settings/settings_app.py:2880 ../apps/settings/settings_app.py:2914
+msgid "by part"
+msgstr "por parte"
+
+#: ../apps/settings/settings_app.py:2883 ../apps/settings/settings_app.py:2917
+msgid "total part"
+msgstr "parte total"
+
+#: ../apps/settings/settings_app.py:2884 ../apps/settings/settings_app.py:2918
+msgid "system"
+msgstr "sistema"
+
+#: ../apps/settings/settings_app.py:2885 ../apps/settings/settings_app.py:2919
+msgid "number"
+msgstr "número"
+
+#: ../apps/settings/settings_app.py:2889 ../apps/settings/settings_app.py:2923
+msgid "after each note"
+msgstr "após cada nota"
+
+#: ../apps/settings/settings_app.py:2890 ../apps/settings/settings_app.py:2924
+msgid "before each section"
+msgstr "antes de cada secção"
+
+#: ../apps/settings/settings_app.py:2891 ../apps/settings/settings_app.py:2925
+msgid "after each section"
+msgstr "após cada secção"
+
+#: ../apps/settings/settings_app.py:2930 ../apps/settings/settings_app.py:2994
+#: ../apps/edt/editor_app.py:186 ../apps/edt/editor_app.py:205
+#: ../apps/skeleton/skeleton_app.py:170
+msgid "grade 2"
+msgstr "grau 2"
+
+#: ../apps/settings/settings_app.py:2933 ../apps/settings/settings_app.py:2942
+#: ../apps/settings/settings_app.py:2947 ../apps/settings/settings_app.py:2952
+#: ../apps/settings/settings_app.py:2957 ../apps/settings/settings_app.py:2962
+#: ../apps/settings/settings_app.py:2967 ../apps/settings/settings_app.py:2972
+#: ../apps/settings/settings_app.py:2977 ../apps/settings/settings_app.py:2982
+#: ../apps/settings/settings_app.py:2987
+#, fuzzy
+msgid "invisible"
+msgstr "visível"
+
+#: ../apps/settings/settings_app.py:2934 ../apps/settings/settings_app.py:2938
+#: ../apps/settings/settings_app.py:2943 ../apps/settings/settings_app.py:2948
+#: ../apps/settings/settings_app.py:2953 ../apps/settings/settings_app.py:2958
+#: ../apps/settings/settings_app.py:2963 ../apps/settings/settings_app.py:2968
+#: ../apps/settings/settings_app.py:2973 ../apps/settings/settings_app.py:2978
+#: ../apps/settings/settings_app.py:2983 ../apps/settings/settings_app.py:2988
+msgid "in main apps menu"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:2935 ../apps/settings/settings_app.py:2939
+#: ../apps/settings/settings_app.py:2944 ../apps/settings/settings_app.py:2949
+#: ../apps/settings/settings_app.py:2954 ../apps/settings/settings_app.py:2959
+#: ../apps/settings/settings_app.py:2964 ../apps/settings/settings_app.py:2969
+#: ../apps/settings/settings_app.py:2974 ../apps/settings/settings_app.py:2979
+#: ../apps/settings/settings_app.py:2984 ../apps/settings/settings_app.py:2989
+#, fuzzy
+msgid "in more apps menu"
+msgstr "&ignorar maiúscula/minúscula"
+
+#: ../apps/settings/settings_app.py:2997
+msgid "normal"
+msgstr "normal"
+
+#: ../apps/settings/settings_app.py:2998
+msgid "significative"
+msgstr "significativo"
+
+#: ../apps/settings/settings_app.py:3003 ../apps/settings/settings_app.py:3011
+msgid "send to screen reader"
+msgstr "enviar para leitor de ecrã"
+
+#: ../apps/settings/settings_app.py:3006 ../apps/settings/settings_app.py:3014
+msgid "active"
+msgstr "activo"
+
+#: ../apps/settings/settings_app.py:3022
+msgid "unimanual1"
+msgstr "unimanual1"
+
+#: ../apps/settings/settings_app.py:3025
+msgid "unimanual2"
+msgstr "unimanual2"
+
+#: ../apps/settings/settings_app.py:3028
+msgid "unimanual3"
+msgstr "unimanual3"
+
+#: ../apps/settings/settings_app.py:3031
+msgid "unimanual4"
+msgstr "unimanual4"
+
+#: ../apps/settings/settings_app.py:3036
+msgid "character"
+msgstr "carácter"
+
+#: ../apps/settings/settings_app.py:3037
+msgid "function"
+msgstr "função"
+
+#: ../apps/settings/settings_app.py:3053 ../apps/agenda/agenda_app.py:45
+msgid "not done"
+msgstr "por fazer"
+
+#: ../apps/settings/settings_app.py:3054 ../apps/agenda/agenda_app.py:1840
+#: ../apps/agenda/agenda_app.py:1894
+msgid "today"
+msgstr "hoje"
+
+#: ../apps/settings/settings_app.py:3055 ../apps/agenda/agenda_app.py:1910
+msgid "calendar"
+msgstr "calendário"
+
+#: ../apps/settings/settings_app.py:3059
+msgid "for the same day"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:3060
+#, fuzzy
+msgid "for the next day"
+msgstr "dia seg&uinte"
+
+#: ../apps/settings/settings_app.py:3061
+msgid "for the same day and the next day"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:3064
+msgid "auto"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:3065
+msgid "ask"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:3081
+msgid "none"
+msgstr "nenhum"
+
+#: ../apps/settings/settings_app.py:3083
+msgid "backward-forward"
+msgstr "para trás-para a frente"
+
+#: ../apps/settings/settings_app.py:3085
+msgid "click"
+msgstr "clique"
+
+#: ../apps/settings/settings_app.py:3086
+msgid "double click"
+msgstr "duplo clique"
+
+#: ../apps/settings/settings_app.py:3087
+msgid "windows key"
+msgstr "tecla do windows"
+
+#: ../apps/settings/settings_app.py:3088
+msgid "context menu"
+msgstr "menu de contexto"
+
+#: ../apps/settings/settings_app.py:3151
+msgid "auto switch"
+msgstr "ligar automaticamente"
+
+#: ../apps/settings/settings_app.py:3151
+msgid "do nothing"
+msgstr "não fazer nada"
+
+#: ../apps/settings/settings_app.py:3282 ../apps/settings/settings_app.py:3507
+msgid "&remove"
+msgstr "&remover"
+
+#: ../apps/settings/settings_app.py:3290
+#, fuzzy
+msgid "bluetooth adapter is not powered"
+msgstr "bluetooth"
+
+#: ../apps/settings/settings_app.py:3354
+msgid "bnote must restart for the name change to take effect."
+msgstr "o bnote tem que reiniciar para que a mudança de nome tenha efeito."
+
+#: ../apps/settings/settings_app.py:3361 ../apps/settings/settings_app.py:5048
+#: ../apps/fman/file_manager_app.py:2825
+msgid "restarting..."
+msgstr "a reiniciar..."
+
+#: ../apps/settings/settings_app.py:3389
+#, fuzzy
+msgid "not connected"
+msgstr "&ligado"
+
+#: ../apps/settings/settings_app.py:3391 ../apps/settings/settings_app.py:3408
+msgid "power off"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:3461 ../apps/settings/settings_app.py:3546
+#, fuzzy
+msgid "command failed"
+msgstr "novo ficheiro"
+
+#: ../apps/settings/settings_app.py:3492 ../apps/settings/settings_app.py:3586
+#: ../apps/settings/settings_app.py:3629
+msgid "ssid"
+msgstr "ssid"
+
+#: ../apps/settings/settings_app.py:3503
+msgid "&set first"
+msgstr "&definir primeiro"
+
+#: ../apps/settings/settings_app.py:3511 ../apps/settings/settings_app.py:3589
+#: ../apps/media/mp3_app.py:125
+msgid "&add"
+msgstr "a&dicionar"
+
+#: ../apps/settings/settings_app.py:3520
+msgid "wifi adapter is not powered"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:3564
+#, fuzzy
+msgid "deletion failed"
+msgstr "eliminar &tudo"
+
+#: ../apps/settings/settings_app.py:3584
+msgid "&scan"
+msgstr "&digitalizar"
+
+#: ../apps/settings/settings_app.py:3587 ../apps/fman/file_manager_app.py:1258
+msgid "password"
+msgstr "palavra-passe"
+
+#: ../apps/settings/settings_app.py:3603
+msgid "scanning..."
+msgstr "a digitalizar..."
+
+#: ../apps/settings/settings_app.py:3675
+#, fuzzy
+msgid "add failed"
+msgstr "adicionar rádio"
+
+#: ../apps/settings/settings_app.py:3709
+msgid "hours"
+msgstr "horas"
+
+#: ../apps/settings/settings_app.py:3711
+msgid "minutes"
+msgstr "minutos"
+
+#: ../apps/settings/settings_app.py:3715
+msgid "seconds"
+msgstr "segundos"
+
+#: ../apps/settings/settings_app.py:3734 ../apps/settings/settings_app.py:3748
+#: ../apps/settings/settings_app.py:3802 ../apps/settings/settings_app.py:3816
+#: ../apps/settings/settings_app.py:4285 ../apps/settings/settings_app.py:4385
+#: ../apps/settings/settings_app.py:4412
+msgid "value not valid..."
+msgstr "valor inválido..."
+
+#: ../apps/settings/settings_app.py:3778
+msgid "day"
+msgstr "dia"
+
+#: ../apps/settings/settings_app.py:3780
+msgid "month"
+msgstr "mês"
+
+#: ../apps/settings/settings_app.py:3784
+msgid "year"
+msgstr "ano"
+
+#: ../apps/settings/settings_app.py:3993 ../apps/settings/settings_app.py:4089
+msgid "searching update..."
+msgstr ""
+
+#: ../apps/settings/settings_app.py:4012 ../apps/settings/settings_app.py:4097
+msgid "connexion failed, try again."
+msgstr ""
+
+#: ../apps/settings/settings_app.py:4021
+msgid "the version {} of applications is available. Do you want to install it?"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:4038 ../apps/fman/file_manager_app.py:2771
+msgid "set the date and time before updating bnote."
+msgstr ""
+
+#: ../apps/settings/settings_app.py:4043 ../apps/settings/settings_app.py:4139
+#, fuzzy
+msgid "downloading..."
+msgstr "a ler..."
+
+#: ../apps/settings/settings_app.py:4072 ../apps/fman/file_manager_app.py:2800
+#, fuzzy
+msgid "unable to update."
+msgstr "Deseja instalar a actualização?"
+
+#: ../apps/settings/settings_app.py:4085 ../apps/settings/settings_app.py:4940
+msgid "install done, restart new version..."
+msgstr ""
+
+#: ../apps/settings/settings_app.py:4103
+msgid "No version available through this source."
+msgstr ""
+
+#: ../apps/settings/settings_app.py:4111
+#, fuzzy
+msgid "version history"
+msgstr "versões"
+
+#: ../apps/settings/settings_app.py:4114
+#, fuzzy
+msgid "&select a version to install"
+msgstr "seleccionar &alteração da nota"
+
+#: ../apps/settings/settings_app.py:4118
+#, fuzzy
+msgid "&install"
+msgstr "&inserir"
+
+#: ../apps/settings/settings_app.py:4131
+msgid "this version is already installed"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:4149
+#, fuzzy
+msgid "device: {}"
+msgstr "tipo de dispositivo"
+
+#: ../apps/settings/settings_app.py:4150
+msgid "serial number: {}"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:4153
+msgid "subtype: {}"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:4158
+#, fuzzy
+msgid "line length: {}"
+msgstr "comprimento da linha"
+
+#: ../apps/settings/settings_app.py:4163
+#, fuzzy
+msgid "option: esysuite"
+msgstr "esysuite"
+
+#: ../apps/settings/settings_app.py:4165
+#, fuzzy
+msgid "applications: {}"
+msgstr "aplicações"
+
+#: ../apps/settings/settings_app.py:4166
+#, fuzzy
+msgid "firmware: {}"
+msgstr "firmware"
+
+#: ../apps/settings/settings_app.py:4169
+#, fuzzy
+msgid "sdcard: {}"
+msgstr "cartão sd"
+
+#: ../apps/settings/settings_app.py:4171
+msgid ""
+"{}\n"
+"{}\n"
+"Phone: {}\n"
+"Email: {}\n"
+"Website: {}"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:4195
+#, fuzzy
+msgid "&switch version"
+msgstr "inversão"
+
+#: ../apps/settings/settings_app.py:4205
+msgid "do you want to reset parameters?"
+msgstr "deseja restaurar os parâmetros?"
+
+#: ../apps/settings/settings_app.py:4289
+msgid "value not valid. It must be between {} and {}."
+msgstr "valor inválido, deve estar entre {} e{}."
+
+#: ../apps/settings/settings_app.py:4842
+msgid "source &url"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:4847
+#, fuzzy
+msgid "&set default"
+msgstr "predefinição"
+
+#: ../apps/settings/settings_app.py:4879
+#, fuzzy
+msgid "source not valid..."
+msgstr "valor inválido..."
+
+#: ../apps/settings/settings_app.py:4886
+#, fuzzy
+msgid "bnote versions"
+msgstr "versões"
+
+#: ../apps/settings/settings_app.py:4895
+msgid "&switch to"
+msgstr ""
+
+#: ../apps/settings/settings_app.py:4899 ../apps/settings/settings_app.py:5003
+#: ../apps/timer/timer_app.py:188 ../apps/agenda/agenda_app.py:90
+#: ../apps/games/mines_app.py:106 ../apps/games/master_mind_app.py:105
+#: ../apps/media/mp3_app.py:114 ../apps/media/mp3_app.py:688
+msgid "&delete"
+msgstr "e&liminar"
+
+#: ../apps/settings/settings_app.py:4919
+msgid "bnote version cannot be deleted."
+msgstr ""
+
+#: ../apps/settings/settings_app.py:4924
+msgid "bnote version is the default one and cannot be deleted."
+msgstr ""
+
+#: ../apps/settings/settings_app.py:4926
+#, fuzzy
+msgid "bnote version deleted."
+msgstr "&bnote visível"
+
+#: ../apps/settings/settings_app.py:4928
+msgid "deletion failed."
+msgstr ""
+
+#: ../apps/settings/settings_app.py:4949
+#, fuzzy
+msgid "export settings"
+msgstr "configurações"
+
+#: ../apps/settings/settings_app.py:4951 ../apps/skeleton/skeleton_app.py:121
+#: ../apps/agenda/agenda_app.py:698 ../apps/fman/file_manager_app.py:1036
+msgid "&file name"
+msgstr "&nome do ficheiro"
+
+#: ../apps/settings/settings_app.py:4969
+#, fuzzy
+msgid "the settings file already exists. Do you want to replace it?"
+msgstr "o ficheiro {} já existe. deseja substituí-lo?"
+
+#: ../apps/settings/settings_app.py:4993
+#, fuzzy
+msgid "import a settings file"
+msgstr "&importar ficheiro de agenda"
+
+#: ../apps/settings/settings_app.py:4996
+#, fuzzy
+msgid "setting"
+msgstr "configurações"
+
+#: ../apps/settings/settings_app.py:5001 ../apps/agenda/agenda_app.py:661
+msgid "&import"
+msgstr "&importar"
+
+#: ../apps/settings/settings_app.py:5025
+#, fuzzy
+msgid ""
+"this file will be replace the existing settings file. Do you want to "
+"continue? B.note will be restarted."
+msgstr "o ficheiro foi exportado correctamente para a pasta os meus documentos"
+
+#: ../apps/settings/settings_app.py:5043 ../apps/fman/file_manager_app.py:2820
+#, fuzzy
+msgid "failed to import the file, check the source and try again."
+msgstr ""
+"Ocorreu um erro durante a exportação, verifique a agenda e tente de novo"
+
+#: ../apps/internal.py:74
+msgid "usb-&a"
+msgstr "usb-&a"
+
+#: ../apps/internal.py:77
+msgid "usb-&b"
+msgstr "usb-&b"
+
+#: ../apps/internal.py:361 ../apps/internal.py:509
+msgid "applications-"
+msgstr "aplicações-"
+
+#: ../apps/internal.py:487
+#, fuzzy
+msgid "&word game"
+msgstr "p&alavras"
+
+#: ../apps/internal.py:488
+#, fuzzy
+msgid "mat&h game"
+msgstr "mate&mática"
+
+#: ../apps/internal.py:490
+msgid "mas&termind"
+msgstr "mas&termind"
+
+#: ../apps/internal.py:491
+msgid "s&keleton"
+msgstr "e&squeleto"
+
+#: ../apps/internal.py:492
+msgid "m&ore apps..."
+msgstr ""
+
+#: ../apps/internal.py:540
+msgid "usb_&a"
+msgstr "usb_&a"
+
+#: ../apps/internal.py:548
+msgid "usb_&b"
+msgstr "usb_&b"
+
+#: ../apps/edt/edt/read_xlsx_file.py:42
+#, fuzzy
+msgid "select sheet."
+msgstr "Seleccionar folha."
+
+#: ../apps/edt/edt/read_xlsx_file.py:54
+msgid "sheet {} type not found."
+msgstr "tipo de folha {} não encontrada."
+
+#: ../apps/edt/edt/write_brf_file.py:146 ../apps/edt/edt/write_brf_file.py:173
+#, fuzzy
+msgid "Volume {}"
+msgstr "aumentar volume, {}%"
+
+#: ../apps/edt/edt/read_file.py:73
+#, fuzzy
+msgid ""
+"the original file has already been converted. Please open the converted file "
+"or rename/delete it if you want to try again this conversion."
+msgstr ""
+"o ficheiro já existe {}, provavelmente porque o ficheiro original já foi "
+"convertido. Por favor, abra o ficheiro convertido e seleccione eliminar/"
+"mudar o nome para o converter novamente."
+
+#: ../apps/edt/math_opy/l1l1l1ll1_opy_.py:45
+#: ../apps/edt/math_opy/l1ll1lll_opy_.py:59
+#: ../apps/edt/math_opy/l1ll1lll_opy_.py:109
+#: ../apps/edt/math_opy/l11l1l11_opy_.py:59
+#: ../apps/edt/math_opy/l11l1l11_opy_.py:109
+#: ../apps/edt/math_opy/math_parser.py:524
+#: ../apps/edt/math_opy/l1llllll_opy_.py:45
+msgid "invalid function"
+msgstr "função inválida"
+
+#: ../apps/edt/math_opy/l1l1l1ll1_opy_.py:87
+#: ../apps/edt/math_opy/l111l1lll_opy_.py:74
+#: ../apps/edt/math_opy/l111l1lll_opy_.py:79
+#: ../apps/edt/math_opy/l1111ll11_opy_.py:52
+#: ../apps/edt/math_opy/l1111ll11_opy_.py:57
+#: ../apps/edt/math_opy/l1lllll1l_opy_.py:74
+#: ../apps/edt/math_opy/l1lllll1l_opy_.py:79
+#: ../apps/edt/math_opy/l1llllll_opy_.py:87
+#: ../apps/edt/math_opy/l1111111l_opy_.py:52
+#: ../apps/edt/math_opy/l1111111l_opy_.py:57
+msgid "function not evaluable"
+msgstr "função não avaliável"
+
+#: ../apps/edt/math_opy/l1l1l1ll1_opy_.py:103
+#: ../apps/edt/math_opy/l1l1l1ll1_opy_.py:193
+#: ../apps/edt/math_opy/l1l1l1ll1_opy_.py:273
+#: ../apps/edt/math_opy/l1l1l1ll1_opy_.py:301
+#: ../apps/edt/math_opy/l1l1l1ll1_opy_.py:340
+#: ../apps/edt/math_opy/l111l1lll_opy_.py:98
+#: ../apps/edt/math_opy/l1ll1lll_opy_.py:143
+#: ../apps/edt/math_opy/l1ll1lll_opy_.py:162
+#: ../apps/edt/math_opy/l1ll1lll_opy_.py:181
+#: ../apps/edt/math_opy/l1ll1lll_opy_.py:200
+#: ../apps/edt/math_opy/l11l1l11_opy_.py:143
+#: ../apps/edt/math_opy/l11l1l11_opy_.py:162
+#: ../apps/edt/math_opy/l11l1l11_opy_.py:181
+#: ../apps/edt/math_opy/l11l1l11_opy_.py:200
+#: ../apps/edt/math_opy/l111lll1l_opy_.py:75
+#: ../apps/edt/math_opy/l1lllll1l_opy_.py:98
+#: ../apps/edt/math_opy/l1llllll_opy_.py:103
+#: ../apps/edt/math_opy/l1llllll_opy_.py:193
+#: ../apps/edt/math_opy/l1llllll_opy_.py:273
+#: ../apps/edt/math_opy/l1llllll_opy_.py:301
+#: ../apps/edt/math_opy/l1llllll_opy_.py:340
+#: ../apps/edt/math_opy/l11l111l_opy_.py:75
+msgid "division by zero"
+msgstr "divisão por zero"
+
+#: ../apps/edt/math_opy/l1l1l1ll1_opy_.py:115
+#: ../apps/edt/math_opy/l1llllll_opy_.py:115
+msgid "invalid argument, list needed"
+msgstr "argumento inválido, lista necessária"
+
+#: ../apps/edt/math_opy/l1l1l1ll1_opy_.py:235
+#: ../apps/edt/math_opy/l1l1l1ll1_opy_.py:253
+#: ../apps/edt/math_opy/l1l1l1ll1_opy_.py:320
+#: ../apps/edt/math_opy/l1l1l1ll1_opy_.py:350
+#: ../apps/edt/math_opy/math_nemeth_parser.py:483
+#: ../apps/edt/math_opy/l1llllll_opy_.py:235
+#: ../apps/edt/math_opy/l1llllll_opy_.py:253
+#: ../apps/edt/math_opy/l1llllll_opy_.py:320
+#: ../apps/edt/math_opy/l1llllll_opy_.py:350
+msgid "invalid arguments"
+msgstr "argumentos inválidos"
+
+#: ../apps/edt/math_opy/l1l1l1ll1_opy_.py:287
+#: ../apps/edt/math_opy/l1llllll_opy_.py:287
+msgid "negative sqrt error"
+msgstr "erro sqrt negativo"
+
+#: ../apps/edt/math_opy/l1l1l1ll1_opy_.py:314
+#: ../apps/edt/math_opy/l1l1l1ll1_opy_.py:346
+#: ../apps/edt/math_opy/l1llllll_opy_.py:314
+#: ../apps/edt/math_opy/l1llllll_opy_.py:346 ../apps/edt/editor_app.py:406
+msgid "infinite value"
+msgstr "valor infinito"
+
+#: ../apps/edt/math_opy/l111l1lll_opy_.py:107
+#: ../apps/edt/math_opy/l1lllll1l_opy_.py:107
+msgid "assignment must be only into parameter"
+msgstr "a atribuição deve ser feita apenas no parâmetro"
+
+#: ../apps/edt/math_opy/l111l1lll_opy_.py:123
+#: ../apps/edt/math_opy/l1lllll1l_opy_.py:123
+msgid "weighted arithmetic mean invalid"
+msgstr "média aritmética ponderada inválida"
+
+#: ../apps/edt/math_opy/l11ll_opy_.py:62 ../apps/edt/math_opy/l11_opy_.py:62
+msgid "error during set_parameters"
+msgstr "erro ao definir parâmetros"
+
+#: ../apps/edt/math_opy/l1ll1lll_opy_.py:235
+#: ../apps/edt/math_opy/l11l1l11_opy_.py:235
+#: ../apps/edt/math_opy/l111lll1l_opy_.py:50
+#: ../apps/edt/math_opy/l11l111l_opy_.py:50
+msgid "invalid argument"
+msgstr "argumento inválido"
+
+#: ../apps/edt/math_opy/math_parser.py:368
+#: ../apps/edt/math_opy/math_parser.py:462
+#: ../apps/edt/math_opy/math_parser.py:607
+#: ../apps/edt/math_opy/math_nemeth_parser.py:274
+#: ../apps/edt/math_opy/math_nemeth_parser.py:359
+#: ../apps/edt/math_opy/math_nemeth_parser.py:524
+msgid "empty argument"
+msgstr "argumento vazio"
+
+#: ../apps/edt/math_opy/math_parser.py:555
+#: ../apps/edt/math_opy/math_nemeth_parser.py:414
+msgid "bloc error"
+msgstr "erro de bloco"
+
+#: ../apps/edt/math_opy/l11lll1l_opy_.py:54
+#: ../apps/edt/math_opy/l11ll1ll1_opy_.py:54
+msgid "undefined parameters"
+msgstr "parâmetros indefinidos"
+
+#: ../apps/edt/math_opy/l111l_opy_.py:24 ../apps/edt/math_opy/l1lll1_opy_.py:24
+msgid "item not evaluable"
+msgstr "item não avaliável"
+
+#: ../apps/edt/math_opy/math_nemeth_parser.py:452
+msgid "malformed fraction"
+msgstr "fracção malformada"
+
+#: ../apps/edt/editor_app.py:49
+msgid "read only"
+msgstr ""
+
+#: ../apps/edt/editor_app.py:70 ../apps/wikipedia/wikipedia_app.py:64
+msgid "clean&up"
+msgstr "&limpar"
+
+#: ../apps/edt/editor_app.py:75
+#, fuzzy
+msgid "&export to .brf"
+msgstr "&exportar"
+
+#: ../apps/edt/editor_app.py:78
+#, fuzzy
+msgid "send se&lection to"
+msgstr "&terminar selecção"
+
+#: ../apps/edt/editor_app.py:92
+msgid "&result"
+msgstr "&resultado"
+
+#: ../apps/edt/editor_app.py:96
+msgid "&signature"
+msgstr "&assinatura"
+
+#: ../apps/edt/editor_app.py:102
+msgid "&math"
+msgstr "&matemática"
+
+#: ../apps/edt/editor_app.py:106
+msgid "&line evaluation"
+msgstr "avaliar &linha"
+
+#: ../apps/edt/editor_app.py:112
+msgid "&bloc evaluation"
+msgstr "avaliar &bloco"
+
+#: ../apps/edt/editor_app.py:177
+#, fuzzy
+msgid "export to braille"
+msgstr "&exportar ficheiro de agenda"
+
+#: ../apps/edt/editor_app.py:180 ../apps/translator/translator_app.py:216
+#, fuzzy
+msgid "language &encoding"
+msgstr "idioma"
+
+#: ../apps/edt/editor_app.py:189
+#, fuzzy
+msgid "line &length"
+msgstr "comprimento das &linhas"
+
+#: ../apps/edt/editor_app.py:190
+msgid "lines by &page"
+msgstr ""
+
+#: ../apps/edt/editor_app.py:191
+msgid "&pages by &file"
+msgstr ""
+
+#: ../apps/edt/editor_app.py:193
+msgid "click &here to enter the first page"
+msgstr ""
+
+#: ../apps/edt/editor_app.py:217
+#, fuzzy
+msgid "exporting..."
+msgstr "a importar..."
+
+#: ../apps/edt/editor_app.py:242
+msgid ""
+"the value of character per line, line per page and page per file must be an "
+"integer."
+msgstr ""
+
+#: ../apps/edt/editor_app.py:244
+msgid "exporting was successful."
+msgstr ""
+
+#: ../apps/edt/editor_app.py:246
+msgid "an element of the same name already exists, remove it and try again."
+msgstr ""
+
+#: ../apps/edt/editor_app.py:257 ../apps/translator/translator_app.py:203
+#, fuzzy
+msgid "not device connected"
+msgstr "&ligado"
+
+#: ../apps/edt/editor_app.py:262
+msgid "you must select text to send"
+msgstr ""
+
+#: ../apps/edt/editor_app.py:268 ../apps/translator/translator_app.py:208
+#, fuzzy
+msgid "send text to"
+msgstr "enviar para"
+
+#: ../apps/edt/editor_app.py:271 ../apps/translator/translator_app.py:211
+#, fuzzy
+msgid "&device"
+msgstr "tipo de dispositivo"
+
+#: ../apps/edt/editor_app.py:291
+msgid ""
+"check that the braille type of the document corresponds to the braille type "
+"of the screen reader."
+msgstr ""
+
+#: ../apps/edt/editor_app.py:306
+msgid "you must be in computer braille to use the translation."
+msgstr ""
+
+#: ../apps/edt/editor_app.py:400
+msgid "nan value"
+msgstr "valor nan"
+
+#: ../apps/edt/editor_app.py:412 ../apps/edt/editor_app.py:480
+msgid "result:{}"
+msgstr "resultado:{}"
+
+#: ../apps/edt/editor_app.py:418
+msgid "Error forgotten formula start marks"
+msgstr "Erro falta marcas de início de fórmula"
+
+#: ../apps/edt/editor_app.py:431
+msgid "Error:{} at pos:{}"
+msgstr "Erro:{} na pos:{}"
+
+#: ../apps/edt/editor_app.py:494
+#, fuzzy
+msgid "error:{} at pos:{}"
+msgstr "Erro:{} na pos:{}"
+
+#: ../apps/edt/editor_app.py:499
+#, fuzzy
+msgid "error forgotten formula start marks"
+msgstr "Erro falta marcas de início de fórmula"
+
+#: ../apps/edt/editor_app.py:538
+msgid "no result"
+msgstr "sem resultado"
+
+#: ../apps/edt/editor_app.py:548
+msgid "%A %d %B %Y"
+msgstr "%A %d %B %Y"
+
+#: ../apps/edt/editor_app.py:576
+msgid "signature.txt not found."
+msgstr "signature.txt não encontrado."
+
+#: ../apps/edt/editor_base_app.py:128 ../apps/wikipedia/wikipedia_app.py:71
+#: ../apps/daisy/daisy_app.py:96 ../apps/ai_assistant/ai_assistant_app.py:137
+#: ../apps/fman/file_manager_app.py:266 ../apps/fman/file_manager_app.py:365
+#: ../apps/fman/file_manager_app.py:410
+msgid "&edit"
+msgstr "&editar"
+
+#: ../apps/edt/editor_base_app.py:132
+msgid "&undo"
+msgstr "&anular"
+
+#: ../apps/edt/editor_base_app.py:138
+msgid "&redo"
+msgstr "refa&zer"
+
+#: ../apps/edt/editor_base_app.py:146 ../apps/wikipedia/wikipedia_app.py:75
+#: ../apps/daisy/daisy_app.py:98 ../apps/ai_assistant/ai_assistant_app.py:141
+msgid "curs&or"
+msgstr "cu&rsor"
+
+#: ../apps/edt/editor_base_app.py:148 ../apps/wikipedia/wikipedia_app.py:77
+#: ../apps/daisy/daisy_app.py:100 ../apps/ai_assistant/ai_assistant_app.py:143
+msgid "forward in grade2 braille"
+msgstr "continuar em Braille grau 2"
+
+#: ../apps/edt/editor_base_app.py:158
+msgid "&selection"
+msgstr "&selecção"
+
+#: ../apps/edt/editor_base_app.py:161 ../apps/fman/file_manager_app.py:269
+msgid "&start selection"
+msgstr "&iniciar selecção"
+
+#: ../apps/edt/editor_base_app.py:167 ../apps/fman/file_manager_app.py:275
+msgid "&end selection"
+msgstr "&terminar selecção"
+
+#: ../apps/edt/editor_base_app.py:174
+msgid "to the s&tart of doc"
+msgstr "ir para o i&nício do documento"
+
+#: ../apps/edt/editor_base_app.py:178
+msgid "to the e&nd of doc"
+msgstr "ir para o &fim do documento"
+
+#: ../apps/edt/editor_base_app.py:181 ../apps/fman/file_manager_app.py:300
+#: ../apps/fman/file_manager_app.py:381 ../apps/fman/file_manager_app.py:432
+msgid "select &all"
+msgstr "selecionar t&udo"
+
+#: ../apps/edt/editor_base_app.py:189 ../apps/fman/file_manager_app.py:282
+#: ../apps/fman/file_manager_app.py:426
+msgid "cu&t"
+msgstr "c&ortar"
+
+#: ../apps/edt/editor_base_app.py:195 ../apps/fman/file_manager_app.py:288
+msgid "&copy"
+msgstr "&copiar"
+
+#: ../apps/edt/editor_base_app.py:201 ../apps/fman/file_manager_app.py:294
+msgid "&paste"
+msgstr "co&lar"
+
+#: ../apps/edt/editor_base_app.py:210 ../apps/edt/editor_base_app.py:213
+#: ../apps/edt/editor_base_app.py:235 ../apps/edt/editor_base_app.py:238
+#: ../apps/agenda/agenda_app.py:130 ../apps/agenda/agenda_app.py:609
+#: ../apps/agenda/agenda_app.py:628 ../apps/fman/file_manager_app.py:202
+#: ../apps/fman/file_manager_app.py:256 ../apps/fman/file_manager_app.py:1042
+msgid "fi&nd"
+msgstr "&localizar"
+
+#: ../apps/edt/editor_base_app.py:219 ../apps/edt/editor_base_app.py:250
+#: ../apps/edt/editor_base_app.py:313
+msgid "ne&xt"
+msgstr "se&guinte"
+
+#: ../apps/edt/editor_base_app.py:225 ../apps/edt/editor_base_app.py:262
+#: ../apps/edt/editor_base_app.py:319 ../apps/edt/editor_base_app.py:1082
+#: ../apps/edt/editor_base_app.py:1133
+msgid "&previous"
+msgstr "&anterior"
+
+#: ../apps/edt/editor_base_app.py:244
+msgid "&replace"
+msgstr "&subsituir"
+
+#: ../apps/edt/editor_base_app.py:256 ../apps/edt/editor_base_app.py:1129
+msgid "replace and n&ext"
+msgstr "s&ubstituir e seguinte"
+
+#: ../apps/edt/editor_base_app.py:268
+msgid "replace and pre&vious"
+msgstr "substituir e a&nterior"
+
+#: ../apps/edt/editor_base_app.py:274 ../apps/edt/editor_base_app.py:1141
+msgid "replace &all"
+msgstr "substituir &tudo"
+
+#: ../apps/edt/editor_base_app.py:284 ../apps/agenda/agenda_app.py:108
+#: ../apps/fman/file_manager_app.py:311
+msgid "&goto"
+msgstr "&ir para"
+
+#: ../apps/edt/editor_base_app.py:287
+msgid "&beginning of document"
+msgstr "&início do documento"
+
+#: ../apps/edt/editor_base_app.py:291
+msgid "&end of document"
+msgstr "&fim do documento"
+
+#: ../apps/edt/editor_base_app.py:294
+msgid "&previous paragraphe"
+msgstr "parágrafo &anterior"
+
+#: ../apps/edt/editor_base_app.py:297
+msgid "&next paragraphe"
+msgstr "parágrafo &seguinte"
+
+#: ../apps/edt/editor_base_app.py:304
+msgid "&bookmark"
+msgstr "m&arcador"
+
+#: ../apps/edt/editor_base_app.py:307
+msgid "&insert/delete"
+msgstr "&inserir/eliminar"
+
+#: ../apps/edt/editor_base_app.py:325
+msgid "clear &all"
+msgstr "apagar &tudo"
+
+#: ../apps/edt/editor_base_app.py:339
+msgid "&document"
+msgstr "&documento"
+
+#: ../apps/edt/editor_base_app.py:345
+msgid "&paragraph"
+msgstr "&parágrafo"
+
+#: ../apps/edt/editor_base_app.py:607 ../apps/edt/editor_base_app.py:1591
+#: ../apps/daisy/daisy_app.py:297
+msgid "reading..."
+msgstr "a ler..."
+
+#: ../apps/edt/editor_base_app.py:864
+msgid "do you want to save the document before closing?"
+msgstr "deseja guardar o documento antes de fechar?"
+
+#: ../apps/edt/editor_base_app.py:908
+msgid "cleanup..."
+msgstr "limpeza..."
+
+#: ../apps/edt/editor_base_app.py:928 ../apps/daisy/daisy_app.py:465
+msgid "statistics"
+msgstr "estatísticas"
+
+#: ../apps/edt/editor_base_app.py:931
+#, fuzzy
+msgid "filename"
+msgstr "&nome do ficheiro"
+
+#: ../apps/edt/editor_base_app.py:935 ../apps/daisy/daisy_app.py:488
+msgid "paragraphs"
+msgstr "parágrafos"
+
+#: ../apps/edt/editor_base_app.py:939 ../apps/daisy/daisy_app.py:492
+msgid "words"
+msgstr "palavras"
+
+#: ../apps/edt/editor_base_app.py:942 ../apps/daisy/daisy_app.py:495
+msgid "characters"
+msgstr "caracteres"
+
+#: ../apps/edt/editor_base_app.py:986 ../apps/games/master_mind_app.py:414
+msgid "cursor"
+msgstr "cursor"
+
+#: ../apps/edt/editor_base_app.py:989
+msgid "line"
+msgstr "linha"
+
+#: ../apps/edt/editor_base_app.py:998
+msgid "column"
+msgstr "coluna"
+
+#: ../apps/edt/editor_base_app.py:1061
+#, fuzzy
+msgid "the file is not completely read"
+msgstr "o ficheiro foi importado correctamente"
+
+#: ../apps/edt/editor_base_app.py:1072 ../apps/edt/editor_base_app.py:1075
+#: ../apps/edt/editor_base_app.py:1118 ../apps/agenda/agenda_app.py:617
+msgid "find"
+msgstr "localizar"
+
+#: ../apps/edt/editor_base_app.py:1079 ../apps/edt/editor_base_app.py:1126
+#: ../apps/agenda/agenda_app.py:705 ../apps/media/mp3_app.py:179
+msgid "&next"
+msgstr "&seguinte"
+
+#: ../apps/edt/editor_base_app.py:1087 ../apps/edt/editor_base_app.py:1146
+msgid "&ignore upper case"
+msgstr "&ignorar maiúsculas"
+
+#: ../apps/edt/editor_base_app.py:1094 ../apps/edt/editor_base_app.py:1153
+msgid "&mask accent"
+msgstr "acentuar &máscara"
+
+#: ../apps/edt/editor_base_app.py:1101 ../apps/edt/editor_base_app.py:1160
+msgid "&entire word"
+msgstr "palavra int&eira"
+
+#: ../apps/edt/editor_base_app.py:1115 ../apps/edt/editor_base_app.py:1122
+msgid "replace"
+msgstr "substituir"
+
+#: ../apps/edt/editor_base_app.py:1137
+msgid "replace and p&revious"
+msgstr "substituir e &anterior"
+
+#: ../apps/edt/editor_base_app.py:1374
+msgid "invalid line number."
+msgstr "número de linha inválido."
+
+#: ../apps/edt/editor_base_app.py:1384
+msgid "invalid column number."
+msgstr "número de coluna inválido."
+
+#: ../apps/edt/editor_base_app.py:1397
+msgid "coordinates apart from document."
+msgstr "coordenadas separadas do documento."
+
+#: ../apps/edt/editor_base_app.py:1446
+msgid "the string found is not a word !"
+msgstr "a sequência encontrada não é uma palavra !"
+
+#: ../apps/edt/editor_base_app.py:1472
+msgid "replacement can not be done."
+msgstr "substituição não pode ser efectuada."
+
+#: ../apps/edt/editor_base_app.py:1490
+msgid "start of document reached, string not found."
+msgstr "chegou ao início de documento, sequência de texto não encontrada."
+
+#: ../apps/edt/editor_base_app.py:1495
+msgid "end of document reached, string not found."
+msgstr "chegou ao fim de documento, sequência de texto não encontrada."
+
+#: ../apps/edt/editor_base_app.py:1575
+msgid "&sheet"
+msgstr "&folha"
+
+#: ../apps/edt/editor_base_app.py:1626 ../apps/edt/editor_base_app.py:1635
+#: ../apps/fman/file_manager_app.py:1387
+msgid "unknown error"
+msgstr "erro desconhecido"
+
+#: ../apps/wikipedia/wikipedia_app.py:63
+#, fuzzy
+msgid "&research"
+msgstr "&reiniciar"
+
+#: ../apps/wikipedia/wikipedia_app.py:209
+#, fuzzy
+msgid "&suggestions"
+msgstr "questão"
+
+#: ../apps/wikipedia/wikipedia_app.py:214
+#, fuzzy
+msgid "&find"
+msgstr "localizar"
+
+#: ../apps/wikipedia/wikipedia_app.py:270
+msgid "there is no text found in the suggestion's combobox."
+msgstr ""
+
+#: ../apps/wikipedia/wikipedia_app.py:310
+msgid ""
+"the text is not found or is ambiguous. try to chose another item in the "
+"suggestion's combobox."
+msgstr ""
+
+#: ../apps/daisy/daisy_app.py:72
+msgid "daisy"
+msgstr ""
+
+#: ../apps/daisy/daisy_app.py:87 ../apps/daisy/daisy_app.py:324
+#, fuzzy
+msgid "c&ontents"
+msgstr "conteúdo"
+
+#: ../apps/daisy/daisy_app.py:126
+#, fuzzy
+msgid "pa&use/resume"
+msgstr "&retomar"
+
+#: ../apps/daisy/daisy_app.py:468
+#, fuzzy
+msgid "duration"
+msgstr "fracção"
+
+#: ../apps/daisy/daisy_app.py:472 ../apps/fman/file_manager_app.py:1090
+msgid "file"
+msgstr "ficheiro"
+
+#: ../apps/daisy/daisy_app.py:476 ../apps/eole/eole_search_dialog_box.py:92
+#: ../apps/media/mp3_app.py:930
+msgid "title"
+msgstr "título"
+
+#: ../apps/daisy/daisy_app.py:480 ../apps/eole/eole_search_dialog_box.py:93
+msgid "author"
+msgstr ""
+
+#: ../apps/daisy/daisy_app.py:484
+#, fuzzy
+msgid "identifier"
+msgstr "científica"
+
+#: ../apps/skeleton/skeleton_app.py:43
+msgid "skeleton"
+msgstr "esqueleto"
+
+#: ../apps/skeleton/skeleton_app.py:48
+msgid "&group"
+msgstr "&grupo"
+
+#: ../apps/skeleton/skeleton_app.py:50
+msgid "&menu_1"
+msgstr "&menu_1"
+
+#: ../apps/skeleton/skeleton_app.py:52
+msgid "&choose_file"
+msgstr "&escolher_ficheiro"
+
+#: ../apps/skeleton/skeleton_app.py:56
+msgid "&say hello"
+msgstr "&dizer olá"
+
+#: ../apps/skeleton/skeleton_app.py:58
+msgid "parameters list"
+msgstr ""
+
+#: ../apps/skeleton/skeleton_app.py:61 ../apps/timer/timer_app.py:88
+#: ../apps/braille_learning/operation_app.py:85
+#: ../apps/braille_learning/write_word_app.py:128
+msgid "&about"
+msgstr "&acerca"
+
+#: ../apps/skeleton/skeleton_app.py:103
+msgid "example"
+msgstr "exemplo"
+
+#: ../apps/skeleton/skeleton_app.py:106
+msgid "&multilineseditbox"
+msgstr "&caixadeediçãomultilinhas"
+
+#: ../apps/skeleton/skeleton_app.py:111
+msgid "&read_only_multilineseditbox"
+msgstr "&apenas_leitura_caixadeediçãomultilinhas"
+
+#: ../apps/skeleton/skeleton_app.py:115
+msgid "&editbox"
+msgstr "&caixadeedição"
+
+#: ../apps/skeleton/skeleton_app.py:117
+msgid "&listbox"
+msgstr "&caixadelistasuspensa"
+
+#: ../apps/skeleton/skeleton_app.py:122
+msgid "this is a label"
+msgstr ""
+
+#: ../apps/skeleton/skeleton_app.py:123
+msgid "&checkbox"
+msgstr "&caixadeselecção"
+
+#: ../apps/skeleton/skeleton_app.py:132 ../apps/media/mp3_app.py:587
+msgid "insert file"
+msgstr "inserir ficheiro"
+
+#: ../apps/skeleton/skeleton_app.py:144
+msgid "Hello bnote."
+msgstr "Olá B.note."
+
+#: ../apps/skeleton/skeleton_app.py:162
+#, fuzzy
+msgid "dot78_visible"
+msgstr "ponto 7 8 visível"
+
+#: ../apps/skeleton/skeleton_app.py:177
+#, fuzzy
+msgid "parameters"
+msgstr "caracteres"
+
+#: ../apps/skeleton/skeleton_app.py:210
+#, fuzzy
+msgid "application skeleton V1.0.1"
+msgstr "estrutura de aplicações V1.0.0"
+
+#: ../apps/eole/eole_search_dialog_box.py:38
+msgid "Human voice and Full daisy (braille + synthesis voice)"
+msgstr ""
+
+#: ../apps/eole/eole_search_dialog_box.py:39
+msgid "Human voice only"
+msgstr ""
+
+#: ../apps/eole/eole_search_dialog_box.py:40
+msgid "Full daisy (braille + synthesis voice)"
+msgstr ""
+
+#: ../apps/eole/eole_search_dialog_box.py:46
+#: ../apps/eole/eole_search_dialog_box.py:134
+#: ../apps/eole/eole_search_dialog_box.py:143
+msgid "All"
+msgstr "Todos"
+
+#: ../apps/eole/eole_search_dialog_box.py:47
+msgid "Adult"
+msgstr ""
+
+#: ../apps/eole/eole_search_dialog_box.py:48
+msgid "0 to 4 years"
+msgstr ""
+
+#: ../apps/eole/eole_search_dialog_box.py:49
+msgid "5 to 8 years"
+msgstr ""
+
+#: ../apps/eole/eole_search_dialog_box.py:50
+msgid "9 to 12 years"
+msgstr ""
+
+#: ../apps/eole/eole_search_dialog_box.py:51
+msgid "13 years and over"
+msgstr ""
+
+#: ../apps/eole/eole_search_dialog_box.py:60
+#, fuzzy
+msgid "result"
+msgstr "&resultado"
+
+#: ../apps/eole/eole_search_dialog_box.py:66
+#: ../apps/eole/eole_search_dialog_box.py:89
+#, fuzzy
+msgid "support"
+msgstr "transportar"
+
+#: ../apps/eole/eole_search_dialog_box.py:70
+msgid "search for authors, titles and abstracts"
+msgstr ""
+
+#: ../apps/eole/eole_search_dialog_box.py:74
+#: ../apps/eole/eole_search_dialog_box.py:101
+#, fuzzy
+msgid "&search"
+msgstr "março"
+
+#: ../apps/eole/eole_search_dialog_box.py:78
+#: ../apps/eole/eole_search_dialog_box.py:105
+msgid "&summary"
+msgstr ""
+
+#: ../apps/eole/eole_search_dialog_box.py:81
+#: ../apps/eole/eole_search_dialog_box.py:108
+#, fuzzy
+msgid "&download"
+msgstr "&descer"
+
+#: ../apps/eole/eole_search_dialog_box.py:95
+#: ../apps/fman/file_manager_app.py:1450
+msgid "summary"
+msgstr ""
+
+#: ../apps/eole/eole_search_dialog_box.py:97
+msgid "genre"
+msgstr ""
+
+#: ../apps/eole/eole_search_dialog_box.py:99
+#, fuzzy
+msgid "age"
+msgstr "ângulo"
+
+#: ../apps/eole/eole_search_dialog_box.py:114
+msgid "Eole"
+msgstr ""
+
+#: ../apps/eole/eole_search_dialog_box.py:193
+msgid "eole library is unavailable..."
+msgstr ""
+
+#: ../apps/eole/eole_search_dialog_box.py:195
+#, fuzzy
+msgid "no internet..."
+msgstr "Sem eventos..."
+
+#: ../apps/eole/eole_search_dialog_box.py:200
+msgid "unexpected error ({})"
+msgstr ""
+
+#: ../apps/eole/eole_search_dialog_box.py:218
+msgid "to many result (found {} and maxi is {})"
+msgstr ""
+
+#: ../apps/eole/eole_search_dialog_box.py:224
+#, fuzzy
+msgid "no results..."
+msgstr "sem resultado"
+
+#: ../apps/timer/timer_app.py:60
+#, fuzzy
+msgid "start/stop"
+msgstr "&iniciar"
+
+#: ../apps/timer/timer_app.py:66
+#, fuzzy
+msgid "&marker"
+msgstr "m&arcador"
+
+#: ../apps/timer/timer_app.py:70
+msgid "add &marker"
+msgstr ""
+
+#: ../apps/timer/timer_app.py:76
+msgid "&show markers"
+msgstr ""
+
+#: ../apps/timer/timer_app.py:81 ../apps/translator/translator_app.py:99
+#, fuzzy
+msgid "&clear"
+msgstr "&clave"
+
+#: ../apps/timer/timer_app.py:86
+msgid "&launch timer"
+msgstr ""
+
+#: ../apps/timer/timer_app.py:146
+msgid "add marker point"
+msgstr ""
+
+#: ../apps/timer/timer_app.py:148 ../apps/timer/timer_app.py:205
+#, fuzzy
+msgid "&marker name"
+msgstr "&alterar o nome"
+
+#: ../apps/timer/timer_app.py:150
+msgid "c&reate"
+msgstr "c&riar"
+
+#: ../apps/timer/timer_app.py:163
+#, fuzzy
+msgid "a marker already exists at this location, would you like to replace it?"
+msgstr "o ficheiro {} já existe. deseja substituí-lo?"
+
+#: ../apps/timer/timer_app.py:179
+msgid "&marker list"
+msgstr ""
+
+#: ../apps/timer/timer_app.py:186
+#, fuzzy
+msgid "show &name"
+msgstr "sem nome"
+
+#: ../apps/timer/timer_app.py:187 ../apps/fman/file_manager_app.py:169
+#: ../apps/fman/file_manager_app.py:223 ../apps/fman/file_manager_app.py:498
+msgid "&rename"
+msgstr "&alterar o nome"
+
+#: ../apps/timer/timer_app.py:194
+msgid "marker list"
+msgstr ""
+
+#: ../apps/timer/timer_app.py:203
+#, fuzzy
+msgid "rename marker"
+msgstr "alterar o nome"
+
+#: ../apps/timer/timer_app.py:230
+#, fuzzy
+msgid "create timer"
+msgstr "c&riar"
+
+#: ../apps/timer/timer_app.py:232
+#, fuzzy
+msgid "&hours"
+msgstr "horas"
+
+#: ../apps/timer/timer_app.py:233
+#, fuzzy
+msgid "&minutes"
+msgstr "minutos"
+
+#: ../apps/timer/timer_app.py:234
+#, fuzzy
+msgid "&seconds"
+msgstr "segundos"
+
+#: ../apps/timer/timer_app.py:235 ../apps/media/radio_app.py:93
+msgid "&start"
+msgstr "&iniciar"
+
+#: ../apps/timer/timer_app.py:246
+msgid "timer application, version {}, copyright (C)2023 Theotime Berthod."
+msgstr ""
+
+#: ../apps/timer/timer_app.py:296
+msgid "you must enter numerical values"
+msgstr ""
+
+#: ../apps/timer/timer_app.py:302
+msgid "you cannot start the timer at 0."
+msgstr ""
+
+#: ../apps/timer/timer_app.py:316
+msgid "the time is elapsed!!!"
+msgstr ""
+
+#: ../apps/timer/timer_app.py:504
+msgid "{}:{}:{} started"
+msgstr ""
+
+#: ../apps/timer/timer_app.py:507
+msgid "{}:{}:{}.{} fixed"
+msgstr ""
+
+#: ../apps/timer/timer_app.py:511
+msgid "{}:{}:{}.{} paused"
+msgstr ""
+
+#: ../apps/translator/translator_app.py:93
+#, fuzzy
+msgid "&chose languages"
+msgstr "idioma da &mensagem"
+
+#: ../apps/translator/translator_app.py:96
+#, fuzzy
+msgid "&invert languages"
+msgstr "idioma de &Braille"
+
+#: ../apps/translator/translator_app.py:98 ../apps/fman/file_manager_app.py:167
+#: ../apps/fman/file_manager_app.py:221 ../apps/fman/file_manager_app.py:496
+msgid "&send to"
+msgstr "&enviar para"
+
+#: ../apps/translator/translator_app.py:141
+#, fuzzy
+msgid "enter text"
+msgstr "enviar para"
+
+#: ../apps/translator/translator_app.py:144
+#, fuzzy
+msgid "&text to translate"
+msgstr "&exportar ficheiro de agenda"
+
+#: ../apps/translator/translator_app.py:163
+#, fuzzy
+msgid "chose languages"
+msgstr "idiomas"
+
+#: ../apps/translator/translator_app.py:166
+msgid "&source"
+msgstr ""
+
+#: ../apps/translator/translator_app.py:171
+msgid "&target"
+msgstr ""
+
+#: ../apps/translator/translator_app.py:197
+msgid "translation copy to the clipboard"
+msgstr ""
+
+#: ../apps/translator/translator_app.py:383
+#, fuzzy
+msgid "translating..."
+msgstr "a reiniciar..."
+
+#: ../apps/translator/translator_app.py:416
+msgid "you cannot translate text with more than 500 characters."
+msgstr ""
+
+#: ../apps/translator/translator_app.py:429
+#, fuzzy
+msgid ""
+"the connection to the translation service failed. Check your connexion and "
+"try again."
+msgstr ""
+"Ocorreu um erro durante a exportação, verifique a agenda e tente de novo"
+
+#: ../apps/translator/translator_app.py:440
+#, fuzzy
+msgid "Translation ({}): {}"
+msgstr "extração {}% {}"
+
+#: ../apps/translator/translator_app.py:444
+msgid "Source ({}): {}"
+msgstr ""
+
+#: ../apps/braille_learning/operation_app.py:63
+#: ../apps/braille_learning/operation_app.py:223
+#, fuzzy
+msgid "math game"
+msgstr "matemática"
+
+#: ../apps/braille_learning/operation_app.py:68
+#: ../apps/braille_learning/write_word_app.py:103
+#: ../apps/games/mines_app.py:221 ../apps/games/master_mind_app.py:194
+msgid "&score"
+msgstr "&pontuação"
+
+#: ../apps/braille_learning/operation_app.py:72
+msgid "&show to this table"
+msgstr ""
+
+#: ../apps/braille_learning/operation_app.py:75
+msgid "&delete to this table"
+msgstr ""
+
+#: ../apps/braille_learning/operation_app.py:80
+msgid "&table"
+msgstr ""
+
+#: ../apps/braille_learning/operation_app.py:82
+#: ../apps/braille_learning/write_word_app.py:125
+#, fuzzy
+msgid "&reset application"
+msgstr "a&plicações"
+
+#: ../apps/braille_learning/operation_app.py:117
+#, fuzzy
+msgid "&change to table"
+msgstr "&alterar estado"
+
+#: ../apps/braille_learning/operation_app.py:123
+#, fuzzy
+msgid "&select table"
+msgstr "selecionar t&udo"
+
+#: ../apps/braille_learning/operation_app.py:168
+#, fuzzy
+msgid "the result was {}"
+msgstr "resultado:{}"
+
+#: ../apps/braille_learning/operation_app.py:179
+#: ../apps/braille_learning/operation_app.py:181
+#: ../apps/braille_learning/operation_app.py:275
+#: ../apps/braille_learning/operation_app.py:282
+msgid "all tables"
+msgstr ""
+
+#: ../apps/braille_learning/operation_app.py:185
+#, fuzzy
+msgid "select table"
+msgstr "selecionar t&udo"
+
+#: ../apps/braille_learning/operation_app.py:188
+msgid "&table to"
+msgstr ""
+
+#: ../apps/braille_learning/operation_app.py:199
+#, fuzzy
+msgid "do you really want to erase the score of this table?"
+msgstr "Deseja mesmo eliminar estes eventos?"
+
+#: ../apps/braille_learning/operation_app.py:210
+#: ../apps/braille_learning/write_word_app.py:292
+#, fuzzy
+msgid "do you really want to reset the application?"
+msgstr "Deseja mesmo eliminar estes eventos?"
+
+#: ../apps/braille_learning/operation_app.py:222
+#: ../apps/braille_learning/write_word_app.py:304
+msgid "Application {} version {}. {} Theotime Berthod"
+msgstr ""
+
+#: ../apps/braille_learning/operation_app.py:247
+msgid "good, the result is {}"
+msgstr ""
+
+#: ../apps/braille_learning/operation_app.py:264
+msgid "no, it's not the good result. Try again"
+msgstr ""
+
+#: ../apps/braille_learning/operation_app.py:268
+#, fuzzy
+msgid "&see the solution"
+msgstr "avaliar &linha"
+
+#: ../apps/braille_learning/operation_app.py:286
+msgid "for the table of {}, the score is {}"
+msgstr ""
+
+#: ../apps/braille_learning/operation_app.py:497
+msgid "you must select a table from the menu"
+msgstr ""
+
+#: ../apps/braille_learning/write_word_app.py:54
+msgid "A to J in lowercase"
+msgstr ""
+
+#: ../apps/braille_learning/write_word_app.py:55
+msgid "A to J in capital letters"
+msgstr ""
+
+#: ../apps/braille_learning/write_word_app.py:56
+msgid "A to J"
+msgstr ""
+
+#: ../apps/braille_learning/write_word_app.py:60
+msgid "K to T in lowercase"
+msgstr ""
+
+#: ../apps/braille_learning/write_word_app.py:61
+msgid "K to T in capital letters"
+msgstr ""
+
+#: ../apps/braille_learning/write_word_app.py:62
+msgid "K to T"
+msgstr ""
+
+#: ../apps/braille_learning/write_word_app.py:66
+msgid "A to T in lowercase"
+msgstr ""
+
+#: ../apps/braille_learning/write_word_app.py:67
+msgid "A to T in capital letters"
+msgstr ""
+
+#: ../apps/braille_learning/write_word_app.py:68
+msgid "A to T"
+msgstr ""
+
+#: ../apps/braille_learning/write_word_app.py:72
+msgid "A to Z"
+msgstr ""
+
+#: ../apps/braille_learning/write_word_app.py:76
+#, fuzzy
+msgid "complet"
+msgstr "&compositor"
+
+#: ../apps/braille_learning/write_word_app.py:98
+#: ../apps/braille_learning/write_word_app.py:305
+#, fuzzy
+msgid "word game"
+msgstr "p&alavras"
+
+#: ../apps/braille_learning/write_word_app.py:107
+msgid "&show to this level"
+msgstr ""
+
+#: ../apps/braille_learning/write_word_app.py:110
+msgid "&delete to this level"
+msgstr ""
+
+#: ../apps/braille_learning/write_word_app.py:116
+msgid "&switch to the next word"
+msgstr ""
+
+#: ../apps/braille_learning/write_word_app.py:119
+#: ../apps/braille_learning/write_word_app.py:169
+#, fuzzy
+msgid "&change to level"
+msgstr "&alterar estado"
+
+#: ../apps/braille_learning/write_word_app.py:122
+#, fuzzy
+msgid "switch &language"
+msgstr "&idioma"
+
+#: ../apps/braille_learning/write_word_app.py:162
+#, fuzzy
+msgid "&select a level"
+msgstr "selecionar t&udo"
+
+#: ../apps/braille_learning/write_word_app.py:237
+msgid "good, you have found the good word!!!"
+msgstr ""
+
+#: ../apps/braille_learning/write_word_app.py:248
+msgid "warning, it's {}, not {}"
+msgstr ""
+
+#: ../apps/braille_learning/write_word_app.py:262
+msgid "chose your level"
+msgstr ""
+
+#: ../apps/braille_learning/write_word_app.py:265
+#, fuzzy
+msgid "&level list"
+msgstr "&lista"
+
+#: ../apps/braille_learning/write_word_app.py:281
+#, fuzzy
+msgid "do you really want to erase the score of this level?"
+msgstr "Deseja mesmo eliminar estes eventos?"
+
+#: ../apps/braille_learning/write_word_app.py:328
+msgid "for level {}, the score is {}"
+msgstr ""
+
+#: ../apps/braille_learning/write_word_app.py:552
+msgid "you must select a level from the menu"
+msgstr ""
+
+#: ../apps/ai_assistant/ai_assistant_app.py:110
+#: ../apps/ai_assistant/ai_assistant_app.py:334
+msgid "ai assistant"
+msgstr ""
+
+#: ../apps/ai_assistant/ai_assistant_app.py:154
+#, fuzzy
+msgid "a&ccount"
+msgstr "país"
+
+#: ../apps/ai_assistant/ai_assistant_app.py:157
+msgid "&renew access token"
+msgstr ""
+
+#: ../apps/ai_assistant/ai_assistant_app.py:251
+msgid ""
+"unable to verify your certificate. Check if your bnote is on the correct "
+"date and time."
+msgstr ""
+
+#: ../apps/ai_assistant/ai_assistant_app.py:264
+msgid "eurobraille server responds too slowly."
+msgstr ""
+
+#: ../apps/ai_assistant/ai_assistant_app.py:269
+msgid "ai server unavailable or responding too slowly."
+msgstr ""
+
+#: ../apps/ai_assistant/ai_assistant_app.py:274
+#: ../apps/ai_assistant/ai_assistant_app.py:301
+#, fuzzy
+msgid "error = "
+msgstr "erro"
+
+#: ../apps/ai_assistant/ai_assistant_app.py:279
+#, fuzzy
+msgid "no internet."
+msgstr "Sem eventos..."
+
+#: ../apps/ai_assistant/ai_assistant_app.py:287
+msgid "error 404 - not found"
+msgstr ""
+
+#: ../apps/ai_assistant/ai_assistant_app.py:290
+#, fuzzy
+msgid "you have used your daily quota. Try again tomorrow."
+msgstr "Tem 1 evento por realizar amanhã."
+
+#: ../apps/ai_assistant/ai_assistant_app.py:292
+msgid "you have used your weekly quota. Try again next monday."
+msgstr ""
+
+#: ../apps/ai_assistant/ai_assistant_app.py:294
+msgid "you have used your monthly quota. Try again next month."
+msgstr ""
+
+#: ../apps/ai_assistant/ai_assistant_app.py:296
+msgid "you have used your annual quota. Try again next year."
+msgstr ""
+
+#: ../apps/ai_assistant/ai_assistant_app.py:298
+msgid "eurobraille server unavailable."
+msgstr ""
+
+#: ../apps/ai_assistant/ai_assistant_app.py:336
+msgid "&message"
+msgstr "&mensagem"
+
+#: ../apps/ai_assistant/ai_assistant_app.py:372
+msgid ""
+"you have reached the maximum chat size. You can start a new one by close "
+"this current one."
+msgstr ""
+
+#: ../apps/ai_assistant/ai_assistant_app.py:421
+msgid "please wait..."
+msgstr ""
+
+#: ../apps/ai_assistant/ai_assistant_app.py:593
+msgid "unable to communicate with the server. Check your Internet connexion."
+msgstr ""
+
+#: ../apps/ai_assistant/ai_assistant_app.py:617
+#, fuzzy
+msgid "unable to renew access token."
+msgstr "Deseja instalar a actualização?"
+
+#: ../apps/ai_assistant/ai_assistant_app.py:619
+msgid "access token successfully renewed."
+msgstr ""
+
+#: ../apps/ai_assistant/ai_assistant_app.py:686
+msgid "press the Enter key to start a chat with Eurobraille AI..."
+msgstr ""
+
+#: ../apps/bt/bluetooth_app.py:33
+msgid "bluetooth listening"
+msgstr "bluetooth a escutar"
+
+#: ../apps/agenda/agenda_app.py:46
+#, fuzzy
+msgid "done"
+msgstr "Não feito"
+
+#: ../apps/agenda/agenda_app.py:71
+msgid "&event"
+msgstr "&evento"
+
+#: ../apps/agenda/agenda_app.py:75 ../apps/games/mines_app.py:69
+#: ../apps/games/master_mind_app.py:68
+msgid "&new"
+msgstr "&novo"
+
+#: ../apps/agenda/agenda_app.py:81
+msgid "&modify"
+msgstr "&modificar"
+
+#: ../apps/agenda/agenda_app.py:84
+msgid "&change status"
+msgstr "&alterar estado"
+
+#: ../apps/agenda/agenda_app.py:96
+msgid "delete e&xpired events"
+msgstr "eliminar eventos e&xpirados"
+
+#: ../apps/agenda/agenda_app.py:102
+#, fuzzy
+msgid "delete &completed events"
+msgstr "eliminar eventos e&xpirados"
+
+#: ../apps/agenda/agenda_app.py:112
+msgid "&previous week"
+msgstr "&semana anterior"
+
+#: ../apps/agenda/agenda_app.py:118
+msgid "&next week"
+msgstr "semana se&guinte"
+
+#: ../apps/agenda/agenda_app.py:124
+msgid "previous d&ay"
+msgstr "&dia anterior"
+
+#: ../apps/agenda/agenda_app.py:126
+msgid "next &day"
+msgstr "dia seg&uinte"
+
+#: ../apps/agenda/agenda_app.py:133
+msgid "find &date"
+msgstr "encontrar &data"
+
+#: ../apps/agenda/agenda_app.py:139
+#, fuzzy
+msgid "find in a&genda"
+msgstr "en&contrar na agenda"
+
+#: ../apps/agenda/agenda_app.py:147
+msgid "agenda &gestion"
+msgstr "&gerir agenda"
+
+#: ../apps/agenda/agenda_app.py:150
+msgid "&import agenda file"
+msgstr "&importar ficheiro de agenda"
+
+#: ../apps/agenda/agenda_app.py:156
+msgid "&export agenda file"
+msgstr "&exportar ficheiro de agenda"
+
+#: ../apps/agenda/agenda_app.py:162
+msgid "e&mpty agenda"
+msgstr "e&svaziar agenda"
+
+#: ../apps/agenda/agenda_app.py:167
+msgid "a&bout"
+msgstr "s&obre"
+
+#: ../apps/agenda/agenda_app.py:255
+#, fuzzy
+msgid ""
+"your agenda file is corrupt. You can copy the file in your document folder, "
+"but app can't open it. What do you want to do?"
+msgstr ""
+"O ficheiro de agenda está corrompido. Poderá copiar o ficheiro que se "
+"encontra na pasta, mas a aplicação não o poderá abrir. O que deseja fazer?"
+
+#: ../apps/agenda/agenda_app.py:258
+msgid "&save and delete file"
+msgstr "&guardar e eliminar ficheiro"
+
+#: ../apps/agenda/agenda_app.py:259
+msgid "&erase agenda"
+msgstr "&apagar agenda"
+
+#: ../apps/agenda/agenda_app.py:269
+msgid "agenda saving"
+msgstr "a guardar agenda"
+
+#: ../apps/agenda/agenda_app.py:277
+#, fuzzy
+msgid "the file has been correctly copy and the agenda has clear"
+msgstr "O ficheiro foi copiado correctamente e a agenda foi limpa"
+
+#: ../apps/agenda/agenda_app.py:450
+#, fuzzy
+msgid "from today's ({})"
+msgstr "A partir de hoje ({})"
+
+#: ../apps/agenda/agenda_app.py:451
+#, fuzzy
+msgid "for today ({})"
+msgstr "Para hoje ({})"
+
+#: ../apps/agenda/agenda_app.py:452
+#, fuzzy
+msgid "not done ({})"
+msgstr "Por fazer ({})"
+
+#: ../apps/agenda/agenda_app.py:453
+#, fuzzy
+msgid "all agenda ({})"
+msgstr "Todo a agenda ({})"
+
+#: ../apps/agenda/agenda_app.py:454
+#, fuzzy
+msgid "calendar {}"
+msgstr "calendário"
+
+#: ../apps/agenda/agenda_app.py:490
+msgid "title of event"
+msgstr "título do evento"
+
+#: ../apps/agenda/agenda_app.py:492
+msgid "content of event"
+msgstr "conteúdo do evento"
+
+#: ../apps/agenda/agenda_app.py:494
+#, fuzzy
+msgid "new event"
+msgstr "Novo evento"
+
+#: ../apps/agenda/agenda_app.py:497 ../apps/agenda/agenda_app.py:548
+#: ../apps/agenda/agenda_app.py:606
+msgid "&day"
+msgstr "&dia"
+
+#: ../apps/agenda/agenda_app.py:498 ../apps/agenda/agenda_app.py:549
+#: ../apps/agenda/agenda_app.py:607
+msgid "&month"
+msgstr "&mês"
+
+#: ../apps/agenda/agenda_app.py:499 ../apps/agenda/agenda_app.py:550
+#: ../apps/agenda/agenda_app.py:608
+msgid "&year"
+msgstr "&ano"
+
+#: ../apps/agenda/agenda_app.py:501 ../apps/agenda/agenda_app.py:551
+msgid "&subject"
+msgstr "a&ssunto"
+
+#: ../apps/agenda/agenda_app.py:502 ../apps/agenda/agenda_app.py:552
+msgid "co&ntent"
+msgstr "&conteúdo"
+
+#: ../apps/agenda/agenda_app.py:512
+#, fuzzy
+msgid "do you really want to delete this event of your agenda?"
+msgstr "Tem a certeza que deseja eliminar este evento da agenda?"
+
+#: ../apps/agenda/agenda_app.py:546
+#, fuzzy
+msgid "modify event"
+msgstr "Modificar evento"
+
+#: ../apps/agenda/agenda_app.py:553
+msgid "&is done"
+msgstr "&feito"
+
+#: ../apps/agenda/agenda_app.py:563
+#, fuzzy
+msgid "do you really want to erase these events?"
+msgstr "Deseja mesmo eliminar estes eventos?"
+
+#: ../apps/agenda/agenda_app.py:574
+#, fuzzy
+msgid "do you really want to delete the done events?"
+msgstr "Deseja mesmo eliminar estes eventos?"
+
+#: ../apps/agenda/agenda_app.py:604
+msgid "find date"
+msgstr "localizar data"
+
+#: ../apps/agenda/agenda_app.py:620
+msgid "&element to find"
+msgstr "&localizar elemento"
+
+#: ../apps/agenda/agenda_app.py:623
+msgid "cri&terion"
+msgstr "&critério"
+
+#: ../apps/agenda/agenda_app.py:624 ../apps/agenda/agenda_app.py:997
+#: ../apps/agenda/agenda_app.py:1002 ../apps/agenda/agenda_app.py:1898
+msgid "all"
+msgstr "tudo"
+
+#: ../apps/agenda/agenda_app.py:624 ../apps/agenda/agenda_app.py:998
+#: ../apps/agenda/agenda_app.py:1003
+msgid "subject"
+msgstr "assunto"
+
+#: ../apps/agenda/agenda_app.py:624 ../apps/agenda/agenda_app.py:999
+#: ../apps/agenda/agenda_app.py:1004
+msgid "content"
+msgstr "conteúdo"
+
+#: ../apps/agenda/agenda_app.py:627
+msgid "&not done"
+msgstr "&por fazer"
+
+#: ../apps/agenda/agenda_app.py:666 ../apps/agenda/agenda_app.py:762
+#: ../apps/agenda/agenda_app.py:786 ../apps/fman/file_manager_app.py:317
+msgid "usb &key"
+msgstr "chave &usb"
+
+#: ../apps/agenda/agenda_app.py:673 ../apps/agenda/agenda_app.py:773
+#: ../apps/agenda/agenda_app.py:781 ../apps/fman/file_manager_app.py:314
+msgid "my &documents"
+msgstr "os meus &documentos"
+
+#: ../apps/agenda/agenda_app.py:679
+msgid "import agenda"
+msgstr "importar agenda"
+
+#: ../apps/agenda/agenda_app.py:690
+msgid "My agenda {}"
+msgstr "A minha agenda {}"
+
+#: ../apps/agenda/agenda_app.py:696
+msgid "export agenda"
+msgstr "exportar agenda"
+
+#: ../apps/agenda/agenda_app.py:700
+#, fuzzy
+msgid "file &location"
+msgstr "terminar &selecção"
+
+#: ../apps/agenda/agenda_app.py:701 ../apps/agenda/agenda_app.py:718
+#, fuzzy
+msgid "my documents"
+msgstr "os meus &documentos"
+
+#: ../apps/agenda/agenda_app.py:701
+#, fuzzy
+msgid "choose folder"
+msgstr "escolher &dedo"
+
+#: ../apps/agenda/agenda_app.py:722
+#, fuzzy
+msgid ""
+"the file will be exported to the my documents folder. Do you want to "
+"continue?"
+msgstr "o ficheiro foi exportado correctamente para a pasta os meus documentos"
+
+#: ../apps/agenda/agenda_app.py:753
+#, fuzzy
+msgid "&back"
+msgstr "&cópia de segurança"
+
+#: ../apps/agenda/agenda_app.py:795
+#, fuzzy
+msgid "select a destination folder"
+msgstr "seleccionar &alteração da nota"
+
+#: ../apps/agenda/agenda_app.py:803
+#, fuzzy
+msgid "are you sure you want to delete all content of the agenda?"
+msgstr "Deseja mesmo eliminar todo o conteúdo da agenda?"
+
+#: ../apps/agenda/agenda_app.py:813
+#, fuzzy
+msgid "about agenda"
+msgstr "Sobre a agenda"
+
+#: ../apps/agenda/agenda_app.py:815
+#, fuzzy
+msgid ""
+"agenda, version {}, copyright (C){} Theotime Berthod.\n"
+"In collaboration with Eurobraille.\n"
+"For suggestions or problems, contact Eurobraille or directly the application "
+"developer to {}."
+msgstr ""
+"Agenda, version {}, todos os direitos reservados (C){} Theotime Berthod.\n"
+"Em colaboração com Eurobraille.\n"
+"Para sugestões ou resolução de problemas, contactar Eurobraille ou o "
+"programador da aplicação para {}."
+
+#: ../apps/agenda/agenda_app.py:856 ../apps/agenda/agenda_app.py:923
+#, fuzzy
+msgid "you can't use the ';' in text"
+msgstr "Não é possível utilizar \";\" no texto"
+
+#: ../apps/agenda/agenda_app.py:882
+#, fuzzy
+msgid "the agenda has been correctly deleted."
+msgstr "A agenda foi eliminada correctamente."
+
+#: ../apps/agenda/agenda_app.py:886
+#, fuzzy
+msgid "unable to delete the file, an unexpected error occurred."
+msgstr "Impossível eliminar o ficheiro, ocorreu um erro inesperado."
+
+#: ../apps/agenda/agenda_app.py:1012
+msgid "1 event found"
+msgstr "1 evento encontrado"
+
+#: ../apps/agenda/agenda_app.py:1014
+msgid "{} events found"
+msgstr "{} eventos encontrados"
+
+#: ../apps/agenda/agenda_app.py:1022
+msgid "no event found"
+msgstr "nenhum evento encontrado"
+
+#: ../apps/agenda/agenda_app.py:1035
+msgid "importing..."
+msgstr "a importar..."
+
+#: ../apps/agenda/agenda_app.py:1042
+#, fuzzy
+msgid ""
+"the file {} does not comply with the application's convention. Refer to the "
+"documentation for more information."
+msgstr ""
+"O ficheiro {} não se encontra em conformidade com o formato da aplicação. "
+"Consulte a documentação para obter mais informações."
+
+#: ../apps/agenda/agenda_app.py:1058
+#, fuzzy
+msgid ""
+"the file was correctly imported, with the exception of 1 event that already "
+"existed."
+msgstr ""
+"O ficheiro foi importado correctamente, com a excepção de 1 evento, que já "
+"existia."
+
+#: ../apps/agenda/agenda_app.py:1062
+#, fuzzy
+msgid ""
+"the file was correctly imported, with the exception of {} events that "
+"already existed."
+msgstr ""
+"O ficheiro foi importado correctamente, com a excepção de {} eventos, que já "
+"existiam."
+
+#: ../apps/agenda/agenda_app.py:1066
+msgid "the file has been correctly imported"
+msgstr "o ficheiro foi importado correctamente"
+
+#: ../apps/agenda/agenda_app.py:1084
+#, fuzzy
+msgid "select folder"
+msgstr "seleccionar &nota"
+
+#: ../apps/agenda/agenda_app.py:1093
+#, fuzzy
+msgid "the file has been correctly exported in {} folder"
+msgstr "o ficheiro foi exportado correctamente para a pasta os meus documentos"
+
+#: ../apps/agenda/agenda_app.py:1105
+#, fuzzy
+msgid ""
+"this file already exists, try with another name or delete the previous file"
+msgstr ""
+"Este ficheiro já existe, tente utilizar outro nome ou elimine o ficheiro "
+"anterior"
+
+#: ../apps/agenda/agenda_app.py:1122
+#, fuzzy
+msgid "error during the exportation, verify your agenda and try again"
+msgstr ""
+"Ocorreu um erro durante a exportação, verifique a agenda e tente de novo"
+
+#: ../apps/agenda/agenda_app.py:1136
+#, fuzzy
+msgid "you have 1 event not done for today."
+msgstr "Tem 1 evento por realizar hoje."
+
+#: ../apps/agenda/agenda_app.py:1138
+#, fuzzy
+msgid "you have {} events not done for today."
+msgstr "Tem {} eventos por realizar hoje."
+
+#: ../apps/agenda/agenda_app.py:1143 ../apps/agenda/agenda_app.py:1183
+msgid "&display"
+msgstr "&exibir"
+
+#: ../apps/agenda/agenda_app.py:1174
+#, fuzzy
+msgid "you have 1 event not done for tomorrow."
+msgstr "Tem 1 evento por realizar amanhã."
+
+#: ../apps/agenda/agenda_app.py:1176
+#, fuzzy
+msgid "you have {} events not done for tomorrow."
+msgstr "Tem {} eventos por realizar amanhã."
+
+#: ../apps/agenda/agenda_app.py:1247 ../apps/agenda/agenda_app.py:1250
+#: ../apps/agenda/agenda_app.py:1253
+#, fuzzy
+msgid "a date is composed of a day, a month and a year."
+msgstr "A data é composta por dia, mês e ano."
+
+#: ../apps/agenda/agenda_app.py:1258
+#, fuzzy
+msgid "a date is composed of numbers, seperate with /"
+msgstr "A data é composta por números e separada por /"
+
+#: ../apps/agenda/agenda_app.py:1260
+#, fuzzy
+msgid "the days range from 01 to 31."
+msgstr "O numero dos dias varia entre 01 e 31."
+
+#: ../apps/agenda/agenda_app.py:1262
+msgid "12 months ago, numbered from 01 to 12."
+msgstr "O número de meses varia entre 01 e 12."
+
+#: ../apps/agenda/agenda_app.py:1489
+#, fuzzy
+msgid "monday"
+msgstr "Segunda-feira"
+
+#: ../apps/agenda/agenda_app.py:1490
+#, fuzzy
+msgid "tuesday"
+msgstr "Terça-feira"
+
+#: ../apps/agenda/agenda_app.py:1491
+#, fuzzy
+msgid "wednesday"
+msgstr "Quarta-feira"
+
+#: ../apps/agenda/agenda_app.py:1492
+#, fuzzy
+msgid "thursday"
+msgstr "Quinta-feira"
+
+#: ../apps/agenda/agenda_app.py:1493
+#, fuzzy
+msgid "friday"
+msgstr "Sexta-feira"
+
+#: ../apps/agenda/agenda_app.py:1494
+#, fuzzy
+msgid "saturday"
+msgstr "Sábado"
+
+#: ../apps/agenda/agenda_app.py:1495
+#, fuzzy
+msgid "sunday"
+msgstr "Domingo"
+
+#: ../apps/agenda/agenda_app.py:1498
+msgid "january"
+msgstr "janeiro"
+
+#: ../apps/agenda/agenda_app.py:1499
+msgid "february"
+msgstr "fevereiro"
+
+#: ../apps/agenda/agenda_app.py:1500
+msgid "march"
+msgstr "março"
+
+#: ../apps/agenda/agenda_app.py:1501
+msgid "april"
+msgstr "abril"
+
+#: ../apps/agenda/agenda_app.py:1502
+msgid "may"
+msgstr "maio"
+
+#: ../apps/agenda/agenda_app.py:1503
+msgid "june"
+msgstr "junho"
+
+#: ../apps/agenda/agenda_app.py:1504
+msgid "july"
+msgstr "julho"
+
+#: ../apps/agenda/agenda_app.py:1505
+msgid "august"
+msgstr "agosto"
+
+#: ../apps/agenda/agenda_app.py:1506
+msgid "september"
+msgstr "setembro"
+
+#: ../apps/agenda/agenda_app.py:1507
+msgid "october"
+msgstr "outubro"
+
+#: ../apps/agenda/agenda_app.py:1508
+msgid "november"
+msgstr "novembro"
+
+#: ../apps/agenda/agenda_app.py:1509
+msgid "december"
+msgstr "dezembro"
+
+#: ../apps/agenda/agenda_app.py:1844
+msgid "1 event"
+msgstr "1 evento"
+
+#: ../apps/agenda/agenda_app.py:1846
+msgid "{} events"
+msgstr "{} eventos"
+
+#: ../apps/agenda/agenda_app.py:1852
+msgid "{} not done"
+msgstr "{} por realizar"
+
+#: ../apps/agenda/agenda_app.py:1875
+msgid "Show"
+msgstr "Exibir"
+
+#: ../apps/agenda/agenda_app.py:1884
+#, fuzzy
+msgid "no event..."
+msgstr "Sem eventos..."
+
+#: ../apps/agenda/agenda_app.py:1896
+#, fuzzy
+msgid "event not done"
+msgstr "Evento não realizado"
+
+#: ../apps/agenda/agenda_app.py:1900
+#, fuzzy
+msgid "to do for {}"
+msgstr "Para fazer {}"
+
+#: ../apps/agenda/agenda_app.py:1906
+#, fuzzy
+msgid "to do for tomorrow"
+msgstr "Para fazer amanhã"
+
+#: ../apps/agenda/agenda_app.py:1908
+#, fuzzy
+msgid "to do for today"
+msgstr "Para fazer hoje"
+
+#: ../apps/agenda/agenda_app.py:1912
+#, fuzzy
+msgid "find {}"
+msgstr "Localizar {}"
+
+#: ../apps/agenda/agenda_app.py:1914
+#, fuzzy
+msgid "select the display"
+msgstr "Seleccionar linha braille"
+
+#: ../apps/fman/file_manager_app.py:101
+msgid ""
+"bnote restarts after a crash. More information available in crash folder."
+msgstr ""
+"bnote reinicia após uma falha. Mais informações disponíveis na pasta crash."
+
+#: ../apps/fman/file_manager_app.py:113
+msgid "&New"
+msgstr "Novo"
+
+#: ../apps/fman/file_manager_app.py:116
+msgid "text(.&txt)"
+msgstr "texto(.&txt)"
+
+#: ../apps/fman/file_manager_app.py:122
+msgid "music(.&bxml)"
+msgstr "musica(.&bxml)"
+
+#: ../apps/fman/file_manager_app.py:128
+msgid "music(.music&xml)"
+msgstr "musica(.music&xml)"
+
+#: ../apps/fman/file_manager_app.py:134
+msgid "ai assistant(.&ai_txt)"
+msgstr ""
+
+#: ../apps/fman/file_manager_app.py:140
+msgid "&folder"
+msgstr "&pasta"
+
+#: ../apps/fman/file_manager_app.py:150
+msgid "&eole library"
+msgstr ""
+
+#: ../apps/fman/file_manager_app.py:153
+msgid "&simplified search"
+msgstr ""
+
+#: ../apps/fman/file_manager_app.py:157
+msgid "&advanced search"
+msgstr ""
+
+#: ../apps/fman/file_manager_app.py:175 ../apps/fman/file_manager_app.py:229
+#: ../apps/fman/file_manager_app.py:394 ../apps/fman/file_manager_app.py:504
+msgid "dele&te"
+msgstr "e&liminar"
+
+#: ../apps/fman/file_manager_app.py:180 ../apps/fman/file_manager_app.py:234
+#: ../apps/fman/file_manager_app.py:509
+msgid "&zip"
+msgstr "&compactar"
+
+#: ../apps/fman/file_manager_app.py:181 ../apps/fman/file_manager_app.py:235
+#: ../apps/fman/file_manager_app.py:510
+msgid "&unzip"
+msgstr "&descompactar"
+
+#: ../apps/fman/file_manager_app.py:183 ../apps/fman/file_manager_app.py:237
+#: ../apps/fman/file_manager_app.py:355 ../apps/fman/file_manager_app.py:400
+#: ../apps/fman/file_manager_app.py:451 ../apps/fman/file_manager_app.py:465
+#: ../apps/fman/file_manager_app.py:512
+msgid "&actualize"
+msgstr "actuali&zar"
+
+#: ../apps/fman/file_manager_app.py:189 ../apps/fman/file_manager_app.py:243
+#: ../apps/fman/file_manager_app.py:485 ../apps/fman/file_manager_app.py:1155
+#: ../apps/fman/file_manager_app.py:1197 ../apps/media/mp3_app.py:102
+#: ../apps/media/mp3_app.py:691
+msgid "&open"
+msgstr "&abrir"
+
+#: ../apps/fman/file_manager_app.py:195 ../apps/fman/file_manager_app.py:249
+msgid "o&pen to read"
+msgstr ""
+
+#: ../apps/fman/file_manager_app.py:200 ../apps/fman/file_manager_app.py:254
+msgid "re&cents"
+msgstr ""
+
+#: ../apps/fman/file_manager_app.py:216 ../apps/fman/file_manager_app.py:445
+#: ../apps/fman/file_manager_app.py:478
+msgid "safely &unmount usb stick"
+msgstr "&remover a unidade usb em segurança"
+
+#: ../apps/fman/file_manager_app.py:322
+msgid "&trash"
+msgstr "recicla&gem"
+
+#: ../apps/fman/file_manager_app.py:323
+#, fuzzy
+msgid "my back&ups"
+msgstr "cópia de seg&urança"
+
+#: ../apps/fman/file_manager_app.py:324
+msgid "c&rash"
+msgstr "c&rash"
+
+#: ../apps/fman/file_manager_app.py:326
+msgid "p&arent directory"
+msgstr "p&asta superior"
+
+#: ../apps/fman/file_manager_app.py:336 ../apps/fman/file_manager_app.py:338
+msgid "back&up"
+msgstr "cópia de seg&urança"
+
+#: ../apps/fman/file_manager_app.py:339
+msgid "&restore"
+msgstr "&restaurar"
+
+#: ../apps/fman/file_manager_app.py:348
+msgid "&restore from trash"
+msgstr "res&taurar a partir da reciclagem"
+
+#: ../apps/fman/file_manager_app.py:350
+msgid "permanently &delete"
+msgstr "eliminar &permanentemente"
+
+#: ../apps/fman/file_manager_app.py:352
+msgid "&empty the trash"
+msgstr "&esvaziar reciclagem"
+
+#: ../apps/fman/file_manager_app.py:368 ../apps/fman/file_manager_app.py:413
+msgid "start &selection"
+msgstr "&iniciar selecção"
+
+#: ../apps/fman/file_manager_app.py:374 ../apps/fman/file_manager_app.py:419
+msgid "end &selection"
+msgstr "terminar &selecção"
+
+#: ../apps/fman/file_manager_app.py:491
+msgid "&open to read"
+msgstr ""
+
+#: ../apps/fman/file_manager_app.py:740
+msgid "you can now unplug safely the usb flash disk."
+msgstr "pode remover a unidade usb em segurança."
+
+#: ../apps/fman/file_manager_app.py:745
+msgid "unable to unplug safely the usb flash disk."
+msgstr "incapaz de remover a unidade usb em segurança."
+
+#: ../apps/fman/file_manager_app.py:750
+msgid ".bxml"
+msgstr ".bxml"
+
+#: ../apps/fman/file_manager_app.py:753
+msgid ".txt"
+msgstr ".txt"
+
+#: ../apps/fman/file_manager_app.py:756
+msgid ".musicxml"
+msgstr ".musicxml"
+
+#: ../apps/fman/file_manager_app.py:759
+msgid ".ai_txt"
+msgstr ""
+
+#: ../apps/fman/file_manager_app.py:779 ../apps/fman/file_manager_app.py:785
+msgid "new file"
+msgstr "novo ficheiro"
+
+#: ../apps/fman/file_manager_app.py:811
+msgid "new folder"
+msgstr "nova pasta"
+
+#: ../apps/fman/file_manager_app.py:816
+msgid "new directory"
+msgstr "novo directório"
+
+#: ../apps/fman/file_manager_app.py:850
+msgid "send to"
+msgstr "enviar para"
+
+#: ../apps/fman/file_manager_app.py:852
+msgid "co&mputer"
+msgstr "&computador"
+
+#: ../apps/fman/file_manager_app.py:860
+msgid "no bluetooth computer visible..."
+msgstr "nenhum computador Bluetooth visível..."
+
+#: ../apps/fman/file_manager_app.py:872
+msgid "rename"
+msgstr "alterar o nome"
+
+#: ../apps/fman/file_manager_app.py:890 ../apps/fman/file_manager_app.py:949
+#: ../apps/media/mp3_app.py:687
+msgid "delete"
+msgstr "eliminar"
+
+#: ../apps/fman/file_manager_app.py:892
+msgid ""
+"do you confirm permanently deletion? if you delete, it will be permanently "
+"lost."
+msgstr ""
+"tem a certeza que deseja eliminar este ficheiro? Se o fizer, será eliminado "
+"permanentemente."
+
+#: ../apps/fman/file_manager_app.py:916 ../apps/fman/file_manager_app.py:3061
+msgid "deleting {}% {}"
+msgstr "a eliminar {}% {}"
+
+#: ../apps/fman/file_manager_app.py:932 ../apps/fman/file_manager_app.py:2116
+#: ../apps/fman/file_manager_app.py:3085
+msgid "restoring {}% {}"
+msgstr "a restaurar {}% {}"
+
+#: ../apps/fman/file_manager_app.py:951
+msgid "do you want to empty the trash? all files will be permanently lost."
+msgstr ""
+"deseja esvaziar a reciclagem? todos os ficheiros serão eliminados "
+"permanentemente."
+
+#: ../apps/fman/file_manager_app.py:984
+msgid "zip"
+msgstr "zip"
+
+#: ../apps/fman/file_manager_app.py:1009 ../apps/fman/file_manager.py:373
+msgid "({})"
+msgstr "({})"
+
+#: ../apps/fman/file_manager_app.py:1016 ../apps/fman/file_manager_app.py:3065
+msgid "extracting {}% {}"
+msgstr "a extrair {}% {}"
+
+#: ../apps/fman/file_manager_app.py:1034
+#, fuzzy
+msgid "find file"
+msgstr "novo ficheiro"
+
+#: ../apps/fman/file_manager_app.py:1038
+#, fuzzy
+msgid "find &in"
+msgstr "encontrar &data"
+
+#: ../apps/fman/file_manager_app.py:1039 ../apps/fman/file_manager_app.py:1050
+#, fuzzy
+msgid "current folder"
+msgstr "nova pasta"
+
+#: ../apps/fman/file_manager_app.py:1039
+#, fuzzy
+msgid "in the b.note"
+msgstr "inserir &nota"
+
+#: ../apps/fman/file_manager_app.py:1088
+#, fuzzy
+msgid "file found {}"
+msgstr "Localizar {}"
+
+#: ../apps/fman/file_manager_app.py:1092
+#, fuzzy
+msgid "&show in folder"
+msgstr "nova pasta"
+
+#: ../apps/fman/file_manager_app.py:1097
+#, fuzzy
+msgid "&open file"
+msgstr "novo ficheiro"
+
+#: ../apps/fman/file_manager_app.py:1107
+#, fuzzy
+msgid "no file found"
+msgstr "nenhum evento encontrado"
+
+#: ../apps/fman/file_manager_app.py:1142
+#, fuzzy
+msgid "not recent file"
+msgstr "nenhum evento encontrado"
+
+#: ../apps/fman/file_manager_app.py:1149
+#, fuzzy
+msgid "recent files"
+msgstr "inserir ficheiro"
+
+#: ../apps/fman/file_manager_app.py:1152
+#, fuzzy
+msgid "file list"
+msgstr "lista vazia"
+
+#: ../apps/fman/file_manager_app.py:1159
+#, fuzzy
+msgid "c&lear list"
+msgstr "apagar &tudo"
+
+#: ../apps/fman/file_manager_app.py:1172
+msgid "this file does not exist, it will be removed from the list."
+msgstr ""
+
+#: ../apps/fman/file_manager_app.py:1193 ../apps/media/mp3_app.py:690
+msgid "open"
+msgstr "abrir"
+
+#: ../apps/fman/file_manager_app.py:1195
+msgid "&read only"
+msgstr ""
+
+#: ../apps/fman/file_manager_app.py:1251
+msgid "eole"
+msgstr ""
+
+#: ../apps/fman/file_manager_app.py:1255
+msgid "login"
+msgstr ""
+
+#: ../apps/fman/file_manager_app.py:1294
+msgid "unable to grab access token. error : {}"
+msgstr ""
+
+#: ../apps/fman/file_manager_app.py:1341 ../apps/fman/file_manager_app.py:1750
+#: ../apps/fman/file_manager_app.py:1884 ../apps/fman/file_manager_app.py:1981
+#: ../apps/fman/file_manager_app.py:2046 ../apps/fman/file_manager_app.py:2239
+msgid "question"
+msgstr "questão"
+
+#: ../apps/fman/file_manager_app.py:1342 ../apps/fman/file_manager_app.py:1982
+#: ../apps/fman/file_manager_app.py:2047
+msgid "{} already exists. do you want to replace it?"
+msgstr "o ficheiro {} já existe. deseja substituí-lo?"
+
+#: ../apps/fman/file_manager_app.py:1421
+#, fuzzy
+msgid "error can't download the file. error is {}."
+msgstr "erro não é possível comprimir os ficheiros em {}."
+
+#: ../apps/fman/file_manager_app.py:1426
+msgid ""
+"unable to download the book, your access token is invalid, check your login "
+"password."
+msgstr ""
+
+#: ../apps/fman/file_manager_app.py:1471
+msgid "error"
+msgstr "erro"
+
+#: ../apps/fman/file_manager_app.py:1536
+msgid "unable to move the opened file in the editor."
+msgstr "impossível mover o ficheiro aberto no editor."
+
+#: ../apps/fman/file_manager_app.py:1565 ../apps/fman/file_manager_app.py:3073
+msgid "moving {}% {}"
+msgstr "a mover  {}% {}"
+
+#: ../apps/fman/file_manager_app.py:1579 ../apps/fman/file_manager_app.py:3077
+msgid "copying {}% {}"
+msgstr "a copiar  {}% {}"
+
+#: ../apps/fman/file_manager_app.py:1669
+msgid "backup %Y %m %d.zip"
+msgstr "cópia de segurança-%Y-%m-%d.zip"
+
+#: ../apps/fman/file_manager_app.py:1673
+msgid "backup"
+msgstr "cópia de segurança"
+
+#: ../apps/fman/file_manager_app.py:1686
+msgid "no backup files to restore !"
+msgstr "não existem cópias de segurança para restaurar !"
+
+#: ../apps/fman/file_manager_app.py:1691
+msgid "restore"
+msgstr "restaurar"
+
+#: ../apps/fman/file_manager_app.py:1742 ../apps/fman/file_manager_app.py:1804
+#: ../apps/fman/file_manager_app.py:1843 ../apps/fman/file_manager_app.py:1972
+#: ../apps/fman/file_manager_app.py:2037
+msgid "the following characters are invalid "
+msgstr "os seguintes caracteres são inválidos "
+
+#: ../apps/fman/file_manager_app.py:1751 ../apps/fman/file_manager_app.py:2240
+msgid "file {} exists. do you want to replace it?"
+msgstr "o ficheiro {} já existe. deseja substituí-lo?"
+
+#: ../apps/fman/file_manager_app.py:1813
+msgid "folder {} already exists."
+msgstr "a pasta {} já existe."
+
+#: ../apps/fman/file_manager_app.py:1851
+msgid "{} already exists."
+msgstr "{} já existe."
+
+#: ../apps/fman/file_manager_app.py:1885
+msgid "put {} into Bluetooth reception mode (Windows 10 only)."
+msgstr "colocar {} no modo de recepção Bluetooth (apenas Windows 10)."
+
+#: ../apps/fman/file_manager_app.py:1911
+msgid "sending {}"
+msgstr "a enviar {}"
+
+#: ../apps/fman/file_manager_app.py:1933
+msgid "{} successfully sent to {}."
+msgstr "{} enviado com sucesso para {}."
+
+#: ../apps/fman/file_manager_app.py:1940
+msgid "error can't be sent {} to {}."
+msgstr "erro não é possível enviar {} para {}."
+
+#: ../apps/fman/file_manager_app.py:2000 ../apps/fman/file_manager_app.py:3069
+msgid "compressing {}% {}"
+msgstr "a comprimir {}% {}"
+
+#: ../apps/fman/file_manager_app.py:2068 ../apps/fman/file_manager_app.py:3081
+msgid "backuping {}% {}"
+msgstr "a efetuar cópia de segurança  {}% {}"
+
+#: ../apps/fman/file_manager_app.py:2098
+msgid "error backup can't be created to {}."
+msgstr "erro cópia de segurança não pode ser criada em {}."
+
+#: ../apps/fman/file_manager_app.py:2176
+msgid "error can't compress files in {}."
+msgstr "erro não é possível comprimir os ficheiros em {}."
+
+#: ../apps/fman/file_manager_app.py:2222
+msgid "error during restoration from trash."
+msgstr "erro ao restaurar a partir da reciclagem."
+
+#: ../apps/fman/file_manager_app.py:2253
+msgid "yes for &all"
+msgstr "sim para &todos"
+
+#: ../apps/fman/file_manager_app.py:2258
+msgid "no for a&ll"
+msgstr "não para t&odos"
+
+#: ../apps/fman/file_manager_app.py:2495
+msgid "operation not allowed in this directory."
+msgstr "operação não autorizada nesta pasta."
+
+#: ../apps/fman/file_manager_app.py:2628
+#, fuzzy
+msgid "do you want to install the version {} ?"
+msgstr "Deseja instalar a actualização?"
+
+#: ../apps/fman/file_manager_app.py:2657
+msgid "unable to open file in this directory. move it in document directory."
+msgstr ""
+"impossível abrir o ficheiro nesta pasta. mova-o para uma pasta diferente."
+
+#: ../apps/fman/file_manager_app.py:2682 ../apps/fman/file_manager_app.py:2686
+msgid "langue"
+msgstr "idioma"
+
+#: ../apps/fman/file_manager_app.py:2715
+msgid "you cannot open more documents."
+msgstr "não é possível abrir mais documentos."
+
+#: ../apps/fman/file_manager_app.py:2723
+#, fuzzy
+msgid "unzip"
+msgstr "&descompactar"
+
+#: ../apps/fman/file_manager_app.py:2724
+msgid "Unzip file {}?"
+msgstr ""
+
+#: ../apps/fman/file_manager_app.py:2736
+#, fuzzy
+msgid ""
+"this file will be replace the existing settings file, do you want to "
+"continue? B;note will be restarted."
+msgstr "o ficheiro foi exportado correctamente para a pasta os meus documentos"
+
+#: ../apps/fman/file_manager_app.py:2751
+#, fuzzy
+msgid ""
+"please, switch audio application visible in menu in settings to play audio "
+"file."
+msgstr ""
+"por favor, altere os parâmetros de 'áudio visível' a partir das "
+"configurações para reproduzir o ficheiro de áudio."
+
+#: ../apps/fman/file_manager_app.py:2776
+msgid "installation in progres..."
+msgstr ""
+
+#: ../apps/fman/file_manager_app.py:3089
+msgid "sending {}% {}"
+msgstr "a enviar {}% {}"
+
+#: ../apps/fman/file_manager_app.py:3093
+msgid "in progress {}%"
+msgstr "progresso {}%"
+
+#: ../apps/fman/file_manager_app.py:3115
+msgid "error during deletion."
+msgstr "erro ao eliminar."
+
+#: ../apps/games/mines_app.py:59
+msgid "(8 x 8, 10 mines)"
+msgstr "(8 x 8, 10 minas)"
+
+#: ../apps/games/mines_app.py:60
+msgid "(16 x 16, 40 mines)"
+msgstr "(16 x 16, 40 minas)"
+
+#: ../apps/games/mines_app.py:61
+msgid "(32 x 16, 99 mines)"
+msgstr "(32 x 16, 99 minas)"
+
+#: ../apps/games/mines_app.py:86 ../apps/games/master_mind_app.py:85
+msgid "&scores"
+msgstr "&pontuações"
+
+#: ../apps/games/mines_app.py:166 ../apps/games/master_mind_app.py:165
+msgid "are you sure to delete high score for {}"
+msgstr "tem a certeza que deseja eliminar a pontuação mais alta para {}"
+
+#: ../apps/games/mines_app.py:191 ../apps/games/master_mind_app.py:249
+msgid "new score"
+msgstr "nova pontuação"
+
+#: ../apps/games/mines_app.py:218 ../apps/games/master_mind_app.py:191
+msgid "scores"
+msgstr "pontuações"
+
+#: ../apps/games/mines_app.py:427
+msgid "boum !"
+msgstr "bum !"
+
+#: ../apps/games/mines_app.py:446
+msgid "you win in {} seconds"
+msgstr "ganhou em {} segundos"
+
+#: ../apps/games/mines_app.py:459
+msgid "no bomb here !"
+msgstr "aqui não há bomba !"
+
+#: ../apps/games/master_mind_app.py:59
+msgid "(4 positions, 6 colors, all different)"
+msgstr "(4 posições, 6 cores, todas diferentes)"
+
+#: ../apps/games/master_mind_app.py:60
+msgid "(5 positions, 6 colors, all different)"
+msgstr "(5 posições, 6 cores, todas diferentes)"
+
+#: ../apps/games/master_mind_app.py:61
+msgid "(5 positions, 6 colors, possible duplicate)"
+msgstr "(5 posições, 6 cores, possíveis duplicados)"
+
+#: ../apps/games/master_mind_app.py:216
+msgid ""
+"invalid proposition, proposition must be {} numbers must be between 1 to 6."
+msgstr "proposta inválida, a proposta deverá ser {} números entre 1 e 6."
+
+#: ../apps/games/master_mind_app.py:235
+msgid "you win in {} attemps"
+msgstr "ganhou em {} tentativas"
+
+#: ../apps/games/master_mind_app.py:417
+msgid "value"
+msgstr "valor"
+
+#: ../apps/games/master_mind_app.py:437
+#, fuzzy
+msgid "hit enter (b9A)"
+msgstr "Pressione enter (b9A)"
+
+#: ../apps/media/mp3_app.py:56 ../apps/media/mp3_app.py:870
+#: ../apps/media/mp3_app.py:969
+msgid "no name"
+msgstr "sem nome"
+
+#: ../apps/media/mp3_app.py:94
+msgid "mp3"
+msgstr "mp3"
+
+#: ../apps/media/mp3_app.py:99
+msgid "play &list"
+msgstr "lista de &reprodução"
+
+#: ../apps/media/mp3_app.py:117 ../apps/media/mp3_app.py:132
+msgid "delete &all"
+msgstr "eliminar &tudo"
+
+#: ../apps/media/mp3_app.py:122
+msgid "item"
+msgstr "item"
+
+#: ../apps/media/mp3_app.py:130
+msgid "de&lete"
+msgstr "&eliminar"
+
+#: ../apps/media/mp3_app.py:135
+msgid "to the &beginning"
+msgstr "para o &início"
+
+#: ../apps/media/mp3_app.py:141
+msgid "to the &end"
+msgstr "para o &fim"
+
+#: ../apps/media/mp3_app.py:147
+msgid "&up"
+msgstr "&subir"
+
+#: ../apps/media/mp3_app.py:153
+msgid "&down"
+msgstr "&descer"
+
+#: ../apps/media/mp3_app.py:167
+msgid "&item"
+msgstr "i&tem"
+
+#: ../apps/media/mp3_app.py:173
+msgid "&list"
+msgstr "&lista"
+
+#: ../apps/media/mp3_app.py:186
+msgid "pre&vious"
+msgstr "&anterior"
+
+#: ../apps/media/mp3_app.py:193
+msgid "&pause"
+msgstr "&pausa"
+
+#: ../apps/media/mp3_app.py:200
+msgid "s&top"
+msgstr "parar"
+
+#: ../apps/media/mp3_app.py:207
+#, fuzzy
+msgid "&forward (30s)"
+msgstr "&avançar no ecrã"
+
+#: ../apps/media/mp3_app.py:214
+msgid "&backward (10s)"
+msgstr ""
+
+#: ../apps/media/mp3_app.py:221
+msgid "position"
+msgstr "posição"
+
+#: ../apps/media/mp3_app.py:271
+msgid "&resume"
+msgstr "&retomar"
+
+#: ../apps/media/mp3_app.py:277
+msgid "p&ause"
+msgstr "p&ausa"
+
+#: ../apps/media/mp3_app.py:339
+msgid "&position"
+msgstr "&posição"
+
+#: ../apps/media/mp3_app.py:608
+msgid "save"
+msgstr "guardar"
+
+#: ../apps/media/mp3_app.py:611 ../apps/media/mp3_app.py:697
+msgid "playlist"
+msgstr "lista de reprodução"
+
+#: ../apps/media/mp3_app.py:626
+msgid "playlist name exists, do you want overwrite the playlist?"
+msgstr "lista de reprodução {} já existe. deseja substituí-la?"
+
+#: ../apps/media/mp3_app.py:748
+msgid "are you sure to delete all saved play list?"
+msgstr "deseja mesmo eliminar todas as listas de reprodução guardadas?"
+
+#: ../apps/media/mp3_app.py:828
+msgid "are you sure to delete the play list {}?"
+msgstr "deseja mesmo eliminar a lista de reprodução {}?"
+
+#: ../apps/media/mp3_app.py:927
+msgid "tracknumber"
+msgstr "número da música"
+
+#: ../apps/media/mp3_app.py:932
+msgid "artist"
+msgstr "artísta"
+
+#: ../apps/media/mp3_app.py:935
+msgid "album"
+msgstr "album"
+
+#: ../apps/media/mp3_app.py:1103 ../apps/media/radio_app.py:491
+msgid "empty list..."
+msgstr "lista vazia..."
+
+#: ../apps/media/radio_app.py:69
+msgid "&radio by url"
+msgstr "&radio através de url"
+
+#: ../apps/media/radio_app.py:75
+msgid "&delete radio"
+msgstr "&eliminar rádio"
+
+#: ../apps/media/radio_app.py:81
+msgid "&web update list"
+msgstr "&lista de actualizações web"
+
+#: ../apps/media/radio_app.py:168
+msgid "add radio"
+msgstr "adicionar rádio"
+
+#: ../apps/media/radio_app.py:175
+msgid "url"
+msgstr "url"
+
+#: ../apps/media/radio_app.py:180
+msgid "add to &list"
+msgstr "adicionar á &lista"
+
+#: ../apps/media/radio_app.py:198
+msgid "are you sure to replace the radio {}"
+msgstr "deseja mesmo substituir a rádio {}?"
+
+#: ../apps/media/radio_app.py:417
+msgid "are you sure to delete the radio {}"
+msgstr "deseja mesmo eliminar a rádio {}?"
+
+#, fuzzy
+#~ msgid ""
+#~ "this file will be replace the existing settings file. Do you want to "
+#~ "continue?"
+#~ msgstr ""
+#~ "o ficheiro foi exportado correctamente para a pasta os meus documentos"
+
+#, fuzzy
+#~ msgid "imported settings."
+#~ msgstr "&configurações"
+
+#, fuzzy
+#~ msgid "No internet."
+#~ msgstr "Sem eventos..."
+
+#, fuzzy
+#~ msgid "Error"
+#~ msgstr "erro"
+
+#, fuzzy
+#~ msgid "Me"
+#~ msgstr "e"
+
+#, fuzzy
+#~ msgid "length"
+#~ msgstr "comprimento da linha"
+
+#, fuzzy
+#~ msgid "blonde"
+#~ msgstr "segundo"
+
+#, fuzzy
+#~ msgid "venitian"
+#~ msgstr "Esloveno (Eslovénia)"
+
+#, fuzzy
+#~ msgid "blue"
+#~ msgstr "bluetooth"
+
+#, fuzzy
+#~ msgid "green"
+#~ msgstr "grau"
+
+#, fuzzy
+#~ msgid "&translate selection"
+#~ msgstr "&iniciar selecção"
+
+#, fuzzy
+#~ msgid "&operation game"
+#~ msgstr "&alteração"
+
+#, fuzzy
+#~ msgid ""
+#~ "This file will be replace the existing settings file. Do you want to "
+#~ "continue?"
+#~ msgstr ""
+#~ "o ficheiro foi exportado correctamente para a pasta os meus documentos"
+
+#, fuzzy
+#~ msgid "Failed to import the file. Check the source and try again."
+#~ msgstr ""
+#~ "Ocorreu um erro durante a exportação, verifique a agenda e tente de novo"
+
+#, fuzzy
+#~ msgid "Settings apply."
+#~ msgstr "configurações"
+
+#, fuzzy
+#~ msgid "Spanish"
+#~ msgstr "Espanhol (Espanha)"
+
+#, fuzzy
+#~ msgid "Croatian"
+#~ msgstr "Croata (Croácia)"
+
+#, fuzzy
+#~ msgid "Italian"
+#~ msgstr "Italiano (Itália)"
+
+#, fuzzy
+#~ msgid "Islandic"
+#~ msgstr "Islandês (Islândia)"
+
+#, fuzzy
+#~ msgid "Lithuanian"
+#~ msgstr "Lituano (Lituânia)"
+
+#, fuzzy
+#~ msgid "Norwegian"
+#~ msgstr "Norueguês (Noruega)"
+
+#, fuzzy
+#~ msgid "Portuguese"
+#~ msgstr "Português (Portugal)"
+
+#, fuzzy
+#~ msgid "Russian"
+#~ msgstr "Russo (Rússia)"
+
+#, fuzzy
+#~ msgid "Swedish"
+#~ msgstr "Sueco (Suécia)"
+
+#~ msgid ""
+#~ "You must put an octave sign before continuing to write, and after the end "
+#~ "of the nuance. Do you want to display the octave list?"
+#~ msgstr ""
+#~ "Deverá colocar o sinal de oitava antes de continuar a compor e antes do "
+#~ "final da nuance. Deseja exibir a lista de oitavas?"
+
+#, fuzzy
+#~ msgid "&shutdown bluetooth"
+#~ msgstr "&bluetooth"
+
+#, fuzzy
+#~ msgid "&power on bluetooth"
+#~ msgstr "&bluetooth"
+
+#, fuzzy
+#~ msgid "&shutdown wifi"
+#~ msgstr "&encerrar"
+
+#, fuzzy
+#~| msgid "The month of February has only 29 days."
+#~ msgid "the month of February has only 29 days."
+#~ msgstr "O mês de Fevereiro possui apenas 29 dias."
+
+#, fuzzy
+#~| msgid "The year {} is not leap, February has only 28 days."
+#~ msgid "the year {} is not leap, February has only 28 days."
+#~ msgstr "O ano {} não é bissexto, Fevereiro possui apenas 28 dias."
+
+#, fuzzy
+#~| msgid "There are only 30 days in this month."
+#~ msgid "there are only 30 days in this month."
+#~ msgstr "Existem apenas 30 dias neste mês."
+
+#, fuzzy
+#~| msgid "words"
+#~ msgid "words game"
+#~ msgstr "palavras"
+
+#, fuzzy
+#~| msgid "Do you want to install update?"
+#~ msgid "do you want to install update?"
+#~ msgstr "Deseja instalar a actualização?"
+
+#~ msgid "the update file is corrupted."
+#~ msgstr "o ficheiro de atualização está corrompido."
+
+#~ msgid ""
+#~ "this update file works only with a sd card version greater or equal to {}"
+#~ msgstr ""
+#~ "este ficheiro de actualização funciona apenas com um cartão SD de versão "
+#~ "igual ou superior a {}"
+
+#~ msgid "this update file works only with a firmware greater or equal to {}"
+#~ msgstr ""
+#~ "este ficheiro de actualização funciona apenas com uma versão de firmware "
+#~ "igual ou superior a {}"
+
+#, fuzzy
+#~| msgid "braille"
+#~ msgid "B.Braille"
+#~ msgstr "braille"
+
+#, fuzzy
+#~| msgid "new file"
+#~ msgid "&manage files"
+#~ msgstr "novo ficheiro"
+
+#, fuzzy
+#~| msgid "&file"
+#~ msgid "&file list"
+#~ msgstr "&ficheiro"
+
+#, fuzzy
+#~| msgid "new file"
+#~ msgid "manage files"
+#~ msgstr "novo ficheiro"
+
+#, fuzzy
+#~| msgid "replace and n&ext"
+#~ msgid "&replace the content"
+#~ msgstr "s&ubstituir e seguinte"
+
+#, fuzzy
+#~| msgid "To do for {}"
+#~ msgid "Add words for {}"
+#~ msgstr "Para fazer {}"
+
+#, fuzzy
+#~| msgid "no event found"
+#~ msgid "no word file found"
+#~ msgstr "nenhum evento encontrado"
+
+#, fuzzy
+#~| msgid "&words"
+#~ msgid "&words game"
+#~ msgstr "p&alavras"
+
+#~ msgid "&connected to"
+#~ msgstr "&ligado a"
+
+#~ msgid "ip address"
+#~ msgstr "endereço ip"
+
+#~ msgid "id"
+#~ msgstr "identificação"
+
+#~ msgid "&deconnect-connect"
+#~ msgstr "&desligar-ligar"
+
+#, fuzzy
+#~| msgid "reading..."
+#~ msgid "checking..."
+#~ msgstr "a ler..."
+
+#~ msgid "you need to shutdown b.note for the changes to take effect"
+#~ msgstr "o bnote tem que reiniciar para que as mudanças tenham efeito"
+
+#~ msgid "Done"
+#~ msgstr "Feito"
+
+#~ msgid "Calendar"
+#~ msgstr "Calendário"
+
+#~ msgid "Today"
+#~ msgstr "Hoje"
+
+#~ msgid "Agenda"
+#~ msgstr "Agenda"
+
+#~ msgid "visible &games"
+#~ msgstr "&jogos visíveis"
+
+#~ msgid "visible &audio"
+#~ msgstr "a&udio visível"
+
+#~ msgid "visible &radio"
+#~ msgstr "&rádio visível"
+
+#~ msgid "display &agenda"
+#~ msgstr "exibir a&genda"
+
+#~ msgid "report events not done for &next day"
+#~ msgstr "apresentar eventos por realizar no dia &seguinte"
+
+#~ msgid "visible games"
+#~ msgstr "jogos visíveis"
+
+#~ msgid "visible audio"
+#~ msgstr "audio visível"
+
+#~ msgid "visible radio"
+#~ msgstr "rádio visível"
+
+#~ msgid "display agenda"
+#~ msgstr "exibir agenda"
+
+#~ msgid "remember events for same day"
+#~ msgstr "lembrar eventos para o mesmo dia"
+
+#~ msgid "at startup, report events not done for next day"
+#~ msgstr "ao iniciar, apresentar eventos por realizar no dia seguinte"
+
+#~ msgid "remember events for next day"
+#~ msgstr "lembrar eventos para o dia seguinte"
+
+#~ msgid "m&astermind"
+#~ msgstr "m&astermind"
+
+#~ msgid "grade"
+#~ msgstr "grau"
+
+#~ msgid "c&ut"
+#~ msgstr "c&ortar"
+
+#~ msgid "esysuite &protocol"
+#~ msgstr "&protocolo esysuite"
+
+#, fuzzy
+#~| msgid "visible"
+#~ msgid "visible &mp3"
+#~ msgstr "visível"
+
+#~ msgid "esysuite protocol"
+#~ msgstr "protocolo esysuite"
+
+#~ msgid "protocol"
+#~ msgstr "protocolo"
+
+#, fuzzy
+#~| msgid "visible"
+#~ msgid "visible mp3"
+#~ msgstr "visível"
+
+#~ msgid "new &file"
+#~ msgstr "novo &ficheiro"
+
+#~ msgid "new fol&der"
+#~ msgstr "nova &pasta"
+
+#~ msgid "new file.txt"
+#~ msgstr "novo ficheiro.txt"
+
+#~ msgid "games"
+#~ msgstr "jogos"
+
+#~ msgid "&menu_2"
+#~ msgstr "&menu_2"
+
+#~ msgid "maximum volume"
+#~ msgstr "volume máximo"
+
+#~ msgid "&mastermind"
+#~ msgstr "&mastermind"
+
+#~ msgid "&braille"
+#~ msgstr "&Braille"
+
+#~ msgid "hp"
+#~ msgstr "hp"
+
+#~ msgid "bookmarks"
+#~ msgstr "marcadores"
+
+#~ msgid "volume down"
+#~ msgstr "volume abaixo"
+
+#~ msgid "volume up"
+#~ msgstr "volume acima"
+
+#~ msgid "slow down"
+#~ msgstr "baixar velocidade"
+
+#~ msgid "speed up"
+#~ msgstr "aumentar velocidade"
+
+#~ msgid "slow &down"
+#~ msgstr "&baixar velocidade"
+
+#~ msgid "goto"
+#~ msgstr "ir para"
+
+#~ msgid "backu&ps"
+#~ msgstr "backu&ps"
+
+#~ msgid "&backups"
+#~ msgstr "&cópias de segurança"
+
+#~ msgid "&Ok"
+#~ msgstr "&Ok"
+
+#~ msgid "paste"
+#~ msgstr "colar"
+
+#~ msgid "deletion {}% {}"
+#~ msgstr "eliminação {}%{}"
+
+#~ msgid "compression {}% {}"
+#~ msgstr "compressão {}%{}"
+
+#~ msgid "FR"
+#~ msgstr "FR"
+
+#~ msgid "-"
+#~ msgstr "-"
+
+#~ msgid "dot-8"
+#~ msgstr "ponto-8"
+
+#~ msgid "Invalid argument"
+#~ msgstr "Argumento inválido"
+
+#~ msgid "pairing"
+#~ msgstr "a emparelhar"
+
+#~ msgid "lines length"
+#~ msgstr "comprimento das linhas"
+
+#~ msgid "caret"
+#~ msgstr "circunflexo"
+
+#~ msgid "braille keyboard"
+#~ msgstr "teclado braille"
+
+#~ msgid "braille 78"
+#~ msgstr "braille 78"
+
+#~ msgid "keypad inverted"
+#~ msgstr "teclado invertido"
+
+#~ msgid "rounting cursor"
+#~ msgstr "cursor de direccionamento"
+
+#~ msgid "Arabic (Lebanon)"
+#~ msgstr "Arábico (Líbano)"
+
+#~ msgid "Czech (Czech Republic)"
+#~ msgstr "Checo (República Checa)"
+
+#~ msgid "Danish (Denmark)"
+#~ msgstr "Dinamarquês (Dinamarca)"
+
+#~ msgid "German (Switzerland)"
+#~ msgstr "Alemão (Suíça)"
+
+#~ msgid "German (Germany)"
+#~ msgstr "Alemão (Alemanha)"
+
+#~ msgid "Greek (Greece)"
+#~ msgstr "Grego (Grécia)"
+
+#~ msgid "English (United Kingdom)"
+#~ msgstr "Inglês (Reino Unido)"
+
+#~ msgid "English (United States)"
+#~ msgstr "Inglês (Estados Unidos)"
+
+#~ msgid "French (Switzerland)"
+#~ msgstr "Francês (Suiça)"
+
+#~ msgid "French (France)"
+#~ msgstr "Francês (França)"
+
+#~ msgid "Hebrew (Israel)"
+#~ msgstr "Hebraico (Israel)"
+
+#~ msgid "Italian (Switzerland)"
+#~ msgstr "Italiano (Suiça)"
+
+#~ msgid "Dutch (Belgium)"
+#~ msgstr "Holandês (Bélgica)"
+
+#~ msgid "Dutch (Netherlands)"
+#~ msgstr "Holandês (Holanda)"
+
+#~ msgid "Polish (Poland)"
+#~ msgstr "Polaco (Polónia)"
+
+#~ msgid "Afrikaans (South Africa)"
+#~ msgstr "Africâner (África do Sul)"
+
+#~ msgid "Xhosa (South Africa)"
+#~ msgstr "Xhosa (África do Sul)"
+
+#~ msgid "Zulu (South Africa)"
+#~ msgstr "Zulu (África do Sul)"
+
+#~ msgid "Swahili (Kenya)"
+#~ msgstr "Swahili (Quénia)"
+
+#~ msgid "hybrid mode"
+#~ msgstr "modo híbrido"
+
+#~ msgid "invalid line length."
+#~ msgstr "comprimento de linha inválido."
+
+#~ msgid "volume set to {}"
+#~ msgstr "volume definido como {}"
+
+#~ msgid "speed set to {}"
+#~ msgstr "velocidade definida como {}"
+
+#~ msgid "slow down {}"
+#~ msgstr "diminuir velocidade {}"
+
+#~ msgid ""
+#~ "WARNING, this change corrupt all your previous paired definition. you "
+#~ "must erase all paired devices after this modification"
+#~ msgstr ""
+#~ "AVISO, esta alteração vai corromper todas as suas definições "
+#~ "emparelhadas, terá que apagar todos os dispositivos emparelhados após "
+#~ "esta modificação"

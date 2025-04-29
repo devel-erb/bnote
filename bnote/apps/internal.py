@@ -1,8 +1,8 @@
 """
- bnote project
- Author : Eurobraille
- Date : 2024-07-16
- Licence : Ce fichier est libre de droit. Vous pouvez le modifier et le redistribuer à votre guise.
+bnote project
+Author : Eurobraille
+Date : 2024-07-16
+Licence : Ce fichier est libre de droit. Vous pouvez le modifier et le redistribuer à votre guise.
 """
 
 import os.path
@@ -40,6 +40,7 @@ from bnote.tools import crash_report
 from bnote.tools.settings import Settings
 from bnote.tools.volume import Volume
 from bnote.tools.volume_speed_dialog_box import VolumeDialogBox
+from bnote.tools.yaupdater import YAUpdaterFinder
 import bnote.ui as ui
 
 # Set up the logger for this file
@@ -405,6 +406,7 @@ class Internal:
         ] = braille_device_characteristics.get_serial_number()
         Settings().save()
 
+        self.updater = None
         # Verify agenda events only if not crash
         if not report_a_crash:
             self.verify_agenda_or_restore_editor()
@@ -439,10 +441,25 @@ class Internal:
                         self.set_current_app(editor_app)
                 else:
                     break
+            # Continue with update
+            self.__check_update()
         else:
             # Clean up all context files.
             editor.Context.clean_up_context_files()
             return self._put_in_function_queue(FunctionId.APPLICATIONS)
+
+    def __check_update(self):
+        if Settings().data["update"]["auto_check"]:
+            self.updater = YAUpdaterFinder(
+                Settings().data["system"]["developer"], self.__end_check
+            )
+
+    def __end_check(self):
+        if (
+            self.updater.version_to_install != "up_to_date"
+            and self.updater.version_to_install != "failed"
+        ):
+            self._exec_settings(True)
 
     def __str__(self):
         return "{}".format(self._menu)
@@ -818,11 +835,13 @@ class Internal:
         if app_instance:
             self.set_current_app(app_instance)
 
-    def _exec_settings(self):
+    def _exec_settings(self, new_update=False):
         log.info("exec_settings")
         if not self.apps_descriptor["settings"].instance:
             self.apps_descriptor["settings"].instance = SettingsApp(
-                self._put_in_function_queue, self._put_in_stm32_tx_queue
+                self._put_in_function_queue,
+                self._put_in_stm32_tx_queue,
+                new_update=new_update,
             )
         self.set_current_app(self.apps_descriptor["settings"].instance)
 
@@ -1349,7 +1368,6 @@ class Internal:
         :return:
         """
         ui_object = None
-        app_descriptor = None
         if editor_app is None:
             # Check if file already exist.
 
@@ -1387,26 +1405,27 @@ class Internal:
                         extension = extension.lower()
                     if extension in MusicApp.known_extension():
                         app_descriptor.instance = MusicApp(
-                            self._put_in_function_queue, filename
+                            self._put_in_function_queue, filename, language
                         )
                     elif extension in DaisyApp.known_extension():
                         app_descriptor.instance = DaisyApp(
-                            self._put_in_function_queue, filename
+                            self._put_in_function_queue, filename, language
                         )
                     elif extension in AiAssistantApp.known_extension():
                         app_descriptor.instance = AiAssistantApp(
-                            self._put_in_function_queue, filename
+                            self._put_in_function_queue, filename, language
                         )
                     else:
                         app_descriptor.instance = EditorApp(
                             self._put_in_function_queue, filename, language, read_only
                         )
                 # Update locked file of file manager.
+                # DP FIXME les locked_file peuvent être obtenus en listant
+                #  self.__get_used_dynamic_apps(self.apps_editor), ce serait moins chiant à gérer.
                 self.apps_descriptor["explorer"].instance.append_locked_file(filename)
-        if app_descriptor is not None:
-            # Switch automatically to the editor.
-            self._menu.set_focus(ui_object)
-            self.set_current_app(app_descriptor.instance)
+        # Switch automatically to the editor.
+        self._menu.set_focus(ui_object)
+        self.set_current_app(app_descriptor.instance)
 
     def __remove_bluetooth_app(self, *args, **kwargs):
         if "id" in kwargs:
